@@ -70,5 +70,9 @@ public class App {
     public static void task3() {
         System.out.println("It is task 3");
     }
+
+    public static void task3() {
+        System.out.println("It is task 3");
+    }
 }
 
