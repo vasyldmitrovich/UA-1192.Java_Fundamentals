@@ -17,6 +17,15 @@ public class App {
         String age = scanner.nextLine();
         System.out.println("Hello " + name);
         System.out.println("You are " + age);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a string: ");
+        char[] letters = scanner.nextLine().toCharArray();
+        System.out.print("Reverse string: ");
+        for (int i = letters.length - 1; i >= 0; i--) {
+            System.out.print(letters[1]);
+        }
+
+        System.out.print("\n");
     }
 
     public static void task2() {
