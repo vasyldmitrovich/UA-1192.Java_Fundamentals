@@ -8,6 +8,7 @@ public class App {
     public static void main(String[] args) {
         App.task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -29,6 +30,10 @@ public class App {
         System.out.println(third);
         System.out.println(second);
         System.out.println(first);
+    }
+
+    public static void task3() {
+        System.out.println("It is task 3");
     }
 }
 
