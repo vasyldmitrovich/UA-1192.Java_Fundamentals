@@ -20,6 +20,8 @@ public class App {
         String name = scanner.nextLine();
 
         System.out.println("How old are you?");
+        String some_var = "BIG";
+        System.out.println("Variable sss is: " + some_var);
         String age = scanner.nextLine();
 
         System.out.println("Hello " + name);
