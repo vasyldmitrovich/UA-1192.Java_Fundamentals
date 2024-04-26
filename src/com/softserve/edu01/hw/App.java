@@ -8,6 +8,7 @@ public class App {
     public static void main(String[] args) {
         App.task1();
         task2();
+//        task3();
     }
 
     public static void task1() {
