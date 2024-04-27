@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Objects;
 
 public class App {
     public static void main(String[] args) {
@@ -27,11 +28,11 @@ public class App {
                     break;
                 //pt3
                 case "3":
-                    calculateOperation();
+                    calculateOperation(reader);
                     break;
                 //pt4
                 case "4":
-                    askAndAnswerTheQuestion();
+                    askAndAnswerTheQuestion(reader);
                     break;
                 default:
                     System.out.println("Wrong number, try again :)");
@@ -76,14 +77,56 @@ public class App {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("Average : " +(a + b + c) / 3);
+        System.out.println("Average : " + (a + b + c) / 3);
     }
 
-    private static void calculateOperation() {
+    private static void calculateOperation(BufferedReader reader) {
+        int a, b = 0;
+        System.out.println("Enter a mathematical operation (operand1 operator operand2):");
+        String input = null;
+        try {
+            input = reader.readLine();
+        } catch (IOException e) {
+//do nothing
+        }
+        String[] parts = Objects.requireNonNull(input).split(" ");
+        if (parts.length != 3) {
+            System.out.println("Invalid input format.");
+        }
+        a = Integer.parseInt(parts[0]);
+        char operator = parts[1].charAt(0);
+        b = Integer.parseInt(parts[2]);
 
+        switch (operator) {
+            case '+':
+                System.out.println(a + b);
+                break;
+            case '-':
+                System.out.println(a - b);
+                break;
+            case '*':
+                System.out.println(a * b);
+                break;
+            case '/':
+                if (b == 0) {
+                    System.out.println("Cannot divide by zero.");
+                    return;
+                }
+                System.out.println(a / b);
+                break;
+            default:
+                System.out.println("Invalid operator.");
+        }
     }
 
-    private static void askAndAnswerTheQuestion() {
-
+    private static void askAndAnswerTheQuestion(BufferedReader reader) {
+        System.out.println("How are you?");
+        String answer;
+        try {
+            answer = reader.readLine();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("You are " + answer);
     }
 }
