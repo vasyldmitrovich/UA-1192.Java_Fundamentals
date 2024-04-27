@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Objects;
 
-public class App {
+public class AppHomeWork {
     private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) {
@@ -68,7 +68,7 @@ public class App {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(String.format("You are %s and tou are live in ", name, address));
+        System.out.println(String.format("You are %s and you live in %s ", name, address));
     }
 
     private static void calculateCallPrice() {
@@ -99,15 +99,28 @@ public class App {
         } catch (IOException e) {
             //do nothing
         }
-        String[] parts = Objects.requireNonNull(input).split(" ");
+
+        if (input == null) {
+            // Handle null input
+            System.out.println("Input is null.");
+            return null;
+        }
+        String[] parts = input.split(" ");
         if (parts.length != 3) {
             System.out.println("Invalid input data.");
+            return null;
         }
         Integer[] integerParts = new Integer[parts.length];
         for (int i = 0; i < parts.length; i++) {
-            parts[i] = String.valueOf(Integer.parseInt(parts[i]));
+            try {
+                integerParts[i] = Integer.parseInt(parts[i]);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid integer format.");
+                return null;
+            }
         }
         return integerParts;
     }
+
 }
 

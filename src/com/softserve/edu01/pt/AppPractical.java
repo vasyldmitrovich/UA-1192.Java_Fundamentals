@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class App {
+public class AppPractical {
 
    private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
