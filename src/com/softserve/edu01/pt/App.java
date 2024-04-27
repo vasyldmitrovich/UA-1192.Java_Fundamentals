@@ -7,8 +7,10 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class App {
+
+   private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
     public static void main(String[] args) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String method;
         do {
             printReadMe();
@@ -20,19 +22,19 @@ public class App {
             switch (method) {
                 //pt1
                 case "1":
-                    readAndReverse(reader);
+                    readAndReverse();
                     break;
                 //pt2
                 case "2":
-                    calculateAverage(reader);
+                    calculateAverage();
                     break;
                 //pt3
                 case "3":
-                    calculateOperation(reader);
+                    calculateOperation();
                     break;
                 //pt4
                 case "4":
-                    askAndAnswerTheQuestion(reader);
+                    askAndAnswerTheQuestion();
                     break;
                 default:
                     System.out.println("Wrong number, try again :)");
@@ -49,7 +51,7 @@ public class App {
         System.out.println("4 - for ask and answer a question");
     }
 
-    private static void readAndReverse(BufferedReader reader) {
+    private static void readAndReverse() {
         System.out.println("Write your String for reverse");
         try {
             String[] originalString = reader.readLine().split(" ");
@@ -65,7 +67,7 @@ public class App {
         }
     }
 
-    private static void calculateAverage(BufferedReader reader) {
+    private static void calculateAverage() {
         int a, b, c = 0;
         try {
             System.out.println("Enter first number");
@@ -80,14 +82,14 @@ public class App {
         System.out.println("Average : " + (a + b + c) / 3);
     }
 
-    private static void calculateOperation(BufferedReader reader) {
+    private static void calculateOperation() {
         int a, b = 0;
         System.out.println("Enter a mathematical operation (operand1 operator operand2):");
         String input = null;
         try {
             input = reader.readLine();
         } catch (IOException e) {
-//do nothing
+            //do nothing
         }
         String[] parts = Objects.requireNonNull(input).split(" ");
         if (parts.length != 3) {
@@ -119,7 +121,7 @@ public class App {
         }
     }
 
-    private static void askAndAnswerTheQuestion(BufferedReader reader) {
+    private static void askAndAnswerTheQuestion() {
         System.out.println("How are you?");
         String answer;
         try {
