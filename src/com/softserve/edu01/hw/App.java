@@ -8,6 +8,7 @@ public class App {
     public static void main(String[] args) {
         App.task1();
         task2();
+
     }
 
     public static void task1() {
@@ -38,6 +39,40 @@ public class App {
         System.out.println(third);
         System.out.println(second);
         System.out.println(first);
+        Scanner scanner = new Scanner(System.in);
+
+        // Зчитуємо вартість та тривалість кожного дзвінка з консолі
+        System.out.print("25: ");
+        double c1 = scanner.nextDouble();
+        System.out.print("7: ");
+        double t1 = scanner.nextDouble();
+
+        System.out.print("14: ");
+        double c2 = scanner.nextDouble();
+        System.out.print("22: ");
+        double t2 = scanner.nextDouble();
+
+        System.out.print("67: ");
+        double c3 = scanner.nextDouble();
+        System.out.print("11: ");
+        double t3 = scanner.nextDouble();
+
+        // Обчислюємо вартість кожного дзвінка
+        double cost1 = c1 * t1;
+        double cost2 = c2 * t2;
+        double cost3 = c3 * t3;
+
+        // Обчислюємо загальну вартість
+        double totalCost = cost1 + cost2 + cost3;
+
+        // Виводимо результати на консоль
+        System.out.println("25: " + cost1);
+        System.out.println("14: " + cost2);
+        System.out.println("67: " + cost3);
+        System.out.println("106: " + totalCost);
+
+        // Закриваємо Scanner
+        scanner.close();
     }
 }
 
