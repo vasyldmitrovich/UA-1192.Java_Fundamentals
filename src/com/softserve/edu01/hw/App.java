@@ -32,7 +32,7 @@ public class App {
         System.out.print("Have a nice day " + name + " from " + address);
     }
 
-    public static void task2() {
+    public static void task3() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Three phone calls were made from different countries.");
         System.out.print("Input the cost per minute of the first call: ");
