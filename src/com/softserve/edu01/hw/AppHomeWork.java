@@ -37,7 +37,6 @@ public class AppHomeWork {
         } while (true);
     }
 
-
     private static void printReadMe() {
         System.out.println("Chose you method");
         System.out.println("1 - for calculate perimeter and area of circle");
@@ -63,17 +62,18 @@ public class AppHomeWork {
         try {
             System.out.println("What is your name?");
             name = reader.readLine();
-            System.out.println(String.format("Where do you live, %s ?", name));
+            System.out.printf("Where do you live, %s ?%n", name);
             address = reader.readLine();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(String.format("You are %s and you live in %s ", name, address));
+        System.out.printf("You are %s and you live in %s %n", name, address);
     }
 
     private static void calculateCallPrice() {
         int c1, c2, c3, t1, t2, t3 = 0;
         Integer[] callsCost = enterValues(" call costs ");
+
         c1 = callsCost[0];
         c2 = callsCost[1];
         c3 = callsCost[2];
@@ -88,18 +88,16 @@ public class AppHomeWork {
         System.out.println("Call 3 " + (c3 * t3));
 
         System.out.println("Total:  " + ((c1 * t1) + (c2 * t2) + (c3 * t3)));
-
     }
 
     private static Integer[] enterValues(String valueName) {
-        System.out.println(String.format("Enter three %s :", valueName));
+        System.out.printf("Enter three %s :%n", valueName);
         String input = null;
         try {
             input = reader.readLine();
         } catch (IOException e) {
             //do nothing
         }
-
         if (input == null) {
             // Handle null input
             System.out.println("Input is null.");
@@ -121,6 +119,5 @@ public class AppHomeWork {
         }
         return integerParts;
     }
-
 }
 

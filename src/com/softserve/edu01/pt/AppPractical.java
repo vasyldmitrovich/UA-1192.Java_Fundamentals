@@ -8,16 +8,16 @@ import java.util.Objects;
 
 public class AppPractical {
 
-   private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    private static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) {
-        String method;
+        String method = "";
         do {
             printReadMe();
             try {
                 method = reader.readLine();
             } catch (IOException e) {
-                throw new RuntimeException(e);
+              // do nothing
             }
             switch (method) {
                 //pt1
@@ -44,11 +44,11 @@ public class AppPractical {
     }
 
     private static void printReadMe() {
-        System.out.println("Chose you method");
-        System.out.println("1 - for read and reverse String");
-        System.out.println("2 - for calculate average");
-        System.out.println("3 - for calculate operation");
-        System.out.println("4 - for ask and answer a question");
+        System.out.println("Chose you method from methods below:");
+        System.out.println("1 - for read and reverse String;");
+        System.out.println("2 - for calculate average;");
+        System.out.println("3 - for calculate operation;");
+        System.out.println("4 - for ask and answer a question;");
     }
 
     private static void readAndReverse() {
@@ -68,7 +68,7 @@ public class AppPractical {
     }
 
     private static void calculateAverage() {
-        int a, b, c = 0;
+        int a = 0, b = 0, c = 0;
         try {
             System.out.println("Enter first number");
             a = Integer.parseInt(reader.readLine());
@@ -77,13 +77,14 @@ public class AppPractical {
             System.out.println("Enter third number");
             c = Integer.parseInt(reader.readLine());
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            //do nothing
         }
-        System.out.println("Average : " + (a + b + c) / 3);
+        double average = (a + b + c) / 3.0;
+        System.out.println("Average : " + average);
     }
 
     private static void calculateOperation() {
-        int a, b = 0;
+        int a, b;
         System.out.println("Enter a mathematical operation (operand1 operator operand2):");
         String input = null;
         try {
