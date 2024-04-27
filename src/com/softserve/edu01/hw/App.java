@@ -3,6 +3,7 @@ package com.softserve.edu01.hw;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class App {
 
@@ -14,6 +15,7 @@ public class App {
 
     public static void task1() throws IOException {
         System.out.println("Hello. What is your name?");
+        Scanner scanner;
         String name = scanner.nextLine();
         System.out.println("How old are you?");
         String some_var = "BIG";
@@ -36,6 +38,7 @@ public class App {
 
     public static void task2() throws IOException {
         System.out.println("Input first string");
+        Scanner scanner;
         String first = scanner.nextLine();
         System.out.println("Input second string");
         String second = scanner.nextLine();
