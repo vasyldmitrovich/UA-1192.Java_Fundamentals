@@ -29,7 +29,7 @@ public class App {
         String name = scan.nextLine();
         System.out.println("Where do you live, " + name);
         String address = scan.nextLine();
-        System.out.print("Have a nice day " + name + " from " + address);
+        System.out.println("Have a nice day " + name + " from " + address);
     }
 
     public static void task3() {
