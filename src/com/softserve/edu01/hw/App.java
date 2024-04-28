@@ -8,6 +8,7 @@ public class App {
     public static void main(String[] args) {
         App.task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -20,15 +21,28 @@ public class App {
     }
 
     public static void task2() {
-        System.out.println("Input first string");
-        String first = scanner.nextLine();
-        System.out.println("Input second string");
-        String second = scanner.nextLine();
-        System.out.println("Input third string");
-        String third = scanner.nextLine();
-        System.out.println(third);
-        System.out.println(second);
-        System.out.println(first);
+        System.out.println("Enter the first string:");
+        String string1 = scanner.nextLine();
+        System.out.println("Enter the second string:");
+        String string2 = scanner.nextLine();
+        System.out.println("Enter the third string:");
+        String string3 = scanner.nextLine();
+        System.out.println("Reversed order:");
+        System.out.println((string3));
+        System.out.println((string2));
+        System.out.println((string1));
+    }
+    public static void task3() {
+        System.out.println("Enter the first number:");
+        double num1 = scanner.nextDouble();
+        System.out.println("Enter the second number:");
+        double num2 = scanner.nextDouble();
+        System.out.println("Enter the third number:");
+        double num3 = scanner.nextDouble();
+        double average = (num1 + num2 + num3) / 3;
+        System.out.println("The average of the three numbers is: " + average);
+
+
     }
 }
 
