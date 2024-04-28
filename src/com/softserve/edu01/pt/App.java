@@ -44,13 +44,13 @@ public class App {
     }
     public static void task4() {
         System.out.println("Enter the value of a:");
-        int a = scanner.nextInt();
+        double a = scanner.nextInt();
         System.out.println("Enter the value of b:");
-        int b = scanner.nextInt();
-        int sum = a + b;
-        int difference = a - b;
-        int product = a * b;
-        int quotient = a / b;
+        double b = scanner.nextInt();
+        double sum = a + b;
+        double difference = a - b;
+        double product = a * b;
+        double quotient = a / b;
         System.out.println("Sum of a and b: " + sum);
         System.out.println("Difference of a and b: " + difference);
         System.out.println("Product of a and b: " + product);
