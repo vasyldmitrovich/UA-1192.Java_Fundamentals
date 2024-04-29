@@ -172,4 +172,5 @@ public class HomeWork1 extends AbstractHomeWork {
         System.out.println("The cost of the third call is: " + cost3);
         System.out.println("The total cost of all calls is: " + (cost1 + cost2 + cost3));
     }
+
 }
