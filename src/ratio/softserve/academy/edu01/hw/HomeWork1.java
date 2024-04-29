@@ -1,10 +1,14 @@
-package ratio.softserve.academy.hw;
+package ratio.softserve.academy.edu01.hw;
 
+import ratio.softserve.academy.AbstractHomeWork;
+
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class HomeWork1 extends AbstractHomeWork {
 
     public HomeWork1() {
+        HashMap<Integer, Runnable> steps = getSteps();
         steps.put(1, HomeWork1::part1);
         steps.put(2, HomeWork1::part2);
         steps.put(3, HomeWork1::part3);
@@ -16,7 +20,7 @@ public class HomeWork1 extends AbstractHomeWork {
 
     @Override
     public void accept(Integer step) {
-        Runnable runnable = steps.get(step);
+        Runnable runnable = getSteps().get(step);
         if (runnable != null) {
             runnable.run();
         } else {

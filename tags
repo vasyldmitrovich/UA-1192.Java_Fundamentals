@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+AbstractHomeWork	src/ratio/softserve/academy/AbstractHomeWork.java	/^public abstract class AbstractHomeWork implements HomeWorkInterface {$/;"	c
+App	src/com/softserve/edu01/hw/App.java	/^public class App {$/;"	c
+App	src/com/softserve/edu01/pt/App.java	/^public class App {$/;"	c
+App	src/com/softserve/edu02/hw/App.java	/^public class App {$/;"	c
+HomeWork1	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public HomeWork1() {$/;"	m	class:HomeWork1
+HomeWork1	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^public class HomeWork1 extends AbstractHomeWork {$/;"	c
+HomeWorkInterface	src/ratio/softserve/academy/HomeWorkInterface.java	/^public interface HomeWorkInterface extends Consumer<Integer> {$/;"	i
+Main	src/ratio/softserve/academy/Main.java	/^public class Main {$/;"	c
+MyHw1	src/com/softserve/edu02/hw/MyHw1.java	/^public class MyHw1 {$/;"	c
+accept	src/ratio/softserve/academy/HomeWorkInterface.java	/^    void accept(Integer step);$/;"	m	interface:HomeWorkInterface
+accept	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public void accept(Integer step) {$/;"	m	class:HomeWork1
+com.softserve.edu01.hw	src/com/softserve/edu01/hw/App.java	/^package com.softserve.edu01.hw;$/;"	p
+com.softserve.edu01.pt	src/com/softserve/edu01/pt/App.java	/^package com.softserve.edu01.pt;$/;"	p
+com.softserve.edu02.hw	src/com/softserve/edu02/hw/App.java	/^package com.softserve.edu02.hw;$/;"	p
+com.softserve.edu02.hw	src/com/softserve/edu02/hw/MyHw1.java	/^package com.softserve.edu02.hw;$/;"	p
+getSteps	src/ratio/softserve/academy/AbstractHomeWork.java	/^    public HashMap<Integer, Runnable> getSteps() {$/;"	m	class:AbstractHomeWork
+getSteps	src/ratio/softserve/academy/HomeWorkInterface.java	/^    HashMap<Integer, Runnable> getSteps();$/;"	m	interface:HomeWorkInterface
+main	src/com/softserve/edu01/hw/App.java	/^    public static void main(String[] args) {$/;"	m	class:App
+main	src/com/softserve/edu01/pt/App.java	/^    public static void main(String[] args) {$/;"	m	class:App
+main	src/com/softserve/edu02/hw/App.java	/^    public static void main(String[] args) {$/;"	m	class:App
+main	src/ratio/softserve/academy/Main.java	/^    public static void main(String[] args) {$/;"	m	class:Main
+myMethod	src/com/softserve/edu02/hw/MyHw1.java	/^    public static void myMethod () {$/;"	m	class:MyHw1
+part1	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part1() {$/;"	m	class:HomeWork1
+part2	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part2() {$/;"	m	class:HomeWork1
+part3	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part3() {$/;"	m	class:HomeWork1
+part4	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part4() {$/;"	m	class:HomeWork1
+part5	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part5() {$/;"	m	class:HomeWork1
+part6	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part6() {$/;"	m	class:HomeWork1
+part7	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^    public static void part7() {$/;"	m	class:HomeWork1
+ratio.softserve.academy	src/ratio/softserve/academy/AbstractHomeWork.java	/^package ratio.softserve.academy;$/;"	p
+ratio.softserve.academy	src/ratio/softserve/academy/HomeWorkInterface.java	/^package ratio.softserve.academy;$/;"	p
+ratio.softserve.academy	src/ratio/softserve/academy/Main.java	/^package ratio.softserve.academy;$/;"	p
+ratio.softserve.academy	src/ratio/softserve/academy/package-info.java	/^package ratio.softserve.academy;/;"	p
+ratio.softserve.academy.edu01.hw	src/ratio/softserve/academy/edu01/hw/HomeWork1.java	/^package ratio.softserve.academy.edu01.hw;$/;"	p
+scanner	src/com/softserve/edu01/hw/App.java	/^    public static Scanner scanner = new Scanner(System.in);$/;"	f	class:App
+steps	src/ratio/softserve/academy/AbstractHomeWork.java	/^     HashMap<Integer, Runnable> steps = new HashMap<>();$/;"	f	class:AbstractHomeWork
+task1	src/com/softserve/edu01/hw/App.java	/^    public static void task1() {$/;"	m	class:App
+task2	src/com/softserve/edu01/hw/App.java	/^    public static void task2() {$/;"	m	class:App

@@ -1,4 +1,4 @@
-package ratio.softserve.academy.hw;
+package ratio.softserve.academy;
 
 import java.util.HashMap;
 import java.util.function.Consumer;

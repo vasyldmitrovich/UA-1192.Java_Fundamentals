@@ -1,10 +1,10 @@
-package ratio.softserve.academy.hw;
+package ratio.softserve.academy;
 
 import java.util.HashMap;
 
 public abstract class AbstractHomeWork implements HomeWorkInterface {
 
-    HashMap<Integer, Runnable> steps = new HashMap<>();
+     HashMap<Integer, Runnable> steps = new HashMap<>();
 
     @Override
     public HashMap<Integer, Runnable> getSteps() {

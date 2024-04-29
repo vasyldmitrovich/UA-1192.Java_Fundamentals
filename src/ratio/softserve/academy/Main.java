@@ -1,7 +1,6 @@
 package ratio.softserve.academy;
 
-import ratio.softserve.academy.hw.HomeWorkInterface;
-import ratio.softserve.academy.hw.HomeWork1;
+import ratio.softserve.academy.edu01.hw.HomeWork1;
 
 import java.util.HashMap;
 import java.util.Map;
