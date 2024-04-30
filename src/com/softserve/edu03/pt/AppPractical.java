@@ -14,9 +14,9 @@ public class AppPractical {
         System.out.printf("The sum of %s and %s is %s \n", a, b, getTotal(a, b));
         System.out.printf("The average of %s and %s is %s \n", a, b, getAverage(a, b));
         //part 2
-        Employee employee1 = new Employee("Kate", 2, 40);
-        Employee employee2 = new Employee("David", 4, 25);
-        Employee employee3 = new Employee("Luke", 6, 60);
+        new Employee("Kate", 2, 40);
+        new Employee("David", 4, 25);
+        new Employee("Luke", 6, 60);
 
         System.out.println("Total salary : " + Employee.getTotalSum());
         System.out.println("Total salary with bonus : " + Employee.getTotalSumWithBonus());
@@ -25,16 +25,6 @@ public class AppPractical {
     public static double getDoubleNumber(String prompt) {
         System.out.println(prompt);
         return scanner.nextDouble();
-    }
-
-    public static int getIntNumber(String prompt) {
-        System.out.println(prompt);
-        return scanner.nextInt();
-    }
-
-    public static String getString(String prompt) {
-        System.out.println(prompt);
-        return scanner.nextLine();
     }
 
     private static double getTotal(double a, double b) {

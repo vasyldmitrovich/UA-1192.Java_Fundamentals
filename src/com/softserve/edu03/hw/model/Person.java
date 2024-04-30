@@ -3,14 +3,13 @@ package com.softserve.edu03.hw.model;
 import java.time.LocalDate;
 
 public class Person {
+
     private String firstName;
     private String lastName;
     private int birthYear;
 
     public Person() {
-    }
-
-    ;
+    };
 
     public Person(String firstName, String lastName) {
         this.firstName = firstName;
@@ -44,7 +43,6 @@ public class Person {
             lastName = ln;
         }
     }
-
 
     public String getFirstName() {
         return firstName;

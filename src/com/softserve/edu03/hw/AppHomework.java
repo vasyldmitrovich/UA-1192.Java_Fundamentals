@@ -26,6 +26,25 @@ public class AppHomework {
         });
     }
 
+    private static double getTriangleArea() {
+        double a = AppPractical.getDoubleNumber("Input Side 1");
+        double b = AppPractical.getDoubleNumber("Input Side 2");
+        double c = AppPractical.getDoubleNumber("Input Side 3");
+        System.out.printf("You enter %s , %s, %s: \n", a, b, c);
+        double semiPerimeter = (a + b + c) / 2;
+        return Math.sqrt(semiPerimeter * (semiPerimeter - a) * (semiPerimeter - b) * (semiPerimeter - c));
+    }
+
+    private static double getMinNumber() {
+        List<Double> doubleList = new ArrayList<>();
+        doubleList.add(AppPractical.getDoubleNumber("Input number 1"));
+        doubleList.add(AppPractical.getDoubleNumber("Input number 2"));
+        doubleList.add(AppPractical.getDoubleNumber("Input number 3"));
+        System.out.println("You enter: ");
+        doubleList.forEach(System.out::println);
+        return Collections.min(doubleList);
+    }
+
     private static Person createPerson() {
         Scanner scanner = new Scanner(System.in);
 
@@ -45,25 +64,5 @@ public class AppHomework {
         scanner.nextLine();
 
         return new Person().input(firstName, lastName, birthYear);
-    }
-
-
-    private static double getTriangleArea() {
-        double a = AppPractical.getDoubleNumber("Input Side 1");
-        double b = AppPractical.getDoubleNumber("Input Side 2");
-        double c = AppPractical.getDoubleNumber("Input Side 3");
-        System.out.printf("You enter %s , %s, %s: \n", a, b, c);
-        double semiPerimeter = (a + b + c) / 2;
-        return Math.sqrt(semiPerimeter * (semiPerimeter - a) * (semiPerimeter - b) * (semiPerimeter - c));
-    }
-
-    private static double getMinNumber() {
-        List<Double> doubleList = new ArrayList<>();
-        doubleList.add(AppPractical.getDoubleNumber("Input number 1"));
-        doubleList.add(AppPractical.getDoubleNumber("Input number 2"));
-        doubleList.add(AppPractical.getDoubleNumber("Input number 3"));
-        System.out.println("You enter: ");
-        doubleList.forEach(System.out::println);
-        return Collections.min(doubleList);
     }
 }
