@@ -2,13 +2,13 @@ package com.softserve.edu03.pt;
 
 public class Employee {
 
+    private static double totalSum;
+
     private String name;
 
     private double rate;
 
     private int hours;
-
-    private static double totalSum;
 
     public Employee() {
         this.name = "";
@@ -26,38 +26,39 @@ public class Employee {
         this.name = name;
         this.rate = rate;
         this.hours = hours;
+        totalSum += this.getTotalSalary();
     }
 
     public String getName() {
         return name;
     }
 
-    public double getRate() {
-        return rate;
-    }
-
-    public int getHours() {
-        return hours;
-    }
-
-    public static double getTotalSum() {
-        return Employee.totalSum;
-    }
-
-    public static void setTotalSum(double totalSum) {
-        Employee.totalSum = totalSum;
-    }
-
     public void setName(String name) {
         this.name = name;
+    }
+
+    public double getRate() {
+        return rate;
     }
 
     public void setRate(double rate) {
         this.rate = rate;
     }
 
+    public int getHours() {
+        return hours;
+    }
+
     public void setHours(int hours) {
         this.hours = hours;
+    }
+
+    public static double getTotalSum() {
+        return totalSum;
+    }
+
+    public static void setTotalSum(double totalSum) {
+        Employee.totalSum = totalSum;
     }
 
     public double getSalary() {
@@ -74,7 +75,8 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee [name = " + this.name + ", rate = " + this.rate + ", hours = " + this.hours + "]";
+        return "Employee [name = " + this.name + ", rate = " + this.rate + ", hours = " +
+                this.hours + ", total salary = " + this.getTotalSalary() + "]";
     }
 
 }

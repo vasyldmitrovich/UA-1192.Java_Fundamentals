@@ -27,9 +27,7 @@ public class App {
         System.out.println(manager);
         System.out.println(security);
 
-        System.out.println("John total salary is: " + administrator.getTotalSalary());
-        System.out.println("Lisa total salary is: " + manager.getTotalSalary());
-        System.out.println("Daniel total salary is: " + security.getTotalSalary());
+        System.out.println("Total salary of all employees: " + Employee.getTotalSum());
     }
 
     public static double getTotal(double firstNumber, double secondNumber) {
