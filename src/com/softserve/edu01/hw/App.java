@@ -17,6 +17,7 @@ public class App {
         String age = scanner.nextLine();
         System.out.println("Hello " + name);
         System.out.println("You are " + age);
+//        sdasdasd
     }
 
     public static void task2() {
