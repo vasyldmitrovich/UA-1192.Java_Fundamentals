@@ -4,6 +4,7 @@ import java.time.Year;
 import java.util.Scanner;
 
 public class Person {
+
     private String firstName;
 
     private String lastName;

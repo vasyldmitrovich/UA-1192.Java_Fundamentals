@@ -8,18 +8,25 @@ public class App {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1() {
+        System.out.println("Input first side length: ");
         double side1 = scanner.nextDouble();
+        System.out.println("Input second side length: ");
         double side2 = scanner.nextDouble();
+        System.out.println("Input third side length: ");
         double side3 = scanner.nextDouble();
         System.out.println("The area of the triangle is: " + calcTriangleArea(side1, side2, side3));
     }
 
     public static void task2() {
+        System.out.println("Input first number: ");
         double firstNumber = scanner.nextDouble();
+        System.out.println("Input second number: ");
         double secondNumber = scanner.nextDouble();
+        System.out.println("Input third number: ");
         double thirdNumber = scanner.nextDouble();
         System.out.println("The smallest number is: " + findSmallestNumber(firstNumber, secondNumber, thirdNumber));
     }
@@ -44,6 +51,7 @@ public class App {
         person4.changeName(person4Name);
 
         Person person5 = new Person("", "");
+        person5.setBirthYear(2001);
         System.out.println("Add new name to person 5: ");
         String person5Name = scanner.nextLine();
         System.out.println("Add new last name to person 5: ");
