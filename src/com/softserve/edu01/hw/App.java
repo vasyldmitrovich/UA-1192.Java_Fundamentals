@@ -76,16 +76,14 @@ public class App {
         scanner.close();
     }
     public static void Task4() {
-        String name, address;
-        Scanner scanner=new Scanner(System.in);
-        String answer=scanner.nextLine();
+        Scanner scanner= new Scanner(System.in);
         System.out.println("What is your name?");
-        name=scanner.nextLine();
+        String name =scanner.nextLine();
         System.out.println("Where do you Live, "+ name +"?");
-        address=scanner.nextLine();
+        String address=scanner.nextLine();
         System.out.println("Name: " + name);
         System.out.println("Address: " + address);
-
+scanner.close();
     }
 
 }
