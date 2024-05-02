@@ -6,11 +6,11 @@ public class App {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //App.task1();
         // task2();
         Task1();
         Task2();
         Task3();
+        Task4();
 
     }
 
@@ -34,14 +34,13 @@ public class App {
         System.out.println(second);
         System.out.println(first);
     }
-
     public static void Task1() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("My");
+        System.out.println("Enter 1");
         String string1 = scanner.nextLine();
-        System.out.println("first");
+        System.out.println("Enter 2");
         String string2 = scanner.nextLine();
-        System.out.println("program");
+        System.out.println("Enter 3");
         String string3 = scanner.nextLine();
         System.out.println("Strings in ever order:");
         System.out.println(string3);
@@ -75,7 +74,17 @@ public class App {
         System.out.println("Area: " + area);
 
         scanner.close();
-
+    }
+    public static void Task4() {
+        String name, address;
+        Scanner scanner=new Scanner(System.in);
+        String answer=scanner.nextLine();
+        System.out.println("What is your name?");
+        name=scanner.nextLine();
+        System.out.println("Where do you Live, "+ name +"?");
+        address=scanner.nextLine();
+        System.out.println("Name: " + name);
+        System.out.println("Address: " + address);
 
     }
 
