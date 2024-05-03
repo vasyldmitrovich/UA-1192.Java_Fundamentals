@@ -45,4 +45,5 @@ public class App {
         return Math.min(Math.min(firstNumber, secondNumber), thirdNumber);
     }
 
+
 }
