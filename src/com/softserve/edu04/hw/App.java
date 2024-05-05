@@ -7,6 +7,8 @@ public class App {
 
     public static void main(String[] args) {
         task1();
+        task2();
+        task3();
     }
 
     public static void task1() {
@@ -22,5 +24,39 @@ public class App {
         } else {
             System.out.println("Not all numbers belong to the interval [-5, 5]");
         }
+    }
+
+    public static void task2() {
+        System.out.println("Input first number: ");
+        int number1 = scanner.nextInt();
+        System.out.println("Input second number: ");
+        int number2 = scanner.nextInt();
+        System.out.println("Input third number: ");
+        int number3 = scanner.nextInt();
+        int max = Math.max(Math.max(number1, number2), number3);
+        int min = Math.min(Math.min(number1, number2), number3);
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
+    }
+
+    public static void task3() {
+        System.out.println("Input http error code: ");
+        int httpErrorCode = scanner.nextInt();
+
+        HTTPError error = getHTTPError(httpErrorCode);
+        if (error != null) {
+            System.out.println("Error " + httpErrorCode + " - " + error.getDescription());
+        } else {
+            System.out.println("Can`t find error description for " + httpErrorCode);
+        }
+    }
+
+    public static HTTPError getHTTPError(int errorCode) {
+        for (HTTPError error : HTTPError.values()) {
+            if (errorCode == Integer.parseInt(error.name().substring(error.name().indexOf('_') + 1))) {
+                return error;
+            }
+        }
+        return null;
     }
 }
