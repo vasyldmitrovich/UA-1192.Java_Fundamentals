@@ -85,13 +85,13 @@ public class App {
 
     public static Continent getContinent(String country) {
         return switch (country) {
-            case "Ukraine", "France", "Germany" -> Continent.Europe;
-            case "China", "Japan", "India" -> Continent.Asia;
-            case "Egypt", "Nigeria", "South Africa" -> Continent.Africa;
-            case "USA", "Canada", "Mexico" -> Continent.NorthAmerica;
-            case "Brazil", "Argentina", "Colombia" -> Continent.SouthAmerica;
-            case "Australia" -> Continent.Australia;
-            case "Antarctica" -> Continent.Antarctica;
+            case "Ukraine", "France", "Germany" -> Continent.EUROPE;
+            case "China", "Japan", "India" -> Continent.ASIA;
+            case "Egypt", "Nigeria", "South Africa" -> Continent.AFRICA;
+            case "USA", "Canada", "Mexico" -> Continent.NORTH_AMERICA;
+            case "Brazil", "Argentina", "Colombia" -> Continent.SOUTH_AMERICA;
+            case "Australia" -> Continent.AUSTRALIA;
+            case "Antarctica" -> Continent.ANTARCTICA;
             default -> null;
         };
     }

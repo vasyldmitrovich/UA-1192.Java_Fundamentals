@@ -1,5 +1,8 @@
 package com.softserve.edu04.hw;
 
+import com.softserve.edu04.pt.Season;
+
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -9,6 +12,7 @@ public class App {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -48,6 +52,30 @@ public class App {
             System.out.println("Error " + httpErrorCode + " - " + error.getDescription());
         } else {
             System.out.println("Can`t find error description for " + httpErrorCode);
+        }
+    }
+
+    public static void task4() {
+        try {
+            System.out.println("Input number of students: ");
+            int numberOfStudents = scanner.nextInt();
+            System.out.println("Input season name: ");
+            String seasonName = scanner.next();
+
+            Season season = null;
+            for (Season s : Season.values()) {
+                if (s.getName().equalsIgnoreCase(seasonName)) {
+                    season = s;
+                    break;
+                }
+            }
+
+            Faculty faculty = new Faculty(numberOfStudents, season);
+            System.out.println("Faculty season: " + faculty.getSeason() + ", number of students: " + faculty.getNumberOfStudents());
+        } catch (InputMismatchException exception) {
+            System.out.println("Invalid number of students");
+        } catch (IllegalArgumentException exception) {
+            System.out.println("Invalid season name");
         }
     }
 
