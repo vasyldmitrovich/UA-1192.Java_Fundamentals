@@ -13,6 +13,7 @@ public class App {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -77,6 +78,30 @@ public class App {
         } catch (IllegalArgumentException exception) {
             System.out.println("Invalid season name");
         }
+    }
+
+    public static void task5() {
+        Dog dog1 = new Dog("Orion", 1, Breed.AKITA);
+        Dog dog2 = new Dog("Jack", 2, Breed.ALASKAN_MALAMUTE);
+        Dog dog3 = new Dog("Remi", 3, Breed.AMERICAN_BULLDOG);
+
+        if (dog1.getBreed() == dog2.getBreed() || dog1.getBreed() == dog3.getBreed() || dog2.getBreed() == dog3.getBreed()) {
+            System.out.println("There a dogs with identical breed");
+        } else {
+            System.out.println("All dogs have different breed");
+        }
+
+        Dog oldestDog;
+
+        if (dog1.getAge() >= dog2.getAge() && dog1.getAge() >= dog3.getAge()) {
+            oldestDog = dog1;
+        } else if (dog2.getAge() >= dog1.getAge() && dog2.getAge() >= dog3.getAge()) {
+            oldestDog = dog2;
+        } else {
+            oldestDog = dog3;
+        }
+
+        System.out.println("Oldest dog is: " + oldestDog.getName() + " breed: " + oldestDog.getBreedString());
     }
 
     public static HTTPError getHTTPError(int errorCode) {
