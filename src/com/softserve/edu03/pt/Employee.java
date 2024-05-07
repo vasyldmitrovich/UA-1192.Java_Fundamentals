@@ -1,5 +1,4 @@
 package com.softserve.edu03.pt;
-import Examples.Student;
 import java.util.Scanner;
 
 public class Employee {
@@ -18,7 +17,7 @@ public class Employee {
         this.hours = hours;
     }
 
-    public static void main (String [] args) {
+    public static void main (String [] args) {// This method should not be here, move to file for example App.java
         Employee employee1 = new Employee();
         employee1.setName("Anna");
         employee1.setRate(11);
@@ -52,6 +51,7 @@ public class Employee {
         return BonusRate * getSalary ();
     }
 
+    // Move this method at the bottom of class, this method should be after getters and setters
     public String toString() {
         return "Employee {" +
                 "hours=" + hours +

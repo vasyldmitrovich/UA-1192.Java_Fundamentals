@@ -49,7 +49,7 @@ import java.time.Year;
         return  age;
     }
 
-//Input and Output methods
+    //Input and Output methods
     public void input() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first name:");
@@ -75,7 +75,7 @@ import java.time.Year;
             this.lastName = ln;
         }
     }
-    public static void main (String [] args) {
+    public static void main (String [] args) {// This method should not be here, move to file for example App.java
         Person person1 = new Person();
         person1.setFirstName("Anastasiia");
         person1.setLastName("Teliatnyk");

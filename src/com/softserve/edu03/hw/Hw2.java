@@ -2,7 +2,7 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class Hw2 {
-    public static void main(String...args) {
+    public static void main(String...args) {// Good
         double first = getNumber("Input the first number ");
         double second = getNumber("Input the second number ");
         double third = getNumber("Input the third number");

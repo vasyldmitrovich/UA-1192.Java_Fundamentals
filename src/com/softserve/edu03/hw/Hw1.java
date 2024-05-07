@@ -12,13 +12,13 @@ public class Hw1 {
         System.out.println ("Tha area of the triangle is " + area);
     }
 
-    private static double getArea(int first, int second, int third) {
+    private static double getArea(int first, int second, int third) {// Good
         double s = (first + second + third) / 2;
         double area = Math.sqrt(s * (s - first) * (s - second) * (s - third));
         return s;
     }
 
-    private static int getNumber(String s) {
+    private static int getNumber(String s) {// Nice method very nice
         System.out.println(s);
         Scanner scanner = new Scanner(System.in);
         return Integer.parseInt(scanner.nextLine());
