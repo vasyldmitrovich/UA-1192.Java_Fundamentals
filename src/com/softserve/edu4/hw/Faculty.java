@@ -1,6 +1,6 @@
 package com.softserve.edu4.hw;
 
-public class Faculty {
+public class Faculty { // Good
 
     private int numberOfStudents;
     private Seasons seasons;

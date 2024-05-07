@@ -7,6 +7,7 @@ public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number");
+
         try {
             int a = sc.nextInt();
             sc.nextLine();

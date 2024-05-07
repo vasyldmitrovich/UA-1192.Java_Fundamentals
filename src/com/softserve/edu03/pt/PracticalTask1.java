@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class PracticalTask1 {
+public class PracticalTask1 { // It was not necessary to do this class, but ok
 
     private int a;
     private int b;
