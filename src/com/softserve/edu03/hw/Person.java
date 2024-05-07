@@ -1,16 +1,18 @@
 package com.softserve.edu03.hw;
+
 import com.softserve.edu03.pt.Employee;
 
 import java.util.Scanner;
 import java.time.Year;
 
- class Person {
+class Person {
     private String firstName;
     private String lastName;
     private int birthYear;
 
     //default constructor
-    public Person() {}
+    public Person() {
+    }
 
     //constructor with parameters
     public Person(String firstName, String lastName) {
@@ -42,11 +44,11 @@ import java.time.Year;
         this.birthYear = birthYear;
     }
 
-    public int getAge(){
+    public int getAge() {
         int age;
         Year current = Year.now();
         age = current.getValue() - birthYear;
-        return  age;
+        return age;
     }
 
     //Input and Output methods
@@ -75,7 +77,8 @@ import java.time.Year;
             this.lastName = ln;
         }
     }
-    public static void main (String [] args) {// This method should not be here, move to file for example App.java
+
+    public static void main(String[] args) {// This method should not be here, move to file for example App.java
         Person person1 = new Person();
         person1.setFirstName("Anastasiia");
         person1.setLastName("Teliatnyk");
@@ -100,6 +103,6 @@ import java.time.Year;
         person5.setFirstName("Alina");
         person5.setLastName("Vintovych");
         person5.setBirthYear(1988);
-        
+
     }
 }
