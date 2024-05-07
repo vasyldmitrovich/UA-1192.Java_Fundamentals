@@ -57,6 +57,7 @@ public class App {
         int httpErrorCode = scanner.nextInt();
 
         HTTPError error = getHTTPError(httpErrorCode);
+
         if (error != null) {
             System.out.println("Error " + httpErrorCode + " - " + error.getDescription());
         } else {
