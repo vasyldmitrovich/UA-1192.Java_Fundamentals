@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt;
 
-public class Employee {
+public class Employee {// ok
     /**
      Object Person
      Fields:

@@ -2,14 +2,14 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class pt1 {
+public class pt1 {// Name of class should start from uppercase
     /**
      This is a practical TASK 1.
      Methods of this class calculate the sum and average values entered
 
      Author: Andrew Tandyriak
      */
-    public static void main() {
+    public static void main() {//Nice
         Scanner scanner = new Scanner(System.in);
         int number1 = (int) getNumber("Enter the first number: ", scanner);
         int number2 = (int) getNumber("Enter the second number: ", scanner);
@@ -25,7 +25,7 @@ public class pt1 {
         return (num1 + num2) /2;
     }
 
-    public static double getNumber(String prompt, Scanner scanner) {
+    public static double getNumber(String prompt, Scanner scanner) {//Good
         System.out.println(prompt);
         while (!scanner.hasNextDouble()) {
             System.out.println("Enter a valid number.");

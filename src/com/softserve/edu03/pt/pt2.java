@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class pt2 {
+public class pt2 {// Name of class should start from uppercase
     /**
      This is a practical TASK 2.
      This class creates 3 objects of employees,
@@ -29,7 +29,7 @@ public class pt2 {
         scanner.close();
     }
 
-    private static Employee createEmployee(Scanner scanner, int EmployeeNum) {
+    private static Employee createEmployee(Scanner scanner, int EmployeeNum) {//Good
         System.out.println("Details of employee " + EmployeeNum + ":");
         System.out.print("Full name: ");
 

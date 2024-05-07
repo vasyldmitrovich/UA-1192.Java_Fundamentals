@@ -31,6 +31,8 @@ public class Person {
         this.birthYear = BirthYear;
     }
 
+    // Add getters and setters
+
     public void changeName(String fn, String ln) {
         if (fn != null) {
             firstName = fn;

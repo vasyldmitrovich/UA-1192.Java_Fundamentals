@@ -1,7 +1,7 @@
 package com.softserve.edu03.hw;
 
-public class hw3 {
-    public static void main() {
+public class hw3 {// Name of class should start from uppercase
+    public static void main() {// Too long main method separate code to smaller methods and call this methods in main method
 
         System.out.println();
         System.out.println("Input details for persons 1");
