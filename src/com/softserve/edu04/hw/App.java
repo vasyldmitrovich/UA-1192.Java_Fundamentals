@@ -38,12 +38,16 @@ public class App {
     public static void task2() {
         System.out.println("Input first number: ");
         int number1 = scanner.nextInt();
+
         System.out.println("Input second number: ");
         int number2 = scanner.nextInt();
+
         System.out.println("Input third number: ");
         int number3 = scanner.nextInt();
+
         int max = Math.max(Math.max(number1, number2), number3);
         int min = Math.min(Math.min(number1, number2), number3);
+
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
     } // All good but add spaces

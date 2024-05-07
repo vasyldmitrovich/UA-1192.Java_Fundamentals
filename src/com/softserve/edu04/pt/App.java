@@ -18,8 +18,10 @@ public class App {
     public static void task1() {
         System.out.println("Input first number: ");
         double number1 = scanner.nextDouble();
+
         System.out.println("Input second number: ");
         double number2 = scanner.nextDouble();
+
         System.out.println("Input third number: ");
         double number3 = scanner.nextDouble();
 
@@ -33,12 +35,14 @@ public class App {
         if (number3 % 2 != 0) {
             counter++;
         }
+
         System.out.println("Quantity of odd numbers is: " + counter);
     }
 
     public static void task2() {
         System.out.println("Input number of the week day: ");
         int day = scanner.nextInt();
+
         switch (day) {
             case 1: System.out.println("Monday\nПолнеділок");break;
             case 2: System.out.println("Tuesday\nВівторок");break;
@@ -54,7 +58,9 @@ public class App {
     public static void task3() {
         System.out.println("Input name of country");
         String country = scanner.nextLine();
+
         Continent continent = getContinent(country);
+
         if (continent != null) {
             System.out.println("Country " + country + " situated in " + continent);
         } else {
