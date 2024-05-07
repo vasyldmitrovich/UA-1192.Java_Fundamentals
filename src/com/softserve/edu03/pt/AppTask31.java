@@ -18,10 +18,10 @@ public class AppTask31 {
     public static void main(String[] args) {
 
         System.out.println("Enter first number: ");
-        double varA = getNumber(scanner.nextLine());
+        double varA = getNumber(scanner.nextLine());//This is nice
 
         System.out.println("Enter second number: ");
-        double varB = getNumber(scanner.nextLine());
+        double varB = getNumber(scanner.nextLine());//This is nice
 
         System.out.printf("The sum of %f and %f is %.2f %n", varA, varB, getTotal(varA,varB));
         System.out.printf("The average of %f and %f is %.2f %n", varA, varB, getAverage(varA,varB));
@@ -33,7 +33,7 @@ public class AppTask31 {
     }
 
     private static double getAverage(double a, double b){
-        return getTotal(a,b)/2;
+        return getTotal(a,b)/2;//Nice decision
     }
 
     private static double getNumber(String prompt){

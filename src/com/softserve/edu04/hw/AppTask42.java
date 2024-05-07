@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class AppTask42 {
+public class AppTask42 {//Ok
 /*
     Write a program that prompts the user to input three integer numbers. The program should determine the
     maximum and minimum values among the three numbers and output them to the console.

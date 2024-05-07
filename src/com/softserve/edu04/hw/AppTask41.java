@@ -12,12 +12,13 @@ public class AppTask41 {
      */
     public static void main(String[] args) {
         execute();
-    }
+    }// Nice very nice
 
     private static void execute() {
         Scanner scanner = new Scanner(System.in);
         double[] numbers = new double[3];
         boolean condition = true;
+
         for (int i = 0; i < 3; i++) {
             System.out.println("Enter floating point number: ");
             numbers[i] = scanner.nextDouble();
@@ -25,6 +26,8 @@ public class AppTask41 {
                 condition = false;
             }
         }
+        // Add spaces for more readable of code
+
         if (condition){
             System.out.println("All entered numbers belong to [-5, 5] range");
         } else {

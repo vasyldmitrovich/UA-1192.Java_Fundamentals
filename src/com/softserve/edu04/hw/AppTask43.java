@@ -23,7 +23,7 @@ public class AppTask43 {
 
 }
 
-enum HTTPError {
+enum HTTPError {//Good but without R_
     R_400("Bad request"), R_401("Unauthorized"), R_402("Payment required"),
     R_403("Forbidden"), R_404("Not found"), R_405("Method not allowed"),
     R_406("Not Acceptable"), R_407("Proxy authentication required"),

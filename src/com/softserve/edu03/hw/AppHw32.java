@@ -3,7 +3,7 @@ package com.softserve.edu03.hw;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class AppHw32 {
+public class AppHw32 {//Good
 /*
     Java console application with method to find the smallest number among three integer numbers.
  */

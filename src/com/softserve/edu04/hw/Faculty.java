@@ -40,7 +40,7 @@ public class Faculty {
     }
 }
 
-enum Season{
+enum Season{// Write enum in separate file like Season.java
     WINTER("Winter exams"), SPRING("Second semester"), SUMMER("Vacation"), FALL("First semester");
 
     private String period;

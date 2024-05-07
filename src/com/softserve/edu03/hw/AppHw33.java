@@ -1,7 +1,7 @@
 package com.softserve.edu03.hw;
 
 
-public class AppHw33 {
+public class AppHw33 {// All good
 
     public static void main(String[] args) {
         Person[] persons = new Person[5];

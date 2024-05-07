@@ -15,7 +15,7 @@ public class Employee {
         this.hours = hours;
     }
 
-    public Employee(Object... args){
+    public Employee(Object... args){// If in this args will be not String first argument and not double second etc... Will be exception?
         this.name = (String) args[0];
         this.rate = (double) args[1];
         this.hours = (int)args[2];
