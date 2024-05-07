@@ -2,7 +2,7 @@ package com.softserve.edu03.hw.model;
 
 import java.time.LocalDate;
 
-public class Person {
+public class Person {// Good
 
     private String firstName;
     private String lastName;

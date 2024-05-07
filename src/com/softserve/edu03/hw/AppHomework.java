@@ -12,14 +12,15 @@ public class AppHomework {
 
     public static void main(String... args) {
         //hw1
-        System.out.println("Triangle aria is : " + getTriangleArea());
+        System.out.println("Triangle aria is : " + getTriangleArea());//Nice
         //hw2
-        System.out.println("Min number is : " + getMinNumber());
+        System.out.println("Min number is : " + getMinNumber());//Good
         //hw3
         List<Person> personList = new ArrayList<>(5);
         for (int i = 0; i < 5; i++) {
             personList.add(createPerson());
-        }
+        }// It is good decision
+
         System.out.println("Result: ");
         personList.forEach(p -> {
             System.out.printf("%s", p.output() + " with age " + p.getAge() + "\n");

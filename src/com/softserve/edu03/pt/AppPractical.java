@@ -11,8 +11,9 @@ public class AppPractical {
         //part 1
         double a = getDoubleNumber("Enter the first number: ");
         double b = getDoubleNumber("Enter the the second number: ");
-        System.out.printf("The sum of %s and %s is %s \n", a, b, getTotal(a, b));
-        System.out.printf("The average of %s and %s is %s \n", a, b, getAverage(a, b));
+        System.out.printf("The sum of %s and %s is %s \n", a, b, getTotal(a, b)); // Good
+        System.out.printf("The average of %s and %s is %s \n", a, b, getAverage(a, b));// Ok
+
         //part 2
         new Employee("Kate", 2, 40);
         new Employee("David", 4, 25);
