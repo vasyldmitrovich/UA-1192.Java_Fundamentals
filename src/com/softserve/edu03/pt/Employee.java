@@ -7,7 +7,7 @@ public class Employee {
     private static final double percFromSalary = 0.1;
     private static double totalSum = 0.0;
 
-    public static void main(String[] args){
+    public static void main(String[] args){// Move this method to class for example App.java
         Employee employee1 = new Employee();
         employee1.setName("Miranda");
         employee1.setRate(20);
@@ -48,6 +48,7 @@ public class Employee {
         return rate * hours;
     }
 
+    // This method after getters and setters
     @Override
     public String toString() {
         return "Employee{" +

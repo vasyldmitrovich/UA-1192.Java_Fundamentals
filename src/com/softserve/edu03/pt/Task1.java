@@ -3,18 +3,21 @@ package com.softserve.edu03.pt;
 import java.util.Scanner;
 
     public class Task1 {
-        public static void main(String[] args) {
+        public static void main(String[] args) {// Good
             int first = getNumber("Enter the first number: ");
             int second = getNumber("Enter the second number: ");
+
             int sum = getTotal(first, second);
+
             double average = getAverage(first, second);
+
             System.out.println("The sum of " + first + " and " + second + " is " + sum);
             System.out.println("The average of " + first + " and " + second + " is " + average);
 
 
         }
 
-        private static int getNumber(String prompt) {
+        private static int getNumber(String prompt) {// This method is good
             System.out.print(prompt);
             Scanner scanner = new Scanner(System.in);
             return Integer.parseInt(scanner.nextLine());
