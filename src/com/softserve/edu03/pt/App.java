@@ -16,7 +16,7 @@ public class App {
         double secondNumber = getNumber("Enter the second number: ");
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is " + getTotal(firstNumber, secondNumber));
         System.out.println("The average of " + firstNumber + " and " + secondNumber + " is " + getAverage(firstNumber, secondNumber));
-    }
+    } // Ok
 
     public static void task2() {
         Employee administrator = new Employee("John", 10, 40);
@@ -41,6 +41,6 @@ public class App {
     public static double getNumber(String prompt) {
         System.out.println(prompt);
         return scanner.nextDouble();
-    }
+    } // This is very nice decision
 
 }

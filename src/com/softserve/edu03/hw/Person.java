@@ -50,7 +50,7 @@ public class Person {
         return Year.now().getValue() - this.birthYear;
     }
 
-    public void input() {
+    public void input() {//Good
         Scanner sc = new Scanner(System.in);
         System.out.println("Input person first name: ");
         this.firstName = sc.nextLine();

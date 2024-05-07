@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public enum Breed {
+public enum Breed {//Nice
     AKITA("Akita"),
     ALASKAN_MALAMUTE("American malamute"),
     AMERICAN_BULLDOG("American bulldog");

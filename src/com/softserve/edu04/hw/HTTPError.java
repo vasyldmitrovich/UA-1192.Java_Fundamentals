@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public enum HTTPError {
+public enum HTTPError { //Ok
 
     ERROR_400("Bad Request"),
     ERROR_401("Unauthorized"),

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // All is good but make code more readable, add spaces
         task1();
         task2();
         task3();
@@ -22,6 +22,7 @@ public class App {
         double number2 = scanner.nextDouble();
         System.out.println("Input third number: ");
         double number3 = scanner.nextDouble();
+
         int counter = 0;
         if (number1 % 2 != 0) {
             counter++;
@@ -48,7 +49,7 @@ public class App {
             case 7: System.out.println("Sunday\nНеділя");break;
             default: System.out.println("Unknown day");
         }
-    }
+    }// Nice
 
     public static void task3() {
         System.out.println("Input name of country");

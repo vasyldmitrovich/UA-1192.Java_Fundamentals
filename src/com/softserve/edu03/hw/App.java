@@ -9,7 +9,7 @@ public class App {
         task1();
         task2();
         task3();
-    }
+    } // All is good
 
     public static void task1() {
         System.out.println("Input first side length: ");
@@ -18,7 +18,7 @@ public class App {
         double side2 = scanner.nextDouble();
         System.out.println("Input third side length: ");
         double side3 = scanner.nextDouble();
-        System.out.println("The area of the triangle is: " + calcTriangleArea(side1, side2, side3));
+        System.out.println("The area of the triangle is: " + calcTriangleArea(side1, side2, side3));//Good
     }
 
     public static void task2() {
@@ -66,12 +66,12 @@ public class App {
         person5.output();
     }
 
-    public static double calcTriangleArea(double firstSide, double secondSide, double thirdSide) {
+    public static double calcTriangleArea(double firstSide, double secondSide, double thirdSide) {//Good
         double s = (firstSide * secondSide * thirdSide) / 2;
         return Math.sqrt(s * (s - firstSide) * (s - secondSide) * (s - thirdSide));
     }
 
-    public static double findSmallestNumber(double firstNumber, double secondNumber, double thirdNumber) {
+    public static double findSmallestNumber(double firstNumber, double secondNumber, double thirdNumber) {// Nice it is nice
         return Math.min(Math.min(firstNumber, secondNumber), thirdNumber);
     }
 }

@@ -18,11 +18,16 @@ public class App {
     public static void task1() {
         System.out.println("Input first number: ");
         float number1 = scanner.nextFloat();
+        //Add spaces for more readable of code
+
         System.out.println("Input second number: ");
         float number2 = scanner.nextFloat();
+
         System.out.println("Input third number: ");
         float number3 = scanner.nextFloat();
+
         boolean inRange = number1 >= -5 && number1 <= 5 && number2 >= -5 && number2 <= 5 && number3 >= -5 && number3 <= 5;
+
         if (inRange) {
             System.out.println("All numbers belong to the interval [-5, 5]");
         } else {
@@ -41,7 +46,7 @@ public class App {
         int min = Math.min(Math.min(number1, number2), number3);
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
-    }
+    } // All good but add spaces
 
     public static void task3() {
         System.out.println("Input http error code: ");
@@ -109,6 +114,6 @@ public class App {
                 return error;
             }
         }
-        return null;
+        return null;// Not best decision because in class which call this method programmer should add try catch to catch null on runtime
     }
 }
