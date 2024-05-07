@@ -1,8 +1,8 @@
-package ratio.softserve.academy.edu03.hw;
+package com.softserve.edu03.hw;
 
 import java.util.Scanner;
 
-public class App {
+public class App {// I moved your code in this package, your code was in incorrect package
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -36,7 +36,7 @@ public class App {
 
     }
 
-    public static double calculateTriangleArea(double side1, double side2, double side3) {
+    public static double calculateTriangleArea(double side1, double side2, double side3) {// Ok
         double s = (side1 + side2 + side3) / 2.0;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
@@ -44,5 +44,5 @@ public class App {
 
     public static int findSmallest(int num1, int num2, int num3) {
         return Math.min(Math.min(num1, num2), num3);
-    }
+    }// Good
 }

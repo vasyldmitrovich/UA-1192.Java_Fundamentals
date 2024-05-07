@@ -1,4 +1,4 @@
-package ratio.softserve.academy.edu03.pt;
+package com.softserve.edu03.pt;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -19,6 +19,7 @@ public class App {
 
         Employee[] employees = new Employee[3];
 
+        // Move this logic to some method and call this method here
         for (int i = 0; i < 3; i++) {
             System.out.println("Enter name, rate and hours for employee " + (i + 1) + ":");
             String name = scanner.nextLine();
@@ -44,7 +45,7 @@ public class App {
         return (a + b) / 2;
     }
 
-    public static int getNumber(String prompt) {
+    public static int getNumber(String prompt) {// Good method
         Scanner scanner = new Scanner(System.in);
         System.out.println(prompt);
         return scanner.nextInt();

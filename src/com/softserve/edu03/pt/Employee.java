@@ -1,12 +1,12 @@
-package ratio.softserve.academy.edu03.pt;
+package com.softserve.edu03.pt;
 
 import java.math.BigDecimal;
 
 public class Employee {
     private String name;
-    private BigDecimal rate;
-    private BigDecimal hours;
-    private static BigDecimal totalSum = new BigDecimal(0);
+    private BigDecimal rate;// Why type is BigDecimal?
+    private BigDecimal hours;// Why type is BigDecimal?
+    private static BigDecimal totalSum = new BigDecimal(0);// Why type is BigDecimal?
 
     public Employee() {
         this.name = "Unknown";

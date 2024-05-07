@@ -1,9 +1,9 @@
-package ratio.softserve.academy.edu03.hw;
+package com.softserve.edu03.hw;
 
 import java.util.Scanner;
 import java.time.Year;
 
-public class Person {
+public class Person {// Class is good, nice
     private String firstName;
     private String lastName;
     private int birthYear;
