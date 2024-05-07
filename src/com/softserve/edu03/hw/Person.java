@@ -40,13 +40,13 @@ public class Person {
         this.birthYear = birthYear;
     }
 
-    public int getAge() {
+    public int getAge() {// Ok
         LocalDate date = LocalDate.now();
         int year = date.getYear();
         return year - getBirthYear();
     }
 
-    public void input() {
+    public void input() {// Good
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first name :");
         setFirstName(scanner.nextLine());

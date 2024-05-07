@@ -7,10 +7,11 @@ public class App {
     private final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        triangle();
+        triangle();// Good
 
         minimum();
 
+        // Move this logic in some method and call this method here
         Person person1 = new Person();
         person1.input();
         Person person2 = new Person();

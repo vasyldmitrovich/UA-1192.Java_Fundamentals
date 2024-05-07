@@ -30,7 +30,7 @@ public class Employee {
         return getSalary() * BONUS;
     }
 
-
+    // This method after getters and setters
     @Override
     public String toString() {
         return "Employee{" +
