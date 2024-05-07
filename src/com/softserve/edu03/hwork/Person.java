@@ -2,7 +2,7 @@ package com.softserve.edu03.hwork;
 
 import java.util.Scanner;
 
-public class Person {
+public class Person { // Class is good
     private String firstName;
     private String lastName;
     private int birthYear;

@@ -1,7 +1,7 @@
 package com.softserve.edu03.hwork;
 
 public class AppHw3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // Nice
         Person[] people = new Person[5];
         for (int i = 0; i < 5; i++) {
             people[i] = new Person();
