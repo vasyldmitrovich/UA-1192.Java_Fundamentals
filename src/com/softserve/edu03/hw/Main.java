@@ -46,27 +46,19 @@ public class Main {
 
     }
 
-    public static void getMin() {
+    public static void getMin(){
         Scanner sc = new Scanner(System.in);
-        int array[] = new int[3];
-
-        for (int i = 0; i < array.length; i++) {
-            System.out.print("Input " + (i+1) + " number: ");
-            array[i] = sc.nextInt();
-            }
-        int min = array[0];
-        if (min<array[1]&&min<array[2]){
-            min = array[0];
-            System.out.println("The smallest value is: " + min);}
-
-         else if (array[1]<array[2]&&array[1]<array[0]) {
-            min = array[1];
-            System.out.println("The smallest value is: " + min);}
-
-         else if (array[2]<array[0]&&array[2]<array[1]) {
-            min = array[2];
-            System.out.println("The smallest value is: " + min);}
-
+        int arr[] = new int[3];
+        for (int i = 0; i< arr.length;i++){
+            System.out.print("Enter " + (i+1) + " number: ");
+            arr[i]= sc.nextInt();
+        }
+        int min = arr[2];
+        for (int i = 0; i< arr.length;i++){
+            if (min>arr[i])
+                min = arr[i];
+        }
+        System.out.println("The smallest value is: " + min);
     }
 }
 
