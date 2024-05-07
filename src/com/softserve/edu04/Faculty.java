@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-enum Season {
+enum Season {// Why enum is here move to file Season.java
     WINTER("Winter"),
     SPRING("Spring"),
     SUMMER("Summer"),
@@ -27,7 +27,7 @@ public class Faculty {
         this.currentSeason = currentSeason;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to some class for example App.java
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of students: ");
@@ -41,6 +41,7 @@ public class Faculty {
         System.out.println("4. Autumn");
         System.out.print("Enter your choice (1-4): ");
 
+        // Separate logic to some methods and call methods in main method
         int seasonChoice = scanner.nextInt();
         Season currentSeason = null;
 

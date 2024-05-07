@@ -10,7 +10,7 @@ public class Dog {
     private Breed breed;
     private int age;
 
-    public enum Breed {
+    public enum Breed {// this enum should be not here, should be in file Breed.java move this code here
         LABRADOR,
         GERMAN_SHEPHERD,
         GOLDEN_RETRIEVER,
@@ -34,7 +34,7 @@ public class Dog {
         return age;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Why main method here? move to class for example App.java
         Dog dog1 = new Dog("Buddy", Breed.LABRADOR, 5);
         Dog dog2 = new Dog("Max", Breed.GERMAN_SHEPHERD, 3);
         Dog dog3 = new Dog("Rody", Breed.GOLDEN_RETRIEVER, 7); // Duplicate name for testing
@@ -44,6 +44,7 @@ public class Dog {
         dogs.add(dog2);
         dogs.add(dog3);
 
+        // Separate logic to methods and call methods here
         Set<String> names = new HashSet<>();
         boolean hasDuplicates = false;
         for (Dog dog : dogs) {

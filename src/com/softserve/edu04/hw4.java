@@ -2,14 +2,14 @@ package com.softserve.edu04;
 
 import java.util.Scanner;
 
-public class hw4 {
+public class hw4 {// Name of class should start from Uppercase letter not lowercase
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         task1();
         task2();
         task3();
-
+        // This is good
     }
     public static void task1() {
          System.out.println("Enter three float numbers:");
@@ -42,7 +42,7 @@ private static boolean isWithinRange(float num) {
         System.out.println("Minimum number: " + min);
 }
 
-    enum HTTPError {
+    enum HTTPError {// Move to file HTTPError.java
         ERROR_400("Bad Request"),
         ERROR_401("Unauthorized"),
         ERROR_402("Payment Required"),
@@ -72,6 +72,8 @@ private static boolean isWithinRange(float num) {
             return errorMessage;
         }
     }
+
+    // Do not forget spaces between method for more readable code
     public static void task3() {
         System.out.print("Enter HTTP error code: ");
     int errorCode = scanner.nextInt();

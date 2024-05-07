@@ -71,8 +71,8 @@ class Person {
     }
 }
 
-public class Persona {
-    public static void main(String[] args) {
+public class Persona {// This class should delete
+    public static void main(String[] args) {// Move code from this method to App class
         Person[] people = new Person[5];
 
         for (int i = 0; i < 5; i++) {

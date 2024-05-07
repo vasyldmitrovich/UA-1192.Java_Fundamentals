@@ -2,7 +2,7 @@ package com.softserve.edu04;
 
 import java.util.Scanner;
 
-public class pt {
+public class pt {// Rename class to Pt.java
 
 
     public static Scanner scanner = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class pt {
 
     }
         public static void task1() {
-
+            // make refactor of code, because for now it is not correct
     int oddCount = 0;
 
         System.out.println("Enter three numbers:");
@@ -77,7 +77,7 @@ public class pt {
         System.out.println("День українською мовою: " + ukrainDay);
 
 }
-    enum Continent {
+    enum Continent {// Move to Continent.java
         AFRICA,
         ANTARCTICA,
         ASIA,
@@ -136,16 +136,19 @@ public static Continent identifyContinent(String country) {
     }
 }
 
-    static class Product {
+    static class Product {// This class should be in file Product.java
         public String name;
         public double price;
         public int quantity;
 
+        // Where constructor without parameters
         public Product(String name, double price, int quantity) {
             this.name = name;
             this.price = price;
             this.quantity = quantity;
         }
+
+        // Where getters and setters equals and hashCode?
     }
 
     public static void task4() {

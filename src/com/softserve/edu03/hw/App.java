@@ -26,13 +26,13 @@ public class App {
 
     }
 
-    public static double calculateTriangleArea(double side1, double side2, double side3) {
+    public static double calculateTriangleArea(double side1, double side2, double side3) {//Good
 
         double s = (side1 + side2 + side3) / 2;
         double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
         return area;
     }
-    public static void task2() {
+    public static void task2() {// Nice
         System.out.println("Input first number: ");
         double firstNumber = scanner.nextDouble();
         System.out.println("Input second number: ");
@@ -42,7 +42,7 @@ public class App {
         System.out.println("The smallest number is: " + findSmallestNumber(firstNumber, secondNumber, thirdNumber));
     }
     public static double findSmallestNumber(double firstNumber, double secondNumber, double thirdNumber) {
-        return Math.min(Math.min(firstNumber, secondNumber), thirdNumber);
+        return Math.min(Math.min(firstNumber, secondNumber), thirdNumber);// Good
     }
 
 

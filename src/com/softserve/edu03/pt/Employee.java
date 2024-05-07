@@ -55,9 +55,11 @@ public class Employee {
     public String getName() {
         return name;
     }
+
     public double getRate() {
         return rate;
     }
+
     public int getHours() {
         return hours;
     }
