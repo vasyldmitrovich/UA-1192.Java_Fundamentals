@@ -8,15 +8,15 @@ public class NewPerson {
         Person person4 = new Person();
         Person person5 = new Person();
 
-        person1.Input();
-        person1.Output();
-        person2.Input();
-        person2.Output();
-        person3.Input();
-        person3.Output();
-        person4.Input();
-        person4.Output();
-        person5.Input();
-        person5.Output();
+        person1.input();
+        person1.output();
+        person2.input();
+        person2.output();
+        person3.input();
+        person3.output();
+        person4.input();
+        person4.output();
+        person5.input();
+        person5.output();
     }
 }

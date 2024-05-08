@@ -27,17 +27,17 @@ public class Person {
         return birthYear;
     }
 
-    public int GetAge() {
+    public int getAge() {
         return LocalDate.now().getYear() - birthYear;
     }
 
-    public void Output() {// Name should start from lowercase
+    public void output() {// Name should start from lowercase
         System.out.println("First Name: " + firstName + '\n' +
                 "Last Name: " + lastName + '\n' +
-                "Age: " + GetAge());
+                "Age: " + getAge());
     }
 
-    public void Input() {// The same here
+    public void input() {// The same here
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter First Name");
@@ -50,7 +50,7 @@ public class Person {
         birthYear = Integer.parseInt(scanner.nextLine());
     }
 
-    public void ChangeName(String firstName, String lastName) {// Name of the method should start from lowercase
+    public void changeName(String firstName, String lastName) {// Name of the method should start from lowercase
         this.firstName = firstName;
         this.lastName = lastName;
     }
