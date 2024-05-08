@@ -3,14 +3,15 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class AppPractical {
+public class AppPractical {// Do not forget spaces and all tasks should run when i run main method
     public static void main(String[] args) {
         //Test for first task
-       /* Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         double first = getNumber(scanner,"Please enter first double ");
         double second = getNumber(scanner,"Please enter second double ");
         System.out.println("Your sum of numbers: "+getTotal(first,second));
-        System.out.println("Your average of numbers: "+getAverage(first,second));*/
+        System.out.println("Your average of numbers: "+getAverage(first,second));
+
         //Test for second task
         Employee employee1 = new Employee("Pavlo",1000,20);
         System.out.println("Info about first employee\n"+employee1.toString());
@@ -31,6 +32,7 @@ public class AppPractical {
     public static double getTotal(double first,double second){
         return first+second;
     }
+
     public static double getAverage(double first,double second){
         return (first+second)/2;
     }

@@ -4,6 +4,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private int birthYear;
+
     public Person() {
 
     }
@@ -40,6 +41,7 @@ public class Person {
     {
         return 2024-birthYear;
     }
+
     public void input(String firstName,String lastName,int birthYear){
         this.firstName = firstName;
         this.lastName = lastName;
