@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Hw1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice very nice
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Triangle Area Calculator");

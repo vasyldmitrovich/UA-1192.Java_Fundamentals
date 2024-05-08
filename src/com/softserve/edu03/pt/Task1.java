@@ -12,7 +12,7 @@ public class Task1 {
         System.out.println("The average of " + first + " and " + second + " is " + average);
     }
 
-    private static int getNumber(String s) {
+    private static int getNumber(String s) {// Good it is good
         System.out.print(s);
         Scanner scan = new Scanner(System.in);
         return Integer.parseInt(scan.nextLine());

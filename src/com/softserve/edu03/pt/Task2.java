@@ -25,7 +25,7 @@ public class Task2 {
     }
 }
 
-class Employee{
+class Employee{// Move to Employee.java
     private static double totalSum = 0.0;
 
     private String name;
@@ -94,7 +94,9 @@ class Employee{
 
     @Override
     public String toString() {
-        return STR."Employee{name='\{name}\{'\''}, rate=\{rate}, hours=\{hours}, salary= \{getSalary()}\{'}'}";
+        // Do not correct return, please fix it
+//        return STR."Employee{name='\{name}\{'\''}, rate=\{rate}, hours=\{hours}, salary= \{getSalary()}\{'}'}";
+        return "Hello";
     }
 }
 
