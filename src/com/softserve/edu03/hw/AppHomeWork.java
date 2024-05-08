@@ -3,22 +3,26 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class AppHomeWork {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All good but leave code uncomment and use another name for variables
         Scanner scanner = new Scanner(System.in);
+
         //код для тесту першого домашнього завадання
-        /*double first = getNumber(scanner,"Enter the first side");
+        double first = getNumber(scanner,"Enter the first side");
         double second = getNumber(scanner,"Enter the second side");
         double third = getNumber(scanner,"Enter the third side");
         double area = findArea(first,second,third);
-        System.out.println("Your area of the triangle: "+area);*/
+        System.out.println("Your area of the triangle: "+area);
+
+
         //код для тесту другого домашнього завадання
-        /*System.out.println("Input first int");
-        int first = scanner.nextInt();
+        System.out.println("Input first int");
+        int first1 = scanner.nextInt();
         System.out.println("Input second int");
-        int second = scanner.nextInt();
+        int second1 = scanner.nextInt();
         System.out.println("Input third int");
-        int third = scanner.nextInt();
-        System.out.println("Your min integer is:"+findMin(first,second,third));*/
+        int third1 = scanner.nextInt();
+        System.out.println("Your min integer is:"+findMin(first1,second1,third1));
+
         //код для тесту третього домашнього завадання
         Person person1 = new Person("Pavlo","Chernyavckii");
         person1.output();
@@ -45,6 +49,7 @@ public class AppHomeWork {
         double perimetr = (first+second+third)/2;
         return Math.sqrt((perimetr*(perimetr-first)*(perimetr-second)*(perimetr-third)));
     }
+
     public static double getNumber(Scanner scanner,String prompt){
         System.out.println(prompt);
         while (!scanner.hasNextDouble()) {
