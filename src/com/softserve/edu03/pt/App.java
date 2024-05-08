@@ -6,7 +6,7 @@ public class App {
 
     private static final Scanner SC = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Very nice
         demonstrateNumberUtils();
         System.out.println();
         demonstrateEmployees();

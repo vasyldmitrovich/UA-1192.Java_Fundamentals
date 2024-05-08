@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public class Faculty {
+public class Faculty {// Ok
 
     private static Season currentSeason;
 

@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public enum Breed {
+public enum Breed {// Ok
     GERMAN_SHEPHERD,
     GOLDEN_RETRIEVER,
     PIT_BULL,

@@ -8,7 +8,7 @@ public class App {
     public static final Scanner SC = new Scanner(System.in);
     public static final String DELIMITER = " ";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Very, very nice
         System.out.println("Task 1");
         demonstrateOddTask();
         System.out.println();

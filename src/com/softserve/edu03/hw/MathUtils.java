@@ -1,6 +1,6 @@
 package com.softserve.edu03.hw;
 
-public class MathUtils {
+public class MathUtils {// Good this class is good
 
     private MathUtils() {}
 
