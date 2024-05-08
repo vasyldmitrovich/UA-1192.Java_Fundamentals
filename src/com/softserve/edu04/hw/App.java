@@ -4,22 +4,26 @@ import java.util.Scanner;
 
 public class App {
 
-    private static final Scanner SC = new Scanner(System.in);
-    private static final String DELIMITER = " ";
+    public static final Scanner SC = new Scanner(System.in);
+    public static final String DELIMITER = " ";
 
     public static void main(String[] args) {
         System.out.println("Task 1");
         demonstrateInRangeTask();
         System.out.println();
+
         System.out.println("Task 2");
         demonstrateMinMaxTask();
         System.out.println();
+
         System.out.println("Task 3");
         demonstrateHTTPErrorTask();
         System.out.println();
+
         System.out.println("Task 4");
         demonstrateFacultyTask();
         System.out.println();
+
         System.out.println("Task 5");
         demonstrateDogTask();
     }
@@ -83,7 +87,7 @@ public class App {
         Dog[] dogs = new Dog[3];
         for (int i = 0; i < 3; i++) {
             System.out.println("Dog " + (i + 1));
-            dogs[i] = Dog.input(System.in);
+            dogs[i] = DogUtils.input();
             System.out.println();
         }
 
@@ -91,11 +95,12 @@ public class App {
         for (Dog dog : dogs) {
             System.out.println(dog);
         }
-        if (Dog.allHasDiffName(dogs)) {
+        if (DogUtils.allHasDiffName(dogs)) {
             System.out.println("All dogs have different names");
         } else {
             System.out.println("Some dogs have the same name");
         }
-        System.out.println("The oldest dog: " + Dog.getOldest(dogs));
+        System.out.println("The oldest dog: " + DogUtils.getOldest(dogs));
     }
+
 }

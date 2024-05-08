@@ -33,27 +33,6 @@ public class Person {
             this.lastName = lastName;
     }
 
-    // Move these methods after getters and setters
-    public void input(InputStream inputStream) throws InputMismatchException {
-        Scanner sc = new Scanner(inputStream);
-        System.out.print("Input person's first name: ");
-        String firstName = sc.nextLine();
-        System.out.print("Input person's last name: ");
-        String lastName = sc.nextLine();
-        System.out.print("Input person's birth year: ");
-        int birthYear = sc.nextInt();
-
-        //if each parameter is acceptable -> than overwrite
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.birthYear = birthYear;
-    }
-
-    public void output(OutputStream outputStream) {
-        PrintStream out = new PrintStream(outputStream);
-        out.println(this);
-    }
-
     public String getFirstName() {
         return firstName;
     }
@@ -76,6 +55,26 @@ public class Person {
 
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
+    }
+
+    public void input(InputStream inputStream) throws InputMismatchException {
+        Scanner sc = new Scanner(inputStream);
+        System.out.print("Input person's first name: ");
+        String firstName = sc.nextLine();
+        System.out.print("Input person's last name: ");
+        String lastName = sc.nextLine();
+        System.out.print("Input person's birth year: ");
+        int birthYear = sc.nextInt();
+
+        //if each parameter is acceptable -> than overwrite
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthYear = birthYear;
+    }
+
+    public void output(OutputStream outputStream) {
+        PrintStream out = new PrintStream(outputStream);
+        out.println(this);
     }
 
     @Override
