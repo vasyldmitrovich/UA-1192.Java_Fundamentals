@@ -1,4 +1,4 @@
-package edu03;
+package com.softserve.edu03;
 
 import java.util.Scanner;
 
@@ -22,6 +22,7 @@ public class Person {
         int currentYear = java.time.Year.now().getValue();
         return currentYear - this.birthYear;
     }
+    // Add another getters and setters here
 
     public void input() {
         Scanner sc = new Scanner(System.in);
@@ -47,7 +48,7 @@ public class Person {
         this.surname = surname;
     }
 }
-    class Main{
+    class Main{// Move to App.java
         public static void main(String[] args) {
             Person[] people = new Person[5];
 

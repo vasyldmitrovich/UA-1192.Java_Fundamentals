@@ -1,6 +1,5 @@
-package edu03;
+package com.softserve.edu03;
 
-import java.io.Console;
 import java.util.Scanner;
 
 public class TriangleAreaCalculator {
@@ -15,7 +14,7 @@ public class TriangleAreaCalculator {
         double side3 = sc.nextDouble();
 
 
-        double area = calculateTriangleArea(side1, side2, side3);
+        double area = calculateTriangleArea(side1, side2, side3);// You do not use variable area, write println and use it
     }
 
     public static double calculateTriangleArea(double a, double b, double c) {

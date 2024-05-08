@@ -1,4 +1,4 @@
-package edu03;
+package com.softserve.edu03;
 
 public class Employee {
     private String name;
@@ -8,6 +8,9 @@ public class Employee {
 
     public Employee(){
     }
+
+    // Use code refactor, because for now it is not nice
+
         public Employee(String name, double rate, int hours){
         this.name = name;
         this.rate = rate;
@@ -23,7 +26,7 @@ public class Employee {
     public String toString(){
         return "Name: " + name + "salary: " + getSalary();
     }
-    public static void main(String[] args){
+    public static void main(String[] args){// Move to file App.java
         Employee e1 = new Employee("John ", 24.5, 42);
         Employee e2 = new Employee("Jane ", 19.2, 34);
         Employee e3 = new Employee("Andrew ", 24.8, 46);

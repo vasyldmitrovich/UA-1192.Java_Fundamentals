@@ -1,11 +1,11 @@
-package edu03;
-
-import org.w3c.dom.ls.LSOutput;
+package com.softserve.edu03;
 
 import java.util.Scanner;
 
-public class getMinValue {
+public class getMinValue {// Name of class should start from Uppercase
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("input random first number : ");
         int first = sc.nextInt();
@@ -21,7 +21,8 @@ public class getMinValue {
 
             sc.close();
         }
-        public static int findMin(int first, int second, int third) {
+        // Spaces add please
+        public static int findMin(int first, int second, int third) {// Use code refactor
         int smallest = Math.min(first, Math.min(second, third));
         return Math.min(first, Math.min(second, third));
         }

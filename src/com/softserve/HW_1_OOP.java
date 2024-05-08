@@ -1,7 +1,7 @@
 package com.softserve;
 import java.util.Scanner;
 
-import static edu03.TriangleAreaCalculator.calculateTriangleArea;
+import static com.softserve.edu03.TriangleAreaCalculator.calculateTriangleArea;
 
 public class HW_1_OOP {
     public static void main(String[] args) {

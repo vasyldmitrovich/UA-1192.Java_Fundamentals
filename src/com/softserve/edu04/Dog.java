@@ -1,11 +1,11 @@
-package edu04;
+package com.softserve.edu04;
 
-public class Dog {
+public class Dog {// USE CODE REFACTOR  because this code is not readable
     private String name;
     private Breed breed;
     private int age;
 
-    public enum Breed{
+    public enum Breed{// Move to file Breed.java
         LABRADOR, SHEPHERD, BULDOG, BEAGLE
 
     }
@@ -24,7 +24,7 @@ public class Dog {
     public int getAge() {
         return age;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java
         Dog dog1 = new Dog("Jecky", Breed.SHEPHERD, 5);
         Dog dog2 = new Dog("Jecky", Breed.BULDOG, 7);
         Dog dog3 = new Dog("John", Breed.BEAGLE, 2);

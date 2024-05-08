@@ -1,8 +1,8 @@
-package edu04;
+package com.softserve.edu04;
 
 import java.util.Scanner;
 
-public class doubleNambers {
+public class doubleNambers {// Name of class should start from uppercase
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("input 3 fractional numbers");

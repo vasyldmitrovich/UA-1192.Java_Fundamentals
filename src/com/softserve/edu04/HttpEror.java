@@ -1,9 +1,9 @@
-package edu04;
+package com.softserve.edu04;
 
 import java.util.Scanner;
 
-public class HttpEror {
-    enum HTTPError {
+public class HttpEror {// What is that class???
+    enum HTTPError {// Move to HTTPError.java
         BadRequest(400, "Bad Request"),
         Unauthorized(401, "Unauthorized"),
         PaymentRequired(402, "Payment Required"),
@@ -29,7 +29,7 @@ public class HttpEror {
             return errorName;
         }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java
         Scanner sc = new Scanner(System.in);
         System.out.println("input code mistake HTTP: ");
         int errorCode = sc.nextInt();

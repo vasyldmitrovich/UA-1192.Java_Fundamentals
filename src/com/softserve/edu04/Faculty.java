@@ -1,10 +1,8 @@
-package edu04;
+package com.softserve.edu04;
 import java.util.Scanner;
 
-import static com.softserve.edu01.hw.App.scanner;
-
 public class Faculty {
-    enum Season {
+    enum Season {// Move to Season.java
         WINTER("Winter"),
         SPRING("Spring"),
         SUMMER("Summer"),
@@ -29,7 +27,7 @@ public class Faculty {
         this.currentSeason = currentSeason;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("input qountity of students:");

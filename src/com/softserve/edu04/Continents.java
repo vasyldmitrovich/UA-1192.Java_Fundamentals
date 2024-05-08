@@ -1,4 +1,4 @@
-package edu04;
+package com.softserve.edu04;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class Continents {
             case "Europe":
                 continent = "Europe";
                 break;
-
+                // WHAT IS THE BORDER???????? WHY each case have border? it is not good
                 case "Asia":
                     continent = "Asia";
                     break;
