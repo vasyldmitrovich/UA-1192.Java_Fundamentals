@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class AppHomeWork {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         //код для тесту першого домашнього завадання
         /*double first = getNumber(scanner,"Enter the first side");
         double second = getNumber(scanner,"Enter the second side");
         double third = getNumber(scanner,"Enter the third side");
         double area = findArea(first,second,third);
         System.out.println("Your area of the triangle: "+area);*/
+
         //код для тесту другого домашнього завадання
         /*System.out.println("Input first int");
         int first = scanner.nextInt();
@@ -19,6 +21,7 @@ public class AppHomeWork {
         System.out.println("Input third int");
         int third = scanner.nextInt();
         System.out.println("Your min integer is:"+findMin(first,second,third));*/
+
         //код для тесту третього домашнього завадання
         Person person1 = new Person("Pavlo","Chernyavckii");
         person1.output();
@@ -35,10 +38,6 @@ public class AppHomeWork {
         Person person5 = new Person();
         person5.input( "Polina","Chernishova",2010);
         person5.output();
-
-
-
-
 
     }
     public static double findArea(double first,double second, double third){

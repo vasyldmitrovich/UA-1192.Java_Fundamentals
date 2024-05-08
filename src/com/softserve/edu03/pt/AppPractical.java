@@ -19,12 +19,12 @@ public class AppPractical {
         Employee employee3 = new Employee();
         System.out.println("Info about third employee\n"+employee3.toString());
         Employee employee4 = new Employee("Dmitro",100,2);
-        Employee employee5 = new Employee("Polina",4000,10);
+        Employee employee5 = new Employee("Polina",3000,10);
         System.out.println("Info about salary first  employee: "+employee1.getSalary());
         System.out.println("Info about bonus first employee: "+ employee1.getBonus());
         employee1.setRate(100);
         System.out.println("Info about rate first employee by getter and setter: "+employee1.getRate());
-        System.out.println("Info about total salary of all employee:"+(Employee.totalSum = employee1.getSalary()+employee4.getSalary()+employee5.getSalary()));
+        System.out.println("Info about total salary of all employee:"+Employee.totalSum);
 
 
     }

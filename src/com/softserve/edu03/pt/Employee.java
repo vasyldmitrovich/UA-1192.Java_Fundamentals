@@ -7,17 +7,19 @@ public class Employee {
     public static int totalSum = 0;
     public Employee(){
         System.out.println("Constructor");
-
+        totalSum+=getSalary();
     }
     public Employee(String name,int rate,int hours){
         System.out.println("Constructor with all parameters");
         this.name = name;
         this.rate = rate;
         this.hours = hours;
+        totalSum+=getSalary();
     }
     public Employee(String name){
         System.out.println("Constructor only with name");
         this.name = name;
+        totalSum+=getSalary();
     }
 
     public void setName(String name){
