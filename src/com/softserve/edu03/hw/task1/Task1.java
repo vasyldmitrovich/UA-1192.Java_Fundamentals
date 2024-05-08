@@ -1,9 +1,9 @@
-package edu03.hw.task1;
+package com.softserve.edu03.hw.task1;
 import java.util.Scanner;
 
 public class Task1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice it is very good
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Input Side1");

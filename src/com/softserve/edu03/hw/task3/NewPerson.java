@@ -1,6 +1,4 @@
-package edu03.hw.task3;
-
-import java.util.Scanner;
+package com.softserve.edu03.hw.task3;
 
 public class NewPerson {
     public static void main(String[] args) {

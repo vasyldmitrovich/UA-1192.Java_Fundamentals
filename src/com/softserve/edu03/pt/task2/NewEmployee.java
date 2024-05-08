@@ -1,5 +1,4 @@
-package edu03.pt.task2;
-import edu03.pt.task2.Employee;
+package com.softserve.edu03.pt.task2;
 
 import java.util.Scanner;
 

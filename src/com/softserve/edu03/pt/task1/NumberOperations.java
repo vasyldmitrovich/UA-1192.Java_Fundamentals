@@ -1,7 +1,7 @@
-package edu03.pt.task1;
+package com.softserve.edu03.pt.task1;
 import java.util.Scanner;
 
-public class NumberOperations {
+public class NumberOperations {//Good
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

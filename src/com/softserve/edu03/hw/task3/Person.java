@@ -1,4 +1,4 @@
-package edu03.hw.task3;
+package com.softserve.edu03.hw.task3;
 import java.time.LocalDate;
 import java.util.Scanner;
 public class Person {
@@ -7,7 +7,6 @@ public class Person {
     private int birthYear;  //the birthday year
 
     public Person() {
-
     }
 
     public Person(String firstName, String lastName, int birthYear) {
@@ -32,13 +31,13 @@ public class Person {
         return LocalDate.now().getYear() - birthYear;
     }
 
-    public void Output() {
+    public void Output() {// Name should start from lowercase
         System.out.println("First Name: " + firstName + '\n' +
                 "Last Name: " + lastName + '\n' +
                 "Age: " + GetAge());
     }
 
-    public void Input() {
+    public void Input() {// The same here
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter First Name");
@@ -51,7 +50,7 @@ public class Person {
         birthYear = Integer.parseInt(scanner.nextLine());
     }
 
-    public void ChangeName(String firstName, String lastName) {
+    public void ChangeName(String firstName, String lastName) {// Name of the method should start from lowercase
         this.firstName = firstName;
         this.lastName = lastName;
     }
