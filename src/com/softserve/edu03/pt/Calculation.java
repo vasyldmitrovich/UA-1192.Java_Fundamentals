@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class Calculation {
+public class Calculation {// All good
     public static void main(String[] args) {
 
         int num1 = getNumber("Enter the first number:");
@@ -21,6 +21,7 @@ public class Calculation {
     public static double getAverage(int num1, int num2) {
         return (double) getTotal(num1, num2) / 2;
     }
+
     private static int getNumber(String prompt) {
         System.out.print(prompt);
         Scanner sc = new Scanner(System.in);

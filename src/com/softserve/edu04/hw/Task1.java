@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 import java.util.Scanner;
-public class Task1 {
+public class Task1 {// Ok
     public static void main (String[] args) {
     float num1 = getNumber("Enter the first number in range of -5 and 5:");
     float num2 = getNumber("Enter the second number in range of -5 and 5:");

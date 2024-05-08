@@ -19,7 +19,7 @@ public class PrTask02 {
         System.out.println(Employee.getTotalSum());
     }
 }
-class Employee {
+class Employee {// This class should be in file Employee.java
     private static final double BONUS_RATE = 0.1;
     private String name;
     private double rate;

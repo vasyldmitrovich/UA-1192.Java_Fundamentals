@@ -1,7 +1,7 @@
 package com.softserve.edu04.hw;
 
 public class Dog {
-    public enum Breed {
+    public enum Breed {// Move to file Breed.java, not here
         AKITA, BULLDOG, BEAGLE, LABRADOR, BOXER, Chihuahua;
     }
     private String name;
@@ -26,7 +26,7 @@ public class Dog {
         return age;
     }
 
-    private static Dog getAgeOfDog(Dog dog1, Dog dog2, Dog dog3) {
+    private static Dog getAgeOfDog(Dog dog1, Dog dog2, Dog dog3) {// Move this method to file for example App.java not here
         Dog oldestDog = dog1;
         int ageOfOldestDog = Math.max(dog1.age, Math.max(dog2.age, dog3.age));
         if (ageOfOldestDog == dog1.getAge()){
@@ -38,7 +38,7 @@ public class Dog {
         } return oldestDog;
     }
 
-    public static void main (String[] args) {
+    public static void main (String[] args) {// Move to file App.java not here
         Dog dog1 = new Dog("Jessie", Breed.BEAGLE, 5);
         Dog dog2 = new Dog("Lucky", Breed.BULLDOG, 3);
         Dog dog3 = new Dog("Jordan", Breed.LABRADOR, 8);

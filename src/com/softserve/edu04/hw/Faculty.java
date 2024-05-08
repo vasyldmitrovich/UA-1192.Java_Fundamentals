@@ -2,12 +2,16 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 public class Faculty {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java file not here
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter number of students: ");
         int numOfStudents = sc.nextInt();
+
+        // Do nor forget spaces
         System.out.println("Enter season: ");
         String period = sc.next();
+
         period = period.toUpperCase();
         period = switch (period) {
             case "AUTUMN":
@@ -29,7 +33,7 @@ public class Faculty {
     }
 }
 
-enum Season {
+enum Season {// Move to Season.java not here
     AUTUMN("First semester"),
     WINTER("Winter exams"),
     SPRING("Second semester"),

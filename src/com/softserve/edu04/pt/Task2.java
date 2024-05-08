@@ -13,7 +13,7 @@ public class Task2 {
         }
     }
 
-enum Days {
+enum Days {// Move to Days.java not here
     First("Monday", "Понеділок"),
     Second("Tuesday", "Вівторок"),
     Third("Wednesday", "Середа"),
