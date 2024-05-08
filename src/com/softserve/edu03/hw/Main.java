@@ -16,11 +16,11 @@ public class Main {
 
 //        Use method input();
 
-        obj1.input("John","Wick",1975);
-        obj2.input("Henry","Ford",1863);
-        obj3.input("Jack","Sparrow",1749);
-        obj4.input("Dean","Winchester",1989);
-        obj5.input("Rostyslav","Kushpit",1997);
+        obj1.input("John", "Wick", 1975);
+        obj2.input("Henry", "Ford", 1863);
+        obj3.input("Jack", "Sparrow", 1749);
+        obj4.input("Dean", "Winchester", 1989);
+        obj5.input("Rostyslav", "Kushpit", 1997);
 
 
 //      Calling method output();
@@ -31,9 +31,17 @@ public class Main {
         obj4.output();
         obj5.output();
 
+        // Example using method for showing you homework
+
+        // Task 1
+        getArea();
+
+        // Task2
+
     }
-//      Created methods getArea(); and getMin();
-    public static void getArea() {
+
+    //      Created methods getArea(); and getMin();
+    public static void getArea() {// You create this method, and use this method in main method for showing your homework
         Scanner sc = new Scanner(System.in);
         double array[] = new double[3];
         for (int i = 0; i < array.length; i++) {
@@ -46,16 +54,16 @@ public class Main {
 
     }
 
-    public static void getMin(){
+    public static void getMin() {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[3];
-        for (int i = 0; i< arr.length;i++){
-            System.out.print("Enter " + (i+1) + " number: ");
-            arr[i]= sc.nextInt();
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("Enter " + (i + 1) + " number: ");
+            arr[i] = sc.nextInt();
         }
         int min = arr[2];
-        for (int i = 0; i< arr.length;i++){
-            if (min>arr[i])
+        for (int i = 0; i < arr.length; i++) {
+            if (min > arr[i])
                 min = arr[i];
         }
         System.out.println("The smallest value is: " + min);

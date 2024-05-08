@@ -10,23 +10,20 @@ public class Employee {
     static int totalSum;
 
     public Employee() {
-
     }
 
     public Employee(String name, int rate, int hours) {
         this.name = name;
         this.rate = rate;
         this.hours = hours;
-
-
     }
 
 
     public Employee(String name) {
-
     }
 
     // Created getSalary method to get a salary of employee;
+    // And create another getters and setters
     public String  getSalary() {
         this.rate = rate;
         this.hours = hours;
