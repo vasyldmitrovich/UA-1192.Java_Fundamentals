@@ -26,13 +26,14 @@ public class Person {
     }
 
     /** if some parameter == null, it doesn't change */
-    public void changeName(String firstName, String lastName) {
+    public void changeName(String firstName, String lastName) {// Nice
         if (firstName != null)
             this.firstName = firstName;
         if (lastName != null)
             this.lastName = lastName;
     }
 
+    // Move these methods after getters and setters
     public void input(InputStream inputStream) throws InputMismatchException {
         Scanner sc = new Scanner(inputStream);
         System.out.print("Input person's first name: ");
@@ -56,9 +57,11 @@ public class Person {
     public String getFirstName() {
         return firstName;
     }
+
     public String getLastName() {
         return lastName;
     }
+
     public int getBirthYear() {
         return birthYear;
     }
@@ -66,9 +69,11 @@ public class Person {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }

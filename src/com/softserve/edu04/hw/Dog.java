@@ -9,6 +9,7 @@ public class Dog {
     private int age;
     private Breed breed;
 
+    // Move this and next three methods to App.java file not here
     public static Dog input(InputStream inputStream) {
         Scanner sc = new Scanner(inputStream);
         System.out.print("Input dog's name: ");

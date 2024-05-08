@@ -1,6 +1,6 @@
 package com.softserve.edu03.pt;
 
-public class Employee {
+public class Employee {// Good
 
     private static double totalSum;
 
@@ -40,11 +40,13 @@ public class Employee {
     public void setName(String name) {
         this.name = name;
     }
+
     public void setRate(double rate) {
         Employee.totalSum -= getSalary();
         this.rate = rate;
         Employee.totalSum += getSalary();
     }
+
     public void setHours(int hours) {
         Employee.totalSum -= getSalary();
         this.hours = hours;
@@ -54,9 +56,11 @@ public class Employee {
     public String getName() {
         return name;
     }
+
     public double getRate() {
         return rate;
     }
+
     public int getHours() {
         return hours;
     }
