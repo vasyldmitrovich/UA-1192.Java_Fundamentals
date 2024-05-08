@@ -1,7 +1,5 @@
 package com.softserve.edu03.pt;
 
-import java.util.Arrays;
-
 public class Task2 {
     public static void main (String[] args) {
         Employee employee1 = new Employee();

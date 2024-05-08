@@ -30,19 +30,6 @@ public class Employee {
         return getSalary() * BONUS;
     }
 
-    // This method after getters and setters
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", rate=" + rate +
-                ", hours=" + hours +
-                ", salary=" + getSalary() +
-                ", bonuses =" + "%.2f".formatted(getBonuses()) +
-                '}';
-    }
-
-
     public double getRate() {
         return rate;
     }
@@ -72,4 +59,16 @@ public class Employee {
         double newSalary = getSalary();
         totalSum += newSalary - oldSalary;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", rate=" + rate +
+                ", hours=" + hours +
+                ", salary=" + getSalary() +
+                ", bonuses =" + "%.2f".formatted(getBonuses()) +
+                '}';
+    }
+
 }

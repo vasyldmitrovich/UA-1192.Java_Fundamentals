@@ -11,22 +11,7 @@ public class App {
 
         minimum();
 
-        // Move this logic in some method and call this method here
-        Person person1 = new Person();
-        person1.input();
-        Person person2 = new Person();
-        person2.input();
-        Person person3 = new Person();
-        person3.input();
-        Person person4 = new Person();
-        person4.input();
-        Person person5 = new Person();
-        person5.input();
-        System.out.println("Person1: "+person1.output());
-        System.out.println("Person2: "+person2.output());
-        System.out.println("Person3: "+person3.output());
-        System.out.println("Person4: "+person4.output());
-        System.out.println("Person5: "+person5.output());
+        createPerson();
     }
 
     public static void triangle() {
@@ -54,5 +39,23 @@ public class App {
         int t = scanner.nextInt();
         int min = Math.min(t, Math.min(k, l));
         System.out.println("The smallest number is : " + min);
+    }
+
+    public static void createPerson() {
+        Person person1 = new Person();
+        person1.input();
+        Person person2 = new Person();
+        person2.input();
+        Person person3 = new Person();
+        person3.input();
+        Person person4 = new Person();
+        person4.input();
+        Person person5 = new Person();
+        person5.input();
+        System.out.println("Person1: " + person1.output());
+        System.out.println("Person2: " + person2.output());
+        System.out.println("Person3: " + person3.output());
+        System.out.println("Person4: " + person4.output());
+        System.out.println("Person5: " + person5.output());
     }
 }
