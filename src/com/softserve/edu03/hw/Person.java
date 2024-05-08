@@ -22,6 +22,7 @@ public class Person {
         this.lastName = lastName;
     }
 
+    // This methods should be after getters and setters
     public static void input(Person person){
         System.out.print("Input person first name: ");
         String firstName = scanner.nextLine();

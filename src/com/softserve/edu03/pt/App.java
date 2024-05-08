@@ -7,9 +7,10 @@ public class App {
 
     public static void main(String[] args) {
 
-//        Task1.task1();
+        Task1.task1();
 
 
+        // Write method and this code put in that method and call this method here in main method
         Employee employee1 = new Employee();
         System.out.print("Input name: ");
         String name = SCANNER.nextLine();
