@@ -22,7 +22,7 @@ public class AppPractical {
             switch (method) {
                 //pt1
                 case "1":
-                    readAndReverse();
+//                    readAndReverse();
                     break;
                 //pt2
                 case "2":
@@ -51,7 +51,7 @@ public class AppPractical {
         System.out.println("4 - for ask and answer a question;");
     }
 
-    private static void readAndReverse() {
+    /*private static void readAndReverse() {
         System.out.println("Write your String for reverse");
         try {
             String[] originalString = reader.readLine().split(" ");
@@ -65,7 +65,7 @@ public class AppPractical {
         } catch (IOException e) {
             System.out.println("Something went wrong...");
         }
-    }
+    }*/
 
     private static void calculateAverage() {
         int a = 0, b = 0, c = 0;

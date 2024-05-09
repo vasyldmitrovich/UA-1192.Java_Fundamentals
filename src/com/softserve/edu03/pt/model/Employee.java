@@ -3,7 +3,7 @@ package com.softserve.edu03.pt.model;
 
 public class Employee {
     private static double totalSum;
-    private static double totalSumWithBonus;
+    private static double totalSumWithBonus;//Should be only one static variable
 
     private String name;
     private int rate;
