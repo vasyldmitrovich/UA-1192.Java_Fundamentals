@@ -1,17 +1,15 @@
 package com.softserve.edu05.hw;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        task1();
-//        task2();
+        task1();
+        task2();
         task3();
+        task4();
     }
 
     private static void task1() {
@@ -75,5 +73,27 @@ public class App {
         for (Car car : filteredCars) {
             System.out.println(car);
         }
+    }
+
+    private static void task4() {
+        Random random = new Random();
+        int number = random.nextInt(10);
+
+        System.out.println("Try to guess number: ");
+
+        do {
+            int guess = scanner.nextInt();
+
+            if (number == guess) {
+                break;
+            }
+
+            if (number > guess) {
+                System.out.println("Too low, try again");
+            } else {
+                System.out.println("Too high, try again");
+            }
+
+        } while (true);
     }
 }
