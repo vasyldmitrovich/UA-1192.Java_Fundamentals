@@ -10,7 +10,7 @@ public class App {
         Task1();
         Task2();
         Task3();
-        Task4();
+
 
     }
 
@@ -75,15 +75,6 @@ public class App {
 
         scanner.close();
     }
-    public static void Task4() {
-        Scanner scanner= new Scanner(System.in);
-        System.out.println("What is your name?");
-        String name =scanner.nextLine();
-        System.out.println("Where do you Live, "+ name +"?");
-        String address=scanner.nextLine();
-        System.out.println("Name: " + name);
-        System.out.println("Address: " + address);
-scanner.close();
+
     }
 
-}
