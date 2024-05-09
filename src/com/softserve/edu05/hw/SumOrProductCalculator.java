@@ -1,16 +1,11 @@
 package com.softserve.edu05.hw;
 
-import java.util.Scanner;
+public class SumOrProductCalculator {
 
-public class SumProductCalculator {
-    public static void task() {
-        Scanner scanner = new Scanner(System.in);
+    public static int calculateSumOrProduct(int[] arr) {
 
-        int[] arr = new int[10];
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("Input integer number: ");
-            arr[i] = scanner.nextInt();
+        if (arr == null || arr.length == 0) {
+            throw new IllegalArgumentException("Array is null or empty");
         }
 
         int result = 0;
@@ -23,7 +18,7 @@ public class SumProductCalculator {
                     result = 0;
                     isSum = false;
                 }
-                if (i >= 5) {
+                if (i >= 4) {
                     break;
                 }
             } else {
@@ -33,6 +28,6 @@ public class SumProductCalculator {
             }
         }
 
-        System.out.println("Result: " + result);
+        return result;
     }
 }

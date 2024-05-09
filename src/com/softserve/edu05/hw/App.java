@@ -13,9 +13,36 @@ public class App {
     }
 
     private static void task1() {
-        MonthDaysCalculator.task();
-        SumProductCalculator.task();
-        ResultsFinder.task();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter month number");
+        int month = scanner.nextInt();
+
+        int days = MonthDaysCalculator.calculateMonthDays(month);
+        System.out.println("Days in month: " + days);
+
+        int[] arr = new int[10];
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("Input integer number: ");
+            arr[i] = scanner.nextInt();
+        }
+
+        int result = SumOrProductCalculator.calculateSumOrProduct(arr);
+        System.out.println("Result: " + result);
+
+        arr = new int[5];
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("Input integer number: ");
+            arr[i] = scanner.nextInt();
+        }
+
+        StatsCalculatorResult response = ArrayStatsCalculator.calculateStats(arr);
+
+        System.out.println("Second positive position: " + response.getSecondPositivePosition());
+        System.out.println("Min value: " + response.getMin());
+        System.out.println("Min position: " + response.getMinPosition());
+        System.out.println("Product of even number exclude 0: " + response.getProductOfEvenNumbers());
     }
 
     private static void task2() {
