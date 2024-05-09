@@ -4,7 +4,7 @@ import com.softserve.edu03.Student;
 
 import java.util.Scanner;
 
-public class App {
+public class App {// Your code should be uncommented
     public final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
