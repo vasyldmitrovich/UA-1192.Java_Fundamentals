@@ -14,14 +14,14 @@ public class Employee {
         this.hours = 0.0f;
 
 //        this("N/A", 0.0f, 0.0f);
-        totalSum += (this.getSalary() + this.getBonuses());
+//        totalSum += (this.getSalary() + this.getBonuses());
     }
 
     public Employee(String name, float rate, float hours) {
         this.name = name;
         this.rate = rate;
         this.hours = hours;
-//        totalSum += (this.getSalary() + this.getBonuses()); // 6 годин війни з цим рядком, він переміг і мовчить
+        totalSum += (this.getSalary() + this.getBonuses()); // 6 годин війни з цим рядком, він переміг і мовчить
     }
 
     float getSalary() {

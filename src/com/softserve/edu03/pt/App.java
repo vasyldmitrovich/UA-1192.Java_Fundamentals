@@ -13,17 +13,16 @@ public class App {
 
     // Write method and this code put in that method and call this method here in main method
         public static void task2(){
-        Employee employee1 = new Employee();
+
         System.out.print("Input name: ");
         String name = SCANNER.nextLine();
-        employee1.setName(name);
-        System.out.print("Input rate of " + employee1.getName() + ": ");
+        System.out.print("Input rate: ");
         float rate = SCANNER.nextFloat();
-        employee1.setRate(rate);
-        System.out.print("Input hours of " + employee1.getName() + ": ");
+        System.out.print("Input hours: ");
         float hours = SCANNER.nextFloat();
         SCANNER.nextLine();
-        employee1.setHours(hours);
+
+        Employee employee1 = new Employee(name, rate, hours);
 
         Employee employee2 = new Employee();
         System.out.print("Input name: ");
