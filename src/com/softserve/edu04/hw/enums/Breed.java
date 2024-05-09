@@ -1,0 +1,21 @@
+package com.softserve.edu04.hw.enums;
+
+public enum Breed {
+    LABRADOR,
+    GERMAN_SHEPHERD,
+    GOLDEN_RETRIEVER,
+    FRENCH_BULLDOG,
+    BULLDOG,
+    POODLE,
+    BEAGLE,
+    ROTTWEILER,
+    YORKSHIRE_TERRIER,
+    BOXER,
+    DACHSHUND,
+    SIBERIAN_HUSKY,
+    GREAT_DANE,
+    DOBERMAN,
+    BORDER_COLLIE,
+    AUSTRALIAN_SHEPHERD,
+    CAVALIER_KING_CHARLES_SPANIEL
+}
