@@ -22,21 +22,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public static void input(Person person){
-        System.out.print("Input person first name: ");
-        String firstName = scanner.nextLine();
-        person.setFirstName(firstName);
 
-        System.out.print("Input person last name: ");
-        String lastName = scanner.nextLine();
-        person.setLastName(lastName);
-
-        System.out.print("Input the birthday year of person: ");
-        int birthYear = scanner.nextInt();
-        scanner.nextLine();
-        person.setBirthYear(birthYear);
-
-    }
 
     @Override
     public String toString() {
@@ -76,5 +62,21 @@ public class Person {
 
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
+    }
+    // This methods should be after getters and setters
+    public static void input(Person person){
+        System.out.print("Input person first name: ");
+        String firstName = scanner.nextLine();
+        person.setFirstName(firstName);
+
+        System.out.print("Input person last name: ");
+        String lastName = scanner.nextLine();
+        person.setLastName(lastName);
+
+        System.out.print("Input the birthday year of person: ");
+        int birthYear = scanner.nextInt();
+        scanner.nextLine();
+        person.setBirthYear(birthYear);
+
     }
 }

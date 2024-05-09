@@ -8,8 +8,11 @@ public class App {
     public static void main(String[] args) {
 
 //        Task1.task1();
+        task2();
+    }
 
-
+    // Write method and this code put in that method and call this method here in main method
+        public static void task2(){
         Employee employee1 = new Employee();
         System.out.print("Input name: ");
         String name = SCANNER.nextLine();
@@ -49,6 +52,7 @@ public class App {
 
         System.out.print("Total salary is: " +  Employee.getTotalSum());
        }
+
 
 
 }
