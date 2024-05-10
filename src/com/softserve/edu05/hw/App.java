@@ -112,6 +112,7 @@ public class App {
             int guess = scanner.nextInt();
 
             if (number == guess) {
+                System.out.println("Congratulations! You guessed the number!");
                 break;
             }
 

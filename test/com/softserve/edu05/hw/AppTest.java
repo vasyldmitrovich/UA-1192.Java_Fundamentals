@@ -57,4 +57,24 @@ class AppTest {
 
         assertArrayEquals(expected, cars);
     }
+
+    @Test
+    public void testNumberGuessing() {
+
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(out));
+
+        StringBuilder input = new StringBuilder();
+        for (int i = 0; i < 10; i++) {
+            input.append(i).append("\n");
+        }
+
+        ByteArrayInputStream in = new ByteArrayInputStream(input.toString().getBytes());
+        System.setIn(in);
+
+        App.task4();
+
+        assertTrue(out.toString().contains("Try to guess number: "));
+        assertTrue(out.toString().contains("Congratulations! You guessed the number!"));
+    }
 }
