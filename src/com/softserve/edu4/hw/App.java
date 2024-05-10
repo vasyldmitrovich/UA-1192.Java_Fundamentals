@@ -235,5 +235,5 @@ public class App {
         } else {
             System.out.println("The oldest dog is " + dog3.getBreed() + " " + dog3.getName());
         }
-    }// This method is too long, separate to smaller methods
+    }
 }
