@@ -13,18 +13,24 @@ public class SumOrProductCalculator {
 
         for (int i = 0; i < arr.length; i++) {
             if (isSum) {
+
                 result += arr[i];
+
                 if (i < 5 && arr[i] < 0) {
                     result = 0;
                     isSum = false;
                 }
+
                 if (i >= 4) {
                     break;
                 }
+
             } else {
+
                 if (i >= 5) {
                     result = result == 0 ? arr[i] : result * arr[i];
                 }
+
             }
         }
 
