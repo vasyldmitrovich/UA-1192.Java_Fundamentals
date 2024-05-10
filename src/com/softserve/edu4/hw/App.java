@@ -9,12 +9,16 @@ public class App {
     public static void main(String[] args) {
         rangeCheck();
         System.out.println("End of the first task");
+
         maxAndMinValue();
         System.out.println("End of the second task");
+
         httpErrorFinder();
         System.out.println("End of the third task");
+
         faculty();
         System.out.println("End of the fourth task");
+
         dogChecker();
         System.out.println("End of the fifth task");
     }
@@ -201,6 +205,11 @@ public class App {
             System.exit(0);
         }
         Dog dog3 = new Dog(name, breed, age);
+        nameCheck(dog1, dog2, dog3);
+        theOldestDogCheck(dog1, dog2, dog3);
+    }
+
+    public static void nameCheck(Dog dog1, Dog dog2, Dog dog3) {
         if (dog1.getName().equals(dog2.getName())) {
             System.out.println("There are dogs with the same name");
         } else if (dog1.getName().equals(dog3.getName())) {
@@ -210,6 +219,9 @@ public class App {
         } else {
             System.out.println("There are no dogs with the same name");
         }
+    }
+
+    public static void theOldestDogCheck(Dog dog1, Dog dog2, Dog dog3) {
         if (dog1.getAge() >= dog2.getAge() && dog1.getAge() >= dog3.getAge()) {
             System.out.println("The oldest dog is " + dog1.getBreed() + " " + dog1.getName());
         } else if (dog2.getAge() >= dog3.getAge()) {
