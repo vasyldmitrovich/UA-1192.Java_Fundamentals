@@ -8,9 +8,9 @@ public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        task1();
-//        task2();
-//        task3();
+        task1();
+        task2();
+        task3();
         task4();
     }
 
