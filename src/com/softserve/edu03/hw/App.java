@@ -6,16 +6,18 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Make code more readable add spaces
         areaOfTriangle();
         System.out.println("End of first task");
         smallestNumber();
         System.out.println("End of second task");
+
         Person person1 = new Person();
         Person person2 = new Person();
         Person person3 = new Person();
         Person person4 = new Person();
         Person person5 = new Person();
+
         person1.input();
         System.out.println(person1.output());
         person2.input();
@@ -29,7 +31,7 @@ public class App {
         System.out.println("End of third task");
     }
 
-    public static void areaOfTriangle() {
+    public static void areaOfTriangle() {//Ok
         System.out.println("Enter the value of first side of triangle");
         try {
             int a = sc.nextInt();

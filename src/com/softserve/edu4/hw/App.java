@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class App {
 
     public static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         rangeCheck();
         System.out.println("End of the first task");
@@ -21,6 +22,7 @@ public class App {
 
         dogChecker();
         System.out.println("End of the fifth task");
+
     }
 
     public static void rangeCheck() {
@@ -164,14 +166,18 @@ public class App {
                 System.out.println("Breed not recognized");
                 System.exit(0);
         }
+
+        // Do not forget add spaces for more readable code
         int age = 0;
         System.out.println("Enter the age of the dog");
+
         try {
             age = sc.nextInt();
         } catch (Exception e) {
             System.out.println("Error");
             System.exit(0);
         }
+
         Dog dog2 = new Dog(name, breed, age);
         sc.nextLine();
         System.out.println("Enter the name for the dog");
@@ -229,5 +235,5 @@ public class App {
         } else {
             System.out.println("The oldest dog is " + dog3.getBreed() + " " + dog3.getName());
         }
-    }
+    }// This method is too long, separate to smaller methods
 }
