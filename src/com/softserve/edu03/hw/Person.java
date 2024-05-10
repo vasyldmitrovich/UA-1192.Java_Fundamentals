@@ -20,6 +20,7 @@ public class Person {
         this.birthYear = birthYear;
     }
 
+    // These methods write after getters and setters
     public void input() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first name: ");

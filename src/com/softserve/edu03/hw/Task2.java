@@ -2,7 +2,7 @@ package com.softserve.edu03.hw;
 
 import java.util.Scanner;
 
-public class Task2 {
+public class Task2 {// Good
     public static void main (String[] args) {
         int num1 = getNumber("Input the first number:");
         int num2 = getNumber("Input the second number:");

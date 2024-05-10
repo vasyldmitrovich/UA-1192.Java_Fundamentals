@@ -1,9 +1,11 @@
 package com.softserve.edu04.pt;
 
 public class Product {
-    String name;
+    String name;// Why without access modifier private ?????
     double price;
     int quantity;
+
+    // Where constructor without parameters???
     Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
@@ -18,7 +20,7 @@ public class Product {
         return quantity;
     }
 
-    private static Product getMostExpensiveP(Product p1, Product p2, Product p3, Product p4){
+    private static Product getMostExpensiveP(Product p1, Product p2, Product p3, Product p4){// Move this method to App.java not here
         Product mostExpensiveP = p1;
         double costOfExpensiveP = Math.max(p1.price, Math.max(p2.price, Math.max(p3.price, p4.price)));
         if (costOfExpensiveP == p1.getPrice()){
@@ -31,7 +33,7 @@ public class Product {
             mostExpensiveP = p4;
         } return mostExpensiveP;
     }
-    private static Product getBiggestQuantityP(Product p1, Product p2, Product p3, Product p4){
+    private static Product getBiggestQuantityP(Product p1, Product p2, Product p3, Product p4){// The same with this method
         Product biggestQuantityP = p1;
         int biggestQuantity = Math.max(p1.quantity, Math.max(p2.quantity, Math.max(p3.quantity, p4.quantity)));
         if (biggestQuantity == p1.getQuantity()) {
@@ -45,7 +47,7 @@ public class Product {
         } return biggestQuantityP;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java
        Product p1 = new Product("Phone", 1200.50, 36);
        Product p2 = new Product("Laptop", 2000.23, 32);
        Product p3 = new Product("Headphones", 500.12, 28);

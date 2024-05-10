@@ -14,7 +14,7 @@ public class Task2 {
 
     }
 
-    private static int getInt(String prompt) {
+    private static int getInt(String prompt) {// Good method
         System.out.println(prompt);
         Scanner sc = new Scanner(System.in);
         return sc.nextInt();

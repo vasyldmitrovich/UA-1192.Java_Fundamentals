@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 
- enum HTTPError {
+ enum HTTPError {// Move to HTTPError.java file not here
     BAD_REQUEST, UNAUTHORIZED, PAYMENT_REQUIRED, FORBIDDEN,
     NOT_FOUND, METHOD_NOT_ALLOWED
 }
@@ -10,9 +10,13 @@ import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
+
         HTTPError httpError;
         System.out.println("Enter the error code(400-405): ");
+
+        // Do not forget spaces, make code more readable
         int code = sc.nextInt();
+
         if (code >= 400 && code <= 405) {
             httpError = switch (code) {
                 case 400 -> HTTPError.BAD_REQUEST;
@@ -28,9 +32,5 @@ public class Task3 {
         else {
             System.out.println("Code not in range 400-405!");
         }
-
-
     }
-
-
 }
