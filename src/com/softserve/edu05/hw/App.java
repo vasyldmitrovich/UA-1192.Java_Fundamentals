@@ -13,7 +13,6 @@ public class App {
     }
 
     public static void task1() {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter month number");
         int month = scanner.nextInt();
 
