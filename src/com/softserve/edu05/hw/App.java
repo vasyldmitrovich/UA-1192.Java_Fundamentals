@@ -12,7 +12,7 @@ public class App {
         task4();
     }
 
-    private static void task1() {
+    public static void task1() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter month number");
         int month = scanner.nextInt();
@@ -45,7 +45,7 @@ public class App {
         System.out.println("Product of even number exclude 0: " + response.getProductOfEvenNumbers());
     }
 
-    private static void task2() {
+    public static void task2() {
         do {
 
             System.out.println("Input first number: ");
@@ -66,7 +66,7 @@ public class App {
         } while (true);
     }
 
-    private static void task3() {
+    public static void task3() {
 
         Car[] cars = {
                 new Car(CarType.BUS, 2009, 2.0f),
@@ -102,7 +102,7 @@ public class App {
         }
     }
 
-    private static void task4() {
+    public static void task4() {
         Random random = new Random();
         int number = random.nextInt(10);
 

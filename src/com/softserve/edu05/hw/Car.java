@@ -1,5 +1,7 @@
 package com.softserve.edu05.hw;
 
+import java.util.Objects;
+
 public class Car {
 
     private CarType type;
@@ -51,5 +53,18 @@ public class Car {
                 ", yearOfProduction=" + yearOfProduction +
                 ", engineCapacity=" + engineCapacity +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Car car = (Car) o;
+        return yearOfProduction == car.yearOfProduction && Float.compare(engineCapacity, car.engineCapacity) == 0 && type == car.type;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(type, yearOfProduction, engineCapacity);
     }
 }
