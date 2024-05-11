@@ -5,10 +5,13 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class AppPt1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // All is good
     int first = getNumber("Enter the first number:");
+
     int second = getNumber("Enter the second number:");
+
     int sum = getTotal(first, second);
+
     double average = getAverage(first, second);
 
     System.out.println("The sum of " + first + " and " + second + " is " + sum);

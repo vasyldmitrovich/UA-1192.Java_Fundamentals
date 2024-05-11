@@ -1,7 +1,7 @@
 package com.softserve.edu03.ptask;
 
 public class Employee {
-    private static final double BONUS_RATE = 0.1;
+    private static final double BONUS_RATE = 0.1;// Nice
     private static double totalSum;
     private String name;
     private double rate;
