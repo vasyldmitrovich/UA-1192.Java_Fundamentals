@@ -96,4 +96,5 @@ public class HW4 {
 //            • In main() method create create three instances of type Dog.
 //    o Check if there are no two dogs with the same name;
 //    o Output the name and the breed of the oldest dog.
+// TODO: check in Declare class
 }
