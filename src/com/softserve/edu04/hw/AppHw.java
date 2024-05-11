@@ -50,22 +50,48 @@ public class AppHw {
     }
 
     public static void FourthHw() {
-        Faculty faculty = new Faculty(20, Faculty.Season.AUTUMN);
-        Faculty faculty2 = new Faculty(270, Faculty.Season.WINTER);
-        Faculty faculty3 = new Faculty(202, Faculty.Season.SPRING);
-        Faculty faculty4 = new Faculty(110, Faculty.Season.SUMMER);
+        scanner.nextLine();
+        System.out.println("Enter the season");
+        String season = scanner.nextLine().toLowerCase();
 
-        System.out.println("The quantity of students this faculty:" + faculty.getNumberStud());
-        System.out.println("The current period:" + faculty.getCurrentSeason());
-        System.out.println("The quantity of students this faculty:" + faculty2.getNumberStud());
-        System.out.println("The current period:" + faculty2.getCurrentSeason());
-        System.out.println("The quantity of students this faculty:" + faculty3.getNumberStud());
-        System.out.println("The current period:" + faculty3.getCurrentSeason());
-        System.out.println("The quantity of students this faculty:" + faculty4.getNumberStud());
-        System.out.println("The current period:" + faculty4.getCurrentSeason());
+        System.out.println("Enter the number of student");
+        int numberStud = scanner.nextInt();
+
+        switch (season) {
+            case "winter": {
+                Faculty faculty2 = new Faculty(numberStud, Faculty.Season.WINTER);
+                System.out.println("The quantity of students this faculty:" + faculty2.getNumberStud());
+                System.out.println("The current period:" + faculty2.getCurrentSeason());
+                break;
+            }
+            case "spring": {
+                Faculty faculty3 = new Faculty(numberStud, Faculty.Season.SPRING);
+                System.out.println("The quantity of students this faculty:" + faculty3.getNumberStud());
+                System.out.println("The current period:" + faculty3.getCurrentSeason());
+                break;
+            }
+            case "summer": {
+                Faculty faculty4 = new Faculty(numberStud, Faculty.Season.SUMMER);
+                System.out.println("The quantity of students this faculty:" + faculty4.getNumberStud());
+                System.out.println("The current period:" + faculty4.getCurrentSeason());
+                break;
+            }
+            case "autumn": {
+                Faculty faculty = new Faculty(numberStud, Faculty.Season.AUTUMN);
+                System.out.println("The quantity of students this faculty:" + faculty.getNumberStud());
+                System.out.println("The current period:" + faculty.getCurrentSeason());
+                break;
+            }
+            default: {
+                System.out.println("You entered wrong season");
+                break;
+            }
+        }
+
     }
+
     public static void fifthhw() {
-        Dog [] dogs = new Dog[6];
+        Dog[] dogs = new Dog[6];
 
         dogs[0] = new Dog("Jora", Breed.HUSKY, 2);
         dogs[1] = new Dog("Judy", Breed.MOPS, 8);
@@ -77,6 +103,7 @@ public class AppHw {
         Dog.findOlderDog(dogs);
         Dog.findSameName(dogs);
     }
+
     public static float getNumber(String msg) {
         System.out.println(msg);
         return scanner.nextFloat();
