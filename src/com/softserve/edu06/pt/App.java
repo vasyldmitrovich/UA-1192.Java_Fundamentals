@@ -4,12 +4,11 @@ import java.util.Random;
 
 public class App {
 
-    private static final String[] truckModels = {"Man", "Volvo", "Peterbilt"};
-    private static final String[] sedanModels = {"BMW", "Mercedes", "Audi"};
-
-    private static final String[] colors = {"red", "green", "blue"};
-
     public static final Random RAND = new Random(System.currentTimeMillis());
+
+    private static final String[] TRUCK_MODELS = {"Man", "Volvo", "Peterbilt"};
+    private static final String[] SEDAN_MODELS = {"BMW", "Mercedes", "Audi"};
+    private static final String[] COLORS = {"red", "green", "blue"};
 
     public static void main(String[] args) {
         System.out.println("Practice task 1");
@@ -48,10 +47,10 @@ public class App {
         int year = RAND.nextInt(7) + 2015;
 
         if (RAND.nextBoolean()) {
-            String model = truckModels[RAND.nextInt(truckModels.length)];
+            String model = TRUCK_MODELS[RAND.nextInt(TRUCK_MODELS.length)];
             return new Truck(model, maxSpeed, year);
         } else {
-            String model = sedanModels[RAND.nextInt(sedanModels.length)];
+            String model = SEDAN_MODELS[RAND.nextInt(SEDAN_MODELS.length)];
             return new Sedan(model, maxSpeed, year);
         }
     }
@@ -75,7 +74,7 @@ public class App {
         if (RAND.nextBoolean()) {
             return new Line(x1, y1, x2, y2);
         } else {
-            String color = colors[RAND.nextInt(colors.length)];
+            String color = COLORS[RAND.nextInt(COLORS.length)];
             return new ColorLine(x1, y1, x2, y2, color);
         }
     }
