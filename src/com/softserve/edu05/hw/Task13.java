@@ -23,7 +23,7 @@ public class Task13 {
         return arr;
     }
 
-    public static void findSecondPoz(int[] array) {
+    public static int findSecondPoz(int[] array) {
         int counter = 0;
         int index = 0;
         for (int i = 0; i < array.length; i++) {
@@ -33,15 +33,16 @@ public class Task13 {
             if (counter == 2) {
                 index = i;
                 System.out.printf("Your second positive number is %d which is in position = %d\n", array[i], index + 1);
-                break;
+                return index+1;
             }
         }
         if (counter != 2) {
             System.out.println("We haven`t two positive numbers");
         }
+        return -1;
     }
 
-    public static void findMin(int[] array) {
+    public static int findMin(int[] array) {
         int min = array[0];
         int index = 0;
         for (int i = 0; i < array.length; i++) {
@@ -51,9 +52,10 @@ public class Task13 {
             }
         }
         System.out.printf("Your min value is %d and its in position = %d\n", min, index + 1);
+        return min;
     }
 
-    public static void productCalculate(int[] array) {
+    public static int productCalculate(int[] array) {
         int product = 1;
         for (int i = 0; i < array.length; i++) {
             if ((array[i] % 2 == 0 && array[i] != 0)) {
@@ -62,9 +64,11 @@ public class Task13 {
         }
         if (product > 1) {
             System.out.println("The product of all the entered even numbers = " + product);
+
         } else {
             System.out.println("There are no even numbers in the array.");
         }
+        return product;
 
     }
 }

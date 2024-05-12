@@ -1,5 +1,7 @@
 package com.softserve.edu05.hw;
 
+import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Car {
@@ -73,19 +75,34 @@ public class Car {
 
     }
 
-    public static void getCarsByYear(Car[] cars) {
-        System.out.println("Enter the year of manufacture of the car to search");
-        int userYear = scanner.nextInt();
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Car car = (Car) o;
+        return yearOfProd == car.yearOfProd && endineCapacity == car.endineCapacity && Objects.equals(type, car.type);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(type, yearOfProd, endineCapacity);
+    }
+
+    public static Car[] getCarsByYear(Car[] cars,int userYear) {
+        Car [] sortsCar = new Car[cars.length];
         System.out.println("Cars with the specified year:");
         int counter = 0;
+        int index = 0;
         for (int i = 0; i < cars.length; i++) {
             if (cars[i].getYearOfProd() == userYear) {
                 System.out.println(cars[i] + "\n");
                 counter++;
+                sortsCar[index++]=cars[i];
             }
         }
         if (counter == 0) {
             System.out.println("There are no cars with the specified year of manufacture");
         }
+        return Arrays.copyOf(sortsCar,index);
     }
 }

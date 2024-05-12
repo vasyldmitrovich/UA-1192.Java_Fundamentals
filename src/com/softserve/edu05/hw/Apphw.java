@@ -9,23 +9,28 @@ public class Apphw {
     public static void main(String[] args) {
         System.out.println("--------------------------First homework--------------------------");
         System.out.println("********************First task******************");
-        Task11.GetDaysByMonth();
-
+        hw1FirstTask();
         System.out.println("********************Second task******************");
-        Task12.tenNumbers();
-
+        hw1SecondTask();
         System.out.println("********************Third task******************");
         Task13.goTask3();
-
         System.out.println("--------------------------Second homework--------------------------");
         hW2DoWhile();
-
         System.out.println("--------------------------Third homework--------------------------");
         hw3Car();
         System.out.println("--------------------------Fourth homework--------------------------");
         fourthHw();
 
 
+    }
+    public static void hw1FirstTask(){
+        System.out.println("Enter the month number");
+        int number = scanner.nextInt();
+        Task11.GetDaysByMonth(number);
+    }
+    public static void hw1SecondTask(){
+        int [] arr = Task12.createArr();
+        Task12.sumOrProd(arr);
     }
 
     public static void hW2DoWhile() {
@@ -61,7 +66,9 @@ public class Apphw {
         System.out.println("Your sorted array:");
         Car.arrSort(cars);
         Car.printArr(cars);
-        Car.getCarsByYear(cars);
+        System.out.println("Enter the year of manufacture of the car to search");
+        int userYear = scanner.nextInt();
+        Car.getCarsByYear(cars,userYear);
     }
     public static void fourthHw(){
         int userNumber;
