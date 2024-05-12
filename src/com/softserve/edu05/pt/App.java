@@ -149,7 +149,7 @@ public class App {
                 System.out.println(array[i].getName());
             }
         }
-
+        System.out.println();
         System.out.println("Sorting workers by the salary in descending order");
 
         for (int i = 0; i < array.length - 1; i++) {
