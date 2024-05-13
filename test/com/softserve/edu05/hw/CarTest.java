@@ -23,7 +23,7 @@ public class CarTest {
                 new Car("Passenger", 2012, 500),
                 new Car("Truck", 2012, 600),
         };
-        Car.arrSort(arr);
+        Apphw.arrSort(arr);;
         assertArrayEquals(arr,expected);
         System.out.println("The test of the arrSort method is finished ");
         System.out.println("**************************************************************** ");
@@ -39,7 +39,7 @@ public class CarTest {
                 new Car("Truck", 2016, 400),
                 new Car("Truck", 2012, 600),
         };
-        Car [] value = Car.getCarsByYear(arr,2012);
+        Car [] value = Apphw.getCarsByYear(arr,2012);
         Car [] expected = {
                 new Car("Passenger", 2012, 500),
                 new Car("Truck", 2012, 600),

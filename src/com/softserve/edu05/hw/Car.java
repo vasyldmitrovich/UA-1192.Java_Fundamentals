@@ -53,27 +53,6 @@ public class Car {
                 '}';
     }
 
-    public static void arrSort(Car[] cars) {
-        for (int i = 0; i < cars.length - 1; i++) {
-            for (int j = 0; j < cars.length - i - 1; j++) {
-                if (cars[j].yearOfProd < cars[j + 1].yearOfProd) {
-                    Car temp = cars[j];
-                    cars[j] = cars[j + 1];
-                    cars[j + 1] = temp;
-                }
-            }
-        }
-    }// Move this method to Apphw
-
-
-    public static void printArr(Car[] cars) {
-        System.out.println("|--------------------------------------------------------------|");
-        for (int i = 0; i < cars.length; i++) {
-            System.out.println(cars[i] + "\n");
-        }
-        System.out.println("|--------------------------------------------------------------|");
-
-    }// Move this method to Apphw
 
 
     @Override
@@ -89,22 +68,5 @@ public class Car {
         return Objects.hash(type, yearOfProd, endineCapacity);
     }
 
-    public static Car[] getCarsByYear(Car[] cars,int userYear) {
-        Car [] sortsCar = new Car[cars.length];
-        System.out.println("Cars with the specified year:");
-        int counter = 0;
-        int index = 0;
-        for (int i = 0; i < cars.length; i++) {
-            if (cars[i].getYearOfProd() == userYear) {
-                System.out.println(cars[i] + "\n");
-                counter++;
-                sortsCar[index++]=cars[i];
-            }
-        }
-        if (counter == 0) {
-            System.out.println("There are no cars with the specified year of manufacture");
-        }
-        return Arrays.copyOf(sortsCar,index);
-    }// Move this method to Apphw
 
 }
