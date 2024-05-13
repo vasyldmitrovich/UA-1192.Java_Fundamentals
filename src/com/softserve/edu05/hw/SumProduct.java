@@ -1,7 +1,7 @@
 package com.softserve.edu05.hw;
 
-public class Task1SumProduct {
-    public static int task1SumProduct(int[] array) {
+public class SumProduct {
+    public static int getSumOrProduct(int[] array) {
         boolean positive = true;
         for (int i = 0; i < 5; i++) {
             if (array[i] <= 0) {

@@ -2,8 +2,8 @@ package com.softserve.edu05.hw;
 
 import java.util.NoSuchElementException;
 
-public class Task1Months {
-    public static int task1Months(int monthNumber) {
+public class Months {
+    public static int getNumberOfDays(int monthNumber) {
         int[] monthDays = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int daysInMonth;
 

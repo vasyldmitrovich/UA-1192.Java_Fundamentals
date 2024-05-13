@@ -1,7 +1,7 @@
 package com.softserve.edu05.hw;
 import java.util.Arrays;
 
-public class Task1FiveIntegers {
+public class FiveIntegers {
     public static int findSecondPositive(int[] array) {
 
         int secondPositive = 0;

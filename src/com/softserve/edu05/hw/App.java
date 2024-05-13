@@ -13,7 +13,7 @@ public class App {
     public static void task1() {
         System.out.println("Enter number of the month(1-12): ");
         int monthNumber = sc.nextInt();
-        int daysInMonth = Task1Months.task1Months(monthNumber);
+        int daysInMonth = Months.getNumberOfDays(monthNumber);
         System.out.println("There are " + daysInMonth + " days in this month");
 
         Scanner sc = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class App {
         for (int i = 0; i < 10; i++) {
             numbersArray[i] = sc.nextInt();
         }
-        int result = Task1SumProduct.task1SumProduct(numbersArray);
+        int result = SumProduct.getSumOrProduct(numbersArray);
         System.out.println("The result is:  " + result);
 
         int[] numbersArray2 = new int[5];
@@ -31,9 +31,9 @@ public class App {
         for (int i = 0; i < 5; i++) {
             numbersArray2[i] = sc.nextInt();
         }
-        System.out.println("Position of the second positive num is: " + Task1FiveIntegers.findSecondPositive(numbersArray2));
-        System.out.println("Minimum value is " + Task1FiveIntegers.findMin(numbersArray2) + ", his position is: " + Task1FiveIntegers.findMinPos(numbersArray2));
-        System.out.println("Product of all entered even nums: " + Task1FiveIntegers.findEvenProduct(numbersArray2));
+        System.out.println("Position of the second positive num is: " + FiveIntegers.findSecondPositive(numbersArray2));
+        System.out.println("Minimum value is " + FiveIntegers.findMin(numbersArray2) + ", his position is: " + FiveIntegers.findMinPos(numbersArray2));
+        System.out.println("Product of all entered even nums: " + FiveIntegers.findEvenProduct(numbersArray2));
 
 
     }
