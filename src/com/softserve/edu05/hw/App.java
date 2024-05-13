@@ -1,7 +1,10 @@
 package com.softserve.edu05.hw;
+
 import java.util.Scanner;
+
 public class App {
     static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         task1();
         task2();
@@ -37,6 +40,7 @@ public class App {
 
 
     }
+
     public static void task2() {
 
         boolean choice;
@@ -60,46 +64,46 @@ public class App {
     }
 
     public static void task3() {
-            Car[] cars = {
-                    new Car("Sedan", 2012, 2.5),
-                    new Car("Coupe", 2015, 2.5),
-                    new Car("Hatchback", 2018, 1.8),
-                    new Car("Truck", 2016, 3.0)
+        Car[] cars = {
+                new Car("Sedan", 2012, 2.5),
+                new Car("Coupe", 2015, 2.5),
+                new Car("Hatchback", 2018, 1.8),
+                new Car("Truck", 2016, 3.0)
 
-            };
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the year of model: ");
-            int yearOfModel = sc.nextInt();
-            boolean found = false;
+        };
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the year of model: ");
+        int yearOfModel = sc.nextInt();
+        boolean found = false;
 
-            for (var car : cars) {
-                if (car.getYearOfProduction() == yearOfModel) {
-                    System.out.println("Car made in " + yearOfModel + ": " + car);
-                    found = true;
-                }
+        for (var car : cars) {
+            if (car.getYearOfProduction() == yearOfModel) {
+                System.out.println("Car made in " + yearOfModel + ": " + car);
+                found = true;
             }
-            if (!found) {
-                System.out.println("There are no cars made in " + yearOfModel);
-            }
-            Car.sort(cars);
-            System.out.println("Sorted list of cars: ");
-            for (var car : cars) {
-                System.out.println(car);
-            }
+        }
+        if (!found) {
+            System.out.println("There are no cars made in " + yearOfModel);
+        }
+        Car.sort(cars);
+        System.out.println("Sorted list of cars: ");
+        for (var car : cars) {
+            System.out.println(car);
+        }
     }
 
     public static void task4() {
-        int randomNum = (int) (Math.random()*10) + 1;
+        int randomNum = (int) (Math.random() * 10) + 1;
         System.out.println("Try to guess number in range 1-10: ");
         int usersNum;
         boolean success = false;
         do {
             usersNum = sc.nextInt();
-            if(usersNum == randomNum) {
+            if (usersNum == randomNum) {
                 success = true;
                 System.out.println("You guessed the number!");
             } else {
-                if(usersNum > randomNum) {
+                if (usersNum > randomNum) {
                     System.out.println("Too high, try again");
                 } else {
                     System.out.println("Too low, try again");

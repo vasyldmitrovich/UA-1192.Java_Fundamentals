@@ -24,6 +24,7 @@ public class SumProduct {
             }
         }
         return result;
+
     }
 }
 

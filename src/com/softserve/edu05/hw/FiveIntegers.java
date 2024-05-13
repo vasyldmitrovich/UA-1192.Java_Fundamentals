@@ -1,4 +1,5 @@
 package com.softserve.edu05.hw;
+
 import java.util.Arrays;
 
 public class FiveIntegers {
