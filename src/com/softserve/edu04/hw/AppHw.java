@@ -11,9 +11,9 @@ public class AppHw {
         System.out.println("/////////////////////////////////////////////////////////");
         secondHw();
         System.out.println("/////////////////////////////////////////////////////////");
-        ThirdHw();
+        thirdHw();
         System.out.println("/////////////////////////////////////////////////////////");
-        FourthHw();
+        fourthHw();
         System.out.println("/////////////////////////////////////////////////////////");
         fifthhw();
 
@@ -39,7 +39,7 @@ public class AppHw {
         findMaxMin(first, second, third);
     }
 
-    public static void ThirdHw() {
+    public static void thirdHw() {
         int number = getNumberInt("Input a number representing  an HTTP error");
 
         if (number >= 400 && number <= 410) {
@@ -47,9 +47,9 @@ public class AppHw {
         } else {
             System.out.println("Unknown error");
         }
-    }// Name of method should start from lowercase
+    }// Name of method should start from lowercase //Chanched
 
-    public static void FourthHw() {
+    public static void fourthHw() {
         scanner.nextLine();
         System.out.println("Enter the season");
         String season = scanner.nextLine().toLowerCase();
@@ -59,25 +59,25 @@ public class AppHw {
 
         switch (season) {
             case "winter": {
-                Faculty faculty2 = new Faculty(numberStud, Faculty.Season.WINTER);
+                Faculty faculty2 = new Faculty(numberStud, Season.WINTER);
                 System.out.println("The quantity of students this faculty:" + faculty2.getNumberStud());
                 System.out.println("The current period:" + faculty2.getCurrentSeason());
                 break;
             }
             case "spring": {
-                Faculty faculty3 = new Faculty(numberStud, Faculty.Season.SPRING);
+                Faculty faculty3 = new Faculty(numberStud, Season.SPRING);
                 System.out.println("The quantity of students this faculty:" + faculty3.getNumberStud());
                 System.out.println("The current period:" + faculty3.getCurrentSeason());
                 break;
             }
             case "summer": {
-                Faculty faculty4 = new Faculty(numberStud, Faculty.Season.SUMMER);
+                Faculty faculty4 = new Faculty(numberStud, Season.SUMMER);
                 System.out.println("The quantity of students this faculty:" + faculty4.getNumberStud());
                 System.out.println("The current period:" + faculty4.getCurrentSeason());
                 break;
             }
             case "autumn": {
-                Faculty faculty = new Faculty(numberStud, Faculty.Season.AUTUMN);
+                Faculty faculty = new Faculty(numberStud, Season.AUTUMN);
                 System.out.println("The quantity of students this faculty:" + faculty.getNumberStud());
                 System.out.println("The current period:" + faculty.getCurrentSeason());
                 break;
@@ -88,7 +88,7 @@ public class AppHw {
             }
         }
 
-    }// Name of method should start from lowercase
+    }// Name of method should start from lowercase //Chanched
 
     public static void fifthhw() {
         Dog[] dogs = new Dog[6];
@@ -100,10 +100,36 @@ public class AppHw {
         dogs[4] = new Dog("Kek", Breed.LABRADOR, 10);
         dogs[5] = new Dog("Bim", Breed.POODLE, 15);
 
-        Dog.findOlderDog(dogs);
-        Dog.findSameName(dogs);
+        findOlderDog(dogs);
+        findSameName(dogs);
     }
 
+    public static void findOlderDog(Dog[] dog) {
+        Dog oldestDog = dog[0];
+
+        for (int i = 0; i < dog.length; i++) {
+            if (oldestDog.getAge() < dog[i].getAge()) {
+                oldestDog = dog[i];
+            }
+        }
+        System.out.println("The oldest dog\n " + oldestDog.toString());
+    }
+
+    public static void findSameName(Dog[] dogs) {
+        int check = 0;
+
+        for (int i = 0; i < dogs.length; i++) {
+            for (int j = i + 1; j < dogs.length; j++) {
+                if ((dogs[i].equals(dogs[j]))) {
+                    System.out.println("We have dogs with the same name " + dogs[i].getName());
+                    check++;
+                }
+            }
+        }
+        if (check == 0) {
+            System.out.println("We haven't dogs with the same name ");
+        }
+    }
     public static float getNumber(String msg) {
         System.out.println(msg);
         return scanner.nextFloat();
