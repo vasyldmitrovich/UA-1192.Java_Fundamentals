@@ -1,6 +1,6 @@
 package com.softserve.edu05;
 
-public class PrimeChecker {
+public class PrimeChecker {// Ok
     public static boolean isPrimeNumber(int number) {
         if (number <= 1) {
             return false;

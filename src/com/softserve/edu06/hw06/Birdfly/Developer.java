@@ -14,7 +14,7 @@ public class Developer extends Employee {
         return String.format("Name: %s, Age: %d years, Position: %s developer, Salary: ₴ %.2f", getName(), getAge(), programmingLanguage, getSalary());
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java or your class Main not here, this class represent entity Developer not running logic
         Employee employee = new Employee("John Doe", 30, 75000);
         Developer developer = new Developer("Jane Doe", 28, 80000, "Java");
 

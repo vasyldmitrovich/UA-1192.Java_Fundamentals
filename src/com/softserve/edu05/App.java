@@ -38,7 +38,7 @@ public class App {
         System.out.println(searchValue + (found ? " is found in the array." : " is not found in the array."));
 
         scanner.close();
-    }
+    }// Good
 
     public static double calculateAverage(int[] arr) {
         double sum = 0;
@@ -72,7 +72,8 @@ public class App {
         } else {
             System.out.println(number + " is not a prime number.");
         }
-    }
+    }// Good
+
     public static void task3() {
         int[] array = ArrayUtils.generateRandomArray(10);
         int max = ArrayUtils.findMax(array);
@@ -84,7 +85,7 @@ public class App {
         ArrayUtils.printMoreNegOrPos(array);
     }
     public static void task4() {
-        Employee[] employees = TestData.getEmployees();
+        Employee[] employees = TestData.getEmployees();// Very nice decision use method like that nice
         System.out.print("Enter department number: ");
         int departmentNumber = scanner.nextInt();
         System.out.println("Employees of department " + departmentNumber + ":");
