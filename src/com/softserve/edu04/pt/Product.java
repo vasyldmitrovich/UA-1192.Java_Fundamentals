@@ -1,7 +1,7 @@
 package com.softserve.edu04.pt;
 
 public class Product {
-    String name;
+    String name;// Why without access modifier???
     double price;
     int quantity;
 
@@ -23,4 +23,5 @@ public class Product {
         return quantity;
     }
 
+    // Add equals toString and hashCode
 }
