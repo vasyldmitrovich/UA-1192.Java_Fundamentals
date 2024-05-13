@@ -47,7 +47,8 @@ public class Employee {
         if(employeeCounter==0){
             System.out.println("No one works in a given department");
         }
-    }
+    }// Move this method to AppPt
+
     public static Employee[] sortBySalary(Employee [] employees){
         for(int i =0;i<employees.length-1;i++){
             for(int j=0;j<employees.length-i-1;j++){
@@ -59,5 +60,5 @@ public class Employee {
             }
         }
      return  employees;
-    }
+    }// Move this method to AppPt
 }

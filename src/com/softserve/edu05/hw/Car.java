@@ -54,7 +54,6 @@ public class Car {
     }
 
     public static void arrSort(Car[] cars) {
-
         for (int i = 0; i < cars.length - 1; i++) {
             for (int j = 0; j < cars.length - i - 1; j++) {
                 if (cars[j].yearOfProd < cars[j + 1].yearOfProd) {
@@ -64,7 +63,8 @@ public class Car {
                 }
             }
         }
-    }
+    }// Move this method to Apphw
+
 
     public static void printArr(Car[] cars) {
         System.out.println("|--------------------------------------------------------------|");
@@ -73,7 +73,8 @@ public class Car {
         }
         System.out.println("|--------------------------------------------------------------|");
 
-    }
+    }// Move this method to Apphw
+
 
     @Override
     public boolean equals(Object o) {
@@ -104,5 +105,6 @@ public class Car {
             System.out.println("There are no cars with the specified year of manufacture");
         }
         return Arrays.copyOf(sortsCar,index);
-    }
+    }// Move this method to Apphw
+
 }

@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public enum HTTPError {
+public enum HTTPError {// Ok
     ERROR_400("Bad request"),ERROR_401("Unauthorized"),
     ERROR_402("Payment Required"),ERROR_403("Forbidden"),
     ERROR_404("Not Found"),ERROR_405("Method not Allowed"),

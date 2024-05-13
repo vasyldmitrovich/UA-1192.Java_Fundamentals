@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class AppPt {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice very nice
         System.out.println("**************************First practical task**************************");
         firstPractical();
         System.out.println("**************************Second practical task**************************");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AppHw {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println("/////////////////////////////////////////////////////////");
         firstHw();
         System.out.println("/////////////////////////////////////////////////////////");
@@ -47,7 +47,7 @@ public class AppHw {
         } else {
             System.out.println("Unknown error");
         }
-    }
+    }// Name of method should start from lowercase
 
     public static void FourthHw() {
         scanner.nextLine();
@@ -88,7 +88,7 @@ public class AppHw {
             }
         }
 
-    }
+    }// Name of method should start from lowercase
 
     public static void fifthhw() {
         Dog[] dogs = new Dog[6];
@@ -114,7 +114,7 @@ public class AppHw {
         return scanner.nextInt();
     }
 
-    public static void findMaxMin(int first, int second, int third) {
+    public static void findMaxMin(int first, int second, int third) {// Ok
         int max = first;
         int min = first;
 

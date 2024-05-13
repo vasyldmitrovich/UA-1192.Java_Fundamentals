@@ -21,7 +21,7 @@ public class Faculty {
         return currentSeason;
     }
 
-    enum Season {
+    enum Season {// Move to file Season.java not here
         WINTER("Exam period"), SPRING("Second semester"), SUMMER("The vacation period"), AUTUMN("First semester");
         private String period;
 

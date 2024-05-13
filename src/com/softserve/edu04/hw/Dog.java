@@ -29,7 +29,7 @@ public class Dog {
         return breed;
     }
 
-    public static void findOlderDog(Dog[] dog) {
+    public static void findOlderDog(Dog[] dog) {// Move this method to AppHw.java
         Dog oldestDog = dog[0];
 
         for (int i = 0; i < dog.length; i++) {
@@ -40,7 +40,7 @@ public class Dog {
         System.out.println("The oldest dog\n " + oldestDog.toString());
     }
 
-    public static void findSameName(Dog[] dogs) {
+    public static void findSameName(Dog[] dogs) {// Move this method to AppHw.java
         int check = 0;
 
         for (int i = 0; i < dogs.length; i++) {
@@ -79,6 +79,6 @@ public class Dog {
     }
 }
 
-enum Breed {
+enum Breed {// Move to file Breed.java
     LABRADOR_RETRIEVER, BULLDOG, POODLE, MOPS, LABRADOR, HUSKY
 }

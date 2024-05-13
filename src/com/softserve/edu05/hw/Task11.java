@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import java.util.Scanner;
 
-public class Task11 {
+public class Task11 {// Ok
     private static final int[] MONTH_ARRAY = new int[]{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
     public static int GetDaysByMonth(int number) {

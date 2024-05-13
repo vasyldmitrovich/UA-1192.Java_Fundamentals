@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task13 {
+public class Task13 {// Good
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void goTask3() {
