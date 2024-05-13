@@ -21,7 +21,7 @@ public class EmployeeUtils {
     }
 
     //can be simplified with List
-    public static Employee[] filterByDepartment(int department, Employee... employees) {
+    public static Employee[] filterByDepartment(int department, Employee... employees) {// Good
         Employee[] filtered = new Employee[employees.length];
         int lastIndex = 0;
         for (Employee employee : employees) {
@@ -32,7 +32,7 @@ public class EmployeeUtils {
         return Arrays.copyOf(filtered, lastIndex);
     }
 
-    public static void sortBySalaryDesc(Employee... employees) {
+    public static void sortBySalaryDesc(Employee... employees) {// Nice
         for (int i = 0; i < employees.length - 1; i++) {
             for (int j = 0; j < employees.length - i - 1; j++) {
                 if (employees[j].getSalary() < employees[j + 1].getSalary()) {
@@ -44,7 +44,7 @@ public class EmployeeUtils {
         }
     }
 
-    public static void printEmployees(Employee... employees) {
+    public static void printEmployees(Employee... employees) {// Very nice, it very nice
         System.out.println("{");
         for (Employee employee : employees) {
             System.out.println("\t" + employee.toString());

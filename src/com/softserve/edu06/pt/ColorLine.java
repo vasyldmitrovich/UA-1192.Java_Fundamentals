@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public class ColorLine extends Line {
+public class ColorLine extends Line {// Ok
 
     private String color;
 

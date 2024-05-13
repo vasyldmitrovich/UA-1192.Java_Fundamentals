@@ -2,7 +2,7 @@ package com.softserve.edu06.hw;
 
 public class Employee {
 
-    protected String name;
+    protected String name;// You can use private and add getters and setters, but it is god now
     protected int age;
     protected double salaryInUah;
 

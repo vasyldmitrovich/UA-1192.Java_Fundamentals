@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class NumberUtils {
 
-    private static final Scanner SCAN = App.SCAN;
+    private static final Scanner SCAN = App.SCAN;// Nice it is nice
     private static final Random RAND = App.RAND;
 
     public static int getNumber(String prompt) throws NumberFormatException {
@@ -33,7 +33,7 @@ public class NumberUtils {
      * @return sum of array's first half of array if all of them are positive,
      *      and product of second half of array if any from first one is negative
      */
-    public static int getIntegersSumOrMult(int[] numbers) {
+    public static int getIntegersSumOrMult(int[] numbers) {// Good
         int result = 0;
         //if length is odd -> don't check value in the middle in both parts
         int firstHalfEnd = numbers.length / 2;
@@ -64,7 +64,7 @@ public class NumberUtils {
      * <p> -1 if only one positive are presented
      * <p> >= 0 - position of second positive
      */
-    public static int getSecondPositivePos(int[] numbers) {
+    public static int getSecondPositivePos(int[] numbers) {// Cool
         int position = -2;
         int counter = 0;
         for (int i = 0; i < numbers.length; i++) {

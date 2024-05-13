@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw.bird;
 
-public class Eagle extends FlyingBird {
+public class Eagle extends FlyingBird {// Good
 
     //some fields
 

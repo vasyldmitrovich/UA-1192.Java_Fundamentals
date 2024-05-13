@@ -2,7 +2,7 @@ package com.softserve.edu05.hw;
 
 import java.util.Objects;
 
-public class Car {
+public class Car {// Respect it is good
 
     private String type;
     private int yearOfProd;

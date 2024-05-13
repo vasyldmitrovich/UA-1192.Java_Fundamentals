@@ -4,7 +4,7 @@ import com.softserve.edu06.hw.bird.*;
 
 import java.util.Random;
 
-public class App {
+public class App {// Good
 
     public static final Random RAND = new Random(System.currentTimeMillis());
 

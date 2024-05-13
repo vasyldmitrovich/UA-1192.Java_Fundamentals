@@ -22,7 +22,7 @@ public class NumberUtils {
     }
 
     //range [-50;49]
-    public static int[] generateRandomArray(int length) {
+    public static int[] generateRandomArray(int length) {// Ok
         int[] arr = new int[length];
         for (int i = 0; i < length; i++) {
             arr[i] = RAND.nextInt(100) - 50;
@@ -103,7 +103,7 @@ public class NumberUtils {
     }
 
     //algorithm realisation from Internet
-    public static boolean isPrime(int value) {
+    public static boolean isPrime(int value) {// Ok
         int i;
         int flag = 0;
         int m = value / 2;

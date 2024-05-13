@@ -10,7 +10,7 @@ public class App {
     public static final Random RAND = new Random(System.currentTimeMillis());
     public static final int[] MONTH_DAYS = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// This is good, very nice
         try {
             System.out.println("Task 1");
             demonstrateUserTask();

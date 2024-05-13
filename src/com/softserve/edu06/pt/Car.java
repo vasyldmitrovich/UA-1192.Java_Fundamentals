@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public abstract class Car {
+public abstract class Car {// This is nice
 
     private String model;
     private int maxSpeed;

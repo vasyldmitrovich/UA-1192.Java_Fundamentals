@@ -7,7 +7,7 @@ public class App {
 
     public static final Scanner SCAN = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Cool, all that is nice very nice
         try {
             System.out.println("Task 1");
             demonstrateArraysTask();

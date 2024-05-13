@@ -19,7 +19,7 @@ public class StringUtils {
         return arr;
     }
 
-    public static void sortBubble(String[] arr) {
+    public static void sortBubble(String[] arr) {// Good
         //by arr.length-1 because i and i+1 elements are compared
         for (int i = 0; i < arr.length - 1; i++) {
             //arr.length - i because each time the biggest element shuffle to the end
