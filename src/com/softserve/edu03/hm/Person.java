@@ -39,6 +39,7 @@ public class Person {
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }
+
     public int getAge() {
         int currentYear = LocalDate.now().getYear();
         return currentYear - birthYear;
@@ -72,7 +73,7 @@ public class Person {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move this method to file App.java not here
         // Create an array to store 5 Person objects
         Person[] people = new Person[5];
 

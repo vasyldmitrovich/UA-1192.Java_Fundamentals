@@ -2,7 +2,7 @@ package com.softserve.edu03.hm;
 
 import java.util.Scanner;
 
-public class hw{
+public class hw{// Name of class should start from uppercase
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class hw{
         int second = getNumber("Input side2:");
         int third = getNumber("Input side3:");
 
-        double halfPer = (first + second + third) / 2.0;
+        double halfPer = (first + second + third) / 2.0;// Why you do not use this variable to print result
 
         double area = calculateTriangleArea(first,second,third);
 
@@ -32,8 +32,8 @@ private static int getNumber(String res) {
 private static double calculateTriangleArea(int a, int b, int c, double halfPer) {
     return Math.sqrt(halfPer * (halfPer - a) * (halfPer - b) * (halfPer - c));
 
-        }
-        public static void SmallestNum (){
+        }// Use reformat code
+        public static void SmallestNum (){// Name of method should start from lowercase
         Scanner scanner=new Scanner(System.in);
 
         System.out.println("Enter first number,second number,third number");
@@ -46,7 +46,7 @@ private static double calculateTriangleArea(int a, int b, int c, double halfPer)
 
     private static int findSmallestNum(int a,int b,int c){
         return Math.min(a, Math.min(b,c));
-    }
+    }// Good
 
 
 

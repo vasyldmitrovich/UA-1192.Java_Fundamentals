@@ -1,7 +1,7 @@
 package com.softserve.edu03.pt;
 
 public class Employee {
-           private String name;
+        private String name;
         private double rate;
         private double hours;
         private double totalSalary; // Added totalSalary field
@@ -17,7 +17,7 @@ public class Employee {
             return rate * hours;
         }
 
-        public static void main(String[] args) {
+        public static void main(String[] args) {// Move to App.java not here
             Employee first = new Employee("Alex", 22, 40);
             Employee second = new Employee("Lise", 25, 35);
             Employee third = new Employee("Mary", 30, 45);
