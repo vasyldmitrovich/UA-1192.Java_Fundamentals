@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw.enums;
 
-public enum HTTPError {
+public enum HTTPError {// Nice very nice
     // Informational responses
     CONTINUE(100, "Continue"),
     SWITCHING_PROTOCOLS(101, "Switching Protocols"),
