@@ -6,7 +6,7 @@ public class App {
 
     public static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good all good
 //       App.task1 ();
 //        App.task2();
 //        App.task3();

@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public enum Breed {
+public enum Breed {// Good
     POODLE("Poodle"),
     SPANIEL("Spaniel"),
     TERRIER("Terrier");
