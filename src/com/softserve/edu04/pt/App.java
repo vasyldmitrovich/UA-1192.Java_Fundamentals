@@ -11,9 +11,11 @@ public class App {
 
     public static void main(String[] args) {
         determineOddNumbers();
-
+        // Add comment what it is a task before each method calling
         dayOfWeek();
+
         countryOfContinent();
+
         createProduct();
     }
 
