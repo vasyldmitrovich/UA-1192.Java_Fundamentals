@@ -6,7 +6,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// In general all is good
         practicalTask1();
         System.out.println("End of the first task");
 
@@ -214,7 +214,7 @@ public class App {
         System.out.println("End of the second subtask");
     }
 
-    public static void findEmployeesThroughDepartment (Employee [] employees) {
+    public static void findEmployeesThroughDepartment (Employee [] employees) {// Too long name of method
         System.out.println("Enter the number of department");
         try {
             int number = sc.nextInt();
