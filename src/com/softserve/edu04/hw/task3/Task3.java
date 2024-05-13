@@ -2,7 +2,7 @@ package com.softserve.edu04.hw.task3;
 import java.util.Scanner;
 
 public class Task3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a number representing an HTTP error");
