@@ -1,15 +1,21 @@
 package com.softserve.edu04.hw;
 
+
 import java.util.Scanner;
 
 public class App {
     public static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println("Homework task1");
         floatCheck();
+        System.out.println("Homework task2");
         defMaxMin();
+        System.out.println("Homework task3");
         httpError();
+        System.out.println("Homework task4");
         facultyInformation();
+        System.out.println("Homework task5");
         dogCompare();
     }
 

@@ -51,6 +51,7 @@ public class App {
     public static void countryOfContinent() {
         Continent continent;
         System.out.println("Enter the country : ");
+        scanner.nextLine();
         String country = (scanner.nextLine()).toLowerCase();
         continent = switch (country) {
             case "ukraine", "spain", "italy", "france" -> Continent.EUROPE;
