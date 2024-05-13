@@ -1,6 +1,8 @@
 # UA-1192.Java_Fundamentals
 > This is repository of Java Core Complete Course group.
 
+### !!!DO NOT CHANGE PACKAGE NAME!!!
+
 ### List of branches
 
 - main - template for new branches;

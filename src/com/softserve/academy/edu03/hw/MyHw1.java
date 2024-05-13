@@ -1,4 +1,4 @@
-package com.softserve.edu02.hw;
+package com.softserve.academy.edu03.hw;
 
 public class MyHw1 {
     public static void myMethod () {
