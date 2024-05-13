@@ -1,6 +1,6 @@
 package com.softserve.edu04.hwork;
 
-public enum HTTPError {
+public enum HTTPError {// Ok
     BAD_REQUEST(400, "Bad Request"),
     UNAUTHORIZED(401, "Unauthorized"),
     PAYMENT_REQUIRED(402, "Payment Required"),

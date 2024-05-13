@@ -1,6 +1,6 @@
 package com.softserve.edu04.ptask;
 
-public class Product {
+public class Product {// Nice
     private String name;
     private double price;
     private int quantity;

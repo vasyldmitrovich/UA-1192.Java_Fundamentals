@@ -3,7 +3,7 @@ package com.softserve.edu04.ptask;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class AppPt {
+public class AppPt {// Nice
     private static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
