@@ -1,4 +1,4 @@
-package com.softserve.edu04;
+package com.softserve.edu04.pt;
 
 public class Dog {// USE CODE REFACTOR  because this code is not readable
     private String name;

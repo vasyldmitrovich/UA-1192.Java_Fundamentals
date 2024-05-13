@@ -1,8 +1,8 @@
-package com.softserve.edu04;
+package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class HW2 {
+public class Hw2 {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
          System.out.println("input number day of week: ");
