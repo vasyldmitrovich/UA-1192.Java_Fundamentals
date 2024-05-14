@@ -17,7 +17,9 @@ public class Car {
         return yearOfProduction;
     }
 
-    static void sort(Car[] cars) {
+    // Add another getters and setters
+
+    static void sort(Car[] cars) {// Move this method to App class
         for (int i = 0; i < cars.length - 1; i++) {
             for (int j = 0; j < cars.length - 1 - i; j++) {
                 if (cars[j].getYearOfProduction() < cars[j + 1].getYearOfProduction()) {

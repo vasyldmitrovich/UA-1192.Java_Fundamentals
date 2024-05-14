@@ -1,6 +1,6 @@
 package com.softserve.edu05.pt;
 
-public class SortingEmployee {
+public class SortingEmployee {// This class with this method is nice
     public static void sortEmployee(Employee[] employees) {
         for (int i = 0; i < employees.length; i++) {
             for (int j = 0; j < employees.length - 1 - i; j++) {

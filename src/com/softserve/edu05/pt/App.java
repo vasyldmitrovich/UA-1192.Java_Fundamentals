@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class App {
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All is good
         System.out.println("Task 1: ");
         task1();
         System.out.println("Task 2: ");
