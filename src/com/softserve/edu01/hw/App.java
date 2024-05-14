@@ -9,22 +9,18 @@ public class App {
         task3();
         scanner.close();
     }
-    // Метод для обчислення периметра і площі кругової грядки
     public static void task1() {
         System.out.println("Enter the radius of the flower bed:");
         double radius = scanner.nextDouble();
         scanner.nextLine();
 
-        // Обчислення периметра і площі кругової грядки
         double perimeter = 2 * Math.PI * radius;
         double area = Math.PI * Math.pow(radius, 2);
 
-        // Виведення результатів на консоль
         System.out.println("The perimeter of the flower bed is: " + perimeter);
         System.out.println("The area of the flower bed is: " + area);
     }
 
-    // Method to read name and address
     public static void task2() {
         System.out.println("Hello. What is your name?");
         String name = scanner.nextLine();
@@ -34,7 +30,6 @@ public class App {
         System.out.println(" You live at " + address);
     }
 
-    // метод для обчислення вартості дзвінків
     public static void task3() {
         System.out.println("Enter the cost per minute for the first call:");
         double c1 = scanner.nextDouble();

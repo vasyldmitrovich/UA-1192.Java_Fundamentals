@@ -11,7 +11,6 @@ public class App {
         task4();
     }
 
-    // Метод для зчитування рядків
     public static void task1() {
         System.out.println("Input first string");
         String first = scanner.nextLine();
