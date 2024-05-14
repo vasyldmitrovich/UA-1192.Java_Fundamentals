@@ -1,7 +1,7 @@
 package com.softserve.edu05.pt;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All tasks is good
         Task51 task51 = new Task51();
         task51.execute();
         System.out.println();

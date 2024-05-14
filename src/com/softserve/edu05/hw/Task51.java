@@ -15,7 +15,7 @@ public class Task51 {
     o calculate the product of all entered even numbers (exclude 0 from even if entered by user).
      */
 
-    public static void execute() {
+    public static void execute() {// Nice
         System.out.println("Subtask 1");
         int month = DaysOfMonth.scanMonth();
         int days = DaysOfMonth.getDays(month);

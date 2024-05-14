@@ -14,7 +14,7 @@ public class CustomScanner {
             return value;
         } catch (InputMismatchException exception){
             System.out.println("Incorrect value");
-            return scanInt();
+            return scanInt();// Good decision
         }
     }
 }

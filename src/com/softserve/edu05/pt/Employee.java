@@ -2,7 +2,7 @@ package com.softserve.edu05.pt;
 
 import java.util.Objects;
 
-public class Employee {
+public class Employee {// Perfect
 
     private String name;
     private int department;
