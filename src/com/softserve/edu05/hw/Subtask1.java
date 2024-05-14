@@ -8,7 +8,7 @@ public class Subtask1 {
 
     Subtask1() {}
 
-    public void start() {
+    public void start() {// Good
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the month number");
         try {

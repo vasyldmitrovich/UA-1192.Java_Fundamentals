@@ -1,6 +1,6 @@
 package com.softserve.edu05.pt;
 
-public class Employee {
+public class Employee {// Good
 
     private String name;
     private int departmentNumber;
