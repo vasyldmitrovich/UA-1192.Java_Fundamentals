@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public class Dog {
+public class Dog {// Nice
 
     private String name;
     private int age;

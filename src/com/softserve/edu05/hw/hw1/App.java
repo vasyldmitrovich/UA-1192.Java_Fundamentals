@@ -9,8 +9,8 @@ public class App {
 
     public static void main(String[] args) {
 
-//        Month.getMonth();
+        Month.getMonth();// Ok
 //        CalculateSumOrProduct.sumOrProduct();
-        ActionWith5Int.actionWith5Int();
+//        ActionWith5Int.actionWith5Int();
     }
 }

@@ -129,7 +129,7 @@ public class App {
 
     }
 
-    private static void task4() {
+    private static void task4() {// Ok
         Employee[] array = {
                 new Employee("Fedor", 1, 250.0),
                 new Employee("Alex", 2, 520.0),
