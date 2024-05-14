@@ -1,12 +1,10 @@
 package com.softserve.edu05.hw;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class NumberUtils {
 
     private static final Scanner SCAN = App.SCAN;// Nice it is nice
-    private static final Random RAND = App.RAND;
 
     public static int getNumber(String prompt) throws NumberFormatException {
         System.out.print(prompt);

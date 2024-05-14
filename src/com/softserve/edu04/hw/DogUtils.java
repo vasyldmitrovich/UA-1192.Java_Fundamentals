@@ -1,6 +1,5 @@
 package com.softserve.edu04.hw;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class DogUtils {

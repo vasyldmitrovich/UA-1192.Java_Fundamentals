@@ -12,7 +12,7 @@ public class Developer extends Employee {
     @Override
     public String report() {
         return String.format("Name: %s, Age: %d, Position: %s, Salary: ₴ %.2f.",
-                name, age, position, salaryInUah);
+                getName(), getAge(), position, getSalaryInUah());
     }
 
     @Override

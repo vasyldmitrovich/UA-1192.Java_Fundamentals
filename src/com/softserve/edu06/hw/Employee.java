@@ -2,14 +2,26 @@ package com.softserve.edu06.hw;
 
 public class Employee {
 
-    protected String name;// You can use private and add getters and setters, but it is god now
-    protected int age;
-    protected double salaryInUah;
+    private String name;
+    private int age;
+    private double salaryInUah;
 
     public Employee(String name, int age, double salaryInUah) {
         this.name = name;
         this.age = age;
         this.salaryInUah = salaryInUah;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getSalaryInUah() {
+        return salaryInUah;
     }
 
     public String report() {
