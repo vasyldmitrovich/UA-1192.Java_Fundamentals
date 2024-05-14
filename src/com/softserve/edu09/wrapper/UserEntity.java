@@ -1,4 +1,4 @@
-package com.softserve.edu08.wrapper;
+package com.softserve.edu09.wrapper;
 
 public class UserEntity implements IEntity {
     public int getId() {

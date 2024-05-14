@@ -1,4 +1,4 @@
-package com.softserve.edu08.wrapper;
+package com.softserve.edu09.wrapper;
 
 import java.io.Serializable;
 
