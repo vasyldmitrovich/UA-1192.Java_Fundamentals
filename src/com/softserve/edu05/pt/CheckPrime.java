@@ -1,7 +1,7 @@
 package com.softserve.edu05.pt;
 
 public class CheckPrime {
-    public static boolean isPrime(int number) {
+    public static boolean isPrime(int number) {// Ok
         if (number < 0) {
             number = -number;
         }

@@ -6,6 +6,8 @@ public class Employee {
     private int departmentNumber;
     private double salary;
 
+    // Add constructor without parameters
+
     public Employee(String name, int departmentNumber, double salary) {
         this.name = name;
         this.departmentNumber = departmentNumber;
@@ -23,6 +25,8 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
+
+    // Add setters and equals and hashCode
 
     @Override
     public String toString() {
