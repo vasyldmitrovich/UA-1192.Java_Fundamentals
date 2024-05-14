@@ -1,4 +1,4 @@
-package com.softserve.edu09.map;
+package com.softserve.edu09_10.map;
 
 public class AppInt {
     public static void main(String[] args) {

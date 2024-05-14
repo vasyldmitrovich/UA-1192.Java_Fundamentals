@@ -1,6 +1,4 @@
-package com.softserve.edu09.wrapper;
-
-import java.io.Serializable;
+package com.softserve.edu09_10.wrapper;
 
 public class BoxGen<T> {
 //public class BoxGen<T extends Serializable> {

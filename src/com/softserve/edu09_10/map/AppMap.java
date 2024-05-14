@@ -1,9 +1,7 @@
-package com.softserve.edu09.map;
+package com.softserve.edu09_10.map;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class AppMap {
 	public static void main(String[] args) {

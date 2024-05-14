@@ -1,6 +1,4 @@
-package com.softserve.edu09.list;
-
-import java.util.*;
+package com.softserve.edu09_10.list;
 
 public class ApplList {
     public static void main(String[] args) {

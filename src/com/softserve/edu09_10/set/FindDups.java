@@ -1,6 +1,4 @@
-package com.softserve.edu09.set;
-
-import java.util.*;
+package com.softserve.edu09_10.set;
 
 public class FindDups {
 	public static void main(String[] args) {

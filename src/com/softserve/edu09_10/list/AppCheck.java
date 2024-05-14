@@ -1,4 +1,4 @@
-package com.softserve.edu09.list;
+package com.softserve.edu09_10.list;
 
 import java.util.Arrays;
 
