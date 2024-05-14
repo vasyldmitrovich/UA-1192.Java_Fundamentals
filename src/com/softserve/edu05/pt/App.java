@@ -207,14 +207,14 @@ public class App {
             count++;
         }
 
-        findEmployeesThroughDepartment(employees);
+        findEmpThroughDep(employees);
         System.out.println("End of the first subtask");
 
         sortBySalary(employees);
         System.out.println("End of the second subtask");
     }
 
-    public static void findEmployeesThroughDepartment (Employee [] employees) {// Too long name of method
+    public static void findEmpThroughDep (Employee [] employees) {// Too long name of method
         System.out.println("Enter the number of department");
         try {
             int number = sc.nextInt();
