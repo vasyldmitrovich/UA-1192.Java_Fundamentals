@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class hw1 {
+public class hw1 {// Rename to Hw1, name of class should start from uppercase
 
     private double first;
     private double second;
@@ -21,7 +21,7 @@ public class hw1 {
         this.third = c;
     }
 
-    public static void inRange() {
+    public static void inRange() {// Move this method to App class
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Input first floating point number:");
@@ -39,7 +39,7 @@ public class hw1 {
         } else System.out.println("***Numbers aren't in range -5:5***");
     }
 
-    public static void maxMinNum() {
+    public static void maxMinNum() {// And this method too
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[3];
         System.out.println("\nEnter 3 numbers to define max and min value: ");

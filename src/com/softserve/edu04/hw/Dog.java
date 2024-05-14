@@ -27,7 +27,7 @@ public class Dog {
         return age;
     }
 
-
+    // Add setters and hashCode
 
     @Override
     public boolean equals(Object o) {

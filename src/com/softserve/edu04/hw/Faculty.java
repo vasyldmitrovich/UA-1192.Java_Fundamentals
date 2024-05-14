@@ -19,7 +19,9 @@ public class Faculty {
         this.studentsQuantity = studentsQuantity;
     }
 
-    public static void getSeason(){
+    // Add getters and setters because you never use this field this is not good
+
+    public static void getSeason(){// This method move to App class
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nInput students quantity, please: ");
         String inputQuantity = scanner.nextLine();
