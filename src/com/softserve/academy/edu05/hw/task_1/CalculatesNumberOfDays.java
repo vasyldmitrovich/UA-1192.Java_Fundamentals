@@ -13,10 +13,21 @@ public class CalculatesNumberOfDays {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a month number: ");
         int month = scanner.nextInt();
+        while (month < 1 || month > 12) {
+            System.out.println("Invalid month number. Please enter a valid month number: ");
+            month = scanner.nextInt();
+        }
+        int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+        int numberOfDays = daysInMonth[month - 1];
+
+        System.out.println("Number of days in month " + month + " is: " + numberOfDays);
+
         scanner.close();
 
 
 
-        return 0;
+
+        return numberOfDays;
     }
 }

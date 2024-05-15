@@ -29,9 +29,9 @@ public class App {
         System.out.println(faculty);
 
 //        5
-        Dog dog1 = new Dog("Dog1", Dog.Breed.BULLDOG, 5);
-        Dog dog2 = new Dog("Dog2", Dog.Breed.BEAGLE, 3);
-        Dog dog3 = new Dog("Dog3", Dog.Breed.POODLE, 7);
+        Dog dog1 = new Dog("Dog1", BreedEnum.BULLDOG, 5);
+        Dog dog2 = new Dog("Dog2", BreedEnum.BEAGLE, 3);
+        Dog dog3 = new Dog("Dog3", BreedEnum.POODLE, 7);
         Dog[] dogs = {dog1, dog2, dog3};
         for (int i = 0; i < dogs.length; i++) {
             for (int j = i + 1; j < dogs.length; j++) {

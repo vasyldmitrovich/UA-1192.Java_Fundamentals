@@ -1,7 +1,6 @@
 package com.softserve.academy.edu05.pt;
 
 import java.util.Arrays;
-import com.softserve.academy.edu05.pt.Pt5;
 
 public class App {
 

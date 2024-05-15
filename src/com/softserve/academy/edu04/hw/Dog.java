@@ -9,10 +9,10 @@ package com.softserve.academy.edu04.hw;
 
 public class Dog {
     private String name;
-    private Breed breed;
+    private BreedEnum breed;
     private int age;
 
-    public Dog(String name, Breed breed, int age) {
+    public Dog(String name, BreedEnum breed, int age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
@@ -22,24 +22,11 @@ public class Dog {
         return name;
     }
 
-    public Breed getBreed() {
+    public BreedEnum getBreed() {
         return breed;
     }
 
     public int getAge() {
         return age;
-    }
-
-    public enum Breed {// Move to file Breed.java
-        BULLDOG,
-        BEAGLE,
-        POODLE,
-        HUSKY,
-        LABRADOR,
-        GOLDEN_RETRIEVER,
-        GERMAN_SHEPHERD,
-        ROTTWEILER,
-        BOXER,
-        DACHSHUND
     }
 }

@@ -1,26 +1,24 @@
 package com.softserve.academy.edu05.hw;
 
-import java.util.Scanner;
+import com.softserve.academy.edu05.hw.task_1.ArrayMaxMin;
+import com.softserve.academy.edu05.hw.task_1.CalculatesNumberOfDays;
+
+import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
 
-    }
+        System.out.println("Task 1");
+        System.out.println(CalculatesNumberOfDays.execute());
+        System.out.println(Arrays.toString(ArrayMaxMin.execute()));
 
-    /**
-     * Create a program (in different java documents) that prompts the user to enter:
+        System.out.println("Task 2");
+        (new HW5()).task2();
 
-     * • 10 integers numbers and calculates the sum of the first five elements if they are
-     * positive, or the product of the last five elements if they are not and output the result.
-     * • 5 integer numbers and find:
-     * o position of second positive number;
-     * o minimum value and its position in the array.
-     * o calculate the product of all entered even numbers (exclude 0 from even if entered by
-     * user).
-     */
-    public int task1() {
+        System.out.println("Task 3");
+        (new HW5()).task3();
 
-        return 0;
+        System.out.println("Task 4");
+        (new HW5()).task4();
     }
 }

@@ -18,6 +18,8 @@ public class Faculty {
     }
 
     // Where is getters and setters?
+    // Response: The assignment does not talk about the need for getters and setters. Where did you get these requirements?
+
 
     @Override
     public String toString() {
