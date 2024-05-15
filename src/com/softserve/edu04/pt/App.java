@@ -1,6 +1,4 @@
-package com.softserve.edu4.pt;
-
-import java.util.Scanner;
+package com.softserve.edu04.pt;
 
 public class App {
 

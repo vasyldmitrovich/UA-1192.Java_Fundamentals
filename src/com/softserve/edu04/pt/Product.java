@@ -1,4 +1,4 @@
-package com.softserve.edu4.pt;
+package com.softserve.edu04.pt;
 
 public class Product {
 

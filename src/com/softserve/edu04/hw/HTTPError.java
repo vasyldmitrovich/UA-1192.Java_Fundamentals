@@ -1,4 +1,4 @@
-package com.softserve.edu4.hw;
+package com.softserve.edu04.hw;
 
 public enum HTTPError {
 
