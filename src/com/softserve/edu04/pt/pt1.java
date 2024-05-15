@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 //pt
 
-public class pt1 {
+public class pt1 {// Name of class should start from uppercase
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

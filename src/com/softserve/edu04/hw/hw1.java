@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 
-public class hw1 {
+public class hw1 {// Name of class should start from uppercase
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args){
