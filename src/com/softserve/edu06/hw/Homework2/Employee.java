@@ -2,7 +2,7 @@ package com.softserve.edu06.hw.Homework2;
 
 public class Employee {
 
-    protected String name;
+    protected String name;// If you do not use this fields in child make this fields private and add getters and setters
     protected int age;
     protected double salary;
 

@@ -1,4 +1,4 @@
-package com.softserve.edu06.hw.Homework1;
+package com.softserve.edu06.hw.Homework1;// Rename package Homework1 to lowercase
 
 public abstract class Bird {
 
