@@ -3,7 +3,7 @@ package com.softserve.edu04.hwork;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class AppHw {
+public class AppHw {// All is good
     private static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
