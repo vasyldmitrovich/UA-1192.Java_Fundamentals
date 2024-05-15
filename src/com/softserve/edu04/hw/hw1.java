@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class hw1 {
+public class hw1 {// Name of class should start from Uppercase
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input three float numbers:");
@@ -21,5 +21,5 @@ public class hw1 {
 
     private static boolean IsFloat(float num) {
         return num >= -5 && num <= 5;
-    }
+    }// Name of method should start from lowercase
 }

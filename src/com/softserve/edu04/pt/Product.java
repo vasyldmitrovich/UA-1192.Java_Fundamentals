@@ -1,7 +1,7 @@
 package com.softserve.edu04.pt;
 
 public class Product {
-    public String name;
+    public String name;// Why fields is public, set private
     public double price;
     public int quantity;
 

@@ -1,13 +1,13 @@
 package com.softserve.edu04.hw;
 
-public enum HTTPError {
+public enum HTTPError {// Good
     Error_400("Bad Request"),
     Error_401("Unauthorized"),
     Error_402("Payment Required"),
     Error_403("Forbidden"),
     Error_404("Not Found");
 
-  public String errorDescription;
+    public String errorDescription;
 
     HTTPError(String errorDescription) {
         this.errorDescription = errorDescription;
