@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class pt4x {
+public class pt4x {// This class should have another name
     private String name;
     private double rate;
     private double hours;
@@ -38,7 +38,7 @@ public class pt4x {
         return totalSum;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java not here
         Scanner scanner = new Scanner(System.in);
 
         pt4x[] employees = new pt4x[3];

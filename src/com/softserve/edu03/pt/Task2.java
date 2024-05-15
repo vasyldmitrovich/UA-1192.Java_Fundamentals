@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class Task2 {
+public class Task2 {// Why class have name Task2, class should have another name
     private String name;
     private double rate;
     private double hours;
@@ -38,7 +38,7 @@ public class Task2 {
         return totalSum;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java file
         Scanner scanner = new Scanner(System.in);
 
         Task2[] employees = new Task2[3];

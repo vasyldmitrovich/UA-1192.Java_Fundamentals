@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class MyHw4 {
+public class MyHw4 {// Why all code in one class, separate to different files
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -122,7 +122,7 @@ public class MyHw4 {
     }
 }
 
-enum Season {
+enum Season {// Move to Season.java file not here
     WINTER("Winter"),
     SPRING("Spring"),
     SUMMER("Summer"),
@@ -139,7 +139,7 @@ enum Season {
     }
 }
 
-class Faculty {
+class Faculty {// the same
     private int numberOfStudents;
     private Season currentSeason;
 

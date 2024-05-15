@@ -2,12 +2,12 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class pt4 {
+public class pt4 {// Name of class should start from Uppercase not lowercase
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        task1(scanner);
+        task1(scanner);// Ok
         task2(scanner);
         task3(scanner);
         scanner.close();
@@ -66,7 +66,7 @@ public class pt4 {
                 return "Invalid day number";
         }
     }
-    enum Continent {
+    enum Continent {// Move to file Continent.java not here
         EUROPE, ASIA, AFRICA, NORTH_AMERICA, SOUTH_AMERICA, AUSTRALIA, ANTARCTICA
     }
 

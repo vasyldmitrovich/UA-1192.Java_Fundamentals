@@ -2,7 +2,7 @@ package com.softserve.edu03.hw;
 import java.util.Scanner;
 
 public class MyHw3Person {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// This main method should not be here
         Scanner scanner = new Scanner(System.in);
 
         Person[] people = new Person[5];

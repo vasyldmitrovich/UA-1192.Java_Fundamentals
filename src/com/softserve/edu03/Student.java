@@ -78,6 +78,6 @@ public class Student { //extends Object {
                 '}';
     }
 }
-class Teacher {
+class Teacher {// Move to file Teacher.java
     public String teacherName = "Mr. Anderson";
 }

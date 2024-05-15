@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MyHw3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);// You do not use this variable why?
 
         task1();
         task2();
