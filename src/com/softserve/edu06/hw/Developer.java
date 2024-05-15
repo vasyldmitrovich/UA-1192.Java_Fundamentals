@@ -2,6 +2,7 @@ package com.softserve.edu06.hw;
 
 public class Developer extends Employee{
     private String position;
+
     public Developer(){
         super();
         position=null;

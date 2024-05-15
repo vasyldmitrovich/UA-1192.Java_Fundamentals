@@ -3,7 +3,7 @@ package com.softserve.edu06.pt;
 import java.util.Arrays;
 
 public class AppPt {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println("************************First practical task************************");
         firstPt();
         System.out.println("************************Second practical task************************");

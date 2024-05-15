@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public class Sedan extends Car {
+public class Sedan extends Car {// Ok
     private int engPower;
     public Sedan(){
 

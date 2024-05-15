@@ -4,6 +4,7 @@ public abstract class Car {
     private String model;
     private int maxSpeed;
     private int yearOfProduction;
+
     public Car(){
 
     }
@@ -18,19 +19,13 @@ public abstract class Car {
         return model;
     }
 
-
-
     public int getMaxSpeed() {
         return maxSpeed;
     }
 
-
-
     public int getYearOfProduction() {
         return yearOfProduction;
     }
-
-
 
     public abstract void run();
     public abstract void stop();

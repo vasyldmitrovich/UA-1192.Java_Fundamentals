@@ -9,6 +9,7 @@ public class Eagle extends FlyingBird{
     public Eagle(boolean feathers,boolean layEggs){
         super(feathers,layEggs);
     }
+
     public void print(){
         System.out.println("I'm eagle.\n" +
                 "I have feathers:"+isFeathers()+"\n" +

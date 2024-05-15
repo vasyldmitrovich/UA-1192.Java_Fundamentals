@@ -3,10 +3,13 @@ package com.softserve.edu06.hw;
 public abstract class Bird {
     private boolean feathers;
     private boolean layEggs;
+
     public abstract void fly();
+
     public abstract void print();
+
     public Bird(){
-        setFeathers(true);
+        setFeathers(true);// you have access to field without using setters, but decision like that can be
         setLayEggs(true);
     }
     public Bird(boolean feathers,boolean layEggs){

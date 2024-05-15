@@ -29,7 +29,7 @@ public class AppHw {
                 new Penguin(false, false),
         };
     }
-    public static void printArr(Bird[]birds){
+    public static void printArr(Bird[]birds){// Nice very nice
         for(int i = 0;i<birds.length;i++){
             birds[i].print();
             birds[i].fly();
