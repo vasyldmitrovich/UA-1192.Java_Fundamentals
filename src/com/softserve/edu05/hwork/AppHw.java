@@ -183,8 +183,3 @@ public class AppHw {
         System.out.println("You guessed the number " + randomNum);
     }
 }
-
-
-
-
-
