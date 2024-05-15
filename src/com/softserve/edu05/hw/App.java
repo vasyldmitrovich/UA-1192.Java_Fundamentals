@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class App {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice this is nice
         System.out.println("Homework task 1");
         task1();
         System.out.println("Homework task 2");
@@ -20,20 +20,20 @@ public class App {
     }
 
     public static void task1() {
-//calculates the number of days in that month based on an array
-//that contains the number of days in each month.
+    //calculates the number of days in that month based on an array
+    //that contains the number of days in each month.
         int month = MonthNumber.getPrompt("Enter number of month: ");
         MonthNumber.getDays(month);
 
-//calculates the sum of the first five elements if they are
-//positive, or the product of the last five elements if they are not and output the result.
+    //calculates the sum of the first five elements if they are
+    //positive, or the product of the last five elements if they are not and output the result.
         TenIntegerNumbers.getPrompt("Enter integer number");
         TenIntegerNumbers.calcElements();
 
-//position of second positive number;
-//minimum value and its position in the array.
-//calculate the product of all entered even numbers (exclude 0 from even if entered by
-//user)
+    //position of second positive number;
+    //minimum value and its position in the array.
+    //calculate the product of all entered even numbers (exclude 0 from even if entered by
+    //user)
         FiveIntegerNumbers.getPrompt("Enter integer number");
         FiveIntegerNumbers.findSecondPos();
         FiveIntegerNumbers.findMinAndPos();

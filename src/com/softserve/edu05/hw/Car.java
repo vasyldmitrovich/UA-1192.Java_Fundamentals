@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Car {
-    public String type;
+    public String type;// Why public ???
     public int yearOfProduction;
     public double engineCapacity;
 

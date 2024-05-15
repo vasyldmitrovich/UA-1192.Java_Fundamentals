@@ -3,8 +3,8 @@ package com.softserve.edu05.pt;
 import java.util.Scanner;
 
 public class Employee {
-    private static final Scanner scanner = new Scanner(System.in);
-    public String name;
+    private static final Scanner scanner = new Scanner(System.in);// Name of final variable from UPPERCASE
+    public String name;// Why public???
     public int departmentNumber;
     public double salary;
 
