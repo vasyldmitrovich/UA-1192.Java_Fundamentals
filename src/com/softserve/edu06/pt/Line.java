@@ -11,8 +11,8 @@ public class Line {
 
 
     public void print() {
-        System.out.println(toString());
-    }
+        System.out.println(this);
+    }// Without using toString() use this
 
     public Point getStart() {
         return start;
