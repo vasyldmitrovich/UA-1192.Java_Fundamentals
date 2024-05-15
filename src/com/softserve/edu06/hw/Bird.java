@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw;
 
-public abstract class Bird {
+public abstract class Bird {// Good all is good
 
     private boolean feathers;
 

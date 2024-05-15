@@ -2,7 +2,11 @@ package com.softserve.edu06.hw;
 
 public class App {
     public static void main(String[] args) {
+
+        // Add println to show that it is Task1
         task1();
+
+        // The same
         task2();
     }
 

@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public class Line {
+public class Line {// Good
 
     private Point start;
 
