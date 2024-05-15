@@ -3,7 +3,7 @@ package com.softserve.edu05.pt;
 import java.util.Arrays;
 import java.util.Random;
 
-public class App {
+public class App {// Ok
     public static void main(String[] args) {
         System.out.println("Start");
 

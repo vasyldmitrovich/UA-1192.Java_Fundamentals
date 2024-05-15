@@ -2,8 +2,8 @@ package com.softserve.edu05.hw;
 
 import java.util.*;
 
-class Car {
-    String type;
+class Car {// Move to file Car.java
+    String type;// Add private access modifier
     int year;
     double engineVolume;
 
@@ -13,12 +13,14 @@ class Car {
         this.engineVolume = engineVolume;
     }
 
+    // Getters and setters equals and hashCode
+
     public String toString() {
         return "Type: " + type + ", Year: " + year + ", Engine Volume: " + engineVolume;
     }
 }
 
-class Main {
+class Main {// Move this logic to App.java file
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
