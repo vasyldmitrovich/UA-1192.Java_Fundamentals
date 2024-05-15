@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.logging.XMLFormatter;
 //hw
 
-public class hw3 {
+public class hw3 {// Name of class should start from uppercase
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class hw3 {
     }
 }
 
-enum HttpError {
+enum HttpError {// Move to HttpError.java file
     INFORMATIONAL, SUCCESS, REDIRECTION, CLIENT_ERROR, SERVER_ERROR;
 
     public static HttpError getHttp (int number){

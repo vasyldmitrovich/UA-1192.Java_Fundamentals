@@ -3,7 +3,7 @@ package com.softserve.edu04.hw;
 import java.util.Scanner;
 
 
-public class hw2 {
+public class hw2 {// Name of class should start from uppercase
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, input 3 integer numbers ");

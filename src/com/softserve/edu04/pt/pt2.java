@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 //pt
 import java.util.Scanner;
 
-public class pt2 {
+public class pt2 {// Name of class should start from uppercase
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Please, enter number of the day of the week");
@@ -16,7 +16,7 @@ public class pt2 {
 
 }
 
-enum DayOfWeek {
+enum DayOfWeek {// Move to DayOfWeek.java file
     MONDAY ("Понеілок", "Monday"),
     TUESDAY ("Вівторок", "Tuesday"),
     WEDNESDAY ("Середа", "Wednesday"),

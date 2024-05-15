@@ -2,7 +2,7 @@ package com.softserve.edu04.pt;
 import java.util.Scanner;
 //pt
 
-enum Continent {
+enum Continent {// Move to Continent.java file
     AFRICA, ASIA, AUSTRALIA, EUROPE, NORTH_AMERICA, SOUTH_AMERICA;
 
     public static Continent getCountry (String country) {
@@ -49,7 +49,7 @@ enum Continent {
             return name();
         }}
 
-        public class pt3 {
+        public class pt3 {// Name of class should start from uppercase
             private static final Scanner scanner = new Scanner(System.in);
 
             public static void main(String[] args) {
