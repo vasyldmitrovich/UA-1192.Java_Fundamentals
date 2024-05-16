@@ -3,10 +3,10 @@ package com.softserve.edu05.pt;
 import java.util.Scanner;
 
 public class Employee {
-    private static final Scanner scanner = new Scanner(System.in);// Name of final variable from UPPERCASE
-    public String name;// Why public???
-    public int departmentNumber;
-    public double salary;
+    private static final Scanner SCANNER = new Scanner(System.in);// Name of final variable from UPPERCASE
+    private String name;// Why public???
+    private int departmentNumber;
+    private double salary;
 
     public Employee(String name, int departmentNumber, double salary) {
         this.name = name;
@@ -28,6 +28,6 @@ public class Employee {
 
     public static int getNumber(String prompt) {
         System.out.println(prompt);
-        return scanner.nextInt();
+        return SCANNER.nextInt();
     }
 }

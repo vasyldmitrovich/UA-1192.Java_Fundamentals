@@ -4,11 +4,11 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Car {
-    public String type;// Why public ???
-    public int yearOfProduction;
-    public double engineCapacity;
+    private String type;// Why public ???
+    private int yearOfProduction;
+    private double engineCapacity;
 
-    private static final Scanner scanner = new Scanner(System.in);
+    private static final Scanner SCANNER = new Scanner(System.in);
 
     public Car(String type, int yearOfProduction, double engineCapacity) {
         this.type = type;
@@ -22,7 +22,7 @@ public class Car {
 
     public static int getInfo(String prompt) {
         System.out.println(prompt);
-        return scanner.nextInt();
+        return SCANNER.nextInt();
     }
 
     @Override
