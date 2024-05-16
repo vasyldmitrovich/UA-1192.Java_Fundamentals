@@ -6,7 +6,6 @@ public class Employee {
     private double salary;
 
 
-
     public Employee(){
         name=null;
         age=0;

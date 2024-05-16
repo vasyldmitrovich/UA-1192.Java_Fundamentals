@@ -6,8 +6,8 @@ public class AppHw {
         hwOne();
         System.out.println("Second homework");
         hwTwo();
-
     }
+
     public static void hwOne(){
         Bird [] birds = addBirds();
         printArr(birds);

@@ -9,8 +9,8 @@ public abstract class Bird {
     public abstract void print();
 
     public Bird(){
-        setFeathers(true);// you have access to field without using setters, but decision like that can be
-        setLayEggs(true);
+        feathers=true;
+        layEggs=true;
     }
     public Bird(boolean feathers,boolean layEggs){
         this.feathers=feathers;
