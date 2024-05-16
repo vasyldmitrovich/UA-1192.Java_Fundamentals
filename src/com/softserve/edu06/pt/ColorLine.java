@@ -9,7 +9,7 @@ public class ColorLine extends Line{
     }
     public void print() {
         System.out.println(toString());
-    }
+    }// The same use this
     @Override
     public String toString() {
         return "Color line starts at " + getStart() + ", ends at " + getEnd()

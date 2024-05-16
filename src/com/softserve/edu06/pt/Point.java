@@ -1,6 +1,6 @@
 package com.softserve.edu06.pt;
 
-public class Point {
+public class Point {// Ok
     private int x, y;
 
     public Point(int x, int y) {

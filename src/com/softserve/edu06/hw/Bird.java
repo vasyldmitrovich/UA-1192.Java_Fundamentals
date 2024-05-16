@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw;
 
-public abstract class Bird {
+public abstract class Bird {// Nice all nice
     private String feathers;
     private boolean layEggs;
 
