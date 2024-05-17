@@ -11,7 +11,7 @@ public class App {
     }
 
 
-public static void task1(){
+    public static void task1() {
         Car[] arr = {
                 new Sedan("Focus", 250, 2022),
                 new Truck("Man95", 180, 2005),
@@ -23,10 +23,9 @@ public static void task1(){
         }
     }
 
-    public static void task2(){
+    public static void task2() {
 
         Line[] arr = {
-                new Line(),
                 new Line(
                         new Point(5, 20),
                         new Point(15, 30)
