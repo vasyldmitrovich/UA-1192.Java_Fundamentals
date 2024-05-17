@@ -2,7 +2,7 @@ package com.softserve.edu07.pt;
 
 public class Cleaner extends Staff {
 
-    private final String TYPE_PERSON = this.getName();
+    private final String TYPE_PERSON = "Cleaner";
 
     public Cleaner() {
         System.out.println(this.TYPE_PERSON);

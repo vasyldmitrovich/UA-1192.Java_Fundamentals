@@ -2,7 +2,11 @@ package com.softserve.edu07.pt;
 
 public class App {
     public static void main(String[] args) {
+
+        System.out.println("Demonstrate task 1");
         task1();
+
+        System.out.println("Demonstrate task 2");
         task2();
     }
 
@@ -35,7 +39,6 @@ public class App {
             if (person instanceof Teacher || person instanceof Cleaner) {
                 ((Staff) person).salary();
             }
-            System.out.println();
         }
     }
 }
