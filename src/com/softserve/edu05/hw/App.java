@@ -18,17 +18,21 @@ public class App {
         Task3();
     }
 
-    public static void Task3() {
-        class Car {
-            String type;
+    public static void Task3() {// name of method should start from lowercase
+        class Car {// Move to file Car.java
+            String type;// Make fields private
             int year;
             double engineVolume;
+
+            // Add constructor without parameters
 
             public Car(String type, int year, double engineVolume) {
                 this.type = type;
                 this.year = year;
                 this.engineVolume = engineVolume;
             }
+
+            // Getters and setters equals and hashCode
 
             public String toString() {
                 return "Type: " + type + ", Year: " + year + ", Engine Volume: " + engineVolume;
