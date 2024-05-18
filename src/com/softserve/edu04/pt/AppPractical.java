@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class AppPractical {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice to see code like that, all good
         //pt1
         checkOddNumbers();
         System.out.println("---------------------------------------");

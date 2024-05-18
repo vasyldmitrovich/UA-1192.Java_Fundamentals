@@ -2,7 +2,7 @@ package com.softserve.edu04.hw.entity;
 
 import com.softserve.edu04.hw.enums.Breed;
 
-public class Dog {
+public class Dog {// Good
     private String name;
     private Breed breed;
     private int age;
