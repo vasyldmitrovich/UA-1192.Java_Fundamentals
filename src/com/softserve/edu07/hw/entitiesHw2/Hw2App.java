@@ -2,6 +2,9 @@ package com.softserve.edu07.hw.entitiesHw2;
 
 public class Hw2App {
     public static void main(String[] args) {
+        hw1();
+    }
+    public static void hw1(){
         Passengers [] passengers = {
                 new Liner(2000,3),
                 new Boat(10,5),
@@ -13,19 +16,26 @@ public class Hw2App {
         };
         for (var Passengers:passengers) {
             if(Passengers instanceof WaterVehicle waterVehicle){
-                waterVehicle.isSailing();
-                System.out.println("************************************");
-            }
-            if(Passengers instanceof FlyingVehicle flyingVehicle){
-                flyingVehicle.fly();
-                flyingVehicle.land();
-                System.out.println("************************************");
-
-            }
-            if(Passengers instanceof  GroundVehicle groundVehicle){
-                groundVehicle.drive();
-                System.out.println("************************************");
+                waterShow(waterVehicle);
+            }else if(Passengers instanceof FlyingVehicle flyingVehicle){
+                flyingShow(flyingVehicle);
+            }else if(Passengers instanceof  GroundVehicle groundVehicle){
+                groundShow(groundVehicle);
             }
         }
+    }
+
+    public static void waterShow(WaterVehicle waterVehicle){
+        waterVehicle.isSailing();
+        System.out.println("************************************");
+    }
+    public static void flyingShow(FlyingVehicle flyingVehicle){
+        flyingVehicle.fly();
+        flyingVehicle.land();
+        System.out.println("************************************");
+    }
+    public static void groundShow(GroundVehicle groundVehicle){
+        groundVehicle.drive();
+        System.out.println("************************************");
     }
 }
