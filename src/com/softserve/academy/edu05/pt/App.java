@@ -19,6 +19,4 @@ public class App {
 
         Pt5.task6();
     }
-
-
 }
