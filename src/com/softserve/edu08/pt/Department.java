@@ -30,7 +30,9 @@ public class Department implements Cloneable {
     @Override
     public Department clone() {
         try {
-            return (Department) super.clone();
+            Department department = (Department) super.clone();
+            department.address = department.address.clone();
+            return department;
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
