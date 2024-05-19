@@ -36,7 +36,7 @@ public class AppStud {
 
 		//
 		//Arrays.sort(students);
-		//Arrays.sort(students, new Student.ByDestName());
+		Arrays.sort(students, new Student.ByDestName());
 		//Arrays.sort(students, new Student().new ByAge());
 		//Arrays.sort(students, new Student.ByNameAndAge());
 		//Arrays.sort(students, new Student.ByNameAndAge());

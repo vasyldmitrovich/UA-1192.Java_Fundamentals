@@ -1,15 +1,15 @@
 package com.softserve.edu05.test;
 
 import com.softserve.edu05.hw.hw1.ActionWith5Int;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 
-class ActionWith5IntTest {
+public class ActionWith5IntTest {
 
     @Test
-    void SecondPositivNumInArrIs4() {
+    public void SecondPositivNumInArrIs4() {
         int[] arr = {-5,9,-3,-4,6};
         int result = ActionWith5Int.getPositionSecondPositivNumInArr(arr);
         int expected = 4;
@@ -17,7 +17,7 @@ class ActionWith5IntTest {
     }
 
     @Test
-    void minInArrayIs5() {
+    public void minInArrayIs5() {
         int[] arr = {-5,9,-3,-4,6};
         int result = ActionWith5Int.getMin(arr);
         int expected = -5;
@@ -25,7 +25,7 @@ class ActionWith5IntTest {
     }
 
     @Test
-    void indexMinIs0() {
+    public void indexMinIs0() {
         int[] arr = {-5,9,-3,-4,6};
         int result = ActionWith5Int.getIndexMin(arr);
         int expected = 0;
@@ -33,7 +33,7 @@ class ActionWith5IntTest {
     }
 
     @Test
-    void getProductEvenNum() {
+    public void getProductEvenNum() {
         int[] arr = {-5,9,-3,-4,6};
         int result = ActionWith5Int.getProductEvenNum(arr);
         int expected = -24;
