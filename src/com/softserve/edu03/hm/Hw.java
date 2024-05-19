@@ -2,7 +2,7 @@ package com.softserve.edu03.hm;
 
 import java.util.Scanner;
 
-public class hw{// Name of class should start from uppercase
+public class Hw {// Name of class should start from uppercase
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class hw{// Name of class should start from uppercase
         double area = calculateTriangleArea(first,second,third);
 
         System.out.println("Area of the triangle is: " + area);
-        SmallestNum();
+        smallestNum();
     }
 private static int getNumber(String res) {
     System.out.println(res);
@@ -33,7 +33,7 @@ private static double calculateTriangleArea(int a, int b, int c, double halfPer)
     return Math.sqrt(halfPer * (halfPer - a) * (halfPer - b) * (halfPer - c));
 
         }// Use reformat code
-        public static void SmallestNum (){// Name of method should start from lowercase
+        public static void smallestNum (){// Name of method should start from lowercase
         Scanner scanner=new Scanner(System.in);
 
         System.out.println("Enter first number,second number,third number");

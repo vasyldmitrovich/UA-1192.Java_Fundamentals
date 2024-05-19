@@ -2,7 +2,7 @@ package com.softserve.edu03.pt;
 
 import java.util.Scanner;
 
-public class pt1 {// Name of class should start from Uppercase
+public class Pt1 {// Name of class should start from Uppercase
     public static void main(String[] args) {
         int first = getNumber("Enter the first number: ");
         int second = getNumber("Enter the second number: ");
