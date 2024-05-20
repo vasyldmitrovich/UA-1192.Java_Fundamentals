@@ -1,5 +1,8 @@
 package com.softserve.edu05.hw;
 
+import java.util.Arrays;
+import java.util.Objects;
+
 public class Car {
     private String type;
     private int yearOfProduction;
@@ -35,7 +38,7 @@ public class Car {
         carsSort(cars);
     }
 
-    public static void carsSort(Car[] cars) {
+    public static Car[] carsSort(Car[] cars) {
         for (int i = 0; i < cars.length - 1; i++) {
             for (int j = 0; j < cars.length - 1 - i; j++) {
                 if (cars[j].getYearOfProduction() < cars[j + 1].getYearOfProduction()) {
@@ -48,6 +51,7 @@ public class Car {
         for (var car : cars) {
             System.out.println(car);
         }
+        return cars;
     }
 
     @Override
@@ -57,5 +61,28 @@ public class Car {
                 ", yearOfProduction=" + yearOfProduction +
                 ", engineCapacity=" + engineCapacity +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Car car = (Car) o;
+
+        if (yearOfProduction != car.yearOfProduction) return false;
+        if (Double.compare(engineCapacity, car.engineCapacity) != 0) return false;
+        return Objects.equals(type, car.type);
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        result = type != null ? type.hashCode() : 0;
+        result = 31 * result + yearOfProduction;
+        temp = Double.doubleToLongBits(engineCapacity);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 }

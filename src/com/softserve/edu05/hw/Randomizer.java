@@ -8,7 +8,7 @@ public class Randomizer {
         int counter = 0;
         Random rnd = new Random();
         int guessTheNum = rnd.nextInt(0, 101);
-        System.out.println("=".repeat(20) + "Try to guess the number!" + "=".repeat(20));
+        System.out.println("\n" + "=".repeat(20) + "Try to guess the number!" + "=".repeat(20));
         do {
             System.out.println("Input your number: ");
             counter++;
