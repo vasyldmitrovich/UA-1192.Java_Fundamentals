@@ -52,7 +52,7 @@ public class AppPractical {
     }
 
 
-    private static void checkPrimeNumber() {
+    public static void checkPrimeNumber() {
         int checkValue = ScannerUtils.getValue("Input positive integer to check", Integer.class);
         System.out.printf("Is number %s is prime - ", checkValue, isPrime(checkValue));
         System.out.println();

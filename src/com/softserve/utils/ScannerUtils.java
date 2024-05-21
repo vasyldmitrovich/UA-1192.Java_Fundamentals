@@ -24,7 +24,9 @@ private static final Scanner scanner = new Scanner(System.in);
             scanner.nextLine(); // Очистка буфера
             return type.cast(value);
         } else if (type == String.class) {
-            return type.cast(scanner.nextLine());
+            return type.cast(scanner.next());
+        } else if (type == Boolean.class){
+            return type.cast(scanner.nextBoolean());
         } else {
             throw new IllegalArgumentException("Unsupported type.");
         }
