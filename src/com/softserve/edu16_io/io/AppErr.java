@@ -1,4 +1,4 @@
-package com.softserve.edu15_thread.io;
+package com.softserve.edu16_io.io;
 
 public class AppErr {
 
