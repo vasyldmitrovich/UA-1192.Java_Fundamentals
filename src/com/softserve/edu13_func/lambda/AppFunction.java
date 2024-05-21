@@ -1,4 +1,4 @@
-package com.softserve.edu13_14_func.lambda;
+package com.softserve.edu13_func.lambda;
 
 import java.util.Arrays;
 import java.util.List;
