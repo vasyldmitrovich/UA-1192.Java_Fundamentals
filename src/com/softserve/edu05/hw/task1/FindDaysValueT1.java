@@ -4,14 +4,23 @@ import com.softserve.utils.ScannerUtils;
 
 
 public class FindDaysValueT1 {
-    public static void main(String[] args) {
+    public static int getDaysInMonth(int monthNumber) {
         int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        Integer monthNumber = ScannerUtils.getValue("Enter month number", Integer.class);
 
         if (monthNumber < 1 || monthNumber > 12) {
-            System.out.println("Invalid month number.");
+            throw new IllegalArgumentException("Invalid month number.");
         } else {
-            System.out.println("Number of days: " + daysInMonth[monthNumber - 1]);
+            return daysInMonth[monthNumber - 1];
+        }
+    }
+
+    public static void main(String[] args) {
+        Integer monthNumber = ScannerUtils.getValue("Enter month number", Integer.class);
+
+        try {
+            System.out.println("Number of days: " + getDaysInMonth(monthNumber));
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
