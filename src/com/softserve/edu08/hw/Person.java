@@ -11,8 +11,8 @@ public abstract class Person {
         return fullName;
     }
 
-    public void setFullName(FullName fullName) {
-        this.fullName = fullName;
+    public void setFullName(String firstName, String lastName) {
+        this.fullName = new FullName(firstName,lastName);
     }
 
     public int getAge() {

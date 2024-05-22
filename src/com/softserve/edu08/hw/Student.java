@@ -6,6 +6,9 @@ public class Student extends Person implements Cloneable {
     private int course;
 
     public Student() {
+        super.setFullName("null","null");
+        super.setAge(0);
+        setCourse(0);
     }
 
     public Student(String firstName, String lastName, int age, int course) {
