@@ -11,7 +11,7 @@ public class App {
         practicalTask1();
         practicalTask2();
         practicalTask3();
-        Employee.createEmployee();
+        createEmployee();
     }
 
     public static void practicalTask1() {
@@ -138,6 +138,50 @@ public class App {
         } else if (quantPosNums < quantNegNums) {
             System.out.println("There are more negative values in the array");
         } else System.out.println("There are an equal number of positive and negative values in the array");
+    }
+
+    public static void createEmployee() {
+        Employee[] employees = {
+                new Employee("Jenifer", 3, 12000),
+                new Employee("Mike", 1, 11000),
+                new Employee("Jack", 2, 13000),
+                new Employee("Bob", 3, 12000),
+                new Employee("Sarah", 1, 11000),
+        };
+        findDepNum(employees);
+        System.out.println("-".repeat(40) + "EMPLOYEE SORTING" +  "-".repeat(40));
+        employeeSort(employees);
+        for (var employee : employees) {
+            System.out.println(employee);
+        }
+    }
+
+    public static void findDepNum(Employee[] employees) {
+        System.out.print("\nInput department number: ");
+        boolean found = false;
+        int number = App.SCANNER.nextInt();
+        System.out.println("=".repeat(80));
+        for (var employee : employees) {
+            if (employee.getDepartmentNumber() == number) {
+                System.out.println(employee);
+                found = true;
+            }
+        }
+        if (!found) {
+            System.out.printf("Department with number %d not found", number);
+        }System.out.println("=".repeat(80));
+    }
+
+    public static void employeeSort(Employee[] employees) {
+        for (int i = 0; i < employees.length - 1; i++) {
+            for (int j = 0; j < employees.length - 1 - i; j++) {
+                if (employees[j].getSalary() < employees[j + 1].getSalary()) {
+                    var swap = employees[j];
+                    employees[j] = employees[j + 1];
+                    employees[j + 1] = swap;
+                }
+            }
+        }
     }
 
 

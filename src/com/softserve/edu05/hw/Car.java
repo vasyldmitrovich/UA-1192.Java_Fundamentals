@@ -21,7 +21,7 @@ public class Car {
         return yearOfProduction;
     }
 
-    public static void hw3Cars(Car[] cars) {// Move this and next method to class App
+    public static void hw3Cars(Car[] cars) {
         System.out.println("Enter car's year of production: ");
         boolean found = false;
         int input = Hw1_1.getNumber();
