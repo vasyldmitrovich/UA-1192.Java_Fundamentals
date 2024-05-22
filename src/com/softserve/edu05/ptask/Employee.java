@@ -4,7 +4,7 @@ public class Employee {
         private String name;
         private int departmentNumber;
         private double salary;
-
+// To match spaces, should be 4 spaces
         public Employee(String name, int departmentNumber, double salary) {
             this.name = name;
             this.departmentNumber = departmentNumber;
