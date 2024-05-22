@@ -2,8 +2,8 @@ package com.softserve.edu06.pt.auto;
 
 public abstract class Car {
 
-    private final String MODEL;
-    private final int MAX_SPEED, YEAR_OF_PRODUCTION;
+    private String model;
+    private int maxSpeed, yearOfProduction;
 
 
     private static void run() {
@@ -13,13 +13,13 @@ public abstract class Car {
     }
 
     protected Car(String model, int maxSpeed, int yearOfProduction) {
-        this.MODEL = model;
-        this.MAX_SPEED = maxSpeed;
-        this.YEAR_OF_PRODUCTION = yearOfProduction;
+        this.model = model;
+        this.maxSpeed = maxSpeed;
+        this.yearOfProduction = yearOfProduction;
     }
 
     @Override
     public String toString() {
-        return MODEL + " have maxSpeed: " + MAX_SPEED + " and year of production is: " + YEAR_OF_PRODUCTION + ";";
+        return model + " have maxSpeed: " + maxSpeed + " and year of production is: " + yearOfProduction + ";";
     }
 }
