@@ -1,13 +1,15 @@
 package com.softserve.edu07.pt;
 
-public abstract class Person {// Why you lose spaces bet-wine methods
+public abstract class Person {
     private String name;
 
-    public Person(String name){
-        this.name=name;
+    public Person(String name) {
+        this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
+
     public abstract void print();
 }
