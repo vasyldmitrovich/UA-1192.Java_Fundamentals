@@ -27,17 +27,18 @@ public class Hw1App {
     public static Employee[] arrSort(Employee[] employees) {
 
         Arrays.sort(employees, (a, b) -> {
-            double payA = ((Payment) a).calculatePay();
-            double payB = ((Payment) b).calculatePay();
+            double payA = a.calculatePay();
+            double payB = b.calculatePay();
             return Double.compare(payB, payA);
         });
         return employees;
     }
-    public static void showEmployee(Employee[]employees){
+
+    public static void showEmployee(Employee[] employees) {
         for (Employee employee : employees) {
             System.out.println("Employee " + employee.getName() +
                     " with identification " + employee.getEmployeeId() +
-                    "\nHave salary:" + ((Payment) employee).calculatePay());
+                    "\nHave salary:" + employee.calculatePay());
         }
     }
 }
