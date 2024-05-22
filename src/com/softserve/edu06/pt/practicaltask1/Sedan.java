@@ -1,6 +1,4 @@
-package com.softserve.edu06.pt.PracticalTask1;
-
-import com.softserve.edu06.pt.PracticalTask1.Car;
+package com.softserve.edu06.pt.practicaltask1;
 
 public class Sedan extends Car {
 

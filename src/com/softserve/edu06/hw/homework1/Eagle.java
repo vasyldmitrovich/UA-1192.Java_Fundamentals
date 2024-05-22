@@ -1,4 +1,4 @@
-package com.softserve.edu06.hw.Homework1;
+package com.softserve.edu06.hw.homework1;
 
 public class Eagle extends FlyingBird{
 

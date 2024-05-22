@@ -1,8 +1,8 @@
 package com.softserve.edu06.hw;
 
-import com.softserve.edu06.hw.Homework1.*;
-import com.softserve.edu06.hw.Homework2.Developer;
-import com.softserve.edu06.hw.Homework2.Employee;
+import com.softserve.edu06.hw.homework1.*;
+import com.softserve.edu06.hw.homework2.Developer;
+import com.softserve.edu06.hw.homework2.Employee;
 
 public class App {
 

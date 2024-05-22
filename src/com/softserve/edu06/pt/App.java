@@ -1,11 +1,11 @@
 package com.softserve.edu06.pt;
 
-import com.softserve.edu06.pt.PracticalTask1.Car;
-import com.softserve.edu06.pt.PracticalTask1.Sedan;
-import com.softserve.edu06.pt.PracticalTask1.Truck;
-import com.softserve.edu06.pt.PracticalTask2.ColorLine;
-import com.softserve.edu06.pt.PracticalTask2.Line;
-import com.softserve.edu06.pt.PracticalTask2.Point;
+import com.softserve.edu06.pt.practicaltask1.Car;
+import com.softserve.edu06.pt.practicaltask1.Sedan;
+import com.softserve.edu06.pt.practicaltask1.Truck;
+import com.softserve.edu06.pt.practicaltask2.ColorLine;
+import com.softserve.edu06.pt.practicaltask2.Line;
+import com.softserve.edu06.pt.practicaltask2.Point;
 
 import java.util.Arrays;
 import java.util.Scanner;

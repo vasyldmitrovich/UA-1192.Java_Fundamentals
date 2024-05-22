@@ -1,4 +1,4 @@
-package com.softserve.edu06.hw.Homework2;
+package com.softserve.edu06.hw.homework2;
 
 public class Developer extends Employee{
 

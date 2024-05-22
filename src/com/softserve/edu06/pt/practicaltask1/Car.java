@@ -1,4 +1,4 @@
-package com.softserve.edu06.pt.PracticalTask1;// Rename package to lowercase
+package com.softserve.edu06.pt.practicaltask1;// Rename package to lowercase
 
 public abstract class Car {
 

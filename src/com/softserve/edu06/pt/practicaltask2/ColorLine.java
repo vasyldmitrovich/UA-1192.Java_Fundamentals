@@ -1,4 +1,4 @@
-package com.softserve.edu06.pt.PracticalTask2;
+package com.softserve.edu06.pt.practicaltask2;
 
 public class ColorLine extends Line{
 
