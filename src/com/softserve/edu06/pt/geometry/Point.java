@@ -1,18 +1,32 @@
 package com.softserve.edu06.pt.geometry;
 
 public class Point {
-    private final int X, Y;
+    private int x, y;
 
     public Point(int x, int y) {
-        this.X = x;
-        this.Y = y;
+        this.x = x;
+        this.y = y;
     }
 
-    // Add getters and setters
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 
     @Override
     public String toString() {
-        return "Point (" + X + ", " + Y + ")";
+        return "Point (" + x + ", " + y + ")";
     }
 
 }

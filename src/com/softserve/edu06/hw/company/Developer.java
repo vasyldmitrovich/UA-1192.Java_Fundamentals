@@ -11,6 +11,6 @@ public class Developer extends Employee {
 
     @Override
     public String report() {
-        return "Name: " + getNAME() + ", Age: " + getAGE() + ", Position: " + POSITION + ", Salary: " + getSALARY();
+        return "Name: " + getName() + ", Age: " + getAge() + ", Position: " + POSITION + ", Salary: " + getSalary();
     }
 }

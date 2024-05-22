@@ -1,30 +1,30 @@
 package com.softserve.edu06.hw.company;
 
-public class Employee {// And this class could be abstract
-    private final String NAME;// Why all fields is final?
-    private final int AGE;
-    private final double SALARY;
+public abstract class Employee {// And this class could be abstract
+    private String name;// Why all fields is final?
+    private int age;
+    private double salary;
 
     public Employee(String name, int age, double salary) {
-        this.NAME = name;
-        this.AGE = age;
-        this.SALARY = salary;
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
     }
 
-    protected String getNAME() {
-        return NAME;
+    protected String getName() {
+        return name;
     }
 
-    protected int getAGE() {
-        return AGE;
+    protected int getAge() {
+        return age;
     }
 
-    protected double getSALARY() {
-        return SALARY;
+    protected double getSalary() {
+        return salary;
     }
 
     public String report() {
-        return String.format("Name: %s, Age: %d,"+
-                "Salary: \u20b4 %.2f.", NAME, AGE, SALARY);
+        return String.format("Name: %s, Age: %d," +
+                "Salary: \u20b4 %.2f.", name, age, salary);
     }
 }
