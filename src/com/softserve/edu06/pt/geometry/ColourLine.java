@@ -2,7 +2,7 @@ package com.softserve.edu06.pt.geometry;
 
 public class ColourLine extends Line {
 
-    private final String COLOUR;
+    private final String COLOUR;// The same
 
     public ColourLine(Point point1, Point point2, String colour) {
         super(point1, point2);

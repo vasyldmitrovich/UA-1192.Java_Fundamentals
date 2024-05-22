@@ -8,6 +8,8 @@ public class Point {
         this.Y = y;
     }
 
+    // Add getters and setters
+
     @Override
     public String toString() {
         return "Point (" + X + ", " + Y + ")";

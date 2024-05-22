@@ -4,7 +4,7 @@ import com.softserve.edu06.hw.bird.*;
 import com.softserve.edu06.hw.company.Developer;
 import com.softserve.edu06.hw.company.Employee;
 
-public class HomeWorkTask {
+public class HomeWorkTask {// Good it is nice
 
     public void task1() {
         Bird[] birdArr = {

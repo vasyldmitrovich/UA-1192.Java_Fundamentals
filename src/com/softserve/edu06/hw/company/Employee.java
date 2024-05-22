@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw.company;
 
-public class Employee {
-    private final String NAME;
+public class Employee {// And this class could be abstract
+    private final String NAME;// Why all fields is final?
     private final int AGE;
     private final double SALARY;
 
