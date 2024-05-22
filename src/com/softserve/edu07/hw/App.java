@@ -16,7 +16,9 @@ public class App {
 
     public static void main(String[] args) {
         homework1();
+        System.out.println("End of first homework");
         homework2();
+        System.out.println("End of second homework");
     }
 
     public static void homework1() {
@@ -59,9 +61,6 @@ public class App {
 
         sortByMonthWage(employees);
         System.out.println(Arrays.toString(employees));
-        for (Employee item: employees) {
-            System.out.println(((Payment) item).calculatePay());
-        }
     }
 
     public static void sortByMonthWage (Employee [] employees) {

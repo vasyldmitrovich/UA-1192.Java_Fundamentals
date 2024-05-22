@@ -13,8 +13,10 @@ public class App {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        practicalTask1();
+        practicalTask1();
+        System.out.println("End of first practical task");
         practicalTask2();
+        System.out.println("End of second practical task");
     }
 
     public static void practicalTask1 () {
