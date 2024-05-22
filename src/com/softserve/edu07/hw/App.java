@@ -15,7 +15,7 @@ public class App {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        homework1();
+        homework1();
         homework2();
     }
 
