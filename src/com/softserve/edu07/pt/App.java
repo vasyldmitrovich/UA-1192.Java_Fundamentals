@@ -13,7 +13,7 @@ public class App {
     private static final String[] FOOD = {"meat", "apple", "chicken", "tomato", "fish", "milk"};
     private static final String[] NAMES = {"Nick", "Rosaline", "Mike", "Shone", "Elizabeth"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println("Task 1");
         demonstrateAnimalTask();
         System.out.println();

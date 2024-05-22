@@ -18,7 +18,7 @@ public class App {
 
     private static final double FIXED_HOURLY_SALARY = 200;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println("Task 1");
         demonstrateEmployeeTask();
         System.out.println();

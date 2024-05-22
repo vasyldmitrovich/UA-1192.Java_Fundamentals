@@ -3,7 +3,7 @@ package com.softserve.edu07.pt.animal;
 public class Cat implements Animal {
 
     //migrate to abstract Animal
-    String name;
+    String name;// make access modifier Private
 
     public Cat(String name) {
         this.name = name;

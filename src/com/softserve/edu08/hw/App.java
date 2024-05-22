@@ -2,7 +2,7 @@ package com.softserve.edu08.hw;
 
 import java.util.Random;
 
-public class App {
+public class App {// Nice
 
     private static final Random RAND = new Random(System.currentTimeMillis());
     private static final String[] FIRST_NAMES = {"James", "Henry", "Emma", "William", "Evelyn"};

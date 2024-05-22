@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.employee;
 
-public abstract class Employee implements Payment, Comparable<Employee> {
+public abstract class Employee implements Payment, Comparable<Employee> {// Ok
 
     public static final int WORKING_HOURS_PER_DAY = 8;
 
