@@ -11,12 +11,14 @@ public class Calc {
 		int sum = 0;
 		while (number != 0) {
 			sum = sum + number % 10;
+//			number = number - 1; // Defect.
 			number = Math.abs(number / 10); // Defect.
 		}
 		try {
 			number = 1 / number;
 		} catch (Exception e) {
 		}
+//		System.out.println("Sum is: " + sum);
 		return sum;
 	}
 
