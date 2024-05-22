@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AppEnum {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice this is nice
         hw1();
         hw2();
         hw3();

@@ -2,7 +2,7 @@ package com.softserve.edu04.HW.pt;
 
 
 class Product {
-    String name;
+    String name;// Why default? make all fields private and add setters
     double price;
     int quantity;
 
@@ -18,6 +18,7 @@ class Product {
         return name;
     }
     // Setter for name
+    // I do not see setter, where he is?
     public double getPrice(){
         return price;
     }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Faculty {
 
     private int numberOfStudents;
-    private Faculty currentSeason;
+    private Faculty currentSeason;// Why you use something like this?
 
     public Faculty(int numberOfStudents,Faculty currentSeason) {
         this.numberOfStudents=numberOfStudents;

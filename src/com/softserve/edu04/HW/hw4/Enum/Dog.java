@@ -29,7 +29,7 @@ public class Dog {
     public void setAge(int age){
         this.age=age;
     }
-    public enum Breed {
+    public enum Breed {// Move to file Breed.java not here
         LABRADOR,
         PUG,
         BULLDOG

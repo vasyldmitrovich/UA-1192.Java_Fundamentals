@@ -1,6 +1,6 @@
 package com.softserve.edu04.HW.hw4.Enum;
 
-public enum HTTPError {
+public enum HTTPError {// This is nice
         BAD_REQUEST(400, "Bad Request"),
         UNAUTHORIZED(401, "Unauthorized"),
         PAYMENT_REQUIRED(402, "Payment Required"),
