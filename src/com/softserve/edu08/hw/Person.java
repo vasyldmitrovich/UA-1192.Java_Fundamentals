@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public abstract class Person {
+public abstract class Person implements Cloneable{
     private FullName fullName;
     private int age;
 
