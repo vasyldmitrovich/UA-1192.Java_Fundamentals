@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 public class AppHomework {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// You can call task1 here too
         task2();
 
         List<Car> carList = new ArrayList<>();

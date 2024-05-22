@@ -5,7 +5,7 @@ import com.softserve.edu06.hw.entity.*;
 
 
 public class AppHomework {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         //task1
         Bird[] birds = new Bird[4];
 

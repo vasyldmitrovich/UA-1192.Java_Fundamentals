@@ -10,7 +10,7 @@ public class AnalyzeNumberT3 {
 //Програма знаходить мінімальне значення та його позицію в масиві.
 //Програма обчислює добуток усіх парних чисел (крім 0, якщо воно введене користувачем).
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         int[] array = new int[5];
         for (int i = 0; i < 5; i++) {
             array[i] = ScannerUtils.getValue("Enter number: ", Integer.class);

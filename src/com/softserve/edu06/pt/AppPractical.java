@@ -8,7 +8,7 @@ import com.softserve.edu06.pt.entity.t3.Line;
 import com.softserve.edu06.pt.entity.t3.Point;
 
 public class AppPractical {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         //task2
         Car[] cars = new Car[4];
         cars[0] = new Sedan("Kia Forte", 124.6f, "2023");

@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt.entity.t2;
 
 
-public class Car {
+public class Car {// Maybe this class should be abstract
     private String model;
     private float maxSpeed;
     private String yearOfProduction;

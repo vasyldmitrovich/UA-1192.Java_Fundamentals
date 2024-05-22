@@ -14,7 +14,7 @@ public class FindDaysValueT1 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         Integer monthNumber = ScannerUtils.getValue("Enter month number", Integer.class);
 
         try {

@@ -6,7 +6,7 @@ import com.softserve.utils.ScannerUtils;
 import java.util.*;
 
 public class AppPractical {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         //task1
         checkArrayElement();
         //task2

@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt.entity.t3;
 
 public class Line {
-    Point a1;
+    Point a1;// Make private
     Point a2;
 
     public Line() {
