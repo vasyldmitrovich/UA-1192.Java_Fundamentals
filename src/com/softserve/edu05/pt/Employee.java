@@ -22,7 +22,7 @@ public class Employee {
         return salary;
     }
 
-    public static void createEmployee() {
+    public static void createEmployee() {// This method should not be here, move to App class
         Employee[] employees = {
                 new Employee("Jenifer", 3, 12000),
                 new Employee("Mike", 1, 11000),
@@ -38,7 +38,7 @@ public class Employee {
         }
     }
 
-    public static void findDepNum(Employee[] employees) {
+    public static void findDepNum(Employee[] employees) {// This method should not be here, move to App class
         System.out.print("\nInput department number: ");
         boolean found = false;
         int number = App.SCANNER.nextInt();
@@ -54,7 +54,7 @@ public class Employee {
         }System.out.println("=".repeat(80));
     }
 
-    public static void employeeSort(Employee[] employees) {
+    public static void employeeSort(Employee[] employees) {// This method should not be here, move to App class
         for (int i = 0; i < employees.length - 1; i++) {
             for (int j = 0; j < employees.length - 1 - i; j++) {
                 if (employees[j].getSalary() < employees[j + 1].getSalary()) {

@@ -3,7 +3,7 @@ package com.softserve.edu05.hw;
 import java.util.Random;
 
 public class Randomizer {
-    public static void RandomizerApp() {
+    public static void RandomizerApp() {// Nice it interesting
         boolean check = false;
         int counter = 0;
         Random rnd = new Random();
