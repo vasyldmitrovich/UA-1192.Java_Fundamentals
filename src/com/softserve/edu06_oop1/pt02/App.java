@@ -1,7 +1,7 @@
 package com.softserve.edu06_oop1.pt02;
 
 public class App {
-    public static void main(String... args) {
+    public static void main(String... args) {// Nice
         Line[] lines = new Line[4];
         lines[0] = new Line(new Point(0, 0), new Point(1, 1));
         lines[1] = new Line(new Point(1, 1), new Point(2, 2));

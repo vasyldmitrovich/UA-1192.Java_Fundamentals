@@ -1,6 +1,6 @@
 package com.softserve.edu06_oop1.pt02;
 
-public class Point {
+public class Point {// Ok
 
     private double x;
     private double y;

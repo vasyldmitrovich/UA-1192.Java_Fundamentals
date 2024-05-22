@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PtTask2 {
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String... args) {
+    public static void main(String... args) {// Ok
         System.out.println("Enter a number: ");
         int number = SCANNER.nextInt();
         if (isPrime(number)) {

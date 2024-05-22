@@ -50,9 +50,9 @@ public class Hw3 {
 }
 
 
-class Car {
+class Car {// Move to file Car.java
 
-    String type;
+    String type;// Make private fields
     int year_of_production;
     double capacity;
 

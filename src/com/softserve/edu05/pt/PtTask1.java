@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class PtTask1 {
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String... args) {
+    public static void main(String... args) {// Good
         String[] names = {"Jack", "Anastasiia", "Anna", "Maxym"};
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));

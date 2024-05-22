@@ -1,6 +1,6 @@
 package com.softserve.edu06_oop1.pt02;
 
-public class Line {
+public class Line {// Ok
     private Point point1;
     private Point point2;
 

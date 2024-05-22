@@ -48,8 +48,8 @@ public class PtClass4 {
     }
 }
 
-class Employee {
-    String name;
+class Employee {// Move to file Employee.java
+    String name;// Make fields private
     int departmentNumber;
     double salary;
 
@@ -69,7 +69,7 @@ class Employee {
         this.name = name;
         this.departmentNumber = departmentNumber;
         this.salary = salary;
-    }
+    }// Order is not correct, constructors should be before getters and setters
 
     @Override
     public String toString() {

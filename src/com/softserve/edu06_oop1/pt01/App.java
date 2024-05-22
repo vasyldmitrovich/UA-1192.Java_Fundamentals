@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String... args) {
+    public static void main(String... args) {// All good
         Car[] cars = new Car[4];
         cars[0] = new Truck("Nissan X-Trail", 180, 2023);
         cars[1] = new Sedan("BMW 7 Series", 200, 2024);
