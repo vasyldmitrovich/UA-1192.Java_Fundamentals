@@ -3,7 +3,8 @@ package com.softserve.edu07.hw.entitiesHw2;
 public class Hw2App {
     public static void main(String[] args) {
         hw1();
-    }
+    }// This is good, nice
+
     public static void hw1(){
         Passengers [] passengers = {
                 new Liner(2000,3),

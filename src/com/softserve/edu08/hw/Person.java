@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public abstract class Person {
+public abstract class Person {// I do not see spaces, add spaces between fields and methods
     private FullName fullName;
     private int age;
     public abstract String activity();

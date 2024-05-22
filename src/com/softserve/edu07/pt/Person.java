@@ -1,6 +1,6 @@
 package com.softserve.edu07.pt;
 
-public abstract class Person {
+public abstract class Person {// Why you lose spaces bet-wine methods
     private String name;
 
     public Person(String name){

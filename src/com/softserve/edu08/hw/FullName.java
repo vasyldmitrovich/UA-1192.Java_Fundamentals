@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public class FullName {
+public class FullName {// Add implementation Cloneable interphase
     private String firstName;
     private String lastName;
     public FullName(){

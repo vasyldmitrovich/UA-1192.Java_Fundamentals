@@ -1,7 +1,7 @@
 package com.softserve.edu07.pt;
 
 public class AppPt {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Oo this is nice
         System.out.println("--------------------------First task--------------------------");
         firstTask();
         System.out.println("--------------------------Second task--------------------------");

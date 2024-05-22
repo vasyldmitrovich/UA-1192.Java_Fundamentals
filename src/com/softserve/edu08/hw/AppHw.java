@@ -1,7 +1,7 @@
 package com.softserve.edu08.hw;
 
 public class AppHw {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// Do not throw exception from main method
         Student student = new Student(new FullName("Petya","Ivanov"),20,3);
         System.out.println("Info about first student\n"+student.info());
         System.out.println(student.activity());

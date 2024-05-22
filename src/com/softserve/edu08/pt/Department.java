@@ -1,11 +1,13 @@
 package com.softserve.edu08.pt;
 
-public class Department implements Cloneable{
+public class Department implements Cloneable{// Where spaces ?
     private String name;
     private Address address = new Address();
+
     public Department(){
         name="";
     }
+
     public Department(String name,String city,String street,int building){
         this.name=name;
         this.address.city=city;

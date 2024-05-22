@@ -2,11 +2,13 @@ package com.softserve.edu07.hw.entitiesHw1;
 
 public abstract class Employee{
     private String employeeId;
-    public String name;
+    public String name;// Why public?
+
     public Employee(){
         employeeId = "";
         name="";
     }
+
     public Employee(String employeeId,String name){
         this.employeeId=employeeId;
         this.name=name;

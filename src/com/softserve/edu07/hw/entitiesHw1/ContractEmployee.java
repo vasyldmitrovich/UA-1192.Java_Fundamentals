@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.entitiesHw1;
 
-public class ContractEmployee extends Employee implements Payment{
+public class ContractEmployee extends Employee implements Payment{// Make implements Payment in class Employee
     private int federalTaxIdmember;
     private int salary;
     private int hourse;
@@ -12,6 +12,9 @@ public class ContractEmployee extends Employee implements Payment{
         this.salary=salary;
 
     }
+
+    // Add getters and setters
+
     @Override
     public double calculatePay() {
         return salary*hourse;
