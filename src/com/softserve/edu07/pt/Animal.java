@@ -6,7 +6,7 @@ interface Animal {
     void feed();
 }
 
-class Cat implements Animal {
+class Cat implements Animal {// ALL CLASSES SHOULD BE IN DIFFERENT FILES, NOT HERE IN ONE CLASS
     private String name;
 
     public Cat(String name) {
@@ -25,11 +25,11 @@ class Cat implements Animal {
 }
 
 class Dog implements Animal {
-    private String name;
+    private String name;// You already have in Animal class field like that
 
     public Dog(String name) {
         this.name = name;
-    }
+    }// add another parameters
 
     @Override
     public void voice() {
@@ -42,7 +42,7 @@ class Dog implements Animal {
     }
 }
 
-class Main {
+class Main {// Move to App.java
     public static void main(String[] args) {
         Animal[] animals = new Animal[4];
 

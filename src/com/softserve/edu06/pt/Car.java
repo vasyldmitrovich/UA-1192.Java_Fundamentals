@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt;
 
 abstract class Car {
-    String model;
+    String model;// Make private
     int maxSpeed;
     int yearOfProduction;
 
@@ -10,6 +10,8 @@ abstract class Car {
         this.maxSpeed = maxSpeed;
         this.yearOfProduction = yearOfProduction;
     }
+
+    // add getters and setters
 
     abstract void run();
 
@@ -22,7 +24,7 @@ abstract class Car {
     }
 }
 
-class Truck extends Car {
+class Truck extends Car {// Move to file Truck.java
     public Truck(String model, int maxSpeed, int yearOfProduction) {
         super(model, maxSpeed, yearOfProduction);
     }
@@ -38,7 +40,7 @@ class Truck extends Car {
     }
 }
 
-class Sedan extends Car {
+class Sedan extends Car {// Move to file Sedan.java
     public Sedan(String model, int maxSpeed, int yearOfProduction) {
         super(model, maxSpeed, yearOfProduction);
     }
@@ -54,7 +56,7 @@ class Sedan extends Car {
     }
 }
 
- class Main {
+ class Main {// Move to file App.java
     public static void main(String[] args) {
         Car[] cars = new Car[4];
 

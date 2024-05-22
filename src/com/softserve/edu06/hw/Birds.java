@@ -2,8 +2,8 @@ package com.softserve.edu06.hw;
 
 public class Birds {
 
-    abstract class bird {
-        public String name;
+    abstract class bird {// What is that this is not correct
+        public String name;// Why public?
 
         public static void bird() {
         }
