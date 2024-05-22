@@ -6,10 +6,10 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println("\nDemonstrate task 1\n");
-        task1();
+        task1();// This is good
 
         System.out.println("\nDemonstrate task 2\n");
-        task2();
+        task2();// And this task is good
     }
 
     public static void task1() {

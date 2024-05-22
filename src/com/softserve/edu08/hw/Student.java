@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public class Student extends Person {
+public class Student extends Person {// Ok
 
     private int course;
 
