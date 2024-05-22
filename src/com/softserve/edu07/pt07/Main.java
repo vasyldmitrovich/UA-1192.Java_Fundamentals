@@ -2,7 +2,7 @@ package com.softserve.edu07.pt07;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
 
         Animal[] animals = new Animal[6];
         animals[0] = new Cat("Whiskers");

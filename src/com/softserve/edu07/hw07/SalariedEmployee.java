@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw07;
 
-public class SalariedEmployee extends Employee implements Payment {
-    String socialSecurityNumber;
+public class SalariedEmployee extends Employee implements Payment {// Make implementation in class Employee not here
+    String socialSecurityNumber;// Make fields private and add getters and setters
     double fixedMonthlyPayment;
 
     public SalariedEmployee(String employeeId, String socialSecurityNumber, double fixedMonthlyPayment) {

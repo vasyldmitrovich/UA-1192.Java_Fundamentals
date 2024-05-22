@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw07;
 
-public class ContractEmployee extends Employee implements Payment {
-    String federalTaxId;
+public class ContractEmployee extends Employee implements Payment {// Make implementation in class Employee not here
+    String federalTaxId;// Make fields private and add getters and setters
     double hourlyRate;
     int hoursWorked;
 

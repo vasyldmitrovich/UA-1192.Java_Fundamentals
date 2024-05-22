@@ -3,7 +3,7 @@ package com.softserve.edu07.hw07;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         List<Employee> employees = new ArrayList<>();
 
         // Adding some sample employees

@@ -1,4 +1,4 @@
 package com.softserve.edu07;
 
-public class adad {
+public class adad {// What is that ?
 }
