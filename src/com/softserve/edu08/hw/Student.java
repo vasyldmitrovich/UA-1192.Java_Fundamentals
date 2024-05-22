@@ -1,11 +1,11 @@
 package com.softserve.edu08.hw;
 
-public class Student extends Person implements Cloneable{// Nice
+public class Student extends Person implements Cloneable {// Nice
     private int course;
 
-    public Student(FullName fullName, int age,int course) {
+    public Student(FullName fullName, int age, int course) {
         super(fullName, age);
-        this.course=course;
+        this.course = course;
     }
 
     public void setCourse(int course) {
@@ -13,15 +13,17 @@ public class Student extends Person implements Cloneable{// Nice
     }
 
     @Override
-    public String info(){
-        return super.info()+", Course:"+course;
+    public String info() {
+        return super.info() + ", Course:" + course;
     }
+
     @Override
     public String activity() {
         return "I study at university";
     }
+
     @Override
-    protected Object clone() throws CloneNotSupportedException{
+    protected Object clone() throws CloneNotSupportedException {
         Student copyStudent = (Student) super.clone();
         return copyStudent;
     }
