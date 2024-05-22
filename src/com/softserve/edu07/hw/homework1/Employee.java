@@ -12,7 +12,4 @@ public abstract class Employee {
         return employeeId;
     }
 
-    public void setEmployeeId(String employeeId) {
-        this.employeeId = employeeId;
-    }
 }

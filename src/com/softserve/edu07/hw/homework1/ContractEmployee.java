@@ -7,7 +7,7 @@ public class ContractEmployee extends Employee implements Payment{
     private int fixMonthPay;
 
     public ContractEmployee () {
-        this.employeeId = "contr1";
+        super("contr1");
         this.fedTaxIdmember = "12-3456789";
         this.name = "Nazar";
         this.fixMonthPay = 13000;
@@ -15,7 +15,7 @@ public class ContractEmployee extends Employee implements Payment{
 
     public ContractEmployee (String employeeId, String fedTaxIdmember, String name,
                              int fixMonthPay) {
-        this.employeeId = employeeId;
+        super(employeeId);
         this.fedTaxIdmember = fedTaxIdmember;
         this.name = name;
         this.fixMonthPay = fixMonthPay;

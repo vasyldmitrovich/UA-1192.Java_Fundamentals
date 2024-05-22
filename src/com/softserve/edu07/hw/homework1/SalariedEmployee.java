@@ -8,7 +8,7 @@ public class SalariedEmployee extends Employee implements Payment {
     private int hoursWorked;
 
     public SalariedEmployee () {
-        this.employeeId = "sal1";
+        super("sal1");
         this.socialSecNum = "123-45-6789";
         this.name = "Ivan";
         this.hourlyRate = 80;
@@ -17,7 +17,7 @@ public class SalariedEmployee extends Employee implements Payment {
 
    public SalariedEmployee (String employeeId, String socialSecNum, String name,
                             int hourlyRate, int hoursWorked) {
-        this.employeeId = employeeId;
+        super(employeeId);
         this.socialSecNum = socialSecNum;
         this.name = name;
         this.hourlyRate = hourlyRate;
