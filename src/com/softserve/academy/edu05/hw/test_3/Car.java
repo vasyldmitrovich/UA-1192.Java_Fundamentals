@@ -1,10 +1,10 @@
 package com.softserve.academy.edu05.hw.test_3;
 
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 // Create class called Car with fields: type, year of production and engine capacity
 public class Car implements Comparable<Car> {
-    private final String type;
+    private final String type;// Why all fields is final??? If field final getters and setters do not have matter
     private final int yearOfProduction;
     private final double engineCapacity;
 
@@ -64,7 +64,7 @@ public class Car implements Comparable<Car> {
     }
 
     @Override
-    public int compareTo(@NotNull Car o) {
+    public int compareTo(/*@NotNull*/ Car o) {
         return this.yearOfProduction - o.yearOfProduction;
     }
 }

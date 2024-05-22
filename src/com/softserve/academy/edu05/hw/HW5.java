@@ -51,8 +51,8 @@ public class HW5 {
         return cars;
     }
 
-    @org.jetbrains.annotations.NotNull
-    @org.jetbrains.annotations.Contract("_, _, _ -> new")
+//    @org.jetbrains.annotations.NotNull
+//    @org.jetbrains.annotations.Contract("_, _, _ -> new")
     private static Car createCar(Scanner scanner, String name, double engine) {
         System.out.println("Enter year of production for " + name + ": ");
         int year = scanner.nextInt();
