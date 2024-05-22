@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw;
 
-public class Employee {
+public class Employee {// Maybe abstract this class
     private String name;
     private  int age;
     private double salary;

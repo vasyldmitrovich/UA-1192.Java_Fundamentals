@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Task61 {
 
-    public static void execute(){
+    public static void execute(){// Good
         Bird[] birds = generate(6);
         Arrays.stream(birds).forEach(bird -> System.out.println(bird.getClass().getSimpleName() + " " + bird.fly()));
 
