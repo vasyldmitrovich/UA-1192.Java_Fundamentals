@@ -8,6 +8,9 @@ public class App {
         System.out.println("Demonstrate task 1");
         task1();
 
+        System.out.println("Demonstrate task 2");
+        task2();
+
     }
 
     public static void task1() {
@@ -115,5 +118,54 @@ public class App {
         for (Integer i : myCollection) {
             System.out.print(i + "\t");
         }
+    }
+
+    public static void task2() {
+        List<Student> students = new LinkedList<>(List.of(
+                new Student("Alex", "ipz", 2, new int[] {1, 2, 3, 4, 5}),
+                new Student("Victoria", "kn", 1, new int[] {2, 3, 3, 4, 5}),
+                new Student("John", "ki", 2, new int[] {5, 5, 5, 5, 5}),
+                new Student("Julia", "ipz", 4, new int[] {3, 2, 3, 4, 3}),
+                new Student("Kate", "kn", 4, new int[] {1, 1, 1, 1, 1})
+        ));
+
+        List<Student> transferredToNextCourse = checkAvgGrades(students);
+
+        System.out.println("\nStudents after check avg grades\n");
+        for (Student student : transferredToNextCourse) {
+            System.out.println(student);
+        }
+
+        printStudents(transferredToNextCourse, 3);
+    }
+
+    public static List<Student> checkAvgGrades(List<Student> students) {
+
+        List<Student> copiedStudents = new LinkedList<>(students);
+
+        for (Student student : copiedStudents) {
+
+            int avg = Arrays.stream(student.getGrades()).sum() / student.getGrades().length;
+
+            if (avg < 3) {
+                copiedStudents.remove(student);
+            } else {
+                student.setCourse(student.getCourse() + 1);
+            }
+        }
+
+        return copiedStudents;
+    }
+
+    public static void printStudents(List<Student> students, int course) {
+
+        List<Student> enrolledStudents = students.stream().filter(v -> v.getCourse() == course).toList();
+
+        System.out.println("\nStudents which have enrolled to " + course + " course\n");
+
+        for (Student student : enrolledStudents) {
+            System.out.println(student);
+        }
+
     }
 }
