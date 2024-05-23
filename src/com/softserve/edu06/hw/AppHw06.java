@@ -2,7 +2,7 @@ package com.softserve.edu06.hw;
 
 public class AppHw06 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// This is good
         System.out.println("Perform homework task 61");
         Task61.execute();
         System.out.println();
