@@ -8,7 +8,7 @@ public class App {
         System.out.println("Demonstrate task 1");
         task1();
 
-        System.out.println("Demonstrate task 2");
+        System.out.println("\nDemonstrate task 2");
         task2();
 
     }
