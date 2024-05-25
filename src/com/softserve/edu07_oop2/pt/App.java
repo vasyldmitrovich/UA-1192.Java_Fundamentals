@@ -2,7 +2,7 @@ package com.softserve.edu07_oop2.pt;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
 
 //        task1();
         task2();

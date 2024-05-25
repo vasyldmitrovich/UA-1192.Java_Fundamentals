@@ -2,7 +2,7 @@ package com.softserve.edu06.hw;
 
 import static java.lang.String.format;
 
-public class Empolyee {
+public class Empolyee {// make abstruct
 
     private String name;
     private int age;

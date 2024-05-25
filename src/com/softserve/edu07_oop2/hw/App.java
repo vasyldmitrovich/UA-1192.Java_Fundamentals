@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
 
 //        task1();
         task2();
