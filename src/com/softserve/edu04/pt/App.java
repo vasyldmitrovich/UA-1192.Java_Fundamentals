@@ -2,14 +2,20 @@ package com.softserve.edu04.pt;
 
 import java.util.Scanner;
 
-public class pt4 {// Name of class should start from Uppercase not lowercase
+public class App {// Name of class should start from Uppercase not lowercase//Fixed
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        Product product1 = new Product("Cup", 56.49, 3);
+        Product product2 = new Product("Tea", 34.79, 3);
+        Product product3 = new Product("Tart", 29.89, 1);
+        Product product4 = new Product("Water", 39.19, 56);
+
         task1(scanner);// Ok
         task2(scanner);
         task3(scanner);
+        task4(product1, product2, product3, product4);
         scanner.close();
     }
 
@@ -66,9 +72,6 @@ public class pt4 {// Name of class should start from Uppercase not lowercase
                 return "Invalid day number";
         }
     }
-    enum Continent {// Move to file Continent.java not here
-        EUROPE, ASIA, AFRICA, NORTH_AMERICA, SOUTH_AMERICA, AUSTRALIA, ANTARCTICA
-    }
 
     public static void task3(Scanner scanner) {
         System.out.print("Enter the name of a country: ");
@@ -112,6 +115,22 @@ public class pt4 {// Name of class should start from Uppercase not lowercase
             default:
                 return null;
         }
+    }
+
+    public static void task4(Product product1, Product product2, Product product3, Product product4) {
+        int total = product1.getQuantity();
+        String name = product1.getName();
+        if (product2.getPrice() > product1.getPrice()) {
+            total = product2.getQuantity();
+            name = product2.getName();
+        } else if (product3.getPrice() > product1.getPrice()) {
+            total = product3.getQuantity();
+            name = product3.getName();
+        } else if (product4.getPrice() > product1.getPrice()) {
+            total = product4.getQuantity();
+            name = product4.getName();
+        }
+        System.out.println("The most expensive price has a " + name + ", which quantity is : " + total + " pcs.");
     }
 }
 
