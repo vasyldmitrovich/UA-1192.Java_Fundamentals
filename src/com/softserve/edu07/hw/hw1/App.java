@@ -34,7 +34,7 @@ public class App {
 //        Comparable sorting 
         Arrays.sort(employees);
         for (var emp :employees){
-            System.out.println(emp);
+            System.out.println(emp.getInfo());
         }
     }
 
