@@ -8,8 +8,8 @@ public class App {
 
     public static void main(String[] args) {
 
-//        System.out.println("Demonstrate task 1");
-//        task1();
+        System.out.println("Demonstrate task 1");
+        task1();
 
         System.out.println("Demonstrate task 2");
         task2();
