@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         int[] arrayInt = {25, 65, 32, 12, 45};
 
         System.out.println(Arrays.toString(Pt5.task1()));

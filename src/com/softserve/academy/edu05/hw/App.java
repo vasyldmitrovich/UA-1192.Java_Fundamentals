@@ -13,12 +13,12 @@ public class App {
         System.out.println(Arrays.toString(ArrayMaxMin.execute()));
 
         System.out.println("Task 2");
-        (new HW5()).task2();
+        (new HW5()).task2();// Make methods static to avoid creating of objects
 
         System.out.println("Task 3");
-        (new HW5()).task3();
+        (new HW5()).task3();// Make methods static to avoid creating of objects
 
         System.out.println("Task 4");
-        (new HW5()).task4();
+        (new HW5()).task4();// Make methods static to avoid creating of objects
     }
 }

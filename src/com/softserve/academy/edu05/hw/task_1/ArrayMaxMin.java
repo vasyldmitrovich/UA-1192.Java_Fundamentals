@@ -11,7 +11,7 @@ public class ArrayMaxMin {
      * o calculate the product of all entered even numbers (exclude 0 from even if entered by
      * user).
      */
-    public static int[] execute() {
+    public static int[] execute() {// Good
         System.out.println("Enter 5 integer numbers:");
         Scanner scanner = new Scanner(System.in);
         int[] array = new int[5];

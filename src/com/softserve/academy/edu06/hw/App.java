@@ -9,7 +9,7 @@ import com.softserve.academy.edu06.hw.task_2.Employee;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         task1();
         task2();
     }

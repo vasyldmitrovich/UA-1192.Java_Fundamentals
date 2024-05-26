@@ -9,7 +9,7 @@ public class CalculatesNumberOfDays {
      * • a month number and calculates the number of days in that month based on an array
      * that contains the number of days in each month.
      */
-    public static int execute() {
+    public static int execute() {// Nice
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a month number: ");
         int month = scanner.nextInt();
