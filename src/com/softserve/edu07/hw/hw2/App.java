@@ -8,7 +8,7 @@ public class App {
                 new Plane(5000, 150),
                 new Helicopter(11000, 4500, 4),
                 new Bus("Stryiska street", 30),
-                new Car("Toyota GR86", 2),
+                new Car("Toyota GR86", 0),
                 new Motorcycle(300, 1)
         };
         for (var vehicle : vehicles) {

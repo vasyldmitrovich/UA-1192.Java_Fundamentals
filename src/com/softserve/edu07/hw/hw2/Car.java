@@ -21,7 +21,7 @@ public class Car extends GroundVehicle {
     @Override
     public void drive() {
         if (getPassengers() <= 0) {
-            System.out.println("The car is on parkingspace");
+            System.out.println("The car is on parking space");
         } else System.out.println("The car is riding");
     }
 
