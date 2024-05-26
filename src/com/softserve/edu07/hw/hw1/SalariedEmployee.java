@@ -38,8 +38,8 @@ public class SalariedEmployee extends Employee implements Payment {
     @Override
     public String toString() {
         String gap = "\n";
-        return "-".repeat(40) + gap +
-                "Type" + getClass().getSimpleName() + gap + "Name: " + name + gap +
+        return gap + "-".repeat(40) + gap +
+                "Type: " + getClass().getSimpleName() + gap + "Name: " + name + gap +
                 "Social security number: " + socialSecurityNumber + gap +
                 "Average month salary: " + averageMonthlySalary + gap +
                 "-".repeat(40);

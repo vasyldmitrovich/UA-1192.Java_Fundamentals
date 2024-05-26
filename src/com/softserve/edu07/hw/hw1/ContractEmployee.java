@@ -49,7 +49,7 @@ public class ContractEmployee extends Employee implements Payment {
     @Override
     public String toString() {
         String gap = "\n";
-        return "-".repeat(40) + gap + "Type: " + getClass().getSimpleName() + gap +
+        return gap + "-".repeat(40) + gap + "Type: " + getClass().getSimpleName() + gap +
                 "Name: " + name + gap +
                 "Federal tax id member: " + federalTaxIdmember + gap +
                 "Hourly rate: " + hourlyRate + gap +
