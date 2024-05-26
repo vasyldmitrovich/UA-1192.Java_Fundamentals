@@ -4,9 +4,9 @@ package com.softserve.academy.edu05.hw.test_3;
 
 // Create class called Car with fields: type, year of production and engine capacity
 public class Car implements Comparable<Car> {
-    private final String type;// Why all fields is final??? If field final getters and setters do not have matter
-    private final int yearOfProduction;
-    private final double engineCapacity;
+    private String type;// Why all fields is final??? If field final getters and setters do not have matter
+    private int yearOfProduction;
+    private double engineCapacity;
 
     public Car(String type, int yearOfProduction, double engineCapacity) {
         this.type = type;
