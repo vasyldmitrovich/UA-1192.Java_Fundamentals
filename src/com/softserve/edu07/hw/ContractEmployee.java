@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw;
 
-public class ContractEmployee extends Employee implements Payment {
+public class ContractEmployee extends Employee implements Payment {// Without implements Payment because parent class already have this implementation
 
     private double fixedMonthlyPayment;
     private String federalTaxIdMember;

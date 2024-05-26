@@ -4,7 +4,7 @@ import com.softserve.edu07.hw.vehicle.*;
 
 import java.util.Arrays;
 
-public class App {
+public class App {// Ok, Good
     public static void main(String[] args) {
         System.out.println("Task 1: ");
         task1Hw();
