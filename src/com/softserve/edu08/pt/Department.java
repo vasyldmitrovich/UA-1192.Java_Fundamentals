@@ -1,6 +1,6 @@
 package com.softserve.edu08.pt;
 
-public class Department implements Cloneable {
+public class Department implements Cloneable {// Good
     private String name;
     private Address address;
 

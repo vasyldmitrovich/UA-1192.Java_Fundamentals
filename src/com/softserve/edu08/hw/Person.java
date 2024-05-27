@@ -7,6 +7,11 @@ public abstract class Person {
     public Person() {
     }
 
+    public Person(String firstName, String lastName, int age) {
+        this.fullName = new FullName(firstName, lastName);
+        this.age = age;
+    }
+
     public FullName getFullName() {
         return fullName;
     }
@@ -20,11 +25,6 @@ public abstract class Person {
     }
 
     public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Person(String firstName, String lastName, int age) {
-        this.fullName = new FullName(firstName, lastName);
         this.age = age;
     }
 

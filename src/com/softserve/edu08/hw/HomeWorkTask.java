@@ -3,7 +3,7 @@ package com.softserve.edu08.hw;
 
 public class HomeWorkTask {
 
-    public void task1() throws CloneNotSupportedException {
+    public void task1() throws CloneNotSupportedException {// Ok
         Student[] students = {
                 new Student("Oleksandr", "Khomenko", 30, 4),
                 new Student("Iryna", "Khomenko", 25, 2),

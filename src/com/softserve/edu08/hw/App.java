@@ -2,7 +2,7 @@ package com.softserve.edu08.hw;
 
 public class App {
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// Ok
 
         HomeWorkTask hw = new HomeWorkTask();
 

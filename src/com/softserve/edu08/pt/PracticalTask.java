@@ -3,7 +3,7 @@ package com.softserve.edu08.pt;
 
 public class PracticalTask {
 
-    public void task1() throws CloneNotSupportedException {
+    public void task1() throws CloneNotSupportedException {// Ok
 
         Department department1 = new Department("Innovative", "Vinnytsia", "Soborna", 23);
 
