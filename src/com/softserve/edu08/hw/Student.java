@@ -19,7 +19,7 @@ public class Student extends Person {
 
     @Override
     public String info() {
-        return String.format("\"First name: %s, Last name: %s, Age: %d, Course: %s\"", fullName.getFirstName(), fullName.getLastName(), age, course);
+        return String.format("\"First name: %s, Last name: %s, Age: %d, Course: %s\"", getFullName().getFirstName(), getFullName().getLastName(), getAge(), course);
     }
 
     @Override
@@ -30,7 +30,7 @@ public class Student extends Person {
     @Override
     protected Object clone() throws CloneNotSupportedException {// Good
         Student cloned = (Student) super.clone();
-        cloned.fullName = (FullName) cloned.fullName.clone();
+        cloned.setFullName((FullName) cloned.getFullName().clone());
         return cloned;
     }
 }
