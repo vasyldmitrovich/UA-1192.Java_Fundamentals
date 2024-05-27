@@ -2,7 +2,7 @@ package com.softserve.edu08_nest.hw;
 
 import java.util.Objects;
 
-public class FullName implements Cloneable{
+public class FullName implements Cloneable{// Good
 
     private String firstName;
     private String lastName;

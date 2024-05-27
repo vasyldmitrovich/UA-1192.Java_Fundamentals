@@ -5,7 +5,7 @@ import java.util.*;
 public class App {
     public static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
 
 //        task1();
 //        task2();
