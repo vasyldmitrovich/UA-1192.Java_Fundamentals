@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         Employee[] employees = {
                 new ContractEmployee("Oliver", "468", "468123", 45, 240),
                 new ContractEmployee("Jack", "645", "456542", 42, 220),

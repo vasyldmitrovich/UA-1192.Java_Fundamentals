@@ -2,7 +2,7 @@ package com.softserve.edu07.pt.pt2;
 
 public class Teacher extends Staff {
     final String TYPE_PERSON = getClass().getSimpleName();
-    double salary;
+    double salary;// Make private
 
     public Teacher() {
     }

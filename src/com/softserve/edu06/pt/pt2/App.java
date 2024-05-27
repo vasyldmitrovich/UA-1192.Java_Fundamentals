@@ -4,8 +4,8 @@ package com.softserve.edu06.pt.pt2;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class App {
     public static void main(String[] args) {
-        Car[] cars = createObj();
-        getInfo(cars);
+        Car[] cars = createObj();// Nice this is nice
+        getInfo(cars);// Good
     }
 
     public static Car[] createObj() {

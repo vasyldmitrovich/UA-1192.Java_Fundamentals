@@ -7,6 +7,7 @@ public class Developer extends Employee {
         super(name, age, salary);
         this.position = position;
     }
+    // Add getters and setters
 
     @Override
     public String report() {

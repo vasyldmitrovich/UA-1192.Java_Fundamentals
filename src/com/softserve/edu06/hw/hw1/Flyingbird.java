@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw.hw1;
 
-public class Flyingbird extends Bird {
+public class Flyingbird extends Bird {// Ok
     private boolean fly;
 
 

@@ -1,7 +1,7 @@
 package com.softserve.edu07.hw.hw1;
 
 public class ContractEmployee extends Employee implements Payment {
-    String name;
+    String name;// All fields make private
     String federalTaxIdmember;
     double hourlyRate;
     double hoursQuantity;
