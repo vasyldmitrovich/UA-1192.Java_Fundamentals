@@ -5,8 +5,11 @@ import java.util.*;
 public class App {
 
     public static void main(String[] args) {
-//        homework1();
+        homework1();
+        System.out.println("End of the first homework");
+
         homework2();
+        System.out.println("End of the second homework");
     }
 
     public static void homework1 () {
