@@ -12,7 +12,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice to see code like that
         practicalTask1();
         System.out.println("End of first practical task");
         practicalTask2();

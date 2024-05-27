@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.homework1;
 
-public class ContractEmployee extends Employee implements Payment{
+public class ContractEmployee extends Employee implements Payment {// Good decision is make implements Payment in class Employee
 
     private String fedTaxIdmember;
     private String name;

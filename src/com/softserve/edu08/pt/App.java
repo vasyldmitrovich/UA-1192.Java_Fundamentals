@@ -6,7 +6,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         System.out.println("Enter the name for your department");
         String name = sc.nextLine();
         System.out.println("Enter the city for your department");
@@ -18,7 +18,7 @@ public class App {
             int building = sc.nextInt();
             sc.nextLine();
             Department department = new Department(name, new Department.Address(city, street, building));
-            System.out.println(department.toString());
+            System.out.println(department.toString());// Do not need to string
             changeCity(department);
         } catch (Exception e) {
             System.out.println("Error");

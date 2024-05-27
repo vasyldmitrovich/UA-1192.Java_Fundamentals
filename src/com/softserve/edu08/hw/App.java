@@ -6,7 +6,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         Student [] students = new Student[3];
         System.out.println("Enter the first name for your student");
         String firstName = sc.nextLine();

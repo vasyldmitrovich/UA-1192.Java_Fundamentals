@@ -14,7 +14,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All good, nice
         homework1();
         System.out.println("End of first homework");
         homework2();
