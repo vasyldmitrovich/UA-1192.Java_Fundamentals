@@ -2,7 +2,7 @@ package com.softserve.edu07.pt;
 
 import java.util.Arrays;
 
-public class Task71 {
+public class Task71 {// Good
 /*
     Create an interface called Animal with methods voice() and feed(). Create two classes
     Cat and Dog, which implement this interface. In main() method create an array of Animal

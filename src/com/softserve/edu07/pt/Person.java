@@ -1,7 +1,7 @@
 package com.softserve.edu07.pt;
 
 public abstract class Person {
-    String name;
+    String name;// Make private and add setter
 
     public Person(String name){
         this.name = name;

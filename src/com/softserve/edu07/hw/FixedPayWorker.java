@@ -9,6 +9,8 @@ public class FixedPayWorker extends SalariedEmployee{
         this.salary = salary;
     }
 
+    // Add getter and setter
+
     @Override
     public double calculatePay() {
         return salary;

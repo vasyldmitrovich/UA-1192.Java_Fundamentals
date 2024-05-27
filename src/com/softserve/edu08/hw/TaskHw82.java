@@ -8,7 +8,7 @@ about them by calling the appropriate methods info() and activity().
 for this object and output full information about created students.
  */
 
-    public static void execute(){
+    public static void execute(){// Good
         Student student1 = new Student(new FullName("Mary", "Perry"), 20, 2);
         Student student2 = new Student(new FullName("Joe", "Shizo"), 22, 4);
         Student cloned = null;

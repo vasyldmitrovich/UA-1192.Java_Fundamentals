@@ -28,7 +28,7 @@ public class Student extends Person {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    protected Object clone() throws CloneNotSupportedException {// Good
         Student cloned = (Student) super.clone();
         cloned.fullName = (FullName) cloned.fullName.clone();
         return cloned;

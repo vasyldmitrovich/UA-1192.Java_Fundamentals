@@ -4,7 +4,7 @@ package com.softserve.edu07.hw;
 
 public class AppHw07 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Perform homework task 71");
         Task71.execute();
         System.out.println();
