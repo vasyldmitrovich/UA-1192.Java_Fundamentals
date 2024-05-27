@@ -1,7 +1,7 @@
 package com.softserve.edu08.pt;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
        Department.Address address1 = new Department.Address("Kyiv", "Bankova", 110);
        Department department1 = new Department("dep1", address1);
 

@@ -23,7 +23,7 @@ public abstract class Person implements Cloneable{
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
-            throw new AssertionError();
+            throw new AssertionError();// put e in this constructor
         }
     }
 }

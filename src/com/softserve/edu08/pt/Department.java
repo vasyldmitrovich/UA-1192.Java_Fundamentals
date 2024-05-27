@@ -43,7 +43,7 @@ public class Department implements Cloneable {
                 " has address: " + address;
     }
 
-    public static class Address implements Cloneable{
+    public static class Address implements Cloneable{// Good
         private String city;
         private String street;
         private int building;
