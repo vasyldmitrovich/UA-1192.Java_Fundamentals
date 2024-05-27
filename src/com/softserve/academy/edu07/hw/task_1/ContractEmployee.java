@@ -1,6 +1,6 @@
 package com.softserve.academy.edu07.hw.task_1;
 
-public class ContractEmployee extends Employee implements Payment{
+public class ContractEmployee extends Employee implements Payment{// Make implements Payment in abstract class Employee, you will not write implementation in each class
 
 
     private int hoursWorked;

@@ -4,11 +4,11 @@ package com.softserve.academy.edu07.hw;
 import com.softserve.academy.edu07.hw.task_1.ContractEmployee;
 import com.softserve.academy.edu07.hw.task_1.Employee;
 import com.softserve.academy.edu07.hw.task_1.SalariedEmployee;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         task1();
         task2();
     }
@@ -48,7 +48,7 @@ public class App {
         }
     }
 
-    private static Employee @NotNull [] createEmployees() {
+    private static Employee /*@NotNull*/ [] createEmployees() {
         Employee[] contractEmployee = new Employee[5];
         contractEmployee[0] = new ContractEmployee("John", 40, 10, 123456);
         contractEmployee[1] = new ContractEmployee("Jane", 50, 15, 654321);

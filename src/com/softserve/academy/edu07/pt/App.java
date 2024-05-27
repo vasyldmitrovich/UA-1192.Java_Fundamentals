@@ -10,7 +10,7 @@ import com.softserve.academy.edu07.pt.task_2.*;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         task1();
         task2();
     }
