@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Hw2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
     Scanner scanner = new Scanner(System.in);
     boolean repeat = true;
 

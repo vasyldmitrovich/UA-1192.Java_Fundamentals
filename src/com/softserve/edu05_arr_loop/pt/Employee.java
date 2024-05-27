@@ -32,7 +32,7 @@ public class Employee {
         return "Employee [name=" + name + ", departmentNumber=" + departmentNumber + ", salary=" + salary + "]";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move this main method to App class
         Scanner scanner = new Scanner(System.in);
         ArrayList<Employee> employees = new ArrayList<>();
 

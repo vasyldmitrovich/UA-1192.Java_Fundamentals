@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Hw3 {
-    public static void hw3Cars(Car[] cars) {
+    public static void hw3Cars(Car[] cars) {// Ok
         // Sorting cars by year of production
         Arrays.sort(cars, (c1, c2) -> Integer.compare(c1.getYearOfProduction(), c2.getYearOfProduction()));
 

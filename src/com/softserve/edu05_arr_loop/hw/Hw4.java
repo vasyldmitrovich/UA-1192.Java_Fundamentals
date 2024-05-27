@@ -6,7 +6,7 @@ public class Hw4 {
 
     public static void main(String[] args) {
         guessingGame();
-    }
+    } // Nice very nice
 
     public static void guessingGame() {
         // Generate a random number
