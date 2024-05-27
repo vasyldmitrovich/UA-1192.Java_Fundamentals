@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw;
 
 public class Birds2 {
-    class bird {
+    class bird {// This is not correct write inner classes and this classes have many error how to correct write class
         public static void bird1() {
         }
 

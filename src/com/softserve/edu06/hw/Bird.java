@@ -43,7 +43,7 @@ class Penguin extends Bird {
     }
 }
 
- class Main {
+ class Main {// Move to file App.java not here
     public static void main(String[] args) {
         Bird[] birds = new Bird[3];
 

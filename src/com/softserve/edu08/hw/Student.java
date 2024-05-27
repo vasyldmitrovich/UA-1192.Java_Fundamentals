@@ -50,8 +50,10 @@ public class Student extends Students implements Cloneable {
         this.name = name;
     }
 
+
+
     // Main method to demonstrate the functionality
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App.java not here
         // Creating two instances of Student
         Student student1 = new Student("Alice", 1);
         Student student2 = new Student("Bob", 2);

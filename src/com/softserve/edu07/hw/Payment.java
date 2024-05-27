@@ -8,7 +8,7 @@ interface Payment {
 }
 
 abstract class Employee {
-    String employeeId;
+    String employeeId;// Make private and add getters and setters
     String name;
 
     public Employee(String employeeId, String name) {
@@ -17,8 +17,8 @@ abstract class Employee {
     }
 }
 
-class SalariedEmployee extends Employee implements Payment {
-    String socialSecurityNumber;
+class SalariedEmployee extends Employee implements Payment {// make implements Payment in class Employee
+    String socialSecurityNumber;// Make private and add getters and setters
     double fixedMonthlyPayment;
 
     public SalariedEmployee(String employeeId, String name, String socialSecurityNumber, double fixedMonthlyPayment) {
@@ -33,8 +33,8 @@ class SalariedEmployee extends Employee implements Payment {
     }
 }
 
-class ContractEmployee extends Employee implements Payment {
-    double federalTaxIdMember;
+class ContractEmployee extends Employee implements Payment {// the same
+    double federalTaxIdMember;// Make private and add getters and setters
     double hourlyRate;
     int hoursWorked;
 
@@ -51,7 +51,7 @@ class ContractEmployee extends Employee implements Payment {
     }
 }
 
- class Main {
+ class Main {// Move this logic to class App
     public static void main(String[] args) {
         Employee[] employees = new Employee[4];
 

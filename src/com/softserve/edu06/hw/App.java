@@ -1,7 +1,7 @@
 package com.softserve.edu06.hw;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// In this class i do not see your homework why you do not call your tasks here?
         System.out.println("Start");
 
 
