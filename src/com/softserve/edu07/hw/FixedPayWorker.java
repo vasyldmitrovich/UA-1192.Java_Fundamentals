@@ -11,6 +11,14 @@ public class FixedPayWorker extends SalariedEmployee{
 
     // Add getter and setter
 
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
     @Override
     public double calculatePay() {
         return salary;

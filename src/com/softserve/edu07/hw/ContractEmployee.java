@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw;
 
-public abstract class ContractEmployee extends Employee implements Payment{
+public abstract class ContractEmployee extends Employee{
     String federalTaxIdMember;
 
     public ContractEmployee(String... args){

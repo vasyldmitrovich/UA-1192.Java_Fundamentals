@@ -3,19 +3,19 @@ package com.softserve.edu07.hw;
 import java.util.Objects;
 
 public abstract class Employee implements Payment {
-    String employeeId;// Make private fields
-    String name;
+    private String employeeId;// Make private fields
+    private String name;
 
-    public Employee(String employeeId, String name){
-    this.employeeId = employeeId;
-    this.name = name;
+    public Employee(String employeeId, String name) {
+        this.employeeId = employeeId;
+        this.name = name;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public String getEmployeeId(){
+    public String getEmployeeId() {
         return employeeId;
     }
 
