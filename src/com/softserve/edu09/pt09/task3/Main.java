@@ -3,7 +3,7 @@ package com.softserve.edu09.pt09.task3;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         List<Integer> myCollection = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter 10 integers to fill the collection:");

@@ -23,7 +23,8 @@ public class Student extends Person implements Cloneable {
         try {
             return (Student) super.clone();
         } catch (CloneNotSupportedException e) {
-            throw new AssertionError(); // Can not happen
+            throw new AssertionError(e); // Can not happen
+            // If you throw exception here put e to this exception like I did
         }
     }
 
@@ -31,7 +32,7 @@ public class Student extends Person implements Cloneable {
         this.course = course;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Main method move to App.java
         Student student1 = new Student("Alice", 20, 1);
         Student student2 = new Student("Bob", 22, 2);
 

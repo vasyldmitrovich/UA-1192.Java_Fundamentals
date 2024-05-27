@@ -6,7 +6,7 @@ import java.util.Set;
 public class RemoveDuplicates {
     public static void main(String[] args) {
         String input = "1, 2, 3, 4, 4, 5, 6, 6, 7, 8";
-        String[] numbers = input.split(",\\s*");
+        String[] numbers = input.split(",\\s*");// This is good
 
         Set<String> uniqueNumbers = new HashSet<>();
 

@@ -31,7 +31,7 @@ public class CollectionOperations {
     }
 
     private void swapMinMaxElements(List<Integer> collection) {
-    }
+    }// This is declaration, where realization of these methods?
 
     private void insertRandomNumber(List<Integer> collection) {
     }

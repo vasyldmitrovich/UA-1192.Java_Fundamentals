@@ -1,7 +1,7 @@
 package com.softserve.edu08.pt08;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good, all good
         try {
             Address address1 = new Address("New York", "5th Avenue", 101);
             Department dept1 = new Department("Human Resources", address1);

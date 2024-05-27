@@ -16,7 +16,7 @@ public class Main {
         printStudents(students, 1);
     }
 
-    public static void removeLowPerformingStudents(List<Student> students) {
+    public static void removeLowPerformingStudents(List<Student> students) {// Good
         Iterator<Student> iterator = students.iterator();
         while (iterator.hasNext()) {
             Student student = iterator.next();
@@ -29,7 +29,7 @@ public class Main {
         }
     }
 
-    public static void printStudents(List<Student> students, int course) {
+    public static void printStudents(List<Student> students, int course) {// Nice
         System.out.println("Students enrolled in course " + course + ":");
         for (Student student : students) {
             if (student.getCourse() == course) {

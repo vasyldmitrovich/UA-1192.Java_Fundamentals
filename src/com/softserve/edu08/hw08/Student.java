@@ -10,7 +10,7 @@ public class Student extends Person {
         return "Studying";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// This method should not be here
         FullName fullName = new FullName("John", "Doe");
         Student student = new Student(fullName, 20);
         System.out.println(student.info());

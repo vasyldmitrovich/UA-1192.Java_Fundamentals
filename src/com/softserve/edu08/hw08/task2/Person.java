@@ -9,6 +9,7 @@ public class Person {
         this.age = age;
     }
 
+    // Add getters and setters, because do not have access to change fields
     public String info() {
         return "Name: " + name + ", Age: " + age;
     }
