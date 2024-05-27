@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class AppPt {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {// Ok
         task1();
         task2();
         task3();

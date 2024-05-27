@@ -1,6 +1,6 @@
 package com.softserve.edu05.hwork;
 
-public class Car {
+public class Car {// Good
     private String type;
     private int year_of_production;
     private double engine_capacity;

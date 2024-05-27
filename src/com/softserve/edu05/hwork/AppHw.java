@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class AppHw {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {// Nice this is nice but without throws exception from this main method to JVM
         task1one();
         task1two();
         task1three();
