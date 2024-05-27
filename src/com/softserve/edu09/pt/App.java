@@ -1,7 +1,5 @@
 package com.softserve.edu09.pt;
 
-import com.softserve.edu09.pt.practicaltask1.HeavyBox;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

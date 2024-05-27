@@ -1,4 +1,4 @@
-package com.softserve.edu09.pt.practicaltask1;
+package com.softserve.edu09.pt;
 
 public class HeavyBox {
 
