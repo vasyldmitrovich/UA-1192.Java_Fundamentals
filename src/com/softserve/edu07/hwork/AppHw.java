@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class AppHw {
-    private static final Scanner scan = new Scanner(System.in);
+    private static final Scanner scan = new Scanner(System.in);// You newer use this field, why?
 
     public static void main(String[] args) {
         task1();

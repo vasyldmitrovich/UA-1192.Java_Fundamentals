@@ -5,7 +5,7 @@ abstract class Person {
 
     public String getName() {
         return name;
-    }
+    }// getters go after constructors
 
     public Person(String name) {
         this.name = name;
