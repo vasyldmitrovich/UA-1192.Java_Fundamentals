@@ -13,7 +13,7 @@ public class App {
 
     }
 
-    public static void task1() {
+    public static void task1() {// Very good
         List<Integer> myCollection = new LinkedList<>(new Random()
                 .ints(-100, 100)
                 .limit(10)
@@ -129,7 +129,7 @@ public class App {
                 new Student("Kate", "kn", 4, new int[] {1, 1, 1, 1, 1})
         ));
 
-        List<Student> transferredToNextCourse = checkAvgGrades(students);
+        List<Student> transferredToNextCourse = checkAvgGrades(students);// Nice decision
 
         System.out.println("\nStudents after check avg grades\n");
         for (Student student : transferredToNextCourse) {

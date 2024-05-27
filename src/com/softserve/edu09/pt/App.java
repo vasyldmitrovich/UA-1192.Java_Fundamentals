@@ -3,7 +3,7 @@ package com.softserve.edu09.pt;
 import java.util.*;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All is good
 
         System.out.println("Demonstrate task 1");
         task1();
