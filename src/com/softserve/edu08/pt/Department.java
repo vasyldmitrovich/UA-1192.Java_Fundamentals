@@ -1,6 +1,6 @@
 package com.softserve.edu08.pt;
 
-public class Department implements Cloneable{
+public class Department implements Cloneable{// This and nested class is good
 
     private String name;
     private Address address;

@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public class Student extends Person implements Cloneable{
+public class Student extends Person implements Cloneable{// Good but do not write implement here because you parent have this implementation you cat simply override method
 
     private int course;
 
