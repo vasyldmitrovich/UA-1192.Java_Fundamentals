@@ -9,7 +9,7 @@ public class App {
     private static final String[] NAMES = {"James", "Henry", "Emma", "William", "Evelyn"};
     private static final String[] GROUPS = {"CS", "CE", "AI", "AS"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice it is nice
         System.out.println("Task 1");
         demonstrateIntegersTask();
         System.out.println();
