@@ -2,7 +2,7 @@ package com.softserve.edu08_nest.pt;
 
 import java.util.Objects;
 
-public class Department implements Cloneable {
+public class Department implements Cloneable {// this and inner class is very nice, perfect
 
     private String name;
     private Address address = new Address();

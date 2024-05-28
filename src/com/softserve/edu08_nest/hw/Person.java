@@ -2,7 +2,7 @@ package com.softserve.edu08_nest.hw;
 
 public abstract class Person implements Cloneable {
 
-    FullName fullName = new FullName();
+    FullName fullName = new FullName();// Make private and add getters and setters for this field
     private int age;
 
     public Person(String firstName, String lastName, int age) {

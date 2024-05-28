@@ -2,7 +2,7 @@ package com.softserve.edu08_nest.hw;
 
 public class App {
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// Nice very nice
 
         Student person1 = new Student("Tamara", "Xan", 10, 5);
         Student person2 = new Student("Bogdan", "Juk", 25, 2);
