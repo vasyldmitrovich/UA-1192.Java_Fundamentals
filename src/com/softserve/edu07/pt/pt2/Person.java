@@ -1,7 +1,7 @@
 package com.softserve.edu07.pt.pt2;
 
 public abstract class Person {
-    public String name;
+    public String name;// Public is not good
 
     public Person() {
     }

@@ -1,7 +1,7 @@
 package com.softserve.edu07.pt.pt1;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         Animal[] animals = {
                 new Cat("Yukie", "Mixed-breed cat", "Meow", false),
                 new Cat("Seymour", "Mixed-breed cat", "Meow", true),

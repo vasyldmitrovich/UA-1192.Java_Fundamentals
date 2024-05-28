@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw.hw1;
 
-public class Eagle extends Flyingbird {
+public class Eagle extends Flyingbird {// Good
     private String name;
 
     public Eagle(boolean feathers, boolean layEggs, boolean fly, String name) {

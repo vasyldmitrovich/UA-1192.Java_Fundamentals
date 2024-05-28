@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt.pt3;
 
 public class Line {
-    Point firstPoint;
+    Point firstPoint;// Make private and add getters and setters
     Point secondPoint;
 
     public Line(){}

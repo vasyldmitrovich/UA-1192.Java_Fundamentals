@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt.pt2;
 
 public abstract class Car {
-    String model;
+    String model;// Make private and add getters and setters
     int maxSpeed;
     int yearOfProduction;
 
