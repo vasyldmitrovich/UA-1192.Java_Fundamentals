@@ -1,6 +1,6 @@
 package com.softserve.edu08.hw;
 
-public class FullName {// Implement Cloneable interphase
+public class FullName implements Cloneable {// Implement Cloneable interphase
     private String firstName;
     private String lastName;
 
@@ -26,5 +26,10 @@ public class FullName {// Implement Cloneable interphase
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
