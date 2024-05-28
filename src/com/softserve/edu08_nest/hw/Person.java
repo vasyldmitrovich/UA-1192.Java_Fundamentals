@@ -2,7 +2,7 @@ package com.softserve.edu08_nest.hw;
 
 public abstract class Person implements Cloneable {
 
-    FullName fullName = new FullName();// Make private and add getters and setters for this field
+    private FullName fullName = new FullName();// Make private and add getters and setters for this field
     private int age;
 
     public Person(String firstName, String lastName, int age) {
@@ -19,6 +19,14 @@ public abstract class Person implements Cloneable {
         this.age = age;
     }
 
+    public FullName getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(FullName fullName) {
+        this.fullName = fullName;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -32,7 +40,7 @@ public abstract class Person implements Cloneable {
         return super.clone();
     }
 
-    public String info(){
+    public String info() {
         return "First name: " + fullName.getFirstName() + " Last name: " + fullName.getLastName() + " Age: " + age;
     }
 

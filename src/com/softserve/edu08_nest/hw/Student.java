@@ -23,7 +23,7 @@ public class Student extends Person implements Cloneable {
     public String toString() {
         return "Student{" +
                 "course=" + course +
-                ", fullName=" + fullName +
+                ", fullName=" + getFullName() +
                 '}';
     }
 
@@ -42,7 +42,7 @@ public class Student extends Person implements Cloneable {
 
     @Override
     public String info(){
-        return  "First name: " + fullName.getFirstName() + " Last name: " + fullName.getLastName() + " Age: " + getAge() + " Course:" + getCourse() ;
+        return  "First name: " + getFullName().getFirstName() + " Last name: " + getFullName().getLastName() + " Age: " + getAge() + " Course:" + getCourse() ;
     }
 
     @Override
