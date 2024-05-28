@@ -1,4 +1,4 @@
-package com.softserve.edu13_14_func.streamapi;
+package com.softserve.edu14_streamapi;
 
 import java.util.Arrays;
 import java.util.List;
