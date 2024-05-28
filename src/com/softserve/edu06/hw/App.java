@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args){// Ok
 
-        task1();
+//        task1();
         task2();
 
     }
@@ -38,9 +38,9 @@ public class App {
         System.out.println("Homework 06 Task 2");
 
         Empolyee arr[] = {
-                new Empolyee("Alex", 40, 25000),
-                new Empolyee("Dimon", 21, 20000),
-                new Empolyee("Olya", 25, 24000),
+                new Workers("Alex", 40, 25000),
+                new Workers("Dimon", 21, 20000),
+                new Workers("Olya", 25, 24000),
                 new Developer("Kris", 30, 32000),
                 new Developer("Sanya", 30, 30000, "Junior"),
                 new Developer("Sanya", 30, 30000, "Middle"),

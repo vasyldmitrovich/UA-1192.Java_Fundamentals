@@ -1,8 +1,10 @@
 package com.softserve.edu06.hw;
 
-import static java.lang.String.format;
 
-public class Empolyee {// make abstruct
+
+public abstract class Empolyee {// make abstruct
+
+    // why abstract? By condition, it contains constructors.
 
     private String name;
     private int age;

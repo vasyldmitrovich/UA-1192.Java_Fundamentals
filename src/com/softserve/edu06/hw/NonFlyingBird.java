@@ -1,6 +1,6 @@
 package com.softserve.edu06.hw;
 
-public abstract class NonFlyingBird extends Bird{// This class should not be abstract
+public class NonFlyingBird extends Bird{// This class should not be abstract
 
     public NonFlyingBird() {
         super();
@@ -10,5 +10,8 @@ public abstract class NonFlyingBird extends Bird{// This class should not be abs
         super(feathers, layEggs);
     }
 
+    @Override
+    public void fly() {
 
+    }
 }
