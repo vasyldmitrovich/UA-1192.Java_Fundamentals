@@ -1,5 +1,4 @@
-package com.softserve.edu05.hw;
-import org.junit.*;
+package com.softserve.edu05pt;
 
 import java.util.*;
 

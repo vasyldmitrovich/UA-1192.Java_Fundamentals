@@ -1,4 +1,4 @@
-package com.softserve.edu05.hw;
+package com.softserve.edu05pt;
 
 public class Car {
     private String type;

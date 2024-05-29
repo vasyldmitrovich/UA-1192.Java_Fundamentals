@@ -1,4 +1,4 @@
-package com.softserve.edu05.pt;
+package com.softserve.edu05pt.pt;
 
 import java.util.Arrays;
 import java.util.Random;
