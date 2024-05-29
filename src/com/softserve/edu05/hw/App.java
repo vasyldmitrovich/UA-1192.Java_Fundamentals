@@ -1,4 +1,5 @@
 package com.softserve.edu05.hw;
+import org.junit.*;
 
 import java.util.*;
 
@@ -79,6 +80,8 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the year of production to search: ");
+
+
         int searchYear = scanner.nextInt();
 
         System.out.println("Cars produced in " + searchYear + ":");
