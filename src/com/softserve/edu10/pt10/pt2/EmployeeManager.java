@@ -52,8 +52,8 @@ public class EmployeeManager {
         String position = scanner.nextLine();
         System.out.print("Enter Salary: ");
         double salary = scanner.nextDouble();
-        scanner.nextLine(); // Consume newline
-        System.out.print("Enter Date of Birth (YYYY-MM-DD): ");
+        scanner.nextLine();
+        System.out.print("Enter Date of Birth (YYYY-MM-DD): ");//!
         String dateOfBirth = scanner.nextLine();
 
         Employee employee = new Employee(id, name, position, salary, dateOfBirth);
@@ -107,7 +107,7 @@ public class EmployeeManager {
         System.out.println("3. Position");
         System.out.print("Enter your choice: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
 
         List<Employee> employees = new ArrayList<>(employeeMap.values());
         switch (choice) {
