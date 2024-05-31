@@ -74,7 +74,10 @@ public class Person {
     }
 
 
+    public void print() {
+
     }
+}
 
 
 
