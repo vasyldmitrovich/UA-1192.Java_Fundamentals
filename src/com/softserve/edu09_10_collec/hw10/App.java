@@ -1,16 +1,18 @@
 package com.softserve.edu09_10_collec.hw10;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+
+import static com.softserve.edu09_10_collec.hw10.Student.printStudents;
 
 public class App {
+
+    public final static Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
 
 //task1();
-        task2();
+//        task2();
+        task3();
 
     }
 
@@ -53,7 +55,7 @@ public class App {
             System.out.println(person.getKey() + ": " + person.getValue());
         }
 
-        String key= "1";
+        String key = "1";
         for (Map.Entry person : personMap.entrySet()) {
             if (person.getValue().equals("Name 6")) {
                 key = (String) person.getKey();
@@ -69,6 +71,38 @@ public class App {
         }
     }
 
+    public static void task3(){
+
+        System.out.println("Homework 10 task 3");
+
+        ArrayList<Student> students = new ArrayList<>();
+        students.add(new Student("Alex",1));
+        students.add(new Student("Tamara",1));
+        students.add(new Student("Olga",1));
+        students.add(new Student("Bibo",5));
+        students.add(new Student("Bobo",3));
+
+        int courseForPrint;
+        System.out.print("Input course for print: ");
+
+        courseForPrint = SCANNER.nextInt();
+
+        printStudents(students, courseForPrint);
+
+        Collections.sort(students, Student.compareByName());
+        System.out.println("\nStudents sorted by name:");
+        for (Student student : students) {
+            System.out.println(student.getName() + " - " + student.getCourse());
+        }
+
+
+        Collections.sort(students, Student.compareByCourse());
+        System.out.println("\nStudents sorted by course:");
+        for (Student student : students) {
+            System.out.println(student.getName() + " - " + student.getCourse());
+        }
+
+    }
 
     public static <T> Set<T> union(Set<T> set1, Set<T> set2) {
         Set<T> resultSet = new HashSet<>(set1);
