@@ -7,10 +7,10 @@ public class AppHw {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("-".repeat(30)+"First homework"+"-".repeat(30));
+        System.out.println("-".repeat(30) + "First homework" + "-".repeat(30));
         hW1();
 
-        System.out.println("-".repeat(30)+"Second homework"+"-".repeat(30));
+        System.out.println("-".repeat(30) + "Second homework" + "-".repeat(30));
         hW2();
     }
 
