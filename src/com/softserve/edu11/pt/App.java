@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class App {
+public class App {// Nice, all good
 
     private static final Scanner SC = new Scanner(System.in);
 

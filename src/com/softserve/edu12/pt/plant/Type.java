@@ -1,6 +1,6 @@
 package com.softserve.edu12.pt.plant;
 
-public enum Type {
+public enum Type {// Ok
     FLOWER, TREE, SHRUB, GRASS, MOSS;
 
     public static Type of(String value) {

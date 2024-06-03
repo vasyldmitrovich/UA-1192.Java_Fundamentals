@@ -9,7 +9,7 @@ public class Plant {
     private Color color;
     private Type type;
 
-    public Plant(int size, Color color, Type type) {
+    public Plant(int size, Color color, Type type) {// Your constructor could throw exception, but i do not see that
         checkNullable(color);
         checkNullable(type);
         checkSize(size);

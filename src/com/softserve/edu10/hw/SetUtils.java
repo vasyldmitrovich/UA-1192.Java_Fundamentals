@@ -3,7 +3,7 @@ package com.softserve.edu10.hw;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SetUtils {
+public class SetUtils {// Ok
 
     public static <E> Set<E> union(Set<E> set1, Set<E> set2) {
         Set<E> result = new HashSet<>();

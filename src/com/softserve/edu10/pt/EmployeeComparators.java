@@ -3,7 +3,7 @@ package com.softserve.edu10.pt;
 import java.util.Comparator;
 import java.util.Map;
 
-public class EmployeeComparators {
+public class EmployeeComparators {// Make this class inner in Employee class
 
     public static <K> Comparator<K> getIdComparator(Map<K, Employee> relatedMap) {
         return new IdComparator<>(relatedMap);

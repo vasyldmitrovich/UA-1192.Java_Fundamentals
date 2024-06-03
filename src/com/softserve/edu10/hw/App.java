@@ -12,7 +12,7 @@ public class App {
     private static final Scanner SC = new Scanner(System.in);
     private static final Random RAND = new Random();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice tasks is good
         System.out.println("Task 1");
         demonstrateSetTask();
         System.out.println();

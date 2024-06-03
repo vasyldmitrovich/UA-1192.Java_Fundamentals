@@ -6,7 +6,7 @@ public class App {
 
     protected static final Scanner SC = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Task 1");
         demonstrateDivTask();
         System.out.println();

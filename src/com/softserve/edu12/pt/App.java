@@ -15,7 +15,7 @@ public class App {
     private static final String[] COLOR_INPUTS = {"Green", "red", "violet", "Yellow", "some"};
     private static final String[] TYPE_INPUTS = {"Tree", "some", "grass", "flower", "follower"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Task 1");
         demonstrateSquareTask();
         System.out.println();

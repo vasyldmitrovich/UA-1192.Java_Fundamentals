@@ -15,7 +15,7 @@ public class Student {
         this.course = course;
     }
 
-    public static void printStudents(List<Student> students) {
+    public static void printStudents(List<Student> students) {// Move to App class
         Iterator<Student> iter = students.iterator();
 
         while (iter.hasNext()) {
@@ -23,7 +23,7 @@ public class Student {
         }
     }
 
-    public static void printStudents(List<Student> students, int course) {
+    public static void printStudents(List<Student> students, int course) {// Move to App class
         Iterator<Student> iter = students.iterator();
 
         while (iter.hasNext()) {

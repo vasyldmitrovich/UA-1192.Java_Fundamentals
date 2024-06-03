@@ -11,7 +11,7 @@ public class App {
         "Hello %s, your validation is successful!", "Hi %s, congratulations on validation!"};
     private static final Random RAND = new Random(System.currentTimeMillis());
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println("Task 1");
         demonstrateSentenceTask();
         System.out.println();

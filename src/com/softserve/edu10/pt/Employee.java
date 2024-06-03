@@ -2,7 +2,7 @@ package com.softserve.edu10.pt;
 
 import java.util.Objects;
 
-public class Employee {
+public class Employee {// Good
 
     private int id;
     private String name;

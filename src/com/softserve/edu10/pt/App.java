@@ -11,9 +11,9 @@ public class App {
 
     static {
         employeeMap = initMap();
-    }
+    }// Nice
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good, all is good
         printMap(employeeMap);
         findEmployeeById();
         findEmployeeByName();
