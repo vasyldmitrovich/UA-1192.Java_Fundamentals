@@ -1,4 +1,4 @@
-package edu10.pt;
+package com.softserve.edu10.pt;
 
 
 public class AppPt10 {

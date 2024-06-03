@@ -1,4 +1,4 @@
-package edu10.hw;
+package com.softserve.edu10.hw;
 
 import java.util.*;
 
