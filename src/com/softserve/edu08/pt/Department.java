@@ -42,7 +42,7 @@ public class Department implements Cloneable {
         return myDept;
     }
 
-    public class Adress implements Cloneable {
+    public class Adress implements Cloneable {// Mabe Address
         private String city;
         private String street;
         private int buildings;
@@ -77,7 +77,7 @@ public class Department implements Cloneable {
             this.buildings = buildings;
         }
 
-        public void sets(String city, String street, int buildings) {
+        public void sets(String city, String street, int buildings) {// You have constructor
             setName(name);
             this.city = city;
             this.street = street;

@@ -8,7 +8,7 @@ import java.util.Random;
 public class App {
     public static final Random RANDOM = new Random();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nive very nice
 
         List<Integer> myCollection = createArraylist();                                  //Created "myCollection"
 
