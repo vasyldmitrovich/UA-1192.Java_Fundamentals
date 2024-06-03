@@ -4,6 +4,9 @@ package com.softserve.edu11_str;
 //import java.util.List;
 
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class AppRegex {
 	public static void main(String[] args) {
 
@@ -36,7 +39,7 @@ public class AppRegex {
 
 
 		//Second
-/*
+
 
 		//String text = "";
 		//
@@ -62,7 +65,7 @@ public class AppRegex {
 		while (m.find()) {
 			System.out.print(" *" + text.substring(m.start(), m.end()) + "* ");
 		}
-*/
+
 
 
 
