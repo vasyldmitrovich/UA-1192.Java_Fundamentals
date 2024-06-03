@@ -23,7 +23,7 @@ public class Department implements Cloneable {
     }
 
     // Address inner class
-    public class Address {
+    public class Address {// Good
         private String city;
         private String street;
         private int building;

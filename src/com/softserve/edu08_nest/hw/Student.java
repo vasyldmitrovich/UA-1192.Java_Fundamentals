@@ -1,6 +1,6 @@
 package com.softserve.edu08_nest.hw;
 
-public class Student extends Person implements Cloneable {
+public class Student extends Person implements Cloneable {// Add getter and setter
     private int course;
 
     public Student(FullName fullName, int age, int course) {

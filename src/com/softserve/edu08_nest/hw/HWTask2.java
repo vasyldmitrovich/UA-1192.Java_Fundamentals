@@ -1,7 +1,7 @@
 package com.softserve.edu08_nest.hw;
 
 public class HWTask2 {
-    public static void execute() {
+    public static void execute() {// Ok
         // Create two instances of the Student class
         FullName fullName1 = new FullName("John", "Doe");
         Student student1 = new Student(fullName1, 20, 1);

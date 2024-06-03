@@ -9,6 +9,8 @@ public abstract class Person {
         this.age = age;
     }
 
+    // Add getters and setters
+
     public String info() {
         return "First name: " + fullName.getFirstName() + ", Last name: " + fullName.getLastName() + ", Age: " + age;
     }

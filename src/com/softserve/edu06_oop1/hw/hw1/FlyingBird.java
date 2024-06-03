@@ -10,5 +10,5 @@ public abstract class FlyingBird extends Bird {
     @Override
     public void fly() {
         System.out.println(this.getClass().getSimpleName() + " is flying.");
-    }
+    }// realize this method in not abstract class like Eagle
 }

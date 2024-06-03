@@ -1,6 +1,6 @@
 package com.softserve.edu06_oop1.hw.hw1;
 
-public abstract class Bird {
+public abstract class Bird {// Good
     protected String feathers;
     protected boolean layEggs;
 
