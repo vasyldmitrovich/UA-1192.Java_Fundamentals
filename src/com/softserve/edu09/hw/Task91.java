@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Task91 {
 
-    public static void execute(){
+    public static void execute(){// Good
 
         ArrayListOperator aop = new ArrayListOperator();
         ArrayList<Integer> myCollection = createList(10);

@@ -2,7 +2,7 @@ package com.softserve.edu09.hw;
 
 import java.util.*;
 
-public class ArrayListOperator {
+public class ArrayListOperator {// Good
 
 
     public ArrayList<Integer> swapMaxMin(ArrayList<Integer> numbers) {

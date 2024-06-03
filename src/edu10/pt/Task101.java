@@ -20,7 +20,7 @@ the containsValue() function.
  */
 
     public static void execute() {
-        Map<Integer, String> employeeMap = new HashMap<>();
+        Map<Integer, String> employeeMap = new HashMap<>();// Good
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 1; i < 8; i++) {

@@ -2,7 +2,7 @@ package com.softserve.edu09.pt;
 
 import java.util.Arrays;
 
-public class AppPt09 {
+public class AppPt09 {// Good
 
     public static void main(String[] args) {
 

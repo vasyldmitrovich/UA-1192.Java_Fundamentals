@@ -1,7 +1,7 @@
 package edu10.hw;
 
 
-public class AppHw10 {
+public class AppHw10 {// All is ok
 
     public static void main(String[] args) {
 

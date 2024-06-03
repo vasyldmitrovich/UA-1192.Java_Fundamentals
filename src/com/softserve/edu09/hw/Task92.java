@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Task92 {
 
-    public static void execute() {
+    public static void execute() {// Ok
         StudentsOperator sop = new StudentsOperator();
         ArrayList<Student> students = sop.createStudents(8);
 
