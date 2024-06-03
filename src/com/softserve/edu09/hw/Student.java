@@ -8,7 +8,7 @@ public class Student {
     private String name;
     private String group;
     private int course;
-    private int [] grades = new int[5];
+    private int [] grades = new int[5];// You initialize in constructor, do not need here
 
     public Student () {
         this.name = "Mykola";

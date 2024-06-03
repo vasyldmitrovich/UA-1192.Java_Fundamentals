@@ -4,7 +4,7 @@ import java.util.*;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good, all good
         homework1();
         System.out.println("End of the first homework");
 
