@@ -13,7 +13,7 @@ public abstract class Bird {
 
     }
 
-    public abstract void flay();
+    public abstract void flay();// This method do not need
 
     @Override
     public String toString() {

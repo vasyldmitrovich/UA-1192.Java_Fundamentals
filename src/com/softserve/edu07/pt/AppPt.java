@@ -17,7 +17,7 @@ public class AppPt {
             animal.voice();
             animal.feed();
         }
-        interface Animal {
+        interface Animal {// What this interface do here???
             void voice();
 
             void feed();

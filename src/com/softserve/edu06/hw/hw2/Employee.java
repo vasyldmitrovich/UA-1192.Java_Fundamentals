@@ -16,5 +16,5 @@ public class Employee {
 
     }
 
-
+    // Without getters and setters you could not change variables
 }

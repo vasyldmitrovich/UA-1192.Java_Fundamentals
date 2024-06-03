@@ -4,9 +4,9 @@ import java.util.*;
 
 public class Employee {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Not here this main method move to App class
          Scanner scanner=new Scanner(System.in);
-        class Employee1 {
+        class Employee1 {// Move this to class Employee, do not create class Employee1
             private String name;
             private int departmentNumber;
             private double salary;

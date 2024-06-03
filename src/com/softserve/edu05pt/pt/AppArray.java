@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class AppArray {
+public class AppArray {// This class is ok
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

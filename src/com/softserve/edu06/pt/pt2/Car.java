@@ -15,7 +15,7 @@ public abstract class Car {
 
     }
 
-    public void run() {
+    public void run() {// Should be abstract this and next method
 
     }
 
@@ -24,7 +24,7 @@ public abstract class Car {
     }
 
     public String getModel() {
-        ;
+        ;// What is that?
 
         return model;
     }

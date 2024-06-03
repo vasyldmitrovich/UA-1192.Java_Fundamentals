@@ -16,7 +16,7 @@ public class AppHw {
     }
 
     public static void printEmployeePay(Payment employee) {
-        System.out.println("Employee ID: " + ((Employee) employee).employeeId);
+//        System.out.println("Employee ID: " + ((Employee) employee).employeeId);// DO NOT CORRECT Cannot be accessed from outside package, Compilation error
         System.out.println("Pay: " + employee.calculatePay());
         System.out.println();
     }

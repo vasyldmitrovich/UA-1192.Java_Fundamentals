@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw1;
 
-public  class SalariedEmployee extends Employee {
+public  class SalariedEmployee extends Employee {// You do not use reformat code, code is hard to reed
     private String socialSecurityNumber;
     private double monthlySalary;
 

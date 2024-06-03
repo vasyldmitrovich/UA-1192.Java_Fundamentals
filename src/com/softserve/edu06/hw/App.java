@@ -4,7 +4,7 @@ import com.softserve.edu06.hw.hw1.*;
 import com.softserve.edu06.hw.hw2.Developer;
 import com.softserve.edu06.hw.hw2.Employee;
 
-public class App {
+public class App {// Use code reformat
 
     public static void main(String[] args) {
         task2();
