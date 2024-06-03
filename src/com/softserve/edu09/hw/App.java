@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Iterator;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All is good
         task1();
         task2();
     }

@@ -2,7 +2,7 @@ package com.softserve.edu09.hw;
 
 import java.util.Arrays;
 
-public class Student {
+public class Student {// Class is good
     private String name;
     private String group;
     private int course;

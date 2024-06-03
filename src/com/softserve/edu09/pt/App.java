@@ -5,7 +5,7 @@ import com.softserve.edu06.pt.Line;
 import java.util.*;
 import java.util.Scanner;
 
-public class App {
+public class App {// This tasks and class HeavyBox is good
     public static void main(String[] args) {
         task1();
         task2();
