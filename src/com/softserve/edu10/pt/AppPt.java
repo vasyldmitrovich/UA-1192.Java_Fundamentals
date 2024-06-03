@@ -1,9 +1,8 @@
 package com.softserve.edu10.pt;
 
-import java.time.LocalDate;
 import java.util.*;
 
-public class appPt {// Rename to AppPt
+public class AppPt {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -61,10 +60,6 @@ public class appPt {// Rename to AppPt
         }
     }
     public static void pt2(){
-       /* Map<Integer,Employee> employeeMap = new HashMap<>();
-        employeeMap.put(1,
-                new Employee(1,"Pasha", Position.DEV,1200,
-                        LocalDate.of(2004,02,18)) );*/
         EmployeeManagementSystem register = new EmployeeManagementSystem();
         register.run();
     }

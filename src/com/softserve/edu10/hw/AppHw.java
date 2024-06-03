@@ -2,7 +2,7 @@ package com.softserve.edu10.hw;
 
 import java.util.*;
 
-public class appHw {// Rename to AppHw
+public class AppHw {
     public static void main(String[] args) {// Another logic is good
         System.out.println("-".repeat(40)+"First homework"+"-".repeat(40));
         hw1();
@@ -115,7 +115,7 @@ public class appHw {// Rename to AppHw
         System.out.println("\nStudents studying in the 2nd course");
         Student.printStudents(studentList, 2);
 
-        Collections.sort(studentList, new StudentComparatorByName().thenComparing(new StudentComparatorByCourse()));
+        Collections.sort(studentList, new Student.StudentComparatorByName().thenComparing(new Student.StudentComparatorByCourse()));
         System.out.println("\nList after sorting\n" + studentList);
     }
 

@@ -78,4 +78,16 @@ public class Student {
             }
         }
     }
+    public static class StudentComparatorByCourse implements Comparator<Student> {
+        @Override
+        public int compare(Student s1, Student s2) {
+            return s1.getCourse()-s2.getCourse();
+        }
+    }
+    public static class StudentComparatorByName implements Comparator<Student> {
+        @Override
+        public int compare(Student s1, Student s2) {
+            return s1.getFirstName().compareTo(s2.getFirstName());
+        }
+    }
 }
