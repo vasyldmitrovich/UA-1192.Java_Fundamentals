@@ -12,7 +12,7 @@ public class App {
 
         List<Integer> myCollection = createArraylist();                                  //Created "myCollection"
 
-        List<Integer> newCollection = greaterThanFiveArraylist(myCollection);            //Created "newCollection" with numbers > 5 from "myCollection"
+        List<Integer> newCollection = greaterThanFiveArraylist(myCollection);            //Created "newCollection" with indexes of el's that are greater than 5.
 
         removeTwentyFromArraylist(myCollection);
 
@@ -26,7 +26,7 @@ public class App {
         System.out.println("\nSorted: " + myCollection);                                 //The final look of "myCollection"
     }
 
-    public static List<Integer> createArraylist() {
+    public static List<Integer> createArraylist(){
         Integer[] numbers = new Integer[10];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = RANDOM.nextInt(0, 50);
@@ -36,14 +36,16 @@ public class App {
         return myCollection;
     }
 
-    public static List<Integer> greaterThanFiveArraylist(List<Integer> arrayList) {
+    public static List<Integer> greaterThanFiveArraylist (List<Integer> arrayList){
+        int index = 0;
         List<Integer> newCollection = new ArrayList<>();                //Created new collection
         for (int i = 0; i < arrayList.size(); i++) {
             if (arrayList.get(i) > 5) {
-                newCollection.add(arrayList.get(i));                 //Saving elements which are greater than 5
+                newCollection.add(index);                               //Add to newCollection indexes of el's that are greater than 5.
             }
+            index++;
         }
-        System.out.println("newCollection with numbers greater than 5:\n" + arrayList);
+        System.out.println("newCollection with indexes of numbers which are greater than 5:\n" + newCollection);
         return newCollection;
     }
 
@@ -57,13 +59,13 @@ public class App {
         System.out.println("myCollection without numbers greater than 20:\n" + arrayList);
     }
 
-    public static void switchCollection(List<Integer> collection, int ind, int val) {
+    public static void switchCollection(List<Integer> collection, int ind, int val){
         String gap = "\n";
-        if (ind > collection.size()) {
+        if (ind > collection.size()){
             collection.add(val);
             System.out.printf("Position %d is out of bound." +
                     " Value %d has added in the end of collection %n", ind, val);
-        } else {
+        }else {
             collection.add(ind, val);
             System.out.printf("Position %d is: %d %n", ind, val);
         }
