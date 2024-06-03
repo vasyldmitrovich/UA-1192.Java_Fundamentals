@@ -5,7 +5,7 @@ import java.util.*;
 public class AppPt {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         task1();
         task2();
         task3();
