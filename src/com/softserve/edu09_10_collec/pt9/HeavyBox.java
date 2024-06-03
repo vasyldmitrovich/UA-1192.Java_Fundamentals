@@ -2,7 +2,7 @@ package com.softserve.edu09_10_collec.pt9;
 
 import java.util.Objects;
 
-public class HeavyBox {
+public class HeavyBox {// Good
     private int weight;
     private String contents;
 
