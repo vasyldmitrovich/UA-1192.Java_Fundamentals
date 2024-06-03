@@ -44,7 +44,7 @@ public class Student {
         return Comparator.comparingInt(Student::getCourse);
     }
 
-    public static void printStudents(List<Student> students, int course) {
+    public static void printStudents(List<Student> students, int course) {// Move to class App
         Iterator<Student> iterator = students.iterator();
         while (iterator.hasNext()) {
             Student student = (Student) iterator.next();

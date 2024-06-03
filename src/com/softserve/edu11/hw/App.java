@@ -20,7 +20,7 @@ public class App {
             "Good day, %s! What can we do for you?"
     };
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice to see this code, nice
         System.out.println("Demonstrate task 1");
         task1(args);
 

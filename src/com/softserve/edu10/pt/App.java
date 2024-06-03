@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All is nice
 
         System.out.println("Demonstrate task 1");
         task1();

@@ -1,6 +1,6 @@
 package com.softserve.edu10.pt;
 
-public class Employee {
+public class Employee {// Nice very nice
 
     private int id;
 

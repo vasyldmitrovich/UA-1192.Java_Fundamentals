@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
     private static final Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// And this is good
         System.out.println("Demonstrate task 1");
         task1();
 
