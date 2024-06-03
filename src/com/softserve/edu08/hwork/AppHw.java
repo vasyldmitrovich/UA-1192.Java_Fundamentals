@@ -3,7 +3,7 @@ package com.softserve.edu08.hwork;
 import java.util.Scanner;
 
 public class AppHw {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// All is good
         FullName nameStudent1 = new FullName("Anastasia", "Rakuta");
         Student student1 = new Student(nameStudent1, 22, 2);
 

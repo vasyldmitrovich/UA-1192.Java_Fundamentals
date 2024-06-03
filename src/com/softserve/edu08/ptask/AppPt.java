@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class AppPt {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// And here all good
         Department department = new Department("IT Department", "Kyiv", "Khreshchatyk street", 2);
         Department copyOfDepartment = (Department) department.clone();
 
