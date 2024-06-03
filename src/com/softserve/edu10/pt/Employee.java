@@ -30,6 +30,6 @@ record Employee(
         return new Employee(id,name,position,newSalary,dateOfBirth);
     }
 }
-enum Position {
+enum Position {// This enum move to file Position.java not here
     DEV,QA,DEVOPS,MANAGER;
 }

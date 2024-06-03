@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class HeavyBox {
     private int weight;
     private String contents;
-    public static Scanner scanner = new Scanner(System.in);
-    public HeavyBox(){
+    public static Scanner scanner = new Scanner(System.in);// I think this could move to AppPt class
+
+    public HeavyBox(){// And logic initialing box move to AppPt too
         System.out.println("Create new Heavy box");
         System.out.println("Enter box content");
         contents=scanner.nextLine();

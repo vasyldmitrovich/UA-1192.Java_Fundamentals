@@ -2,8 +2,8 @@ package com.softserve.edu10.hw;
 
 import java.util.*;
 
-public class appHw {
-    public static void main(String[] args) {
+public class appHw {// Rename to AppHw
+    public static void main(String[] args) {// Another logic is good
         System.out.println("-".repeat(40)+"First homework"+"-".repeat(40));
         hw1();
         System.out.println("-".repeat(40)+"Second homework"+"-".repeat(40));

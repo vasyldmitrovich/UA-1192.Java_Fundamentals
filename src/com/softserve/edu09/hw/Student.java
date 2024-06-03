@@ -9,6 +9,7 @@ public class Student {
     private int course;
     private int[] grades;
     private double average;
+
     public Student(String name, String group, int course, int[] grades){
         this.name = name;
         this.group = group;
@@ -16,12 +17,13 @@ public class Student {
         this.grades = grades;
         for (int i =0; i<grades.length;i++){
             average += grades[i];
-        }
+        }// Interesting
         average=average/(grades.length);
     }
     public void getName(String name){
         this.name = name;
     }
+
     public String getName(){
         return name;
     }

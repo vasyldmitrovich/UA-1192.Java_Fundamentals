@@ -6,7 +6,7 @@ public class AppHw {
     public static Random random = new Random();
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice all is good
         System.out.println("-".repeat(30) + "First homework" + "-".repeat(30));
         hW1();
 

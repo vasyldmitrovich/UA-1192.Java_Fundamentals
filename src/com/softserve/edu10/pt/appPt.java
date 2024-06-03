@@ -3,7 +3,7 @@ package com.softserve.edu10.pt;
 import java.time.LocalDate;
 import java.util.*;
 
-public class appPt {
+public class appPt {// Rename to AppPt
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
