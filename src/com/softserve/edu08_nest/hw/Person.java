@@ -1,7 +1,7 @@
 package com.softserve.edu08_nest.hw;
 
 abstract class Person {
-    public FullName fullName;
+    public FullName fullName;// Why public, should be private fields and add getters and setters
     public int age;
 
     public Person(FullName fullName, int age) {

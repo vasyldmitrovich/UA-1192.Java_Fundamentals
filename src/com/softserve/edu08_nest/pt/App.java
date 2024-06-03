@@ -1,7 +1,7 @@
 package com.softserve.edu08_nest.pt;
 
 public class App {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// This is good
         Department department = new Department("HR people department", "Lviv", "Chervona kalyna avenue", 104);
 
         Department copyOfDepartment = (Department) department.clone();

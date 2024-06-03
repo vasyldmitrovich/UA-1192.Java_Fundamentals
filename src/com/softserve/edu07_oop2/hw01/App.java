@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         Employee[] employees = {
                 new SalariedEmployee("01AD00", "Anna", "AA23456", 60, 120),
                 new SalariedEmployee("02AD32", "Anastasiia", "AI23242", 55, 145),
@@ -18,7 +18,7 @@ public class App {
                     ". Average monthly wage of employee is: " + employee.calculatePay());
         }
 
-        Arrays.sort(employees, Comparator.comparingDouble(Employee::calculatePay).reversed());
+        Arrays.sort(employees, Comparator.comparingDouble(Employee::calculatePay).reversed());// Interesting, nice
     }
 }
 
