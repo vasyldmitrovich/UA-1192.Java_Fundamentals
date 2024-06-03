@@ -65,7 +65,7 @@ public class App {
         for (int i = 0; i < count; i++) {
             try {
                 plants.add(generatePlant());
-            } catch (Exception e) {
+            } catch (NullPointerException | IllegalArgumentException e) {
                 System.out.println(i + ": " + e.getMessage());
             }
         }
@@ -78,7 +78,8 @@ public class App {
         }
     }
 
-    private static Plant generatePlant() {
+    private static Plant generatePlant()
+            throws NullPointerException, IllegalArgumentException {
         int size = RAND.nextInt(100);
         String colorString = COLOR_INPUTS[RAND.nextInt(COLOR_INPUTS.length)];
         String typeString = TYPE_INPUTS[RAND.nextInt(TYPE_INPUTS.length)];

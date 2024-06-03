@@ -63,7 +63,7 @@ public class App {
         System.out.print("Input count of students: ");
         int count = Integer.parseInt(SC.nextLine());
         List<Student> students = randomStudents(count);
-        Student.printStudents(students);
+        printStudents(students);
 
         System.out.println("Filter by course");
         System.out.print("Input course number: ");
@@ -72,11 +72,11 @@ public class App {
 
         System.out.println("Sort by name");
         students.sort(Student::compareByName);
-        Student.printStudents(students);
+        printStudents(students);
 
         System.out.println("Sort by course");
         students.sort(Student::compareByCourse);
-        Student.printStudents(students);
+        printStudents(students);
     }
 
     private static Set<String> randomNames(int count) {
@@ -144,5 +144,13 @@ public class App {
         }
 
         return students;
+    }
+
+    private static void printStudents(List<Student> students) {// Move to App class
+        Iterator<Student> iter = students.iterator();
+
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
     }
 }

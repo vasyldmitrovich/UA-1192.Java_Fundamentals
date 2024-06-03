@@ -15,14 +15,6 @@ public class Student {
         this.course = course;
     }
 
-    public static void printStudents(List<Student> students) {// Move to App class
-        Iterator<Student> iter = students.iterator();
-
-        while (iter.hasNext()) {
-            System.out.println(iter.next());
-        }
-    }
-
     public static void printStudents(List<Student> students, int course) {// Move to App class
         Iterator<Student> iter = students.iterator();
 

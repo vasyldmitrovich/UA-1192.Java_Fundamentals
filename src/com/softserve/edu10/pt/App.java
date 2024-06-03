@@ -1,7 +1,5 @@
 package com.softserve.edu10.pt;
 
-import com.sun.source.tree.Tree;
-
 import java.util.*;
 
 public class App {
@@ -117,11 +115,11 @@ public class App {
     private static void sortMap() {
         System.out.println("[by_id, by_name, by_position]");
         System.out.print("Enter sorting type: ");
-        Comparator<Integer> keyComparator = EmployeeComparators.getIdComparator(employeeMap);
+        Comparator<Integer> keyComparator = new Employee.IdComparator<>(employeeMap);
 
         switch (SC.nextLine().toLowerCase()) {
-            case "by_name" -> keyComparator = EmployeeComparators.getNameComparator(employeeMap);
-            case "by_position" -> keyComparator = EmployeeComparators.getPositionComparator(employeeMap);
+            case "by_name" -> keyComparator = new Employee.NameComparator<>(employeeMap);
+            case "by_position" -> keyComparator = new Employee.PositionComparator<>(employeeMap);
         }
 
         TreeMap<Integer, Employee> sorted = new TreeMap<>(keyComparator);
