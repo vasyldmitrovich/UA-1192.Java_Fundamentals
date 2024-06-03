@@ -6,7 +6,7 @@ public class App {
 
     public static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
 
         task1();
 
@@ -27,7 +27,7 @@ public class App {
         employeeMap.put(6, "Vlad");
         employeeMap.put(7, "Anna");
 
-        Set<String> existingValues = new HashSet<>();
+        Set<String> existingValues = new HashSet<>();// Good
 
         for (Map.Entry employee : employeeMap.entrySet()) {
             System.out.println(employee.getKey() + ": " + employee.getValue());
