@@ -2,7 +2,7 @@ package com.softserve.edu09.hw;
 
 import java.util.*;
 
-public class CollectionMethods {
+public class CollectionMethods {// Good
     private static final Scanner SCANNER = new Scanner(System.in);
     private static final Random RANDOM = new Random();
     private final String GAP = "-".repeat(175);

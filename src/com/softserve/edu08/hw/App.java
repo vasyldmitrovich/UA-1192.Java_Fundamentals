@@ -1,7 +1,7 @@
 package com.softserve.edu08.hw;
 
 public class App {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException {// Good
 
         Student student1 = new Student(new FullName("Rostyslav", "Kushpit"), 27, 1);
         Student student2 = new Student(new FullName("Pavlo", "Chernyavckii"), 20, 1);

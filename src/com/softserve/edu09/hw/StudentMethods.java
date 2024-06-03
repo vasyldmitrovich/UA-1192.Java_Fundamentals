@@ -2,7 +2,7 @@ package com.softserve.edu09.hw;
 
 import java.util.*;
 
-public class StudentMethods extends Student {
+public class StudentMethods extends Student {// Nice
     private static final Random RANDOM = new Random();
     private static final Scanner SCANNER = new Scanner(System.in);
     private final String GAP = "-".repeat(60);

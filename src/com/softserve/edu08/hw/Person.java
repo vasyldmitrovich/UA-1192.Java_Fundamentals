@@ -1,7 +1,7 @@
 package com.softserve.edu08.hw;
 
 public abstract class Person implements Cloneable {
-    FullName fullName;
+    FullName fullName;// Make fields private
     int age;
 
     public Person() {
