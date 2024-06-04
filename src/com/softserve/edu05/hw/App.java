@@ -6,60 +6,75 @@ public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println("Demonstrate task 1");
         task1();
+
+        System.out.println("Demonstrate task 2");
         task2();
+
+        System.out.println("Demonstrate task 3");
         task3();
+
+        System.out.println("Demonstrate task 4");
         task4();
     }
 
     public static void task1() {
-        System.out.println("Enter month number");
-        int month = scanner.nextInt();
+        try {
+            System.out.println("Enter month number");
+            int month = scanner.nextInt();
 
-        int days = MonthDaysCalculator.calculateMonthDays(month);
-        System.out.println("Days in month: " + days);
+            int days = MonthDaysCalculator.calculateMonthDays(month);
+            System.out.println("Days in month: " + days);
 
-        int[] arr = new int[10];
+            int[] arr = new int[10];
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("Input integer number: ");
-            arr[i] = scanner.nextInt();
+            for (int i = 0; i < arr.length; i++) {
+                System.out.println("Input integer number: ");
+                arr[i] = scanner.nextInt();
+            }
+
+            int result = SumOrProductCalculator.calculateSumOrProduct(arr);
+            System.out.println("Result: " + result);
+
+            arr = new int[5];
+
+            for (int i = 0; i < arr.length; i++) {
+                System.out.println("Input integer number: ");
+                arr[i] = scanner.nextInt();
+            }
+
+            StatsCalculatorResult response = ArrayStatsCalculator.calculateStats(arr);
+
+            System.out.println("Second positive position: " + response.getSecondPositivePosition());
+            System.out.println("Min value: " + response.getMin());
+            System.out.println("Min position: " + response.getMinPosition());
+            System.out.println("Product of even number exclude 0: " + response.getProductOfEvenNumbers());
+        } catch (InputMismatchException e) {
+            System.out.println("Value should be an integer");
         }
-
-        int result = SumOrProductCalculator.calculateSumOrProduct(arr);
-        System.out.println("Result: " + result);
-
-        arr = new int[5];
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("Input integer number: ");
-            arr[i] = scanner.nextInt();
-        }
-
-        StatsCalculatorResult response = ArrayStatsCalculator.calculateStats(arr);
-
-        System.out.println("Second positive position: " + response.getSecondPositivePosition());
-        System.out.println("Min value: " + response.getMin());
-        System.out.println("Min position: " + response.getMinPosition());
-        System.out.println("Product of even number exclude 0: " + response.getProductOfEvenNumbers());
     }
 
     public static void task2() {
         do {
 
-            System.out.println("Input first number: ");
-            double firstName = scanner.nextDouble();
+            try {
+                System.out.println("Input first number: ");
+                double firstName = scanner.nextDouble();
 
-            System.out.println("Input second number: ");
-            double secondNumber = scanner.nextDouble();
+                System.out.println("Input second number: ");
+                double secondNumber = scanner.nextDouble();
 
-            System.out.println("Sum of calculated numbers: " + (firstName + secondNumber));
+                System.out.println("Sum of calculated numbers: " + (firstName + secondNumber));
 
-            System.out.println("Do you want to continue? (Y/N): ");
-            String answer = scanner.next();
+                System.out.println("Do you want to continue? (Y/N): ");
+                String answer = scanner.next();
 
-            if (!"Y".equals(answer)) {
-                break;
+                if (!"Y".equals(answer)) {
+                    break;
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("Value should be a double");
             }
 
         } while (true);
@@ -108,17 +123,21 @@ public class App {
         System.out.println("Try to guess number: ");
 
         do {
-            int guess = scanner.nextInt();
+            try {
+                int guess = scanner.nextInt();
 
-            if (number == guess) {
-                System.out.println("Congratulations! You guessed the number!");
-                break;
-            }
+                if (number == guess) {
+                    System.out.println("Congratulations! You guessed the number!");
+                    break;
+                }
 
-            if (number > guess) {
-                System.out.println("Too low, try again");
-            } else {
-                System.out.println("Too high, try again");
+                if (number > guess) {
+                    System.out.println("Too low, try again");
+                } else {
+                    System.out.println("Too high, try again");
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("Value should be an integer");
             }
 
         } while (true);

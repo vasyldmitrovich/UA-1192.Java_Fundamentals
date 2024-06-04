@@ -3,10 +3,10 @@ package com.softserve.edu06.hw;
 public class App {
     public static void main(String[] args) {
 
-        // Add println to show that it is Task1
+        System.out.println("Demonstrate task 1");
         task1();
 
-        // The same
+        System.out.println("Demonstrate task 2");
         task2();
     }
 

@@ -2,66 +2,89 @@ package com.softserve.edu04.hw;
 
 import com.softserve.edu04.pt.Season;
 import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println("Demonstrate task 1");
         task1();
+
+        System.out.println("Demonstrate task 2");
         task2();
+
+        System.out.println("Demonstrate task 3");
         task3();
+
+        System.out.println("Demonstrate task 4");
         task4();
+
+        System.out.println("Demonstrate task 5");
         task5();
     }
 
     public static void task1() {
-        System.out.println("Input first number: ");
-        float number1 = scanner.nextFloat();
-        //Add spaces for more readable of code
+        try {
+            System.out.println("Input first number: ");
+            float number1 = scanner.nextFloat();
 
-        System.out.println("Input second number: ");
-        float number2 = scanner.nextFloat();
+            System.out.println("Input second number: ");
+            float number2 = scanner.nextFloat();
 
-        System.out.println("Input third number: ");
-        float number3 = scanner.nextFloat();
+            System.out.println("Input third number: ");
+            float number3 = scanner.nextFloat();
 
-        boolean inRange = number1 >= -5 && number1 <= 5 && number2 >= -5 && number2 <= 5 && number3 >= -5 && number3 <= 5;
+            boolean inRange = number1 >= -5 && number1 <= 5 && number2 >= -5 && number2 <= 5 && number3 >= -5 && number3 <= 5;
 
-        if (inRange) {
-            System.out.println("All numbers belong to the interval [-5, 5]");
-        } else {
-            System.out.println("Not all numbers belong to the interval [-5, 5]");
+            if (inRange) {
+                System.out.println("All numbers belong to the interval [-5, 5]");
+            } else {
+                System.out.println("Not all numbers belong to the interval [-5, 5]");
+            }
+        } catch (InputMismatchException e) {
+            System.out.println("Value should be a floating point number");
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
     public static void task2() {
-        System.out.println("Input first number: ");
-        int number1 = scanner.nextInt();
+        try {
+            System.out.println("Input first number: ");
+            int number1 = scanner.nextInt();
 
-        System.out.println("Input second number: ");
-        int number2 = scanner.nextInt();
+            System.out.println("Input second number: ");
+            int number2 = scanner.nextInt();
 
-        System.out.println("Input third number: ");
-        int number3 = scanner.nextInt();
+            System.out.println("Input third number: ");
+            int number3 = scanner.nextInt();
 
-        int max = Math.max(Math.max(number1, number2), number3);
-        int min = Math.min(Math.min(number1, number2), number3);
+            int max = Math.max(Math.max(number1, number2), number3);
+            int min = Math.min(Math.min(number1, number2), number3);
 
-        System.out.println("Max: " + max);
-        System.out.println("Min: " + min);
-    } // All good but add spaces
+            System.out.println("Max: " + max);
+            System.out.println("Min: " + min);
+        } catch (InputMismatchException e) {
+            System.out.println("Value should be an integer number");
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
 
     public static void task3() {
-        System.out.println("Input http error code: ");
-        int httpErrorCode = scanner.nextInt();
+        try {
+            System.out.println("Input http error code: ");
+            int httpErrorCode = scanner.nextInt();
 
-        HTTPError error = getHTTPError(httpErrorCode);
+            HTTPError error = getHTTPError(httpErrorCode);
 
-        if (error != null) {
             System.out.println("Error " + httpErrorCode + " - " + error.getDescription());
-        } else {
-            System.out.println("Can`t find error description for " + httpErrorCode);
+        } catch (InputMismatchException e) {
+            System.out.println("Value should be an integer number");
+        } catch (HttpCodeNotFountException e) {
+            System.out.println(e.getMessage());
         }
     }
 
@@ -69,6 +92,7 @@ public class App {
         try {
             System.out.println("Input number of students: ");
             int numberOfStudents = scanner.nextInt();
+
             System.out.println("Input season name: ");
             String seasonName = scanner.next();
 
@@ -119,6 +143,6 @@ public class App {
                 return error;
             }
         }
-        return null;// Not best decision because in class which call this method programmer should add try catch to catch null on runtime
+        throw new HttpCodeNotFountException();
     }
 }

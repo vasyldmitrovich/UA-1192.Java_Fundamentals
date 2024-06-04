@@ -25,6 +25,10 @@ public class App {
             System.out.println("Specify the radius of the circle: ");
             double radius = in.nextDouble();
 
+            if (radius <= 0) {
+                throw new WrongRadiusException();
+            }
+
             double perimeter = 2 * Math.PI * radius;
             double square = Math.PI * Math.pow(radius, 2);
 
@@ -34,6 +38,10 @@ public class App {
         } catch (InputMismatchException e) {
 
             System.out.println("Radius should by a number!");
+
+        } catch (WrongRadiusException e) {
+
+            System.out.println(e.getMessage());
 
         } catch (Exception e) {
 
