@@ -36,24 +36,34 @@ public class App {
     }
 
     public static void task2() {
-        try {
+        int[] numbers = new int[10];
 
-            int number = readNumber(1, 10);
-            System.out.println("The number is: " + number);
+        for (int i = 0; i < 10; i++) {
 
-        } catch (NumberOutOfRangeException e) {
+            while (true) {
 
-            throw new RuntimeException(e);
+                try {
+                    int min = i * 10;
+                    int max = min + 10;
+                    System.out.println("Enter number " + (i + 1) + " (must be greater than " + min + " and less than " + max +"): ");
+                    numbers[i] = readNumber(min, max);
+                    break;
+                } catch (NumberOutOfRangeException e) {
+                    System.out.println(e.getMessage());
+                } catch (InputMismatchException e) {
+                    System.out.println("Value should be a number");
+                } catch (Exception e) {
+                    String message = e.getMessage();
+                    System.out.println("Something went wrong" + (message == null ? "" : ": " + message));
+                }
 
-        } catch (InputMismatchException e) {
+            }
 
-            System.out.println("Value should be a number");
+        }
 
-        } catch (Exception e) {
-
-            String message = e.getMessage();
-            System.out.println("Something went wrong" + (message == null ? "" : ": " + message));
-
+        System.out.println("You entered valid numbers: ");
+        for (int number : numbers) {
+            System.out.print(number + " ");
         }
     }
 
@@ -65,7 +75,7 @@ public class App {
         System.out.println("Input number: ");
         int number = scanner.nextInt();
 
-        if (number >= start && number <= end) {
+        if (number > start && number < end) {
             return number;
         }
 
