@@ -7,11 +7,13 @@ public class App {
     public static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-//        System.out.println("Demonstrate task 1");
-//        task1();
+        System.out.println("Demonstrate task 1");
+        task1();
 
         System.out.println("Demonstrate task 2");
         task2();
+
+        scanner.close();
     }
 
     public static void task1() {
@@ -28,20 +30,30 @@ public class App {
         } catch (InputMismatchException e) {
             System.out.println("Value should be a number");
         } catch (Exception e) {
-            System.out.println("Something went wrong: " + e.getMessage());
+            String message = e.getMessage();
+            System.out.println("Something went wrong" + (message == null ? "" : ": " + message));
         }
     }
 
     public static void task2() {
         try {
+
             int number = readNumber(1, 10);
             System.out.println("The number is: " + number);
+
         } catch (NumberOutOfRangeException e) {
+
             throw new RuntimeException(e);
+
         } catch (InputMismatchException e) {
+
             System.out.println("Value should be a number");
+
         } catch (Exception e) {
-            System.out.println("Something went wrong: " + e.getMessage());
+
+            String message = e.getMessage();
+            System.out.println("Something went wrong" + (message == null ? "" : ": " + message));
+
         }
     }
 
