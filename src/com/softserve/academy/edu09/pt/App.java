@@ -62,7 +62,7 @@ public class App {
     }
 
     public static void task3() {
-        System.out.println("Task 2:" +
+        System.out.println("Task 3:" +
                 " In main() method declare a collection myCollection of 10 integers and fill it (from the\n" +
                 "console or random):\n" +
                 "• Find and save in list newCollection all positions of element more than 5 in the\n" +
