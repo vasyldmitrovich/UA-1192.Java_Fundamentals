@@ -10,7 +10,7 @@ public class App {
 
     public final static Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All is good
 
 //        task1();
 //        task2();
@@ -75,7 +75,7 @@ public class App {
     }
 
 
-    public static boolean checkWithRegExp(String userNameString) {
+    public static boolean checkWithRegExp(String userNameString) {// Nice, this method is nice
         Pattern p = Pattern.compile("^[A-Za-z0-9_-]{3,15}$");
         Matcher m = p.matcher(userNameString);
 
