@@ -72,7 +72,7 @@ public class Plant {
     }
 
     private void verifyColorAndTypeAndSize(Color color, Type type, int size) throws ColorException, TypeException, SizeException {
-        this.validateColor(color);
+        this.validateColor(color);// Add try catch here
         this.validateType(type);
         this.validateSize(size);
     }
