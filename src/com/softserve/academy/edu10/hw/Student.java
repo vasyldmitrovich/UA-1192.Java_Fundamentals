@@ -36,7 +36,7 @@ public class Student implements Comparable<Student> {
         return this.name.compareTo(other.name);
     }
 
-    public static Comparator<Student> CourseComparator = new Comparator<Student>() {
+    public static Comparator<Student> CourseComparator = new Comparator<Student>() {// Ok but should start from lower case
         @Override
         public int compare(Student s1, Student s2) {
             return Integer.compare(s1.getCourse(), s2.getCourse());

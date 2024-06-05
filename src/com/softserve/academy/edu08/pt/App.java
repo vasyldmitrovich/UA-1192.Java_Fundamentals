@@ -16,8 +16,8 @@ public class App {
                 " Then, create one more department by cloning previously created department and change\n" +
                 "the city for this object.\n" +
                 " Output information about all departments to the console.\n");
-
-
+        // the statement of the task can be left as a comment, not printed to the console
+        // Good
         Department department1 = new Department("IT", null);
         Department.Address address1 = department1.new Address("New York", "Wall Street", 10);
         department1.setAddress(address1);

@@ -1,6 +1,6 @@
 package com.softserve.academy.edu09.pt;
 
-public class HeavyBox {
+public class HeavyBox {// Ok
     private int weight;
     private String contents;
 

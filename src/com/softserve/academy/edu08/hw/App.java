@@ -31,7 +31,7 @@ public class App {
                 "about them by calling the appropriate methods info() and activity().\n" +
                 "• Create one more instance of Student class by cloning the first student, change a course\n" +
                 "for this object and output full information about created students.\n");
-
+            // the statement of the task can be left as a comment, not printed to the console
         Student student1 = new Student(new FullName("John", "Doe"), 20, 1);
         Student student2 = new Student(new FullName("Jane", "Doe"), 22, 2);
 

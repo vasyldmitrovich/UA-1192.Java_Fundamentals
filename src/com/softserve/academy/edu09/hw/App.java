@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         task1();
         task2();
     }

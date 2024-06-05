@@ -1,7 +1,7 @@
 package com.softserve.academy.edu10.pt;
 
 class Employee {
-    int id;
+    int id;// Make fields private, add getters and setters
     String name;
     String position;
     double salary;
