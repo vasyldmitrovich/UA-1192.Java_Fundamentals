@@ -8,7 +8,7 @@ import java.util.Set;
 import static com.softserve.edu10.hwork.Student.printStudents;
 
 public class AppHw {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice, all nice
         task1();
         task2();
         task3();
