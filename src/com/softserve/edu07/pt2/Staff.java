@@ -16,7 +16,7 @@ public abstract class Staff extends Person {
 
 
     @Override
-    public void print () {
+    public void print() {
 
     }
 }

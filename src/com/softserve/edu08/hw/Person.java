@@ -8,13 +8,15 @@ abstract class Person {
 
 //Constructor
 
-    public Person (FullName fullName, int age) {
+    public Person(FullName fullName, int age) {
         this.fullName = fullName;
         this.age = age;
     }
+
     public String info() {
         return ("First name: " + fullName.getFirstName() + ", Last name: " + fullName.getLastName() + ", Age: " + age);
     }
+
     // Abstract method
     public abstract String activity();
 }

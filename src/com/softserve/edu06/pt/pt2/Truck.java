@@ -6,14 +6,15 @@ public class Truck extends Car {
         super(model, maxSpeed, yearOfProduction);
     }
 
-        @Override
-        public void run () {
-            System.out.println("The Truck is running.");
-
-        }
-        public void stop () {
-            System.out.println("The Truck is stopped.");
-
-        }
+    @Override
+    public void run() {
+        System.out.println("The Truck is running.");
 
     }
+
+    public void stop() {
+        System.out.println("The Truck is stopped.");
+
+    }
+
+}

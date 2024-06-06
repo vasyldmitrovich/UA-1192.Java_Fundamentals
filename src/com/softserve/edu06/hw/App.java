@@ -4,7 +4,7 @@ import com.softserve.edu06.hw.hw1.*;
 import com.softserve.edu06.hw.hw2.Developer;
 import com.softserve.edu06.hw.hw2.Employee;
 
-public class App {
+public class App {// Use code reformat
 
     public static void main(String[] args) {
         task2();
@@ -24,16 +24,13 @@ public class App {
     }
 
 
+    public static void task2() {
 
 
+        Employee employee = new Employee("Anna", 23, 600);
+        Employee employeeDev = new Developer("Jon", 30, 1000, "java-dev");
+        System.out.println(employeeDev.report());
+        System.out.println(employee.report());
+    }
 
-public static void task2() {
-
-
-    Employee employee = new Employee("Anna", 23, 600);
-    Employee employeeDev = new Developer("Jon", 30, 1000, "java-dev");
-    System.out.println(employeeDev.report());
-    System.out.println(employee.report());
 }
-
-            }

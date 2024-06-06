@@ -4,8 +4,8 @@ public class AppHw {
 
     public static void main(String[] args) {
 
-        Student student1= new Student(new FullName("Bob", "Met"),30,2);
-        Student student2 = new Student(new FullName("Svitlana","Babiuk"),33,1);
+        Student student1 = new Student(new FullName("Bob", "Met"), 30, 2);
+        Student student2 = new Student(new FullName("Svitlana", "Babiuk"), 33, 1);
 
         System.out.println("Information about student 1:");
         System.out.println(student1.info());
@@ -20,7 +20,7 @@ public class AppHw {
         // Cloning student1 and changing the course for the cloned object
         try {
             Student clonedStudent = (Student) student1.clone();
-            clonedStudent.course= 4; // Change the course for the cloned student
+            clonedStudent.course = 4; // Change the course for the cloned student
 
             // Outputting full information about created students
             System.out.println("Full information about students after cloning:");

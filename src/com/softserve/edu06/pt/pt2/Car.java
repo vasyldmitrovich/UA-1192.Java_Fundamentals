@@ -15,19 +15,12 @@ public abstract class Car {
 
     }
 
-    public void run() {
+    public abstract void run();
 
-    }
+    public abstract void stop();
 
-    public void stop() {
 
-    }
 
-    public String getModel() {
-        ;
-
-        return model;
-    }
 
     public void setModel(String model) {
         this.model = model;

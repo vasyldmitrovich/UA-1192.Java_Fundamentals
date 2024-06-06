@@ -9,6 +9,7 @@ public class Department implements Cloneable {
         this.address = new Address(city, street, building);
 
     }
+
     public String getName() {
         return name;
     }
@@ -56,7 +57,7 @@ class Address implements Cloneable {
     }
 
     public void setBuilding_number(int building_number) {
-        this.building= building_number;
+        this.building = building_number;
     }
 
 }
