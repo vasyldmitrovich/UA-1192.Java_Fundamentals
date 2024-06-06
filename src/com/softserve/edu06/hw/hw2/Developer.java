@@ -1,7 +1,6 @@
 package com.softserve.edu06.hw.hw2;
 
 
-
 public class Developer extends Employee {
 
     private String position;
@@ -16,8 +15,8 @@ public class Developer extends Employee {
     @Override
     public String report() {
 
-            return super.report() + String.format(", Position: %s", position);
+        return super.report() + String.format(", Position: %s", position);
 
     }
 
-    }
+}

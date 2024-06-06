@@ -30,11 +30,11 @@ public class Car {
 
     public double getEngineCapacity() {
         return Double.parseDouble(engineCapacity);
-    }
+    }// This is interesting
 
         public void setEngineCapacity( double engineCapacity){
             this.engineCapacity = String.valueOf(engineCapacity);
-        }
+        }// You can change field to double and do not do casting to string
     }
 
 

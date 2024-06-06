@@ -6,12 +6,12 @@ public class Eagle extends FlyingBird {
 
         super("grey and white", true);
     }
-        @Override
 
-        public void fly() {
-            System.out.println(getClass().getSimpleName() + " soars high in the sky");
-        }
+    @Override
 
+    public void fly() {
+        System.out.println(getClass().getSimpleName() + " soars high in the sky");
+    }
 
 
 }

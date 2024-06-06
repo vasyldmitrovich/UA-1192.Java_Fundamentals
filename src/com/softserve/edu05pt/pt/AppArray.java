@@ -1,16 +1,49 @@
 package com.softserve.edu05pt.pt;
 
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
-public class AppArray {
+public class AppArray {// This class is ok
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         pt2();
         pt3();
+
+
+        Employee emp1 = new Employee("John", 1, 50000);
+        Employee emp2 = new Employee("Alice", 2, 60000);
+        Employee emp3 = new Employee("Bob", 1, 55000);
+        Employee emp4 = new Employee("Emma", 3, 48000);
+        Employee emp5 = new Employee("David", 2, 62000);
+
+        // Додавання об'єктів до списку
+        List<Employee> employees = new ArrayList<>();
+        employees.add(emp1);
+        employees.add(emp2);
+        employees.add(emp3);
+        employees.add(emp4);
+        employees.add(emp5);
+
+        // Створення сканера для введення даних з консолі
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введіть номер відділу: ");
+        int department = scanner.nextInt();
+        System.out.println("Працівники відділу " + department + ":");
+
+        // Виведення працівників з вказаного відділу
+        for (Employee employee: employees) {
+            if (employee.getDepartmentNumber() == department) {
+                System.out.println(employee.getName() + " - $" + employee.getSalary());
+            }
+            // Сортування працівників за зарплатою в порядку спадання
+            Collections.sort(employees, Comparator.comparingDouble(Employee::getSalary).reversed());
+            System.out.println("\nПрацівники, впорядковані за заробітною платою в порядку спадання:");
+            for (Employee emp : employees) {
+                System.out.println(emp.getName() + " - $" + emp.getSalary());
+            }
+
+        }
 
 
         String[] names = {"Bob", "Elizabet", "Mary", "Tom", "Marly" };

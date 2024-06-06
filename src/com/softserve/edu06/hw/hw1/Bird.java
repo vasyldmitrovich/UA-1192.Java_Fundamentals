@@ -13,8 +13,6 @@ public abstract class Bird {
 
     }
 
-    public abstract void flay();
-
     @Override
     public String toString() {
         return "Feathers:" + feathers + "LayEggs:" + layEggs;
@@ -22,6 +20,8 @@ public abstract class Bird {
     }
 
     public abstract void fly();
+
+    public abstract void flay();
 }
 
 
