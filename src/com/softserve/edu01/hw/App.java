@@ -8,27 +8,49 @@ public class App {
     public static void main(String[] args) {
         App.task1();
         task2();
+        task3();
     }
 
     public static void task1() {
-        System.out.println("Hello. What is your name?");
-        String name = scanner.nextLine();
-        System.out.println("How old are you?");
-        String age = scanner.nextLine();
-        System.out.println("Hello " + name);
-        System.out.println("You are " + age);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Calculate perimeter and area of a circle.");
+        System.out.print("Input the radius = ");
+        float a = scan.nextFloat();
+        double res1, res2;
+        res1 = 2 * 3.14 * a;
+        res2 = 3.14 * a * a;
+        System.out.println("Perimeter is " + res1);
+        System.out.println("Area is " + res2);
     }
 
     public static void task2() {
-        System.out.println("Input first string");
-        String first = scanner.nextLine();
-        System.out.println("Input second string");
-        String second = scanner.nextLine();
-        System.out.println("Input third string");
-        String third = scanner.nextLine();
-        System.out.println(third);
-        System.out.println(second);
-        System.out.println(first);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("What is your name? ");
+        String name = scan.nextLine();
+        System.out.println("Where do you live, " + name);
+        String address = scan.nextLine();
+        System.out.println("Have a nice day " + name + " from " + address);
+    }
+
+    public static void task3() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Three phone calls were made from different countries.");
+        System.out.print("Input the cost per minute of the first call: ");
+        float c1 = scan.nextFloat();
+        System.out.print("Input the duration of the first call: ");
+        float t1 = scan.nextFloat();
+        System.out.print("Input the cost per minute of the second call: ");
+        float c2 = scan.nextFloat();
+        System.out.print("Input the duration of the second call: ");
+        float t2 = scan.nextFloat();
+        System.out.print("Input the cost per minute of the third call: ");
+        float c3 = scan.nextFloat();
+        System.out.print("Input the duration of the third call: ");
+        float t3 = scan.nextFloat();
+        double sum;
+        sum = c1 * t1 + c2 * t2 + c3 * t3;
+        System.out.println("Total cost is " + sum);
+
     }
 }
 
