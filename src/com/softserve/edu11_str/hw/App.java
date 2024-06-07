@@ -18,7 +18,7 @@ public class App {
 
     }
 
-    public static void task1() {
+    public static void task1() {// Good
 
         System.out.println("Task 1");
 
@@ -41,7 +41,7 @@ public class App {
     }
 
 
-    public static void task2() {
+    public static void task2() {// Ok
 
         System.out.println("Task 2");
 
@@ -53,7 +53,7 @@ public class App {
     }
 
 
-    public static void task3() {
+    public static void task3() {// Nice
 
         System.out.println("Task 3");
 
@@ -69,7 +69,7 @@ public class App {
         }
     }
 
-    public static void task4() {
+    public static void task4() {// Good
 
         String firstName = "";
         String lastName = "";
