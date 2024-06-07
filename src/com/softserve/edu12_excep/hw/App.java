@@ -1,5 +1,6 @@
 package com.softserve.edu12_excep.hw;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -8,7 +9,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        task1();
+//        task1();
+        tack2();
 
     }
 
@@ -29,7 +31,7 @@ public class App {
         double div = 0;
 
         try {
-            if (b==0){
+            if (b == 0) {
                 throw new ArithmeticException();
             }
             div = a / b;
@@ -43,6 +45,57 @@ public class App {
             System.err.println("Something went wrong");
             return 0;
         }
+
+    }
+
+    public static void tack2() {
+
+        int[] sortArr = readNumber(3, 43);
+
+        Arrays.sort(sortArr);
+
+        System.out.println(Arrays.toString(sortArr));
+
+
+    }
+
+
+    public static int[] readNumber(int start, int end) {
+
+        int[] num = new int[10];
+        int a = 0;
+
+        for (int i = 0; i < num.length; i++) {
+            try {
+
+                System.out.print("Enter next number: ");
+                a = SCANNER.nextInt();
+
+                if (a <= start || a >= end) {
+                    throw new ArithmeticException();
+
+                }
+
+
+
+            } catch (ArithmeticException e) {
+                System.err.println("Wrong number, should be > " + start + " and < " + end);
+                i--;
+                continue;
+            } catch (Exception e) {
+
+
+                // не розумію чому ловлю зациклювання при введенні стринги, чому не запитує повторного введення
+
+
+                System.err.println("Something went wrong");
+                i--;
+                continue;
+            }
+
+            num[i]= a;
+        }
+        return num;
 
     }
 }
