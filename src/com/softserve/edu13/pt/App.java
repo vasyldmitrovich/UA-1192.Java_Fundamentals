@@ -16,8 +16,8 @@ public class App {
         System.out.println("Demonstrate task 2");
         task2();
 
-//        System.out.println("Demonstrate task 3");
-//        task3();
+        System.out.println("Demonstrate task 3");
+        task3();
 
         System.out.println("Demonstrate task 4");
         task4();
