@@ -8,8 +8,13 @@ public class App {
 
     public static void main(String[] args) {
         homework1();
+        System.out.println("End of the first homework");
+
         homework2();
+        System.out.println("End of the second homework");
+
         homework3();
+        System.out.println("End of the third homework");
     }
 
     public static void homework1 () {
