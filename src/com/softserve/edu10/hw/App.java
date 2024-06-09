@@ -115,7 +115,7 @@ public class App {
         System.out.println("\nSorted list of students (by course): ");
         students.sort(Student.compareByCourse());
         System.out.println(students);
-        
+
     }
 
     public static void printStudents(List<Student> students, int course) {
