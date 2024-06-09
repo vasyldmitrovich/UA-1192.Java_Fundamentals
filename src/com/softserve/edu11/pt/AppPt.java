@@ -10,9 +10,9 @@ public class AppPt {
 
     public static void main(String[] args) {
         System.out.println("_".repeat(30) + "First task" + "_".repeat(30));
-        //pt1();
+        pt1();
         System.out.println("_".repeat(30) + "Second task" + "_".repeat(30));
-        //pt2();
+        pt2();
         System.out.println("_".repeat(30) + "Third task" + "_".repeat(30));
         pt3();
     }
