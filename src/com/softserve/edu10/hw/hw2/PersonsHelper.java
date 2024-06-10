@@ -8,7 +8,7 @@ import java.util.Set;
 public class PersonsHelper {
     public Map<String, String> createPersonMap() {
         Map<String, String> personMap = new HashMap<>();
-        personMap.put("Hemsworth", "Chriss");
+        personMap.put("Hemsworth", "Chris");
         personMap.put("Chalamet", "Timothée");
         personMap.put("Cavill", "Henry");
         personMap.put("Washington", "Denzel");
