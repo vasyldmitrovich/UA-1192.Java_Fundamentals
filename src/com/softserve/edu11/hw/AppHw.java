@@ -18,9 +18,13 @@ public class AppHw {
             "Good day, %s! Pleasure to meet you!"};
 
     public static void main(String[] args) {
-        //  firstHw();
-        //secondHw();
-        //thirdHw();
+        System.out.println("-".repeat(20)+"First task"+"-".repeat(20));
+        firstHw();
+        System.out.println("-".repeat(20)+"Second task"+"-".repeat(20));
+        secondHw();
+        System.out.println("-".repeat(20)+"Third task"+"-".repeat(20));
+        thirdHw();
+        System.out.println("-".repeat(20)+"Fourth task"+"-".repeat(20));
         fourthHw();
     }
 
