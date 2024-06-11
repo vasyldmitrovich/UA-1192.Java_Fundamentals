@@ -2,6 +2,8 @@ package com.softserve.edu13_func.hw;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.util.Date;
 
 import static com.softserve.edu13_func.hw.App.DateValidator.isValidDate;
@@ -13,7 +15,10 @@ public class App {
 
 
 //        task1();
-        task2();
+//        task2();
+//        task3();
+        task4();
+
 
     }
 
@@ -39,6 +44,25 @@ public class App {
 
         System.out.println(date1 + " is valid: " + isValidDate(date1));
         System.out.println(date2 + " is valid: " + isValidDate(date2));
+    }
+
+    public static void task3() {
+
+        int year1 = 2024;
+        int year2 = 2025;
+
+        System.out.println(year1 + " is leap year: " + isLeapYear(year1));
+        System.out.println(year2 + " is leap year: " + isLeapYear(year2));
+
+    }
+
+
+    public static void task4() {
+
+        LocalDate birthday = LocalDate.of(1983, 5, 3);
+
+        printDayOfWeekInfo(birthday);
+
     }
 
 
@@ -77,5 +101,30 @@ public class App {
         }
 
 
+    }
+
+    public static boolean isLeapYear(int year) {
+
+        if ((year % 4 == 0) && (year % 100 != 0 || year % 400 == 0)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static void printDayOfWeekInfo(LocalDate date) {
+
+        DayOfWeek currentDayOfWeek = date.getDayOfWeek();
+        System.out.println("Day of the week: " + currentDayOfWeek);
+
+
+        LocalDate dateAfter6Months = date.plusMonths(6);
+        LocalDate dateAfter12Months = date.plusMonths(12);
+
+        DayOfWeek dayOfWeekAfter6Months = dateAfter6Months.getDayOfWeek();
+        DayOfWeek dayOfWeekAfter12Months = dateAfter12Months.getDayOfWeek();
+
+        System.out.println("Day of the week after 6 months: " + dayOfWeekAfter6Months);
+        System.out.println("Day of the week after 12 months: " + dayOfWeekAfter12Months);
     }
 }
