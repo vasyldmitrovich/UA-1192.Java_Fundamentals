@@ -3,16 +3,12 @@ package com.softserve.edu14.ptask;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 import java.util.List;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class AppPt {
-    private static final Scanner scan = new Scanner(System.in);
-
     public static void main(String[] args) {
         task1();
         task2();
-
     }
 
     public static void task1() {

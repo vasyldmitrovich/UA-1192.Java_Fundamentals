@@ -6,8 +6,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class AppHw {
-    private static final Scanner scan = new Scanner(System.in);
-
     public static void main(String[] args) {
         task1();
         task2();
