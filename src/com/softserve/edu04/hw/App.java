@@ -1,5 +1,6 @@
 package com.softserve.edu04.hw;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -39,8 +40,9 @@ public class App {
             } else {
                 System.out.println("All numbers belong to the range [-5, 5]");
             }
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-float value");
         }
     }
 
@@ -67,8 +69,9 @@ public class App {
             } else if (thirdNumber <= firstNumber && thirdNumber <= secondNumber) {
                 System.out.println("The third number: " + thirdNumber + " is the smallest");
             }
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-float value");
         }
     }
 
@@ -101,8 +104,9 @@ public class App {
                 default:
                     System.out.println("Error not recognized");
             }
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter int value");
         }
     }
 
@@ -110,10 +114,12 @@ public class App {
         System.out.println("Enter the number of students of faculty");
         int numberOfStudent;
         Faculty faculty = new Faculty();
+
         try {
             numberOfStudent = sc.nextInt();
             sc.nextLine();
             System.out.println("Enter the season of year");
+
             switch (sc.nextLine()) {
                 case "autumn" :
                     faculty = new Faculty(numberOfStudent, Seasons.AUTUMN);
@@ -134,8 +140,10 @@ public class App {
                 default:
                     System.out.println("Season not recognized");
             }
-        } catch (Exception e) {
-            System.out.println("Error");
+
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-integer value");
         }
     }
 
@@ -172,9 +180,9 @@ public class App {
 
         try {
             age = sc.nextInt();
-        } catch (Exception e) {
-            System.out.println("Error");
-            System.exit(0);
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-float value");
         }
 
         Dog dog2 = new Dog(name, breed, age);
@@ -182,6 +190,7 @@ public class App {
         System.out.println("Enter the name for the dog");
         name = sc.nextLine();
         System.out.println("Enter the breed for the dog");
+
         switch (sc.nextLine()) {
             case "akita":
                 breed = Breed.AKITA;
@@ -203,12 +212,14 @@ public class App {
                 System.exit(0);
         }
         System.out.println("Enter the age of the dog");
+
         try {
             age = sc.nextInt();
-        } catch (Exception e) {
-            System.out.println("Error");
-            System.exit(0);
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter integer value");
         }
+
         Dog dog3 = new Dog(name, breed, age);
         nameCheck(dog1, dog2, dog3);
         theOldestDogCheck(dog1, dog2, dog3);

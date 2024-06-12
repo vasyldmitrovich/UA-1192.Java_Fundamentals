@@ -1,6 +1,7 @@
 package com.softserve.edu03.hw;
 
 import java.time.LocalDate;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Person {
@@ -53,8 +54,9 @@ public class Person {
         System.out.println("Enter the birth year of person");
         try {
             this.birthYear = sc.nextInt();
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-integer value");
         }
     }
 

@@ -1,4 +1,5 @@
 package com.softserve.edu01.hw;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -19,8 +20,9 @@ public class App {
             double radius = sc.nextDouble();
             System.out.println("Perimeter: " + (2 * 3.14 * radius) + "\n" +
                     "Area: " + (3.14 * (Math.pow(radius, 2))));
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-double value");
         }
     }
 
@@ -52,8 +54,9 @@ public class App {
                     "The cost of second call is - " + (c2 * t2) + "\n" +
                     "The cost pf third call is - " + (c3 * t3) + "\n" +
                     "Total cost of three calls is - " + total);
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-integer/double value");
         }
     }
 }

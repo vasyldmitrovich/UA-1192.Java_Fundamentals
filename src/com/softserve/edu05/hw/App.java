@@ -3,6 +3,7 @@ package com.softserve.edu05.hw;
 import com.softserve.edu05.pt.Employee;
 
 import java.util.Arrays;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -46,9 +47,9 @@ public class App {
                 System.out.println("Do you want to perform the operation again? Enter no if you want to stop");
                 answer = sc.nextLine();
 
-            } catch (Exception e) {
-                System.out.println("Error");
-                System.exit(0);
+                // Added InputMismatchException
+            } catch (InputMismatchException e) {
+                System.out.println("You enter non-integer value");
             }
         } while (!answer.equals("no"));
     }
@@ -70,9 +71,9 @@ public class App {
                 System.out.println("Enter the engine capacity of your capacity");
                 engineCapacity = sc.nextInt();
                 sc.nextLine();
-            } catch (Exception e) {
-                System.out.println("Error");
-                System.exit(0);
+                // Added InputMismatchException
+            } catch (InputMismatchException e) {
+                System.out.println("You enter non-float value");
             }
 
             cars [count + 1] = new Car(type, yearOfProduction, engineCapacity);
@@ -92,8 +93,9 @@ public class App {
                     System.out.println(cars[i].toString());
                 }
             }
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-float value");
         }
     }
 

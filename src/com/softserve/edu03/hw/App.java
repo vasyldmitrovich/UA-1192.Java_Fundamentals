@@ -1,5 +1,6 @@
 package com.softserve.edu03.hw;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -42,8 +43,9 @@ public class App {
             double semiPerimeter = (double) (a + b + c) / 2;
             double area = Math.sqrt(semiPerimeter * (semiPerimeter - a) * (semiPerimeter - b) * (semiPerimeter - c));
             System.out.println("The area of the triangle is " + area);
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-integer value");
         }
     }
 
@@ -62,8 +64,9 @@ public class App {
             } else {
                 System.out.println("The number " + thirdNumber + " is the smallest");
             }
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-integer value");
         }
     }
 }

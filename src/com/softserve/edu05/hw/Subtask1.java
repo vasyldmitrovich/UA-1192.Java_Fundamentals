@@ -1,5 +1,6 @@
 package com.softserve.edu05.hw;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Subtask1 {
@@ -15,8 +16,9 @@ public class Subtask1 {
             int month = sc.nextInt();
             int days = getDays(month);
             System.out.println("There are " + days + " days in this month");
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-integer value");
         }
     }
 

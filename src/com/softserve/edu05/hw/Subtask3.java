@@ -1,5 +1,6 @@
 package com.softserve.edu05.hw;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Subtask3 {
@@ -19,8 +20,9 @@ public class Subtask3 {
                 int number = sc.nextInt();
                 numbers[count] = number;
                 count++;
-            } catch (Exception e) {
-                System.out.println("Error");
+                // Added InputMismatchException
+            } catch (InputMismatchException e) {
+                System.out.println("You enter non-float value");
             }
         }
 

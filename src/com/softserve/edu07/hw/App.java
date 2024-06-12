@@ -8,6 +8,7 @@ import com.softserve.edu07.hw.homework1.SalariedEmployee;
 import com.softserve.edu07.hw.homework2.*;
 
 import java.util.Arrays;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -55,8 +56,9 @@ public class App {
             fixMonthPay = sc.nextInt();
             employees[3] = new ContractEmployee(employeeId, fedTaxIdmember, name, fixMonthPay);
             sc.nextLine();
-        } catch (Exception e) {
-            System.out.println("Error");
+            // Added InputMismatchException
+        } catch (InputMismatchException e) {
+            System.out.println("You enter non-float value");
         }
 
         sortByMonthWage(employees);
