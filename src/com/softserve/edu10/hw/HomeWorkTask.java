@@ -11,7 +11,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 
-public class HomeWorkTask {
+public class HomeWorkTask {// All tasks here is nice
     private static final Scanner SCANNER = new Scanner(System.in);
 
     public void task1() {

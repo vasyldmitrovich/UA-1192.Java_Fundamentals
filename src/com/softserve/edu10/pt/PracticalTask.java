@@ -6,7 +6,7 @@ import java.util.*;
 public class PracticalTask {
 
 
-    public void task1_task2() {
+    public void task1_task2() {// good
         //create Map
         HashMap<Integer, Employee> employeeMap = new HashMap<>();
         //create employee

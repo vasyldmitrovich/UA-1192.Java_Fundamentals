@@ -3,7 +3,7 @@ package com.softserve.edu09.hw;
 
 import java.util.*;
 
-public class HomeWorkTask {
+public class HomeWorkTask {// Tasks in this class is nice
 
     public void task1() {
 

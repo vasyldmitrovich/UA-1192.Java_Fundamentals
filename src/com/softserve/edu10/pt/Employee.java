@@ -3,7 +3,7 @@ package com.softserve.edu10.pt;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class Employee {
+public class Employee {// Nice to see class like that
     private String name;
     private String position;
     private double salary;

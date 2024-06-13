@@ -3,7 +3,7 @@ package com.softserve.edu09.hw;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Student {
+public class Student {// This class is good
     private String name;
     private int group;
     private int course;
