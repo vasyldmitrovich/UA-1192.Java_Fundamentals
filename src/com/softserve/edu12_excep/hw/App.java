@@ -26,7 +26,7 @@ public class App {
 
     }
 
-    public static double div(double a, double b) {
+    public static double div(double a, double b) {// Ok
 
         double div = 0;
 
@@ -69,15 +69,12 @@ public class App {
             try {
 
                 System.out.print("Enter next number: ");
-                a = SCANNER.nextInt();
-
+//                a = SCANNER.nextInt();
+                a = Integer.parseInt(SCANNER.nextLine());// YOU NEED CHANGE YOUR CODE TO THAT LIKE I WROTE
                 if (a <= start || a >= end) {
                     throw new ArithmeticException();
 
                 }
-
-
-
             } catch (ArithmeticException e) {
                 System.err.println("Wrong number, should be > " + start + " and < " + end);
                 i--;
@@ -86,8 +83,8 @@ public class App {
 
 
                 // не розумію чому ловлю зациклювання при введенні стринги, чому не запитує повторного введення
-
-
+                // Because when in 72 line you input string your code go to line 82
+                // and running code in 88 line after that 89 i-- (i=-1) after that go to next iteration of cycle -1 < num.length after i++ (i=0) and  a = SCANNER.nextInt(); have enter and you have exception and go to catch block always
                 System.err.println("Something went wrong");
                 i--;
                 continue;

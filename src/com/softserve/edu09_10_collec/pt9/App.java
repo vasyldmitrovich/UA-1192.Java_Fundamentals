@@ -41,7 +41,7 @@ public class App {
 
         System.out.println();
 
-        listarr.removeLast();
+//        listarr.removeLast();
         // Access through new for-loop
         for (HeavyBox object : listarr) {
             System.out.println(object);

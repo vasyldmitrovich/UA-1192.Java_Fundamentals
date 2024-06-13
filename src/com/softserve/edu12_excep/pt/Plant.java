@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Plant {
 
     private int size;
-    Color color;
+    Color color;// Make private fields
     Type type;
 
     public Plant(int size, Color color, Type type) throws ColorException, TypeException {

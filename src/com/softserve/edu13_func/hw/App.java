@@ -11,9 +11,7 @@ import static com.softserve.edu13_func.hw.App.DateValidator.isValidDate;
 public class App {
 
 
-    public static void main(String[] args) {
-
-
+    public static void main(String[] args) {// Good
 //        task1();
 //        task2();
 //        task3();

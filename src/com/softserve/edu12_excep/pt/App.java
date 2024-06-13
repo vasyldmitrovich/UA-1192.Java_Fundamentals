@@ -43,7 +43,7 @@ public class App {
     public static void task2() {
 
 //не зрозумів завдання. Enum перевіряє значення, інакше Compiling error. Навіщо ще одна перевірка
-
+        // because the developer needs to control when and which exepshins to throw out and when to catch
         Plant[] plants = new Plant[5];
 
         try {
