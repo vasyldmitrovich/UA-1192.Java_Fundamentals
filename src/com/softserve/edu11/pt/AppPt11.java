@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class AppPt11 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Perform practical task 111");
         String str1 = "SoftServe";
         String str2 = "SoftServe Academy";

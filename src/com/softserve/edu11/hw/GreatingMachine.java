@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class GreatingMachine {
+public class GreatingMachine {// Good
     private static final String VALIDATION_PATTERN = "^[a-zA-Z\\s-]+$";
 
     public GreatingMachine(){}

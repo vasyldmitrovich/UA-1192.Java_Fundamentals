@@ -3,7 +3,7 @@ package com.softserve.edu11.hw;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Task111 {
+public class Task111 {// Cool task
 
     public static void execute(){
         String input = "task involves inputting a sentence";
