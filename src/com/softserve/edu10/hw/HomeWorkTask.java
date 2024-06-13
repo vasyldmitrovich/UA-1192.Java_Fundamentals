@@ -1,14 +1,7 @@
 package com.softserve.edu10.hw;
 
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 
 public class HomeWorkTask {// All tasks here is nice
@@ -60,7 +53,18 @@ public class HomeWorkTask {// All tasks here is nice
         for (Student student : students) {
             System.out.println(student);
         }
-        Student.printStudents(students, 1);
+        printStudents(students, 1);
+    }
+    public static void printStudents(List<Student> students, int course) {
+        System.out.println("Students enrolled in course " + course + ":");
+        Iterator<Student> iterator = students.iterator();
+
+        while (iterator.hasNext()) {
+            Student student = iterator.next();
+            if (student.getCourse() == course) {
+                System.out.println(student);
+            }
+        }
     }
 
     private static <T> Set<T> union(Set<T> set1, Set<T> set2) {

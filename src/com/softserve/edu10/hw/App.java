@@ -8,10 +8,9 @@ public class App {
 
         System.out.println("Homework task 1");
         hw.task1();
-
         System.out.println("Homework task 2");
         hw.task2();
-        System.out.println("Homework task 2");
+        System.out.println("Homework task 3");
         hw.task3();
     }
 }

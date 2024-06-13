@@ -28,17 +28,7 @@ public class Student {
         this.course = course;
     }
 
-    public static void printStudents(List<Student> students, int course) {// Move this method to HomeWorkTask class
-        System.out.println("Students enrolled in course " + course + ":");
-        Iterator<Student> iterator = students.iterator();
 
-        while (iterator.hasNext()) {
-            Student student = iterator.next();
-            if (student.course == course) {
-                System.out.println(student);
-            }
-        }
-    }
 
     public static int compareByName(Student s1, Student s2) {
         return s1.getName().compareTo(s2.getName());
