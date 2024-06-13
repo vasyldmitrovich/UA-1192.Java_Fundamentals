@@ -22,6 +22,7 @@ public class App {
         set2.add("3");
         set2.add("2");
 
+        union(set1, set2);
         intersect(set1, set2);
     }
 
