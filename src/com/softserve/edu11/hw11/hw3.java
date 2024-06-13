@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import java.util.Scanner;
 
 public class hw3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         String pattern = "\\$\\d+\\.\\d{2}";
         Pattern regex = Pattern.compile(pattern);
 

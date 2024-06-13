@@ -3,7 +3,7 @@ package com.softserve.edu11.hw11.hw4;
 import java.util.Scanner;
 
 public class NameValidator {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         Scanner scanner = new Scanner(System.in);
         NameProcessor nameProcessor = new NameProcessor(scanner);
         String firstName = nameProcessor.promptForName("Enter your first name: ");

@@ -3,7 +3,7 @@ package com.softserve.edu12.hw12;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class hw1 {
+public class hw1 {// Ok
 
     public static double div(double a, double b) throws ArithmeticException {
         if (b == 0) {

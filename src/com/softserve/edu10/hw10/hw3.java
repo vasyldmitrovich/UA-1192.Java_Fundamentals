@@ -2,7 +2,7 @@ package com.softserve.edu10.hw10;
 
 import java.util.*;
 
-class Student implements Comparable<Student> {
+class Student implements Comparable<Student> {// Move to file Student.java
     private String name;
     private int course;
 
@@ -19,7 +19,7 @@ class Student implements Comparable<Student> {
         return course;
     }
 
-    public static void printStudents(List<Student> students, int courseNumber) {
+    public static void printStudents(List<Student> students, int courseNumber) {// Move this method to class Main
         Iterator<Student> iterator = students.iterator();
         while (iterator.hasNext()) {
             Student student = iterator.next();
@@ -36,7 +36,7 @@ class Student implements Comparable<Student> {
 }
 
 class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         List<Student> students = new ArrayList<>();
 
         students.add(new Student("Alice", 101));

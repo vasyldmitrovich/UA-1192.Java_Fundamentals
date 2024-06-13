@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class pt1 {
+public class pt1 {// Name of class should start from uppercase
 
     public static void main(String[] args) {
         Map<Integer, String> employeeMap = new HashMap<>();

@@ -3,7 +3,7 @@ package com.softserve.edu10.hw10;
 import java.util.HashSet;
 import java.util.Set;
 
-public class hw1 {
+public class hw1 {// Name should start from uppercase
 
     public static <T> Set<T> union(Set<T> set1, Set<T> set2) {
         Set<T> result = new HashSet<>(set1);
@@ -17,7 +17,7 @@ public class hw1 {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         Set<Integer> set1 = new HashSet<>();
         set1.add(1);
         set1.add(2);

@@ -2,7 +2,7 @@ package com.softserve.edu11.hw11.hw4;
 
 import java.util.Scanner;
 
-public class NameProcessor {
+public class NameProcessor {// Ok
     private static final String NAME_REGEX = "^[A-Za-z\\s\\-]+$";
     private Scanner scanner;
 

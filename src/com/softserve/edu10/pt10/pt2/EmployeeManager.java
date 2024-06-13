@@ -39,7 +39,7 @@ public class EmployeeManager {
         }
     }
 
-    private static void addEmployee(Scanner scanner) {
+    private static void addEmployee(Scanner scanner) {// Ok
         System.out.print("Enter ID: ");
         String id = scanner.nextLine();
         if (employeeMap.containsKey(id)) {

@@ -1,6 +1,6 @@
 package com.softserve.edu10.pt10.pt2;
 
-public class Employee {
+public class Employee {// Good, class is nice
     private String id;
     private String name;
     private String position;

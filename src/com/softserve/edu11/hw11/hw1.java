@@ -2,8 +2,8 @@ package com.softserve.edu11.hw11;
 
 import java.util.Scanner;
 
-public class hw1 {
-    public static void main(String[] args) {
+public class hw1 {// Name of class
+    public static void main(String[] args) {// Ok
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a sentence of five words:");

@@ -2,7 +2,7 @@ package com.softserve.edu11.hw11.hw4;
 
 import java.util.Random;
 
-public class GreetingGenerator {
+public class GreetingGenerator {// Good
     private static final String[] GREETINGS = {
             "Hello, %s! Nice to meet you.",
             "Hi there, %s! How are you today?",
