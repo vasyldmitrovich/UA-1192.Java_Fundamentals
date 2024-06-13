@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// This is good
         System.out.println("Task 1");
         task1();
 
