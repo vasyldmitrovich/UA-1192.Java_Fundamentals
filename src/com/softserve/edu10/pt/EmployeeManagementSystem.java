@@ -16,7 +16,7 @@ public class EmployeeManagementSystem {
 
     }
 
-    private void addEmployee(Employee employee) {
+    private void addEmployee(Employee employee) {// Add throws here
         if (employees.containsKey(employee.id())) {
             throw new IllegalArgumentException("Employee with id " + employee.id() + " already exists");
         }

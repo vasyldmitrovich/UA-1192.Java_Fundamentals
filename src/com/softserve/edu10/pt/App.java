@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice it is nice
 //        task1();
         var register = new EmployeeManagementSystem();
         register.run();

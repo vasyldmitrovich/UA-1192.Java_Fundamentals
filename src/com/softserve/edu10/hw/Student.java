@@ -2,7 +2,7 @@ package com.softserve.edu10.hw;
 
 import java.util.*;
 
-public class Student {
+public class Student {// Class is good
     private String name;
     private int course;
 
