@@ -11,7 +11,7 @@ public class Employee {
     public Employee(String id, String name, double salary, String dateOfBirth) {
         this.id = id;
         this.name = name;
-        this.position = position;
+        this.position = position;// You do not have position in parameter of this constructor
         this.salary = salary;
         this.dateOfBirth = dateOfBirth;
 
