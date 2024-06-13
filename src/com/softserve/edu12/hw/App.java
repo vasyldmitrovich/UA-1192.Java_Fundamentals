@@ -7,7 +7,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         homework1();
         System.out.println("End of the first homework");
 

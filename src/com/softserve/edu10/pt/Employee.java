@@ -5,7 +5,7 @@ import java.util.Objects;
 
 // The class Employee was created to fulfill the 2nd subtask of the 2nd task
 
-public class Employee implements Cloneable{
+public class Employee implements Cloneable{// Nice class
 
     private String name;
     private String position;

@@ -9,7 +9,7 @@ public class App {
     public static Scanner sc = new Scanner(System.in);
     private static String[] greetings = {"It's good to see you, %s", "What's up %s", "Hey, %s is there!"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All is nice
         homework1();
         System.out.println("End of the first homework");
 
