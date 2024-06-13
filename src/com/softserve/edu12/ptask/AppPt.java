@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AppPt {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// It is good
         task1();
         task2();
     }

@@ -14,7 +14,7 @@ public class Plant {
         this.size = size;
     }
 
-    static Type typeStrToEnum(String typeStr) throws TypeException {
+    static Type typeStrToEnum(String typeStr) throws TypeException {// This is nice
         for (Type type : Type.values()) {
             if (typeStr.equalsIgnoreCase(type.name())) {
                 return type;
@@ -38,7 +38,7 @@ public class Plant {
                 .formatted(type.toString().toLowerCase(), color.toString().toLowerCase(), size);
     }
 
-    static Plant readFromConsole() {
+    static Plant readFromConsole() {// Interesting method, it is good
         var scan = new Scanner(System.in);
         while (true)
             try {

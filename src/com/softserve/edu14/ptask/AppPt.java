@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class AppPt {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         task1();
         task2();
     }
