@@ -1,9 +1,6 @@
 package com.softserve.edu10.hw.hw3;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class StudentHelper extends Student {
     private final Scanner SCANNER = new Scanner(System.in);
@@ -90,5 +87,17 @@ public class StudentHelper extends Student {
     public int scanInput() {
         int input = Integer.parseInt(SCANNER.nextLine());
         return input;
+    }
+    public class ByCourse implements Comparator<Student> {
+        @Override
+        public int compare(Student s1, Student s2) {
+            return Integer.compare(s1.getCourse(), s2.getCourse());
+        }
+    }
+    public class ByName implements Comparator<Student> {// Make inner
+        @Override
+        public int compare(Student s1, Student s2) {
+            return s1.getName().compareTo(s2.getName());
+        }
     }
 }
