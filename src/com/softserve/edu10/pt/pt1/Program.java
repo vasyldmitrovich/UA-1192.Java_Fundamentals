@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Program {
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         Map<Integer, String> employeeMap = new HashMap<>();
         employeeMap.put(1, "Jack");
         employeeMap.put(2, "Josh");

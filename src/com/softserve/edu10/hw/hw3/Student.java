@@ -3,7 +3,7 @@ package com.softserve.edu10.hw.hw3;
 import java.util.Comparator;
 import java.util.Objects;
 
-public class Student implements Comparator {
+public class Student implements Comparator {// Good
     private String name;
     private int course;
 

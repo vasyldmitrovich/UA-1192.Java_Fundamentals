@@ -7,7 +7,7 @@ public class App {
     private static final String GAP = "-".repeat(40);
     private static final String NL = "\n";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         Set<String> set1 = new HashSet<>();
         set1.add("1");
         set1.add("2");
@@ -25,7 +25,7 @@ public class App {
         intersect(set1, set2);
     }
 
-    public static void union(Set set1, Set set2) {
+    public static void union(Set set1, Set set2) {// This method not using
         Set<String> newSet = new HashSet<>(set1);
         System.out.println(GAP + NL + "SET1: " + set1 + NL + GAP);
         System.out.println(GAP + NL + "SET2: " + set2 + NL + GAP);
