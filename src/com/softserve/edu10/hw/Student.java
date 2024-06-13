@@ -28,7 +28,7 @@ public class Student {
         this.course = course;
     }
 
-    public static void printStudents(List<Student> students, int course) {
+    public static void printStudents(List<Student> students, int course) {// Move this method to HomeWorkTask class
         System.out.println("Students enrolled in course " + course + ":");
         Iterator<Student> iterator = students.iterator();
 
@@ -45,7 +45,7 @@ public class Student {
     }
 
     // Method to compare students by course
-    public static int compareByCourse(Student s1, Student s2) {
+    public static int compareByCourse(Student s1, Student s2) {// Nice
         return Integer.compare(s1.getCourse(), s2.getCourse());
     }
 

@@ -6,7 +6,7 @@ public class PracticalTask {
 
     public void task1() {
 
-
+        // Nice it is very nice
         //create arrayList
         Utils.create();
 

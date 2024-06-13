@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Utils {
+public class Utils {// Ok
     private LinkedList<Integer> myCollection;
     private static final Scanner SCANNER = new Scanner(System.in);
 
