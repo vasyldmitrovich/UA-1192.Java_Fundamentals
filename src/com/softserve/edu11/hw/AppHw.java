@@ -17,7 +17,7 @@ public class AppHw {
             "Hey, %s! Hope you're having a great day!",
             "Good day, %s! Pleasure to meet you!"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// All task is very nice, cool
         System.out.println("-".repeat(20)+"First task"+"-".repeat(20));
         firstHw();
         System.out.println("-".repeat(20)+"Second task"+"-".repeat(20));

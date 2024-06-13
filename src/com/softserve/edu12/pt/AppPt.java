@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AppPt {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Cool
         System.out.println("-".repeat(20) + "First practical task" + "-".repeat(20));
         pt1();
         System.out.println("-".repeat(20) + "Second practical task" + "-".repeat(20));

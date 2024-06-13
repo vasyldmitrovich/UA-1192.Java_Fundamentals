@@ -10,7 +10,7 @@ public class Plant {
 
     public Plant(int size, String colorStr, String typeStr) throws ColorException, TypeException, SizeException {
         if (size < 0 | size > 1000) {
-            throw new SizeException("Size must be > 0 and < 1000");
+            throw new SizeException("Size must be > 0 and < 1000");// This is interesting, good
         } else {
             this.size = size;
         }

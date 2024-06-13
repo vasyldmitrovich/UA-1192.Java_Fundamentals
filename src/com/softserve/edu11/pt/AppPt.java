@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class AppPt {
     public static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// This is good
         System.out.println("_".repeat(30) + "First task" + "_".repeat(30));
         pt1();
         System.out.println("_".repeat(30) + "Second task" + "_".repeat(30));

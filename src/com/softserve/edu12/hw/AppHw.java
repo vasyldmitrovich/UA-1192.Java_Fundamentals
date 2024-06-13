@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AppHw {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("-".repeat(20)+"First homework"+"-".repeat(20));
         hw1();
         System.out.println("-".repeat(20)+"Second homework"+"-".repeat(20));
