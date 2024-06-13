@@ -2,11 +2,11 @@ package com.softserve.edu15.hw;
 
 public class App {
     public static void main(String[] args) {
-//        System.out.println("Task 1");
-//        task1();
+        System.out.println("Task 1");
+        task1();
 
-//        System.out.println("Task 2");
-//        task2();
+        System.out.println("Task 2");
+        task2();
 
         System.out.println("Task 3");
         task3();

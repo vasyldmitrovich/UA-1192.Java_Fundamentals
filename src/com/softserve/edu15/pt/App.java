@@ -2,8 +2,8 @@ package com.softserve.edu15.pt;
 
 public class App {
     public static void main(String[] args) {// Good
-//        System.out.println("Task 1");
-//        task1();
+        System.out.println("Task 1");
+        task1();
 
         System.out.println("Task 2");
         task2();
