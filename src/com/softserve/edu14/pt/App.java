@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Task 1");
         demonstrateFirstTask();
         System.out.println();

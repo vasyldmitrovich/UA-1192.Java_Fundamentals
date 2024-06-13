@@ -19,7 +19,7 @@ public class App {
     private static final int MAX_CHAR_ASCII = 90;
     private static final int GAP_BETWEEN_CASES = 32;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Very nice
         System.out.println("Task 1");
         demonstrateTodayTask();
         System.out.println();

@@ -2,7 +2,7 @@ package com.softserve.edu15.hw;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         System.out.println("Task 1");
         demonstrateThreeThreadsTask();
         System.out.println();
@@ -15,7 +15,7 @@ public class App {
         demonstrateThreadsChainTask();
     }
 
-    private static void demonstrateThreeThreadsTask() {
+    private static void demonstrateThreeThreadsTask() {// Cool
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 5; i++) {
                 System.out.println("Thread " + Thread.currentThread().getId() + " working");

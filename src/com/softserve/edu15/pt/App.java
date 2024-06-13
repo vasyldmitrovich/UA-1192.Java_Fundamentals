@@ -11,7 +11,7 @@ public class App {
         demonstrateTwoThreadsTask();
     }
 
-    private static void demonstrateSleepTask() {
+    private static void demonstrateSleepTask() {// This method could throw exception add throws in method
         Thread thread = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 System.out.println("I study Java");

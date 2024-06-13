@@ -18,7 +18,7 @@ public class App {
 
     private static final Scanner SC = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         System.out.println("Task 1");
         demonstrateSecurityTask();
         System.out.println();

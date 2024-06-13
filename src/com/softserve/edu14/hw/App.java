@@ -11,7 +11,7 @@ public class App {
     private static final String[] CATEGORIES = {"laptop", "phone", "TV", "printer"};
     private static final String[] NAMES = {"Peng", "Joel", "Ismail", "Haiyan", "Daniel", "Hong"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Demonstration is nice
         System.out.println("Task 1");
         demonstrateProductsTask();
         System.out.println();
