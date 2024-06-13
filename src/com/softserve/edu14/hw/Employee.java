@@ -1,6 +1,6 @@
 package com.softserve.edu14.hw;
 
-public class Employee {
+public class Employee {// ok
     private String name;
 
     public Employee() {

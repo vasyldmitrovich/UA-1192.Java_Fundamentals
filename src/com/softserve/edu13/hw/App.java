@@ -15,7 +15,7 @@ public class App {
     private static final String DATE_PATTERN = "^(0[1-9]|1[0-2])\\.(0[1-9]|[12][0-9]|3[01])\\.\\d{2}$";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("MM.dd.yy");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Demonstrate task 1");
         task1();
 

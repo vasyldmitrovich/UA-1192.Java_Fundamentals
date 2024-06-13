@@ -2,7 +2,7 @@ package com.softserve.edu14.hw;
 
 import java.util.Date;
 
-public class Product {
+public class Product {// Nice
     private String manufactureCategory;
 
     private Date dateOfManufacture;
