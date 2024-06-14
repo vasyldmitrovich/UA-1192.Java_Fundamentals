@@ -36,7 +36,7 @@ public class NameCheck {
                 Do you want to try again?
                 1. Try again
                 2. Exit
-                """);
+                """ + NLINE + GAP + NLINE);
         int input = Integer.parseInt(SCANNER.nextLine());
         switch (input) {
             case 1 -> takeUserName();
