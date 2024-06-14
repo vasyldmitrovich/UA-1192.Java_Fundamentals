@@ -22,21 +22,21 @@ public class NameCheck {
     public String createPhrases(String name) {
         Random rnd = new Random();
         final List<String> phrases = new ArrayList<>();
-        phrases.add(name + ", Welcome to community!");
+        phrases.add(name + ", welcome to community!");
         phrases.add("Welcome to the server " + name + "!");
         phrases.add("Congratulations " + name + "! You have passed the verification!");
-        phrases.add(name + " congratulations!");
+        phrases.add("Congratulations " + name + "!");
         phrases.add("Welcome to the party " + name + "!");
         return phrases.get(rnd.nextInt(0, 5));
     }
 
     public void badInput() throws InterruptedException {
-        System.out.println(GAP + NLINE + "SYSTEM: BAD INPUT" + NLINE + "Name has not been verified" + NLINE + GAP);
-        System.out.print("""
-                Do you want to try again?
+        System.out.printf(GAP + NLINE + "SYSTEM: BAD INPUT" + NLINE + "Name has not been verified" + NLINE + GAP);
+        System.out.printf("""
+                %sDo you want to try again?
                 1. Try again
-                2. Exit
-                """ + NLINE + GAP + NLINE);
+                2. Exit%s%s
+                """, NLINE, NLINE, GAP);
         int input = Integer.parseInt(SCANNER.nextLine());
         switch (input) {
             case 1 -> takeUserName();
@@ -53,13 +53,14 @@ public class NameCheck {
             String userName = getName();
             Matcher matcher = pattern.matcher(userName);
             if (matcher.matches()) {
-                System.out.println(GAP + NLINE + "Checking the name... " + userName + NLINE + GAP);
+//                System.out.println(GAP + NLINE + "Checking the name... " + userName + NLINE + GAP);
+                System.out.printf("%s%sChecking the name... %s%s%s%s",GAP, NLINE, userName, NLINE, GAP, NLINE);
                 Thread.sleep(2000);
-                System.out.println("SYSTEM: OK" + NLINE + "Name has been verified" + NLINE + GAP);
-                System.out.println(GAP + NLINE + createPhrases(userName) + NLINE + GAP);
+                System.out.printf("SYSTEM: OK%sName has been verified%s", NLINE, NLINE);
+                System.out.printf("%s%s%s%s%s", GAP, NLINE, createPhrases(userName), NLINE, GAP);
                 check = true;
             } else if (!matcher.matches()) {
-                System.out.println(GAP + NLINE + "Checking the name... " + userName + NLINE + GAP);
+                System.out.printf(GAP + NLINE + "%s%sChecking the name... %s%s%s%s", GAP, NLINE, userName, NLINE, GAP, NLINE);
                 Thread.sleep(2000);
                 badInput();
                 break;
