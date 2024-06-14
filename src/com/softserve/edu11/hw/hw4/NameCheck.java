@@ -55,8 +55,8 @@ public class NameCheck {
             if (matcher.matches()) {
                 System.out.println(GAP + NLINE + "Checking the name... " + userName + NLINE + GAP);
                 Thread.sleep(2000);
-                System.out.println("SYSTEM: OK" + NLINE + "Name has been verified");
-                System.out.println(createPhrases(userName));
+                System.out.println("SYSTEM: OK" + NLINE + "Name has been verified" + NLINE + GAP);
+                System.out.println(GAP + NLINE + createPhrases(userName) + NLINE + GAP);
                 check = true;
             } else if (!matcher.matches()) {
                 System.out.println(GAP + NLINE + "Checking the name... " + userName + NLINE + GAP);
