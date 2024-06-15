@@ -7,10 +7,11 @@ import java.util.stream.Collectors;
 
 public class AppPt {
     public static String TWENTYRISKS = "-".repeat(20);
+
     public static void main(String[] args) {
-        System.out.println(TWENTYRISKS+" First practical task "+TWENTYRISKS);
+        System.out.println(TWENTYRISKS + " First practical task " + TWENTYRISKS);
         pt1();
-        System.out.println(TWENTYRISKS+" Second practical task "+TWENTYRISKS);
+        System.out.println(TWENTYRISKS + " Second practical task " + TWENTYRISKS);
         pt2();
     }
 
@@ -45,13 +46,14 @@ public class AppPt {
                 .map(String::toUpperCase)
                 .collect(Collectors.joining(","));
     }
-    public static void pt2(){
-        List <Integer> primes = Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29);
+
+    public static void pt2() {
+        List<Integer> primes = Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29);
         IntSummaryStatistics summaryStatistics = primes.stream()
                 .mapToInt(Integer::valueOf)
                 .summaryStatistics();
-        System.out.println("Count of numbers:"+ summaryStatistics.getCount());
-        System.out.println("Min value:"+summaryStatistics.getMin());
-        System.out.println("Max value:"+summaryStatistics.getMax());
+        System.out.println("Count of numbers:" + summaryStatistics.getCount());
+        System.out.println("Min value:" + summaryStatistics.getMin());
+        System.out.println("Max value:" + summaryStatistics.getMax());
     }
 }
