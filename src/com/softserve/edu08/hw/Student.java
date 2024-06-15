@@ -1,7 +1,7 @@
 package com.softserve.edu08.hw;
 
 public class Student extends Person implements Cloneable {
-    int course;
+    int course;// Make private
 
     // Constructor
     public Student(FullName fullName, int age, int i) {

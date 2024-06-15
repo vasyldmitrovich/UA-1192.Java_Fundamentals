@@ -2,7 +2,7 @@ package com.softserve.edu08.hw;
 
 public class AppHw {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
 
         Student student1 = new Student(new FullName("Bob", "Met"), 30, 2);
         Student student2 = new Student(new FullName("Svitlana", "Babiuk"), 33, 1);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static com.softserve.edu01.hw.App.scanner;
 
 public class App {
-    private static final Scanner scan = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);// Here was mistake, field should have name scanner not scan
 
     public static void main(String[] args) {
 

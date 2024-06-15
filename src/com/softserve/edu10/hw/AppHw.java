@@ -8,7 +8,7 @@ import static com.softserve.edu10.hw.SetOperations.union;
 
 public class AppHw {
     public static void main(String[] args) {
-
+        // Nice
         task1();
         task2();
         task3();
