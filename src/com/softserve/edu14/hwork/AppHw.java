@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class AppHw {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// It is good
         task1();
         task2();
     }

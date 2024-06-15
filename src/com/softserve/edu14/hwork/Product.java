@@ -2,7 +2,7 @@ package com.softserve.edu14.hwork;
 
 import java.time.LocalDate;
 
-public class Product {
+public class Product {// Nice
     private String category;
     private LocalDate dateOfManufacture;
     private double price;

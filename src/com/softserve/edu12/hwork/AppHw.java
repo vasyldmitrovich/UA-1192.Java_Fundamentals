@@ -58,7 +58,7 @@ public class AppHw {
         }
     }
 
-    public static int readNumbers(int start, int end) throws IllegalArgumentException {
+    public static int readNumbers(int start, int end) throws IllegalArgumentException {// Ok this is interesting
         System.out.print("Enter an integer number: ");
         String intNum = scan.nextLine();
 

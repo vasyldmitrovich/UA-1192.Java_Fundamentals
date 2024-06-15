@@ -1,6 +1,6 @@
 package com.softserve.edu14.hwork;
 
-public class Employee {
+public class Employee {// Nice
     private String name;
 
     public Employee(String name) {

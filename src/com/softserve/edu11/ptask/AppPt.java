@@ -9,7 +9,7 @@ import static com.softserve.edu01.hw.App.scanner;
 public class AppPt {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         task1();
         task2();
         task3();
