@@ -10,7 +10,7 @@ public class AppHw {
     private static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+        // All is good
         task1();
         task2();
         task3();

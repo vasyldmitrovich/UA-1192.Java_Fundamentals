@@ -5,10 +5,9 @@ import java.util.*;
 public class App {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         task1();
         task2();
-
     }
 
     public static void task1() {

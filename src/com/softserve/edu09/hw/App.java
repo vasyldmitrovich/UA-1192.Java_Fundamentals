@@ -12,7 +12,7 @@ public class App {
     static Random random = new Random();
 
     public static void main(String[] args) {
-
+        // Good
         task1();
         task2();
 
