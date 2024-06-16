@@ -35,8 +35,8 @@ public class PracticalTasks {
         int side1 = getSize("Enter the size of first side: ");
         int side2 = getSize("Enter the size of second side: ");
         int area = squareRectangle(side1, side2);
-        System.out.printf("The area of rectangle is with sides %d and %d is: %d",
-                side1, side2, area);
+        System.out.printf("The area of rectangle is with sides %d and %d is: %d%s",
+                side1, side2, area, NL);
     }
 
     public void runPractical2() {
