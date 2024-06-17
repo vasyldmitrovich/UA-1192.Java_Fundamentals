@@ -1,0 +1,49 @@
+package com.softserve.edu10.hw;
+
+import java.util.Iterator;
+import java.util.List;
+
+private class Student {
+    private String name;
+    private int course;
+
+    private Student(String name, int course) {
+        this.name = name;
+        this.course = course;
+    }
+
+    private void setName(String name) {
+        this.name = name;
+    }
+
+    private String getName() {
+        return name;
+    }
+
+    private int getCourse() {
+        return course;
+    }
+
+    private void setCourse(int course) {
+        this.course = course;
+    }
+
+
+
+    private static int compareByName(Student s1, Student s2) {
+        return s1.getName().compareTo(s2.getName());
+    }
+
+    // Method to compare students by course
+    private static int compareByCourse(Student s1, Student s2) {// Nice
+        return Integer.compare(s1.getCourse(), s2.getCourse());
+    }
+
+    @Override
+    private String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", course=" + course +
+                '}';
+    }
+}
