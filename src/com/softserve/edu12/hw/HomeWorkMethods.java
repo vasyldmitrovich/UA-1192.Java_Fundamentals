@@ -40,13 +40,14 @@ public class HomeWorkMethods {
         System.out.printf("Input numbers in range %d - %d:%n", start, end);
         int[] arr = new int[10];
         arr[0] = readNumber(1, 100);
+        System.out.println("Number " + arr[0] + " is successfully registered ");
         for (int i = 1; i < arr.length; i++) {
             try {
                 arr[i] = readNumber(1, 100);
                 if (arr[i] <= arr[i - 1]) {
                     i--;
-                    throw new IllegalArgumentException("Number must be bigger than previous");
-                } else System.out.println(arr[i]);
+                    throw new IllegalArgumentException("Error: Number must be bigger than previous");
+                } else System.out.println("Number " + arr[i] + " is successfully registered");
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
@@ -57,10 +58,9 @@ public class HomeWorkMethods {
     public int readNumber(int start, int end) {
         while (true) {
             try {
-                int input = takeNum(start, end);
-                return input;
+                return takeNum(start, end);
             } catch (NumberFormatException e) {
-                System.out.println("You need to input a number ...");
+                System.out.println("Error: You need to input a number ...");
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
@@ -70,7 +70,7 @@ public class HomeWorkMethods {
     public int takeNum(int start, int end) throws IllegalArgumentException {
         int input = Integer.parseInt(SCANNER.nextLine());
         if (input < start || input > end) {
-            throw new IllegalArgumentException("Number is out of bound");
+            throw new IllegalArgumentException("Error: Number is out of bound");
         } else return input;
     }
 }
