@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
 
-class Task2 {
+class Task2 {// This class should have name Student not Task2
     private String name;
     private String group;
     private int course;
@@ -50,7 +50,7 @@ class Task2 {
         return "Student{name='" + name + "', group='" + group + "', course=" + course + ", grades=" + grades + "}";
     }
 }
-class Main {
+class Main {// Create new file App.java and move this main method and another methods in that class
     public static void main(String[] args) {
 
         ArrayList<Task2> students = new ArrayList<>();

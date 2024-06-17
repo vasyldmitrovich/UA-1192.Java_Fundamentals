@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class Task1 {
+public class Task1 {// Ok
+
     public static void main(String[] args) {
         ArrayList<Integer>
                 myCollection = new ArrayList<>();
