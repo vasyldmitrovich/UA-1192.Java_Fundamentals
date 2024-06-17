@@ -2,7 +2,7 @@ package com.softserve.edu04.hw;
 
 import java.util.Scanner;
 
-public class hw3 {
+public class hw3 {// Name of class should start from Uppercase
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the HTTP error code:");
@@ -10,7 +10,7 @@ public class hw3 {
         scanner.close();
 
         HTTPError httpError = mapErrorCodeToHTTPError(code);
-
+        //Ok
         if (httpError != null) {
             System.out.println("HTTP Error: " + httpError.getErrorDescription());
         } else {

@@ -1,6 +1,6 @@
 package com.softserve.edu04.hw;
 
-public enum Season {
+public enum Season {// Nice
     WINTER("Winter"),
     SPRING("Spring"),
     SUMMER("Summer"),

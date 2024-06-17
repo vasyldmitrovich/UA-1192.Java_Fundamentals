@@ -5,6 +5,8 @@ public class Car {
     private int yearOfProduction;
     private double engineCapacity;
 
+    // Add constructor without parameters
+
     public Car(String type, int yearOfProduction, double engineCapacity) {
         this.type = type;
         this.yearOfProduction = yearOfProduction;
@@ -14,6 +16,8 @@ public class Car {
     public int getYearOfProduction() {
         return yearOfProduction;
     }
+
+    // Add another getters and setters
 
     public String toString() {
         return "Type: " + type + ", Year of Production: " + yearOfProduction + ", Engine Capacity: " + engineCapacity;

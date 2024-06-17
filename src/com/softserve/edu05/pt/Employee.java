@@ -1,7 +1,7 @@
 package com.softserve.edu05.pt;
 
 public class Employee {
-    public String name;
+    public String name;// Why public???
     public int departmentNumber;
     private double salary;
 
@@ -22,4 +22,6 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
+
+    // Add setters equals hashCode and toString
 }
