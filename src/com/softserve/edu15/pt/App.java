@@ -1,7 +1,5 @@
 package com.softserve.edu15.pt;
 
-import com.softserve.edu15.pt.PracticalTask;
-
 public class App {
 
     public static void main(String[] args) {
