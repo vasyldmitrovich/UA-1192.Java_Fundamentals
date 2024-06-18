@@ -2,7 +2,7 @@ package com.softserve.edu09_10_collec.hw9;
 
 import java.util.List;
 
-public class Student {
+public class Student {// Ok
     private String name;
     private String group;
     private int course;

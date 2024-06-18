@@ -2,7 +2,7 @@ package com.softserve.edu09_10_collec.hw10.hw3;
 
 import java.util.Comparator;
 
-public class StudentComparator {
+public class StudentComparator {// Make inner in Student
 
     // Comparator to compare students by name
     public static class CompareByName implements Comparator<Student> {

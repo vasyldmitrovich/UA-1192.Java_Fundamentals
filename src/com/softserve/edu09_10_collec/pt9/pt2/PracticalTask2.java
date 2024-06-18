@@ -2,7 +2,7 @@ package com.softserve.edu09_10_collec.pt9.pt2;
 import java.util.Set;
 
 public class PracticalTask2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         RemDuplicates rd = new RemDuplicates();
 
         // Read input from the user

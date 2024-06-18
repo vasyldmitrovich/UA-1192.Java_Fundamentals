@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         List<Student> students = createStudents();
         StudentManagement studentManagement = new StudentManagement();
 
