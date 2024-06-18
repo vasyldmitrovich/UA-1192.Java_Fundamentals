@@ -13,7 +13,7 @@ public class App {
     private static final File JAVA_SRC = new File("src/com/softserve/edu16/hw/App.java");
     private static final File JAVA_DEST = new File("src/com/softserve/edu16/hw/mod/App.java");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("Task 1");
         demonstrateCareerTask();
         System.out.println();
