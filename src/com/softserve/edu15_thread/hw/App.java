@@ -2,7 +2,7 @@ package com.softserve.edu15_thread.hw;
 
 public class App {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {// Ok
 
 //        task1();
 //        task2();
