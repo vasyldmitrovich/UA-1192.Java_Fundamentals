@@ -13,7 +13,7 @@ public class App {
         task2();
     }
 
-    public static void task1() {
+    public static void task1() {// Ok
         List<Product> products = createList(20);
         System.out.println("\nCreated list: ");
         for (Product product : products) {

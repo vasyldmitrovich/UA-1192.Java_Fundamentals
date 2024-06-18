@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class App {
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println("=".repeat(20) + "Task 1" + "=".repeat(20));
         task1();
         System.out.println("=".repeat(20) + "Task 2" + "=".repeat(20));

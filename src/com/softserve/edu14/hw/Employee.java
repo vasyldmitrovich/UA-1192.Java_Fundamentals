@@ -1,6 +1,6 @@
 package com.softserve.edu14.hw;
 
-public class Employee {
+public class Employee {// It is good
     private String name;
 
     public Employee(String name) {

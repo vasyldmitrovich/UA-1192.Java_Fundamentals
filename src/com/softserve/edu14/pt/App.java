@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         System.out.println("=".repeat(20) + "Task 1" + "=".repeat(20));
         task1();
         System.out.println("=".repeat(20) + "Task 2" + "=".repeat(20));
