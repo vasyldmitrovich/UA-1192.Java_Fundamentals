@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.hw1;
 
-public abstract class Employee implements Payment {
+public abstract class Employee implements Payment {// nice
     protected String employeeId;
     protected String name;
 
