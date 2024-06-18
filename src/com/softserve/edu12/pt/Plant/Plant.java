@@ -5,7 +5,7 @@ import com.softserve.edu12.pt.PracticalTask;
 
 import java.util.Arrays;
 
-public class Plant {
+public class Plant {// Good
     private Type type;
     private Color color;
     private int size;

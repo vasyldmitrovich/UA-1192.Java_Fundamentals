@@ -2,7 +2,7 @@ package com.softserve.edu13.hw;
 
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
 
       HomeWorkTask hw = new HomeWorkTask();
 

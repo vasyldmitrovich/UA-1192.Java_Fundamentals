@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class PracticalTask {
+public class PracticalTask {// Good
     private static BufferedReader BUFFERED_READER = null;
 
     public void task1() {
