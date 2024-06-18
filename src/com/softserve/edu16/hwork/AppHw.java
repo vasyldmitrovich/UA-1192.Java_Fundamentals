@@ -9,7 +9,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class AppHw {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         task1();
         task2();
     }
