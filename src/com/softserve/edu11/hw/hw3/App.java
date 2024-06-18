@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         String format = "\\$\\d+(\\.\\d{2})";
         Pattern pattern = Pattern.compile(format);
         List<String> options = new ArrayList<>();
