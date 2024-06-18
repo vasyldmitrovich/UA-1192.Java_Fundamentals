@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 public class AppPt13 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// It is good, nice to see code like that
 /*
 Show which today is a day of a week
 • Show a date of first Monday for current month

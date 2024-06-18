@@ -3,7 +3,7 @@ package com.softserve.edu14.hw;
 import java.util.*;
 import java.util.stream.Stream;
 
-public class Task142 {
+public class Task142 {// task is nice
 
     public static void execute() {
         String[] names = {"Bob", "Din", "Sam", "Sam"};

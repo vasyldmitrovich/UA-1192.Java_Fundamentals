@@ -3,7 +3,7 @@ package com.softserve.edu12.hw;
 
 public class AppHw12 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
 
         System.out.println("Perform homework task 12.1");
         Task121.execute();

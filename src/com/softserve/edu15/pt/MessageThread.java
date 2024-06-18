@@ -1,6 +1,6 @@
 package com.softserve.edu15.pt;
 
-public class MessageThread extends Thread{
+public class MessageThread extends Thread{// This class ok
    private String message;
    private int sleepTime;
 

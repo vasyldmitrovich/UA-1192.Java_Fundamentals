@@ -2,7 +2,7 @@ package com.softserve.edu15.pt;
 
 public class AppPt15 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
 
         System.out.println("Perform practical task 15.1");
         for (int i = 0; i < 10; i++) {
