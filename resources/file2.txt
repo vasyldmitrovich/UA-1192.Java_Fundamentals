@@ -1,0 +1,4 @@
+Number of lines: 8
+Longest line: specimen book. It has survived not only five centuries, var but also the leap into
+Name: Vova Saienko
+Birthdate: 08.05.2000
