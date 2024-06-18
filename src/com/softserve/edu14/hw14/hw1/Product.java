@@ -76,7 +76,7 @@ public class Product {
         return productList;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Move to App class
         List<Product> productList = createProductList();
 
         LocalDate oneYearAgo = LocalDate.now().minusYears(1);

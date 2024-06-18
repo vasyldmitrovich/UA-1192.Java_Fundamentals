@@ -13,7 +13,7 @@ public class task3 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         int[] testYears = {1600, 1700, 1800, 1900, 2000, 2020, 2021};
         for (int year : testYears) {
             System.out.println("Year " + year + " is a leap year: " + isLeapYear(year));

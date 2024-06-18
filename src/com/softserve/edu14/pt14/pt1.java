@@ -3,8 +3,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class pt1 {
-    public static void main(String[] args) {
+public class pt1 {// Name of class
+    public static void main(String[] args) {// Good
         List<String> list = Arrays.asList("bla", "", "simp", "", "second", "third", "third", "sec", "blablabla");
 
         long countEmptyStrings = list.stream().filter(String::isEmpty).count();

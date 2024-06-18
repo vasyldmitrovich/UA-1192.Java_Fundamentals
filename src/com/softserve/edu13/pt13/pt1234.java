@@ -10,7 +10,7 @@ interface Condition {
     boolean test(int number);
 }
 
-public class pt1234 {
+public class pt1234 {// Name of class
     public static void main(String[] args) {
         // 1.
         LocalDate today = LocalDate.now();
