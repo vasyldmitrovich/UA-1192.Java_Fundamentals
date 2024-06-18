@@ -6,7 +6,7 @@ public class AppPt {
     public static final Scanner SCANNER = new Scanner(System.in);
     public static final String TWENTYRISKS = "-".repeat(20);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         System.out.println(TWENTYRISKS + " Practical task 1 " + TWENTYRISKS);
         RepeatMsgWithInterval();
         System.out.println(TWENTYRISKS + " Practical task 2 " + TWENTYRISKS);

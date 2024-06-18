@@ -10,6 +10,7 @@ import java.util.Random;
 
 public class Task1 {//можливо намудрив з методами фільтрації і треба було все таки зробити лише 1
     //але для того, щоб наглядно на кожному етапі дивитися результат, зробив ось так.
+    // You make all right, all is good
     public static Random random = new Random();
     public static String TWENTYRISKS = "-".repeat(20);
     public static String[] categories = Arrays.stream(Category.values())

@@ -1,6 +1,6 @@
 package com.softserve.edu15.pt;
 
-public class MyThreadMsg extends Thread {
+public class MyThreadMsg extends Thread {// Ok
     private String msg;
     private int interval;
 

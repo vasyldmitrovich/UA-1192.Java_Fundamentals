@@ -1,7 +1,7 @@
 package com.softserve.edu14.hw;
 
 public class AppHw { // Перша спроба розділення домашніх тасків на різні файли бо занадто багато методів, чекаю на фідбек
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good it is good, very good
         System.out.println(Task1.TWENTYRISKS+"First homework"+Task1.TWENTYRISKS);
         Task1.run();
 

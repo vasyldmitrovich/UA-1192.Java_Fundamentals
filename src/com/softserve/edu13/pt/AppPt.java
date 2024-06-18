@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class AppPt {
     public static final Random random = new Random();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         System.out.println("-".repeat(20) + "First practical task" + "-".repeat(20));
         pt1();
     }

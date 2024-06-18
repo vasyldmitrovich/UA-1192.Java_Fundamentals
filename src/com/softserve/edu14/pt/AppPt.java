@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class AppPt {
     public static String TWENTYRISKS = "-".repeat(20);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         System.out.println(TWENTYRISKS + " First practical task " + TWENTYRISKS);
         pt1();
         System.out.println(TWENTYRISKS + " Second practical task " + TWENTYRISKS);

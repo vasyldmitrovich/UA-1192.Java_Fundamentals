@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class AppHw {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Nice
         System.out.println("-".repeat(20) + "Homework 1" + "-".repeat(20));
         hw1();
         System.out.println("-".repeat(20) + "Homework 2" + "-".repeat(20));
