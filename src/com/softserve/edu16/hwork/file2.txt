@@ -1,0 +1,4 @@
+Number of lines: 6
+The longest line : After finishing school, I entered the Borys Grinchenko University in Kyiv to study journalism. 
+Name: Anastasia
+Birthday date: 21.10.2001
