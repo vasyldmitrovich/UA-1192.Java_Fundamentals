@@ -1,6 +1,6 @@
 package com.softserve.edu11.hw.hw1;
 
-public class SentenceHelper {
+public class SentenceHelper {// Ok
     private String sentence = "I study Java in SoftServe Academy";
     private String[] sentenceInArray = sentence.split(" ");
 
