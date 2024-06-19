@@ -43,21 +43,6 @@ public class Student {
                 '}';
     }
 
-    public static void printStudents(List<Student> studentList, int course) {// Move to App class
-        List<String> nameList = new ArrayList<>();
-        Iterator<Student> iter = studentList.iterator();
-
-        while (iter.hasNext()) {
-            Student student = iter.next();
-            if (student.course == course) {
-                nameList.add(student.getName());
-            }
-        }
-
-        System.out.println("The list of students names who enrolled in " + course + " course" + "\n"
-                + nameList.toString());
-    }
-
     public int compareByName(Student student) {
         if (this.name.equals(student.name)) {
             return this.name.compareTo(student.name);

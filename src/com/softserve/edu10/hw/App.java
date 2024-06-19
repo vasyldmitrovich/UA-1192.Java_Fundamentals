@@ -135,8 +135,8 @@ public class App {// Nice
         studentList.add(new Student("Yulia", 4));
         studentList.add(new Student("Davyd", 4));
 
-        Student.printStudents(studentList, 2);
-        Student.printStudents(studentList, 4);
+        printStudents(studentList, 2);
+        printStudents(studentList, 4);
 
         sortedByNames(studentList);
         sortedByCourses(studentList);
@@ -150,5 +150,20 @@ public class App {// Nice
     public static void sortedByCourses (List<Student> studentList) {
         studentList.sort(Student::compareByCourses);
         System.out.println("The list of students sorted by course is: " + "\n" + studentList.toString());
+    }
+
+    public static void printStudents(List<Student> studentList, int course) {// Move to App class
+        List<String> nameList = new ArrayList<>();
+        Iterator<Student> iter = studentList.iterator();
+
+        while (iter.hasNext()) {
+            Student student = iter.next();
+            if (student.getCourse() == course) {
+                nameList.add(student.getName());
+            }
+        }
+
+        System.out.println("The list of students names who enrolled in " + course + " course" + "\n"
+                + nameList.toString());
     }
 }
