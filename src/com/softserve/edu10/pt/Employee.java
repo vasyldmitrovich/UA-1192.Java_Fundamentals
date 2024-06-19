@@ -1,6 +1,8 @@
 package com.softserve.edu10.pt;
 
 import java.time.LocalDate;
+import java.util.Comparator;
+import java.util.Map;
 import java.util.Objects;
 
 // The class Employee was created to fulfill the 2nd subtask of the 2nd task
@@ -84,5 +86,34 @@ public class Employee implements Cloneable{// Nice class
     @Override
     public Employee clone() throws CloneNotSupportedException {
         return (Employee) super.clone();
+    }
+
+    public static class EmployeeNameComparator<K> implements Comparator<K> {// Make inner
+
+        private Map<Integer, Employee> employeeMap;
+
+        EmployeeNameComparator(Map<Integer, Employee> employeeMap) {
+            this.employeeMap = employeeMap;
+        }
+
+        @Override
+        public int compare(K k1, K k2) {
+            return employeeMap.get(k1).getName().toLowerCase().compareTo(employeeMap.get(k2).getName().toLowerCase());
+        }
+    }
+
+    public static class EmployeePosComparator<K> implements Comparator<K> {// Make inner
+
+        private Map<Integer, Employee> employeeMap;
+
+        EmployeePosComparator(Map<Integer, Employee> employeeMap) {
+            this.employeeMap = employeeMap;
+        }
+
+        @Override
+        public int compare(K k1, K k2) {
+            return employeeMap.get(k1).getPosition().toLowerCase().compareTo(employeeMap.get(k2).getPosition().toLowerCase());
+        }
+
     }
 }

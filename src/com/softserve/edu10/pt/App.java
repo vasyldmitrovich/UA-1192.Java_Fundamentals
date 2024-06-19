@@ -211,7 +211,7 @@ public class App {
     }
 
     public static void sortByName (Map<Integer, Employee> employeeMap) {
-        Comparator<Integer> comparator = new EmployeeNameComparator<>(employeeMap);
+        Comparator<Integer> comparator = new Employee.EmployeeNameComparator<>(employeeMap);
         TreeMap<Integer, Employee> sortedByName = new TreeMap<>(comparator);
         sortedByName.putAll(employeeMap);
         employeeMap = sortedByName;
@@ -219,7 +219,7 @@ public class App {
     }
 
     public static void sortByPosition (Map<Integer, Employee> employeeMap) {
-        Comparator<Integer> comparator = new EmployeePosComparator<>(employeeMap);
+        Comparator<Integer> comparator = new Employee.EmployeePosComparator<>(employeeMap);
         TreeMap<Integer, Employee> sortedByPos = new TreeMap<>(comparator);
         sortedByPos.putAll(employeeMap);
         employeeMap = sortedByPos;
