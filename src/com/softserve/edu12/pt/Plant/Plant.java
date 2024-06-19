@@ -58,7 +58,7 @@ public class Plant {
                 '}';
     }
 
-    private int checkSize (int size) {// Add throws to method
+    private int checkSize (int size) throws IllegalArgumentException{// Add throws to method
         if (size <= 0) {
             throw new IllegalArgumentException("Size of your plant is too small");
         } else if (size > 20) {
@@ -68,7 +68,7 @@ public class Plant {
         }
     }
 
-    private void checkColorAndType (String color, String type) {// Add throws to method
+    private void checkColorAndType (String color, String type)  throws IllegalArgumentException{// Add throws to method
 
         try {
             this.color = Color.valueOf(color.toUpperCase());
