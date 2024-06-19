@@ -2,7 +2,7 @@ package com.softserve.edu10.hw;
 
 import java.util.*;
 
-public class App {
+public class App {// Nice
 
     public static Scanner sc = new Scanner(System.in);
 

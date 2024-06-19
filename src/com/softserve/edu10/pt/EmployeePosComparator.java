@@ -3,7 +3,7 @@ package com.softserve.edu10.pt;
 import java.util.Comparator;
 import java.util.Map;
 
-public class EmployeePosComparator<K> implements Comparator<K> {
+public class EmployeePosComparator<K> implements Comparator<K> {// Make inner
 
     private Map<Integer, Employee> employeeMap;
 

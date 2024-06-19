@@ -11,7 +11,7 @@ public class App {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         practicalTask1();
         System.out.println("End of the first practical task");
 

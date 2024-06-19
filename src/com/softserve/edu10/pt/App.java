@@ -9,7 +9,7 @@ public class App {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) throws CloneNotSupportedException {
-        practicalTask1();
+        practicalTask1();// Good
     }
 
     public static void practicalTask1 () throws CloneNotSupportedException {

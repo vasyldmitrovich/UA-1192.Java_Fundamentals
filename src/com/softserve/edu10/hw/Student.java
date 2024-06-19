@@ -43,7 +43,7 @@ public class Student {
                 '}';
     }
 
-    public static void printStudents(List<Student> studentList, int course) {
+    public static void printStudents(List<Student> studentList, int course) {// Move to App class
         List<String> nameList = new ArrayList<>();
         Iterator<Student> iter = studentList.iterator();
 
