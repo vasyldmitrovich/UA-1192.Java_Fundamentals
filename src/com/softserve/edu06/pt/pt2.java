@@ -1,7 +1,7 @@
 package com.softserve.edu06.pt;
 
 public class pt2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Code in main method is nice
         Car[] cars = new Car[4];
 
         cars[0] = new Truck("Volvo FH", 120, 2015);

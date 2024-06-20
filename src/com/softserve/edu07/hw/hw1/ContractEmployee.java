@@ -1,6 +1,6 @@
 package com.softserve.edu07.hw.hw1;
 
-public class ContractEmployee extends Employee{
+public class ContractEmployee extends Employee{// Very nice
     private String federalTaxId;
     private double hourlyRate;
     private int hoursWorked;
