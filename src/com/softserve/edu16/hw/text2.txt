@@ -1,0 +1,4 @@
+Number of lines 5
+The longest line in file1: 
+Career planning for a programmer is not just about writing code; it's a
+Marian 29.07.2002
