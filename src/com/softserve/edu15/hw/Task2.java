@@ -1,7 +1,7 @@
 package com.softserve.edu15.hw;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good it is good
         final Object resource1 = "Resource 1";
         final Object resource2 = "Resource 2";
 

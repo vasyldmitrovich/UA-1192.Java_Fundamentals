@@ -19,7 +19,7 @@ public class SentenceProcessor {
         }
     }
 
-    private String findLongestWord(String[] words) {
+    private String findLongestWord(String[] words) {// Good
         String longestWord = "";
         for (String word : words) {
             if (word.length() > longestWord.length()) {

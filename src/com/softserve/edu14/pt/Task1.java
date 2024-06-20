@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Task1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         List<String> list = Arrays.asList("bla", "", "simp", "second", "third", "third", "sec", "blablabla");
 
         long emptyStringCount = list.stream().filter(String::isEmpty).count();

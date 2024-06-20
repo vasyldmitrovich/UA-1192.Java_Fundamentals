@@ -3,7 +3,7 @@ package com.softserve.edu10.hw;
 import java.util.Map;
 
 public class Task2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         MapOperations mapOps = new MapOperations();
         Map<String, String> personMap = mapOps.createAndPopulateMap();
 

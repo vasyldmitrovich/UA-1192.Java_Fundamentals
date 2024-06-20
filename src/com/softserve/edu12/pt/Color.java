@@ -48,7 +48,7 @@ class Plant {
         throw new ColorException("wrong color of plant: " + color);
     }
 
-    public void setType(Type type) throws TypeException {
+    public void setType(Type type) throws TypeException {// Interesting
         for (Type t : Type.values()) {
             if (t == type) {
                 this.type = type;

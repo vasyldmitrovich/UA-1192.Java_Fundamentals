@@ -3,7 +3,7 @@ package com.softserve.edu11.hw;
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Ok
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a sentence of five words: ");

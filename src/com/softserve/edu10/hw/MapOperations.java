@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class MapOperations {
+public class MapOperations {// Good
 
     public Map<String, String> createAndPopulateMap() {
         Map<String, String> personMap = new HashMap<>();

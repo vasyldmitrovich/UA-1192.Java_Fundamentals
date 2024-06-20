@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 
 public class Task2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         String date1 = "12.31.21";
         String date2 = "02.29.20";
         String date3 = "13.01.22";
