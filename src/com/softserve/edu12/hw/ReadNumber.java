@@ -3,7 +3,7 @@ package com.softserve.edu12.hw;
 import java.util.Scanner;
 
 public class ReadNumber {
-    public static int readNumber(int start, int end) throws Exception {
+    public static int readNumber(int start, int end) throws Exception {// Nice method
         Scanner scanner = new Scanner(System.in);
         try {
             int number = Integer.parseInt(scanner.nextLine());

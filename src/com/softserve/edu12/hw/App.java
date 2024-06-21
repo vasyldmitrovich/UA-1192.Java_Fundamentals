@@ -8,7 +8,7 @@ import static com.softserve.edu12.hw.ReadNumber.readNumber;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {// Good
         task1();
         task2();
     }
