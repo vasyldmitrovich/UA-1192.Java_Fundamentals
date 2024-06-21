@@ -1,6 +1,6 @@
 package com.softserve.edu07_oop2.hw01;
 
-abstract class Employee {
+abstract class Employee {// Implement Payment here in this abstract class
     private String employeeId;
     private String name;
 
